@@ -4,7 +4,9 @@
 
 **Created and assembled by Mark Kashef at Prompt Advisers.** A working travel demo, a visual teaching page, and the experiments behind them. The system reads written terms, looks at photos, and checks each traveller’s wish list.
 
-![The frozen travel experiment](docs/images/frozen-v2-travel.png)
+![Away Together’s pixel-art travellers and holiday decisions](docs/images/agency-personas.png)
+
+The familiar persona interface remains the core demo. Each card can expose the written clause or photo behind its result.
 
 > **The honest result:** our later text challenger scored 95.28% against synthetic travel reference answers; Jev scored 98.61% on the same test. The challenger was not promoted. The live demo still uses the earlier V1 reader, which scored 66.5% on its separate older test. This is an experimental learning project, not a booking service.
 
