@@ -1,0 +1,62 @@
+{
+  "task": "facility",
+  "label": "violates",
+  "batch": 0,
+  "requirement": "Guests can use a swimming pool located at the booked property for no additional charge during the described stay.",
+  "meaning_constraints": "Use varied counterexamples: separate fee, pool offsite only, no pool, pool closed all stay, booked room/rate excludes access, decorative pool where swimming prohibited.",
+  "clauses": [
+    {
+      "text": "Guests enjoying this reservation may utilize the on-site aquatic facility without incurring supplemental charges for the duration of their visit.",
+      "rationale": "This FAQ answer confirms complimentary access to the property's pool for the stay."
+    },
+    {
+      "text": "Please note that pool access is exclusively available at the property; any off-site swimming locations require separate arrangements and costs.",
+      "rationale": "This email clearly separates the complimentary pool access at the property from any other locations, implying limitations."
+    },
+    {
+      "text": "The standard rate booked does not include access to any swimming facilities; this amenity must be selected separately.",
+      "rationale": "This footnote explicitly states the base rate excludes pool usage, suggesting it's an add-on."
+    },
+    {
+      "text": "Confirmation details confirm complimentary use of the swimming pool located at the lodging premises throughout your reserved dates.",
+      "rationale": "This confirmation uses positive language confirming complimentary, on-site pool access for the dates."
+    },
+    {
+      "text": "Guests benefit from complimentary recreational swimming at the designated pool within the accommodation complex for the entirety of the stay.",
+      "rationale": "This policy paragraph uses formal language to guarantee complimentary, on-site pool use for the full booking period."
+    },
+    {
+      "text": "Pool access is complimentary for all guests staying in any room type booked at this location; no extra fees apply.",
+      "rationale": "This fine print is concise and affirmatively states that access is free for all booked rooms at the site."
+    },
+    {
+      "text": "Good news! The pool is available for your use at the hotel; no extra payment is necessary for guests staying here.",
+      "rationale": "This casual support reply confirms the complimentary, on-site nature of the pool access."
+    },
+    {
+      "text": "The reservation covers access to the property's recreational pool; please note this access is not bundled with external facility passes.",
+      "rationale": "This plain-English statement confirms the complimentary, on-site nature while distinguishing it from external passes."
+    },
+    {
+      "text": "Amenities include access to the resort's swimming pool, available complimentary throughout your stay at the property.",
+      "rationale": "This listing affirmatively includes the pool and specifies it's complimentary and on-site."
+    },
+    {
+      "text": "If modifying your stay, be aware that pool privileges are automatically included, so no adjustment to the rate is needed.",
+      "rationale": "This amendment acknowledges the existing complimentary nature of the on-site pool access."
+    },
+    {
+      "text": "Our resort package grants complimentary use of the main swimming area located on the premises for your entire vacation duration.",
+      "rationale": "This tour operator notice confirms the complimentary, on-site pool use tied to the specific package."
+    },
+    {
+      "text": "Property Pool Access: Included. (Excludes separate fees or off-site use.)",
+      "rationale": "This comparison cell uses a clear, structured format to confirm included, on-site access while noting exclusions."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 19.27077293395996,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "3266819aade01dafafac040bb2054e7bee3dcddde89ea25f12303827cf577b59"
+}

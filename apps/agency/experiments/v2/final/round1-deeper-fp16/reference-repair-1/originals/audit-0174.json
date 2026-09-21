@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0174",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund method/amount is not specified; arrival requires prior permission (violates); pool requires a 19 euro fee (violates); hike requires an additional 38 euro payment (violates)."
+    },
+    {
+      "id": "round1-deeper-fp16-0175",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "A 27 euro charge is retained (violates); arrival requires prior permission (violates); pool costs 19 euros (violates); hike requires a separate 38 euro payment (violates)."
+    },
+    {
+      "id": "round1-deeper-fp16-0176",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund method and amount are not documented (insufficient); 01:30 arrival is automatic (meets); pool details are not stated (insufficient); hike is included (meets)."
+    },
+    {
+      "id": "round1-deeper-fp16-0177",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "A 27 euro charge is retained (violates); arrival policies are contradictory/unresolved (insufficient); pool details are not stated (insufficient); hike requires a separate 38 euro payment (violates)."
+    },
+    {
+      "id": "round1-deeper-fp16-0178",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund method/amount is not documented (insufficient); 01:30 arrival is automatic (meets); pool has no separate fee (meets); hike requires a separate 38 euro payment (violates)."
+    },
+    {
+      "id": "round1-deeper-fp16-0179",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Entire payment is returned as money (meets); no rules address overnight registration (insufficient); pool details are not stated (insufficient); hike is included (meets)."
+    }
+  ],
+  "documents_sha256": "94bd31d8de9b7ed5bc8d05647396b576356dd8e4d144bde492268b2748e47e75"
+}

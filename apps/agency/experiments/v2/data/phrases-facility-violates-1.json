@@ -1,0 +1,62 @@
+{
+  "task": "facility",
+  "label": "violates",
+  "batch": 1,
+  "requirement": "Guests can use a swimming pool located at the booked property for no additional charge during the described stay.",
+  "meaning_constraints": "Use varied counterexamples: separate fee, pool offsite only, no pool, pool closed all stay, booked room/rate excludes access, decorative pool where swimming prohibited.",
+  "clauses": [
+    {
+      "text": "Guests staying on-site have complimentary access to the main aquatic area throughout their entire visit.",
+      "rationale": "The phrase 'complimentary access' coupled with 'entire visit' indicates free use during the stay."
+    },
+    {
+      "text": "Please note that access to the resort's recreational water feature requires an additional daily usage fee, payable at check-in.",
+      "rationale": "Mentioning a required 'additional daily usage fee' contradicts the free access rule."
+    },
+    {
+      "text": "The 'Garden View' package rate explicitly excludes privileges related to the on-site water amenities.",
+      "rationale": "Stating the rate 'explicitly excludes privileges' means the access is not included."
+    },
+    {
+      "text": "Your reservation confirmation confirms complimentary use of the property's leisure pool for the duration of your stay dates.",
+      "rationale": "The confirmation explicitly states 'complimentary use' for the stay dates."
+    },
+    {
+      "text": "Guests are advised that the use of the resort's pool area is governed by local operational schedules and may be unavailable.",
+      "rationale": "Mentioning that the pool 'may be unavailable' suggests usage is not guaranteed throughout the stay."
+    },
+    {
+      "text": "While beautiful, the decorative water feature is strictly for viewing and swimming is prohibited for guest safety.",
+      "rationale": "The condition 'swimming is prohibited' directly negates free use for swimming."
+    },
+    {
+      "text": "Local pool access is available only to registered members of the adjacent country club; guests staying here are not included.",
+      "rationale": "Specifying that access is only for 'registered members of the adjacent country club' means it's not for stay guests."
+    },
+    {
+      "text": "This accommodation type falls under a special rate which has no associated amenities, including water recreation facilities.",
+      "rationale": "Stating the room type 'has no associated amenities' means the pool is not included."
+    },
+    {
+      "text": "The aquatic area is accessible for all overnight guests without requiring any further charges or deposits.",
+      "rationale": "The phrasing 'without requiring any further charges' confirms inclusion at no extra cost."
+    },
+    {
+      "text": "If the pool is closed for maintenance on any day of your visit, alternative arrangements for recreation will be communicated.",
+      "rationale": "The clause 'If the pool is closed... on any day' indicates usage is not guaranteed for the whole stay."
+    },
+    {
+      "text": "Pool access for this stay requires purchase of a separate day-use wristband from the main reception kiosk.",
+      "rationale": "Requiring the purchase of a 'separate day-use wristband' imposes a fee."
+    },
+    {
+      "text": "The included amenities at this location do not cover recreation options beyond the room itself.",
+      "rationale": "Stating that amenities 'do not cover recreation options' implies the pool is not included."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 18.165947914123535,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "f6c1e937ce97d09835315a3eb3af5aa48d217c0164a4694c86cc60b0220d465f"
+}

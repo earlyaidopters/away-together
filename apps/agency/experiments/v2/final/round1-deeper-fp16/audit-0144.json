@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0144",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy explicitly states full money return with no deduction. Arrival and facility details are explicitly stated as not addressed or not stated. Activity is explicitly stated as not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0145",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates because of a mandatory charge. Arrival violates because permission is required for late check-in. Facility meets as it is available without a separate fee. Activity is explicitly stated as not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0146",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is unknown (not documented). Arrival is explicitly stated as not addressed. Facility meets as it is available without a separate fee. Activity is explicitly stated as not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0147",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is insufficient due to two equally authoritative conflicting policies. Arrival violates because permission is required. Facility meets as it is available without a separate fee. Activity meets as the amount quoted includes a guided walk."
+    },
+    {
+      "id": "round1-deeper-fp16-0148",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is unknown (not documented). Arrival meets as it is available automatically without contact. Facility violates because there is an extra charge. Activity violates because it requires a separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0149",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund meets as the entire payment is returned with no deduction. Arrival, facility, and activity are all explicitly stated as not addressed, not stated, or not supplied."
+    }
+  ],
+  "documents_sha256": "18092b6da5a9b66fb5b1742cf4a8ec196e5787437741ce842af67319cd3c06f4"
+}

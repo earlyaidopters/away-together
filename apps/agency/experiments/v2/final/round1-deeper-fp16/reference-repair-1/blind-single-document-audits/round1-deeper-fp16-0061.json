@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0061",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund policy matches (full money returned); arrival policy is explicitly unaddressed; pool is free for the selected accommodation; guided hikes are explicitly excluded (require separate payment)."
+    }
+  ],
+  "documents_sha256": "59ee658b31f4e48b0dc6b7bafa92fcc4dc80720051d9770b25c67a01b9729714"
+}

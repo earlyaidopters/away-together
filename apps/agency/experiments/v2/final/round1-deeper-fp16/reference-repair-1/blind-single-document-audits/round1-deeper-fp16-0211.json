@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0211",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: The document states a 27 euro charge is retained, violating the 'full cash refund' requirement. arrival: Explicitly allows arrival at 01:30 without prior contact. facility: Explicitly states the pool is available without a separate fee. activity: The text states no statement about a guided walk being included is supplied, leaving the information unknown."
+    }
+  ],
+  "documents_sha256": "818a02cedd38d8a426c52005d9e001895bf670bee715c88e7e04be2be159bef9"
+}

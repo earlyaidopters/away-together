@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0235",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy meets the requirement (entire payment returned as money). Arrival policy is explicitly stated as having no rules (insufficient evidence). Facility policy violates the requirement (charges 19 euros for the pool). Activity policy is insufficient evidence because the agent states the information is missing from the unbooked offer policy, despite the conversational context."
+    }
+  ],
+  "documents_sha256": "34897c0c54f2ef535aff127f45f8f268fa4dc5efe66ba201f513321390313f26"
+}

@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0192",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is a full cash return; arrival at 01:30 is automatic; pool has a 19 euro charge (violates); activity info is not supplied (insufficient)."
+    },
+    {
+      "id": "round1-deeper-fp16-0193",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund has a 27 euro charge (violates); arrival requires prior permission (violates); pool is free (meets); hike requires separate payment (violates)."
+    },
+    {
+      "id": "round1-deeper-fp16-0194",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a 27 euro charge (violates); arrival is automatic (meets); pool is free (meets); activity info is not supplied (insufficient)."
+    },
+    {
+      "id": "round1-deeper-fp16-0195",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policies are unresolved/conflicting (insufficient); arrival requires permission (violates); pool is free (meets); activity info is not supplied (insufficient)."
+    },
+    {
+      "id": "round1-deeper-fp16-0196",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund method/amount is not documented (insufficient); arrival is automatic (meets); pool is free (meets); guided walk is included (meets)."
+    },
+    {
+      "id": "round1-deeper-fp16-0197",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund is not documented (insufficient); arrival is automatic (meets); pool price/conditions are not stated (insufficient); hike requires separate payment (violates)."
+    }
+  ],
+  "documents_sha256": "11e290e5a2b9657000e05467eb25da4e470e071398d747748e2442f6f89ab647"
+}

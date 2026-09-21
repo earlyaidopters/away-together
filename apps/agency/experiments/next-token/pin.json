@@ -1,0 +1,6 @@
+{
+  "id": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "source": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+  "scope": "Untuned non-thinking causal next-token development comparator"
+}

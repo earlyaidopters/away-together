@@ -1,0 +1,113 @@
+{
+  "task": "facility",
+  "label": "meets",
+  "batch": 0,
+  "requirement": "Guests can use a swimming pool located at the booked property for no additional charge during the described stay.",
+  "meaning_constraints": "Own onsite swimming pool open during stay, included/free for all resident guests.",
+  "clauses": [
+    {
+      "text": "Does the property have a pool? Yes, we have our own swimming pool which is open during your stay dates. There are no extra fees for guests to use it.",
+      "rationale": "Preserved the existence of the pool, the specific timing (stay dates), and the zero extra cost."
+    },
+    {
+      "text": "I am pleased to confirm that use of the onsite swimming pool is included for everyone on this booking throughout the entire stay. No additional charges apply.",
+      "rationale": "Preserved that it is onsite, included for everyone on the booking, and covers the whole stay duration."
+    },
+    {
+      "text": "*Resident guests swim free in the hotel courtyard pool; it is open for the booked week.",
+      "rationale": "Maintained the specific location (courtyard), the free status for residents, and the timeframe (booked week)."
+    },
+    {
+      "text": "Your reservation includes access to the property's own swimming pool. It will be open during these stay dates, and guests pay nothing extra to use it.",
+      "rationale": "Kept the property ownership of the pool, the specific dates, and the lack of extra fees."
+    },
+    {
+      "text": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay. No supplemental fees are required for access.",
+      "rationale": "Preserved the onsite location, the inclusion for all parties on the booking, and the duration of the stay."
+    },
+    {
+      "text": "Note: Resident guests swim free in the hotel courtyard pool; it is open for the booked week. Subject to availability.",
+      "rationale": "Preserved the resident status, the courtyard location, the free access, and the specific booked week timeframe."
+    },
+    {
+      "text": "Regarding your inquiry, the property has its own swimming pool. It is open during these stay dates, and guests pay nothing extra to use it.",
+      "rationale": "Maintained the property's ownership, the specific opening dates, and the absence of extra charges."
+    },
+    {
+      "text": "The onsite swimming pool is included for everyone on this booking throughout the stay. You do not have to pay anything extra to use it.",
+      "rationale": "Preserved the onsite location, the inclusion for all guests on the booking, and the duration."
+    },
+    {
+      "text": "Pool Access: Resident guests swim free in the hotel courtyard pool; it is open for the booked week.",
+      "rationale": "Preserved the resident-only free status, the courtyard location, and the specific booked week timeframe."
+    },
+    {
+      "text": "Please note: The property has its own swimming pool, which is open during these stay dates. Guests pay nothing extra to use it.",
+      "rationale": "Preserved the property ownership, the specific dates of operation, and the zero extra cost condition."
+    },
+    {
+      "text": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay. No additional fees are required.",
+      "rationale": "Preserved the onsite location, the inclusion for everyone on the booking, and the duration of the stay."
+    },
+    {
+      "text": "Courtyard Pool: Resident guests swim free; open for the booked week.",
+      "rationale": "Preserved the courtyard location, the free status for residents, and the specific booked week timeframe."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 13.414507150650024,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "7a96c27269e50e6df3b48a8744ace0b1231b0dc3b8bed843a000421c7550a1d1",
+  "repair_of": "phrases-facility-meets-0.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "Resident guests swim free in the hotel courtyard pool; it is open for the booked week."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "Resident guests swim free in the hotel courtyard pool; it is open for the booked week."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "Resident guests swim free in the hotel courtyard pool; it is open for the booked week."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "Resident guests swim free in the hotel courtyard pool; it is open for the booked week."
+    }
+  ]
+}

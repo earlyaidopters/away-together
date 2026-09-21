@@ -1,0 +1,16 @@
+import {Check,Eye,Image as ImageIcon} from '@phosphor-icons/react';
+export type ListingPhoto={id:string;url:string;label:string};
+export type VisionReceipt={status:string;engine?:string;elapsed_ms:number;error?:string;photos:{photo_id:string;url:string;answers:Record<string,{choice:string;probabilities:Record<string,number>}>}[]};
+export const visualLabels:Record<string,string>={pool:'See a swimming pool',ocean:'See the ocean',mountains:'See mountains',garden:'See a garden',avoid_steps:'Avoid entrance stairs',ramp:'See an entrance ramp'};
+const traitLabels:Record<string,string>={pool:'Swimming pool',ocean:'Ocean',mountains:'Mountains',garden:'Garden',steps:'Entrance stairs',ramp:'Entrance ramp'};
+export function PhotoEvidence({photos,selected,onChange,enabled,onToggle,busy,vision,replay=false}:{photos:ListingPhoto[];selected:string[];onChange:(ids:string[])=>void;enabled:boolean;onToggle:()=>void;busy:boolean;vision?:VisionReceipt;replay?:boolean}){
+ return <section className={'photo-evidence '+(!enabled?'photos-disabled':'')} aria-label="Photo evidence">
+  <div className="photo-evidence-heading"><div><h2>The photos count.</h2><p>Choose what the model sees. Then check the holiday.</p></div><button className="photo-mode" aria-pressed={enabled} disabled={busy} onClick={onToggle}><Eye size={20}/>{enabled?'Terms + photos':'Terms only'}</button></div>
+  <div className="photo-evidence-grid">{photos.map((photo,index)=>{const result=vision?.photos.find(p=>p.photo_id===photo.id);const visible=Object.entries(result?.answers||{}).filter(([,a])=>a.choice==='visible'&&a.probabilities.visible>=.8);return <article key={photo.id} className={selected.includes(photo.id)&&enabled?'included':'excluded'}>
+   <button className="photo-select" aria-label={`${selected.includes(photo.id)?'Exclude':'Include'} ${photo.label}`} aria-pressed={selected.includes(photo.id)} disabled={busy||!enabled} onClick={()=>onChange(selected.includes(photo.id)?selected.filter(id=>id!==photo.id):[...selected,photo.id])}><img src={photo.url} alt={`Fictional listing: ${photo.label}`}/><span className="photo-number">0{index+1}</span><span className="photo-check">{selected.includes(photo.id)&&<Check weight="bold"/>}</span><span className="photo-caption">{photo.label}</span></button>
+   <div className="photo-observations">{result?<><span><Eye size={16}/> Model sees</span><strong>{visible.map(([key])=>traitLabels[key]).join(' · ')||'No clear requested feature'}</strong></>:<><span><ImageIcon size={16}/>{enabled&&selected.includes(photo.id)?'Included in next check':'Not used'}</span><strong>{busy?'Reading pixels…':'Awaiting a fresh check'}</strong></>}</div>
+  </article>})}</div>
+  <div className="photo-evidence-foot"><p>AI-generated fictional listing photos, shared by destination. Photos show appearance; terms establish price and access.</p>{vision&&<span role="status">{vision.status==='completed'?`${replay?'Saved vision':'Live vision'} · ${(vision.elapsed_ms/1000).toFixed(1)}s`:vision.status==='unavailable'?'Vision unavailable · preferences need review':vision.status==='no_photos'?'No photos selected · preferences need review':'Photo checks off · preferences need review'}</span>}</div>
+  {vision?.error&&<p role="alert" className="error">{vision.error}</p>}
+ </section>
+}

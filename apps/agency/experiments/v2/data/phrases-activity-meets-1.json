@@ -1,0 +1,62 @@
+{
+  "task": "activity",
+  "label": "meets",
+  "batch": 1,
+  "requirement": "The advertised holiday price includes a hike accompanied by a guide.",
+  "meaning_constraints": "Included guide-led countryside/mountain/trail hike with no separate payment.",
+  "clauses": [
+    {
+      "text": "Does the package price cover outdoor activities? Yes, the advertised rate incorporates a guided walk through the local uplands.",
+      "rationale": "Directly confirms inclusion of a guided countryside walk in the price."
+    },
+    {
+      "text": "Hi there! Just confirming that the package rate includes the trek up to the summit with an expert local guide.",
+      "rationale": "In the form of an email, confirms the inclusion of a guided mountain hike."
+    },
+    {
+      "text": "Pricing includes one guided excursion; specifically, the established woodland path traverse is covered.",
+      "rationale": "A footnote style stating that a specific type of guided trail hike is part of the cost."
+    },
+    {
+      "text": "Your itinerary confirms complimentary access to the guided descent on the marked valley route.",
+      "rationale": "A confirmation notice stating the guide-led nature of the hike is included."
+    },
+    {
+      "text": "Please note that the quoted fare encompasses the supervised journey along the designated mountain track.",
+      "rationale": "A formal policy paragraph style ensuring the guided nature of the hike is part of the base price."
+    },
+    {
+      "text": "Excludes specialized gear rentals, but the scheduled guided lowland ramble is within the inclusive price.",
+      "rationale": "Fine print style clarifying that the guided countryside hike is covered despite other exclusions."
+    },
+    {
+      "text": "The rate covers the local guide for the scenic hillside walk; no extra booking is needed.",
+      "rationale": "A short, direct support reply confirming the guide's inclusion for the hike."
+    },
+    {
+      "text": "The total cost covers the guided exploration of the rural pathways, simplifying your outdoor adventure.",
+      "rationale": "Plain-language explanation stating that the guided countryside hike is included in the price."
+    },
+    {
+      "text": "Included Activities: Guided mountain trail walk, local transport voucher, breakfast.",
+      "rationale": "Listing format explicitly mentioning the guided mountain hike as an included amenity."
+    },
+    {
+      "text": "If amending your booking, remember the guided upland circuit remains part of the base rate.",
+      "rationale": "A booking change note reminding the customer that the guided hike is part of the core rate."
+    },
+    {
+      "text": "All adventurers benefit from the included professional guidance during the marked forest path trek.",
+      "rationale": "A tour operator notice emphasizing the complimentary, guided nature of the trail hike."
+    },
+    {
+      "text": "Hike Type | Included? | Extra Cost: Local Hill Path | Yes | N/A",
+      "rationale": "A comparison table structure confirming the inclusion of the guided local hike."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 16.39394187927246,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "e8b51102c5db7eb016d401eb2356236d97808120c37b4884dce998d4794574c1"
+}

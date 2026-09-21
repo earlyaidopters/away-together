@@ -1,0 +1,113 @@
+{
+  "task": "refund",
+  "label": "meets",
+  "batch": 1,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "All money returned to original payment/card/bank method; no fee. Can state a cancellation deadline, but assume guest cancels before it.",
+  "clauses": [
+    {
+      "text": "Q: What happens if I cancel on time? A: An on-time cancellation returns the whole booking payment by bank transfer, with zero deductions.",
+      "rationale": "Preserved the timing (on-time), method (bank transfer), amount (whole booking payment), and lack of fees (zero deductions)."
+    },
+    {
+      "text": "Please note that before the cancellation cutoff, the deposit AND remaining balance are returned in money, in full.",
+      "rationale": "Preserved the timing (before cutoff), both components (deposit AND remaining balance), and the full amount (in money, in full)."
+    },
+    {
+      "text": "*Cancel before the published deadline: all amounts paid go back to the original card; nothing is retained.",
+      "rationale": "Preserved the timing (before published deadline), the destination (original card), and the negation (nothing is retained)."
+    },
+    {
+      "text": "Your booking is confirmed. Please note: An on-time cancellation returns the whole booking payment by bank transfer, with zero deductions.",
+      "rationale": "Preserved the timing (on-time), method (bank transfer), amount (whole booking payment), and lack of fees (zero deductions)."
+    },
+    {
+      "text": "Policy: Before the cancellation cutoff, the deposit AND remaining balance are returned in money, in full.",
+      "rationale": "Preserved the timing (before cutoff), both components (deposit AND remaining balance), and the full amount (in money, in full)."
+    },
+    {
+      "text": "Terms: Cancel before the published deadline: all amounts paid go back to the original card; nothing is retained.",
+      "rationale": "Preserved the timing (before published deadline), the destination (original card), and the negation (nothing is retained)."
+    },
+    {
+      "text": "Regarding your inquiry: An on-time cancellation returns the whole booking payment by bank transfer, with zero deductions.",
+      "rationale": "Preserved the timing (on-time), method (bank transfer), amount (whole booking payment), and lack of fees (zero deductions)."
+    },
+    {
+      "text": "If you cancel before the cancellation cutoff, the deposit AND remaining balance are returned in money, in full.",
+      "rationale": "Preserved the timing (before cutoff), both components (deposit AND remaining balance), and the full amount (in money, in full)."
+    },
+    {
+      "text": "Cancellation Policy: Cancel before the published deadline: all amounts paid go back to the original card; nothing is retained.",
+      "rationale": "Preserved the timing (before published deadline), the destination (original card), and the negation (nothing is retained)."
+    },
+    {
+      "text": "Notice: An on-time cancellation returns the whole booking payment by bank transfer, with zero deductions.",
+      "rationale": "Preserved the timing (on-time), method (bank transfer), amount (whole booking payment), and lack of fees (zero deductions)."
+    },
+    {
+      "text": "Operator Statement: Before the cancellation cutoff, the deposit AND remaining balance are returned in money, in full.",
+      "rationale": "Preserved the timing (before cutoff), both components (deposit AND remaining balance), and the full amount (in money, in full)."
+    },
+    {
+      "text": "Condition: Cancel before the published deadline: all amounts paid go back to the original card; nothing is retained.",
+      "rationale": "Preserved the timing (before published deadline), the destination (original card), and the negation (nothing is retained)."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 12.683059930801392,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "453fca7f22259e435b815eebcced804156714301438d33b7f6320d4a9b9f2eac",
+  "repair_of": "phrases-refund-meets-1.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "An on-time cancellation returns the whole booking payment by bank transfer, with zero deductions."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "Before the cancellation cutoff, the deposit AND remaining balance are returned in money, in full."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "Cancel before the published deadline: all amounts paid go back to the original card; nothing is retained."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "An on-time cancellation returns the whole booking payment by bank transfer, with zero deductions."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "Before the cancellation cutoff, the deposit AND remaining balance are returned in money, in full."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "Cancel before the published deadline: all amounts paid go back to the original card; nothing is retained."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "An on-time cancellation returns the whole booking payment by bank transfer, with zero deductions."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "Before the cancellation cutoff, the deposit AND remaining balance are returned in money, in full."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "Cancel before the published deadline: all amounts paid go back to the original card; nothing is retained."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "An on-time cancellation returns the whole booking payment by bank transfer, with zero deductions."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "Before the cancellation cutoff, the deposit AND remaining balance are returned in money, in full."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "Cancel before the published deadline: all amounts paid go back to the original card; nothing is retained."
+    }
+  ]
+}

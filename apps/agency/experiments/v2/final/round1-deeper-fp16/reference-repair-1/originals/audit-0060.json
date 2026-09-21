@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0060",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund is a full cash return; arrival after midnight is automatic; swimming area details (price/access) are unstated; hiking requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0061",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is full cash; arrival/overnight registration is not addressed; pool requires a 19 euro fee; hiking requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0062",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund is full cash; arrival after midnight is automatic; pool requires a 19 euro fee; hiking is included with nothing further to pay."
+    },
+    {
+      "id": "round1-deeper-fp16-0063",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund policy is silent; arrival after midnight is automatic; pool policy contains unresolved conflicting information; hiking is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0064",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy is not documented; arrival after midnight is automatic; pool is free; no information provided regarding the guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0065",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a mandatory deduction; arrival after midnight requires prior permission; pool requires a 19 euro fee; no information provided regarding the guided hike."
+    }
+  ],
+  "documents_sha256": "598f07ba81af8d6a128174158fa0706a2d7e7747b02580860d89ad0cb194d309"
+}

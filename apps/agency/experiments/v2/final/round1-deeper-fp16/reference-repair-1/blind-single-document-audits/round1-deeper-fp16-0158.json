@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0158",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "The text explicitly states that refund and arrival policies are not documented; the pool policy is part of a voided old policy that has been replaced; the hike is explicitly described as a walking excursion with a guide included in the price."
+    }
+  ],
+  "documents_sha256": "3d74351eb2bd8d7b7f412dff595b5e1a604e6a21124ab58eec222be78b28538c"
+}

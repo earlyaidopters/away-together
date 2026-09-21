@@ -1,0 +1,113 @@
+{
+  "task": "facility",
+  "label": "violates",
+  "batch": 1,
+  "requirement": "Guests can use a swimming pool located at the booked property for no additional charge during the described stay.",
+  "meaning_constraints": "Use varied counterexamples: separate fee, pool offsite only, no pool, pool closed all stay, booked room/rate excludes access, decorative pool where swimming prohibited.",
+  "clauses": [
+    {
+      "text": "Q: Is there a pool on-site? A: This accommodation has no pool; however, the only swimming pool is located at a separate nearby leisure centre.",
+      "rationale": "Preserved the lack of an on-site pool and the specific location of the alternative facility."
+    },
+    {
+      "text": "Dear Client, please note that the hotel pool is closed for repairs for the entire booked stay. We apologize for any inconvenience this may cause.",
+      "rationale": "Maintained the specific reason (repairs) and the exact duration (entire booked stay)."
+    },
+    {
+      "text": "*The booked budget rate expressly excludes the onsite pool; a paid upgrade is needed to access these facilities.",
+      "rationale": "Kept the specific rate type (budget), the exclusion of the pool, and the requirement for a paid upgrade."
+    },
+    {
+      "text": "Please be advised that the onsite swimming pool costs EUR 12 per use, in addition to the room price.",
+      "rationale": "Retained the exact fee (EUR 12), the frequency (per use), and the fact it is extra to the room price."
+    },
+    {
+      "text": "Property Note: This accommodation has no pool. The only swimming pool available is at a separate nearby leisure centre.",
+      "rationale": "Preserved the negation of an on-site pool and the specific alternative location."
+    },
+    {
+      "text": "Please note: The hotel pool is closed for repairs for the entire booked stay. No exceptions apply during this period.",
+      "rationale": "Preserved the reason for closure and the specific timeframe of the entire stay."
+    },
+    {
+      "text": "Regarding your inquiry: The booked budget rate expressly excludes the onsite pool; a paid upgrade is needed for pool access.",
+      "rationale": "Maintained the budget rate designation, the exclusion, and the necessity of a paid upgrade."
+    },
+    {
+      "text": "The onsite swimming pool costs EUR 12 per use. This fee is in addition to the room price.",
+      "rationale": "Preserved the exact cost, the per-use condition, and the relationship to the room price."
+    },
+    {
+      "text": "Pool: None on-site. The only swimming pool is located at a separate nearby leisure centre.",
+      "rationale": "Preserved the absence of a pool and the specific location of the nearby alternative."
+    },
+    {
+      "text": "Important Update: The hotel pool is closed for repairs for the entire booked stay. Please plan your visit accordingly.",
+      "rationale": "Preserved the repair reason and the duration covering the entire booked stay."
+    },
+    {
+      "text": "Policy: The booked budget rate expressly excludes the onsite pool; a paid upgrade is needed for pool usage.",
+      "rationale": "Maintained the budget rate specification, the exclusion, and the requirement for a paid upgrade."
+    },
+    {
+      "text": "Onsite Swimming Pool: EUR 12 per use (in addition to the room price).",
+      "rationale": "Preserved the exact fee, the usage condition, and the additional cost status."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 12.352493047714233,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "17968671ac4289abaf6928410756015ccb285394b4a4839f79609a814a1462e3",
+  "repair_of": "phrases-facility-violates-1.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "This accommodation has no pool; the only swimming pool is at a separate nearby leisure centre."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "The hotel pool is closed for repairs for the entire booked stay."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "The booked budget rate expressly excludes the onsite pool; a paid upgrade is needed."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "The onsite swimming pool costs EUR 12 per use, in addition to the room price."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "This accommodation has no pool; the only swimming pool is at a separate nearby leisure centre."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "The hotel pool is closed for repairs for the entire booked stay."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "The booked budget rate expressly excludes the onsite pool; a paid upgrade is needed."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "The onsite swimming pool costs EUR 12 per use, in addition to the room price."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "This accommodation has no pool; the only swimming pool is at a separate nearby leisure centre."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "The hotel pool is closed for repairs for the entire booked stay."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "The booked budget rate expressly excludes the onsite pool; a paid upgrade is needed."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "The onsite swimming pool costs EUR 12 per use, in addition to the room price."
+    }
+  ]
+}

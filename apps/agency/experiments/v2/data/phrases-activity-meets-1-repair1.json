@@ -1,0 +1,113 @@
+{
+  "task": "activity",
+  "label": "meets",
+  "batch": 1,
+  "requirement": "The advertised holiday price includes a hike accompanied by a guide.",
+  "meaning_constraints": "Included guide-led countryside/mountain/trail hike with no separate payment.",
+  "clauses": [
+    {
+      "text": "Does the booking include excursions? Yes, the package price pays for one guided countryside hike for each traveller.",
+      "rationale": "Maintained the specific quantity (one), type (guided countryside hike), and recipient (each traveller) in an FAQ format."
+    },
+    {
+      "text": "Regarding your inquiry, guests join the included guide-led trail walk without buying any extra ticket. Please let us know if you have more questions.",
+      "rationale": "Preserved the inclusion of the guide-led walk and the negation of needing an extra ticket in an email tone."
+    },
+    {
+      "text": "*A hike accompanied by a guide is included in the quoted holiday price with no extra charge.",
+      "rationale": "Kept the exact phrasing of the hike type, the source of the price, and the lack of additional fees."
+    },
+    {
+      "text": "Your booking is confirmed. Please note that the package price pays for one guided countryside hike for each traveller.",
+      "rationale": "Retained the exact count of one hike per traveller and the specific guided countryside location/type."
+    },
+    {
+      "text": "Policy: Guests join the included guide-led trail walk without buying any extra ticket. No additional bookings are required for this activity.",
+      "rationale": "Preserved the specific activity (guide-led trail walk) and the fact that no extra ticket is necessary."
+    },
+    {
+      "text": "Note: A hike accompanied by a guide is included in the quoted holiday price with no extra charge.",
+      "rationale": "Maintained all conditions: the guided nature, the inclusion in the quoted price, and the zero extra charge."
+    },
+    {
+      "text": "To answer your question, the package price pays for one guided countryside hike for each traveller. We hope this clarifies your booking.",
+      "rationale": "Preserved the exact quantity (one), the specific hike type, and the allocation to each traveller."
+    },
+    {
+      "text": "You don't need to pay more. Guests join the included guide-led trail walk without buying any extra ticket.",
+      "rationale": "Kept the specific activity name and the negation regarding the purchase of an extra ticket."
+    },
+    {
+      "text": "Included: A hike accompanied by a guide is included in the quoted holiday price with no extra charge.",
+      "rationale": "Preserved the guided aspect, the connection to the quoted price, and the absence of extra charges."
+    },
+    {
+      "text": "Please note an update: The package price pays for one guided countryside hike for each traveller.",
+      "rationale": "Maintained the exact factual constraints regarding the one hike per traveller and the guided countryside setting."
+    },
+    {
+      "text": "Operational Note: Guests join the included guide-led trail walk without buying any extra ticket.",
+      "rationale": "Preserved the specific activity description and the fact that no extra ticket purchase is required."
+    },
+    {
+      "text": "Guided Hike: A hike accompanied by a guide is included in the quoted holiday price with no extra charge.",
+      "rationale": "Preserved the guide requirement, the inclusion in the quoted price, and the lack of extra cost."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 13.509777069091797,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "769b5ed4106d1ec55dbfb324aae86b057442d3c630dfb8e428a4451adc4a2019",
+  "repair_of": "phrases-activity-meets-1.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "The package price pays for one guided countryside hike for each traveller."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "Guests join the included guide-led trail walk without buying any extra ticket."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "A hike accompanied by a guide is included in the quoted holiday price with no extra charge."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "The package price pays for one guided countryside hike for each traveller."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "Guests join the included guide-led trail walk without buying any extra ticket."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "A hike accompanied by a guide is included in the quoted holiday price with no extra charge."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "The package price pays for one guided countryside hike for each traveller."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "Guests join the included guide-led trail walk without buying any extra ticket."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "A hike accompanied by a guide is included in the quoted holiday price with no extra charge."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "The package price pays for one guided countryside hike for each traveller."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "Guests join the included guide-led trail walk without buying any extra ticket."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "A hike accompanied by a guide is included in the quoted holiday price with no extra charge."
+    }
+  ]
+}

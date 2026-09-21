@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0325",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund policy explicitly states the entire payment is returned as money before the cutoff. Arrival policy states no rules address overnight registration or prior contact. Facility information is insufficient as location, price, and access conditions are not stated. Activity policy explicitly states the price includes a guided walking excursion with nothing further to pay."
+    }
+  ],
+  "documents_sha256": "56706701b508e16ee1b9be7afac439134e890cc6e8f3594e4816fc675af7fca2"
+}

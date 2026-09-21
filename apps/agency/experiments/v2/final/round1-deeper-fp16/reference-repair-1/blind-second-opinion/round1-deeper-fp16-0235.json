@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0235",
+      "labels": {
+        "activity": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "refund": "meets"
+      },
+      "reason": "Refund: The text explicitly states 'the entire payment is returned as money' before the cutoff, meeting the requirement. Arrival: The text explicitly states 'no rules address overnight registration', leaving the policy unknown. Facility: The text states guests are 'charges booked guests 19 euros' for the pool, violating the 'no extra charge' requirement. Activity: The text explicitly states the quoted amount 'pays for a walking excursion... accompanied by a human guide, with nothing further to pay', meeting the requirement; the mention of missing info applies only to the unselected offer."
+    }
+  ],
+  "documents_sha256": "34897c0c54f2ef535aff127f45f8f268fa4dc5efe66ba201f513321390313f26"
+}

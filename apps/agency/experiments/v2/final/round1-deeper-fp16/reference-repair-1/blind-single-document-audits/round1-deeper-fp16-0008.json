@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0008",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates because a 27 euro charge is mandatory (not a full cash refund); arrival is insufficient because the text states no rules address overnight registration; facility meets because the pool is available without a separate fee; activity is insufficient because no information is supplied regarding a guided hike."
+    }
+  ],
+  "documents_sha256": "bbffe97e8d6ed337eba55ca1be6b3a0c7bf2727a495b472996a56d00a1a213b4"
+}

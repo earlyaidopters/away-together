@@ -1,0 +1,72 @@
+{
+  "source": "phrases-activity-insufficient_evidence-0.json",
+  "source_sha256": "4c6ee06f615c81d10836009a4bf4ca5c96444544ffff6ad1d6a1f83279476040",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "insufficient_evidence",
+  "answers": [
+    {
+      "index": 0,
+      "label": "insufficient_evidence",
+      "reason": "The text states details require further inquiry, neither confirming nor denying inclusion."
+    },
+    {
+      "index": 1,
+      "label": "insufficient_evidence",
+      "reason": "The text advises clients to inquire, implying the status is unknown rather than explicitly excluded."
+    },
+    {
+      "index": 2,
+      "label": "violates",
+      "reason": "Explicitly states excursions are priced separately and not bundled into the base rate."
+    },
+    {
+      "index": 3,
+      "label": "violates",
+      "reason": "Explicitly states guided hiking must be added via an attachment, meaning it is not included."
+    },
+    {
+      "index": 4,
+      "label": "insufficient_evidence",
+      "reason": "The text says elements are sometimes customized but does not explicitly confirm or deny inclusion in the advertised price."
+    },
+    {
+      "index": 5,
+      "label": "insufficient_evidence",
+      "reason": "Refers to a supplementary guide for current inclusions without stating the status in the main text."
+    },
+    {
+      "index": 6,
+      "label": "violates",
+      "reason": "Explicitly states local guidance is subject to separate arrangement."
+    },
+    {
+      "index": 7,
+      "label": "violates",
+      "reason": "Explicitly states an accompanying expert is not guaranteed."
+    },
+    {
+      "index": 8,
+      "label": "insufficient_evidence",
+      "reason": "States activities will be finalized later, but does not explicitly confirm they are excluded from the initial price."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "States elements differ by tier but does not explicitly confirm inclusion for the advertised price."
+    },
+    {
+      "index": 10,
+      "label": "violates",
+      "reason": "Explicitly states specific guided rates must be confirmed at booking modification, implying they are not included initially."
+    },
+    {
+      "index": 11,
+      "label": "violates",
+      "reason": "Explicitly states specialist guiding services are quoted upon request only."
+    }
+  ],
+  "agreement": 6,
+  "n": 12,
+  "seconds": 60.197673082351685,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

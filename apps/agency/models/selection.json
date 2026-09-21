@@ -1,0 +1,47 @@
+{
+  "selected": "travel-nli",
+  "architecture": "nli",
+  "base": "MoritzLaurer/ModernBERT-base-zeroshot-v2.0",
+  "revision": "d421c4545a438fd006fb43f8b981c5d908faa1e1",
+  "dev": {
+    "macro_f1": 0.9356739400517978,
+    "accuracy": 0.9362499713897705
+  },
+  "temperature": 1.1,
+  "accept_threshold": 0.5700000000000001,
+  "calibration_n": 800,
+  "calibration_metrics": {
+    "macro_f1": 0.8073096779570124,
+    "accuracy": 0.8137500286102295
+  },
+  "head_weight_delta_l2": 0.06409426778554916,
+  "training_seconds": 375.32514095306396,
+  "history": [
+    {
+      "stage": "travel-nli",
+      "epoch": 1,
+      "loss": 0.6750956347212196,
+      "dev": {
+        "macro_f1": 0.8496586516634633,
+        "accuracy": 0.8475000262260437
+      },
+      "elapsed_seconds": 188.79167222976685
+    },
+    {
+      "stage": "travel-nli",
+      "epoch": 2,
+      "loss": 0.24455486982750396,
+      "dev": {
+        "macro_f1": 0.9356739400517978,
+        "accuracy": 0.9362499713897705
+      },
+      "elapsed_seconds": 354.14040088653564
+    }
+  ],
+  "sha256": "570136bd194dd2fa51aa29dca2d86bde0151db0c791e21aad71f7d6f612ed152",
+  "frozen_at_utc": "2026-09-21T03:36:51.841138+00:00",
+  "baseline_dev": {
+    "macro_f1": 0.7537233154276489,
+    "accuracy": 0.7475000023841858
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0252",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund and facility details are unknown; arrival and activity requirements are explicitly met."
+    },
+    {
+      "id": "round1-deeper-fp16-0253",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is not full (has a charge); facility has a fee; arrival is met; activity info is missing."
+    },
+    {
+      "id": "round1-deeper-fp16-0254",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is not full (has a charge); arrival is met; facility is free per footnote; activity info is missing."
+    },
+    {
+      "id": "round1-deeper-fp16-0255",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund is unknown; arrival is met; facility has conflicting policies; activity requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0256",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund, arrival, and facility are met; activity requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0257",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund and facility are unknown; arrival requires permission; activity requires extra payment."
+    }
+  ],
+  "documents_sha256": "81c0f90ff93e83c32682216a71f1624efc16632a87b00848ef54d3a7b3143da8"
+}

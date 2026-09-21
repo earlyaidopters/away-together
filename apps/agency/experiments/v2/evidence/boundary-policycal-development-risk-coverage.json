@@ -1,0 +1,367 @@
+{
+  "scope": "development only",
+  "checkpoint_sha256": "57026640f1ffe33d4078242a96e62dd7fdb06524138e9f7062f09265b12006e0",
+  "inputs": {
+    "experiments/v2/runs/selected-development-ea161b96f984/deberta-travel-v2-travel-dev.jsonl": "3ade57041fe88fe10a3c5952ae8521f68c3146e293205d926d9c12988db0c4d1",
+    "experiments/v2/runs/selected-development-ea161b96f984/deberta-travel-v2-travel-robustness-dev.jsonl": "ca9bf492bdb5ee3bbc7fb7778bfaf9da1d7daf851378020a572e28363c1ea33a"
+  },
+  "selected": {
+    "threshold": 0.91,
+    "accepted": 472,
+    "false_accepts": 6,
+    "false_accept_rate": 0.012711864406779662,
+    "correct_meets_recall": 0.6563380281690141
+  },
+  "curve": [
+    {
+      "threshold": 0.5,
+      "accepted": 778,
+      "false_accepts": 101,
+      "false_accept_rate": 0.12982005141388175,
+      "correct_meets_recall": 0.9535211267605633
+    },
+    {
+      "threshold": 0.51,
+      "accepted": 776,
+      "false_accepts": 99,
+      "false_accept_rate": 0.12757731958762886,
+      "correct_meets_recall": 0.9535211267605633
+    },
+    {
+      "threshold": 0.52,
+      "accepted": 773,
+      "false_accepts": 97,
+      "false_accept_rate": 0.12548512289780078,
+      "correct_meets_recall": 0.952112676056338
+    },
+    {
+      "threshold": 0.53,
+      "accepted": 770,
+      "false_accepts": 96,
+      "false_accept_rate": 0.12467532467532468,
+      "correct_meets_recall": 0.9492957746478873
+    },
+    {
+      "threshold": 0.54,
+      "accepted": 768,
+      "false_accepts": 95,
+      "false_accept_rate": 0.12369791666666667,
+      "correct_meets_recall": 0.9478873239436619
+    },
+    {
+      "threshold": 0.55,
+      "accepted": 763,
+      "false_accepts": 92,
+      "false_accept_rate": 0.12057667103538663,
+      "correct_meets_recall": 0.9450704225352112
+    },
+    {
+      "threshold": 0.56,
+      "accepted": 761,
+      "false_accepts": 92,
+      "false_accept_rate": 0.12089356110381078,
+      "correct_meets_recall": 0.9422535211267605
+    },
+    {
+      "threshold": 0.57,
+      "accepted": 756,
+      "false_accepts": 90,
+      "false_accept_rate": 0.11904761904761904,
+      "correct_meets_recall": 0.9380281690140845
+    },
+    {
+      "threshold": 0.58,
+      "accepted": 751,
+      "false_accepts": 86,
+      "false_accept_rate": 0.11451398135818908,
+      "correct_meets_recall": 0.9366197183098591
+    },
+    {
+      "threshold": 0.59,
+      "accepted": 750,
+      "false_accepts": 85,
+      "false_accept_rate": 0.11333333333333333,
+      "correct_meets_recall": 0.9366197183098591
+    },
+    {
+      "threshold": 0.6,
+      "accepted": 746,
+      "false_accepts": 85,
+      "false_accept_rate": 0.11394101876675604,
+      "correct_meets_recall": 0.9309859154929577
+    },
+    {
+      "threshold": 0.61,
+      "accepted": 741,
+      "false_accepts": 84,
+      "false_accept_rate": 0.11336032388663968,
+      "correct_meets_recall": 0.9253521126760563
+    },
+    {
+      "threshold": 0.62,
+      "accepted": 735,
+      "false_accepts": 82,
+      "false_accept_rate": 0.11156462585034013,
+      "correct_meets_recall": 0.9197183098591549
+    },
+    {
+      "threshold": 0.63,
+      "accepted": 734,
+      "false_accepts": 82,
+      "false_accept_rate": 0.11171662125340599,
+      "correct_meets_recall": 0.9183098591549296
+    },
+    {
+      "threshold": 0.64,
+      "accepted": 732,
+      "false_accepts": 81,
+      "false_accept_rate": 0.11065573770491803,
+      "correct_meets_recall": 0.9169014084507042
+    },
+    {
+      "threshold": 0.65,
+      "accepted": 726,
+      "false_accepts": 81,
+      "false_accept_rate": 0.1115702479338843,
+      "correct_meets_recall": 0.9084507042253521
+    },
+    {
+      "threshold": 0.66,
+      "accepted": 724,
+      "false_accepts": 81,
+      "false_accept_rate": 0.11187845303867404,
+      "correct_meets_recall": 0.9056338028169014
+    },
+    {
+      "threshold": 0.67,
+      "accepted": 723,
+      "false_accepts": 80,
+      "false_accept_rate": 0.11065006915629322,
+      "correct_meets_recall": 0.9056338028169014
+    },
+    {
+      "threshold": 0.68,
+      "accepted": 717,
+      "false_accepts": 76,
+      "false_accept_rate": 0.10599721059972106,
+      "correct_meets_recall": 0.9028169014084507
+    },
+    {
+      "threshold": 0.69,
+      "accepted": 715,
+      "false_accepts": 76,
+      "false_accept_rate": 0.1062937062937063,
+      "correct_meets_recall": 0.9
+    },
+    {
+      "threshold": 0.7,
+      "accepted": 707,
+      "false_accepts": 72,
+      "false_accept_rate": 0.10183875530410184,
+      "correct_meets_recall": 0.8943661971830986
+    },
+    {
+      "threshold": 0.71,
+      "accepted": 701,
+      "false_accepts": 70,
+      "false_accept_rate": 0.09985734664764621,
+      "correct_meets_recall": 0.8887323943661972
+    },
+    {
+      "threshold": 0.72,
+      "accepted": 696,
+      "false_accepts": 69,
+      "false_accept_rate": 0.09913793103448276,
+      "correct_meets_recall": 0.8830985915492958
+    },
+    {
+      "threshold": 0.73,
+      "accepted": 690,
+      "false_accepts": 67,
+      "false_accept_rate": 0.09710144927536232,
+      "correct_meets_recall": 0.8774647887323944
+    },
+    {
+      "threshold": 0.74,
+      "accepted": 683,
+      "false_accepts": 64,
+      "false_accept_rate": 0.09370424597364568,
+      "correct_meets_recall": 0.8718309859154929
+    },
+    {
+      "threshold": 0.75,
+      "accepted": 682,
+      "false_accepts": 64,
+      "false_accept_rate": 0.093841642228739,
+      "correct_meets_recall": 0.8704225352112676
+    },
+    {
+      "threshold": 0.76,
+      "accepted": 676,
+      "false_accepts": 61,
+      "false_accept_rate": 0.09023668639053255,
+      "correct_meets_recall": 0.8661971830985915
+    },
+    {
+      "threshold": 0.77,
+      "accepted": 668,
+      "false_accepts": 56,
+      "false_accept_rate": 0.08383233532934131,
+      "correct_meets_recall": 0.8619718309859155
+    },
+    {
+      "threshold": 0.78,
+      "accepted": 659,
+      "false_accepts": 54,
+      "false_accept_rate": 0.0819423368740516,
+      "correct_meets_recall": 0.852112676056338
+    },
+    {
+      "threshold": 0.79,
+      "accepted": 646,
+      "false_accepts": 50,
+      "false_accept_rate": 0.07739938080495357,
+      "correct_meets_recall": 0.8394366197183099
+    },
+    {
+      "threshold": 0.8,
+      "accepted": 641,
+      "false_accepts": 47,
+      "false_accept_rate": 0.07332293291731669,
+      "correct_meets_recall": 0.8366197183098592
+    },
+    {
+      "threshold": 0.81,
+      "accepted": 628,
+      "false_accepts": 46,
+      "false_accept_rate": 0.0732484076433121,
+      "correct_meets_recall": 0.819718309859155
+    },
+    {
+      "threshold": 0.82,
+      "accepted": 615,
+      "false_accepts": 42,
+      "false_accept_rate": 0.06829268292682927,
+      "correct_meets_recall": 0.8070422535211268
+    },
+    {
+      "threshold": 0.83,
+      "accepted": 599,
+      "false_accepts": 35,
+      "false_accept_rate": 0.05843071786310518,
+      "correct_meets_recall": 0.7943661971830986
+    },
+    {
+      "threshold": 0.84,
+      "accepted": 593,
+      "false_accepts": 32,
+      "false_accept_rate": 0.05396290050590219,
+      "correct_meets_recall": 0.7901408450704225
+    },
+    {
+      "threshold": 0.85,
+      "accepted": 582,
+      "false_accepts": 31,
+      "false_accept_rate": 0.05326460481099656,
+      "correct_meets_recall": 0.776056338028169
+    },
+    {
+      "threshold": 0.86,
+      "accepted": 567,
+      "false_accepts": 28,
+      "false_accept_rate": 0.04938271604938271,
+      "correct_meets_recall": 0.7591549295774648
+    },
+    {
+      "threshold": 0.87,
+      "accepted": 554,
+      "false_accepts": 22,
+      "false_accept_rate": 0.039711191335740074,
+      "correct_meets_recall": 0.7492957746478873
+    },
+    {
+      "threshold": 0.88,
+      "accepted": 538,
+      "false_accepts": 19,
+      "false_accept_rate": 0.03531598513011153,
+      "correct_meets_recall": 0.7309859154929578
+    },
+    {
+      "threshold": 0.89,
+      "accepted": 517,
+      "false_accepts": 12,
+      "false_accept_rate": 0.02321083172147002,
+      "correct_meets_recall": 0.7112676056338029
+    },
+    {
+      "threshold": 0.9,
+      "accepted": 499,
+      "false_accepts": 11,
+      "false_accept_rate": 0.022044088176352707,
+      "correct_meets_recall": 0.6873239436619718
+    },
+    {
+      "threshold": 0.91,
+      "accepted": 472,
+      "false_accepts": 6,
+      "false_accept_rate": 0.012711864406779662,
+      "correct_meets_recall": 0.6563380281690141
+    },
+    {
+      "threshold": 0.92,
+      "accepted": 445,
+      "false_accepts": 5,
+      "false_accept_rate": 0.011235955056179775,
+      "correct_meets_recall": 0.6197183098591549
+    },
+    {
+      "threshold": 0.93,
+      "accepted": 406,
+      "false_accepts": 3,
+      "false_accept_rate": 0.007389162561576354,
+      "correct_meets_recall": 0.5676056338028169
+    },
+    {
+      "threshold": 0.94,
+      "accepted": 358,
+      "false_accepts": 2,
+      "false_accept_rate": 0.00558659217877095,
+      "correct_meets_recall": 0.5014084507042254
+    },
+    {
+      "threshold": 0.95,
+      "accepted": 293,
+      "false_accepts": 2,
+      "false_accept_rate": 0.006825938566552901,
+      "correct_meets_recall": 0.4098591549295775
+    },
+    {
+      "threshold": 0.96,
+      "accepted": 224,
+      "false_accepts": 2,
+      "false_accept_rate": 0.008928571428571428,
+      "correct_meets_recall": 0.3126760563380282
+    },
+    {
+      "threshold": 0.97,
+      "accepted": 136,
+      "false_accepts": 1,
+      "false_accept_rate": 0.007352941176470588,
+      "correct_meets_recall": 0.19014084507042253
+    },
+    {
+      "threshold": 0.98,
+      "accepted": 35,
+      "false_accepts": 0,
+      "false_accept_rate": 0.0,
+      "correct_meets_recall": 0.04929577464788732
+    },
+    {
+      "threshold": 0.99,
+      "accepted": 3,
+      "false_accepts": 0,
+      "false_accept_rate": 0.0,
+      "correct_meets_recall": 0.004225352112676056
+    }
+  ]
+}

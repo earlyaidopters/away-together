@@ -1,0 +1,22 @@
+{
+  "btzsc-pilot.jsonl": {
+    "sha256": "155ad618131a8566abd1d09e12eef20a89714dd8f0623e49c6469dbfb48345b7",
+    "rows": 300
+  },
+  "typed-invoice_processing.jsonl": {
+    "sha256": "962b58d97a49c832ff8b83227b6012dd9d2a4c183590f5becea9899896fca5e5",
+    "rows": 100
+  },
+  "typed-customer_service.jsonl": {
+    "sha256": "0e406242b738a93acd9709bed1104beaab2f7327e5036afa588a4cfc693f46f5",
+    "rows": 100
+  },
+  "typed-agent_trace_observability.jsonl": {
+    "sha256": "834957d5e14fd16bd3b6a4e683664006149da7475475d993c53d28408ddd9c82",
+    "rows": 100
+  },
+  "typed-security_incidents.jsonl": {
+    "sha256": "af16e4f638dd9a396c6bf7a18f903a498748babdd18119ede8ad1954b71c5eab",
+    "rows": 100
+  }
+}

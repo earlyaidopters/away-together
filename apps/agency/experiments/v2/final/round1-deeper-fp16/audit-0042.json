@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0042",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "The document explicitly confirms a full monetary refund, automatic check-in after midnight without contact, free pool access, and an included guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0043",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund and pool policies are met; arrival violates the requirement because permission is needed; activity is insufficient because the text states no statement confirms the hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0044",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund and pool policies are met; arrival is insufficient as rules are undefined; activity violates because the hike requires a separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0045",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund and arrival are insufficient due to lack of documentation; pool is met; activity is insufficient due to two equally authoritative conflicting policies."
+    },
+    {
+      "id": "round1-deeper-fp16-0046",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates due to the mandatory charge; arrival is insufficient as no rules address it; pool is met; activity is insufficient as no statement is supplied for the selected dates."
+    },
+    {
+      "id": "round1-deeper-fp16-0047",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund violates due to the mandatory charge; arrival is insufficient as rules are silent; pool and activity are explicitly met."
+    }
+  ],
+  "documents_sha256": "db0abbf4f15655006eea6c8430616cf16108c1df3441b07ab874e01227dbf9c0"
+}

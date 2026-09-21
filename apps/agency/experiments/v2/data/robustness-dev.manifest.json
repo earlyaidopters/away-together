@@ -1,0 +1,14 @@
+{
+  "purpose": "development only; never final",
+  "sha256": "3dbb8cd4199bd8d00002d4afef1f17ed3d4e1bf2e8e4db3daf5046b6c4cba89a",
+  "scenarios": 144,
+  "unique_target_clauses": 48,
+  "provenance": "Agent-authored synthetic facts and labels, not human-reviewed or empirically observed travel offers. Shared scaffolding; not independent samples.",
+  "families": [
+    "scope",
+    "override",
+    "dates",
+    "injection"
+  ],
+  "seed": 202609212
+}

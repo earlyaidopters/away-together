@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0097",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "The document explicitly states a full cash refund is available before the cutoff, arrival after midnight (01:30) requires prior permission (violating the requirement), the swimming pool has no extra charge, and the price includes a guided walking excursion."
+    }
+  ],
+  "documents_sha256": "b5a4ad6eb357ea6dabd9e4f550b4df96b66b9412ddd28a809fb1c755ef7878b1"
+}

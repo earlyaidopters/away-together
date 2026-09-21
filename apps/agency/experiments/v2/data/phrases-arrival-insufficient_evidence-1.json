@@ -1,0 +1,62 @@
+{
+  "task": "arrival",
+  "label": "insufficient_evidence",
+  "batch": 1,
+  "requirement": "A guest can check in after midnight without making any prior arrangement.",
+  "meaning_constraints": "Opening hours/procedure absent, late arrival mentioned without defining hours or prior-arrangement rules, operator says ask for instructions. Do not explicitly permit or forbid unarranged after-midnight check-in.",
+  "clauses": [
+    {
+      "text": "Guests arriving after the clock strikes twelve are welcome to proceed directly to the lobby.",
+      "rationale": "Mentions a time boundary (after midnight) and direct arrival without specifying procedure."
+    },
+    {
+      "text": "Should your arrival be past midnight, please note that check-in procedures are subject to current availability.",
+      "rationale": "References a late arrival time without setting firm procedural guidelines."
+    },
+    {
+      "text": "For arrivals occurring post-midnight, the most accurate details should be obtained by contacting our desk directly.",
+      "rationale": "Directs the user to ask for specific instructions regarding a late arrival."
+    },
+    {
+      "text": "Late night arrivals, anytime after the initial hours conclude, require confirmation with the local station.",
+      "rationale": "Indicates a time frame after opening hours without defining the rules for checking in."
+    },
+    {
+      "text": "Regarding overnight arrivals, the front office advises contacting us for the precise steps to follow upon arrival.",
+      "rationale": "Suggests checking in after hours and directs the user to seek further instructions."
+    },
+    {
+      "text": "If you expect to arrive after midnight, please be advised that arrangements should be confirmed via the booking portal.",
+      "rationale": "References a time after midnight but implies the need for confirmation without stating the method."
+    },
+    {
+      "text": "Overnight check-ins are accommodated; however, confirm the exact process with the property staff upon arrival.",
+      "rationale": "Acknowledges late arrival without detailing the required pre-arrangement or procedure."
+    },
+    {
+      "text": "Arrival after the midnight threshold does not preclude check-in, but operational protocols should be verified on site.",
+      "rationale": "Mentions passing midnight and advising verification of protocols without stating the rules."
+    },
+    {
+      "text": "Late arrivals after midnight are generally manageable; please consult the concierge for specific details concerning entry.",
+      "rationale": "Addresses a post-midnight arrival and suggests asking a staff member for details."
+    },
+    {
+      "text": "For departures arriving after the twelve o'clock mark, direct coordination with our service team is necessary.",
+      "rationale": "Uses a non-specific time reference (after twelve) and requires external coordination."
+    },
+    {
+      "text": "Midnight arrivals are possible. Check the dedicated support line for the current after-hours entry guidelines.",
+      "rationale": "Confirms possibility after midnight but requires checking a separate source for rules."
+    },
+    {
+      "text": "Check-in occurring at any time past midnight requires inquiry at the main information desk for assistance.",
+      "rationale": "Specifies a time bracket (past midnight) and mandates asking at a service point."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 16.484596014022827,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "55a9aa4a15b9d4f496896b3e33d68db9f4991786d86e62526c2384eb8207bc76"
+}

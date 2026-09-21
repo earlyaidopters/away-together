@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0150",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund and arrival policies are not documented; the pool requires a 19 euro fee (violates facility); the hike requires a separate 38 euro payment (violates activity)."
+    },
+    {
+      "id": "round1-deeper-fp16-0151",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "A 27 euro charge applies to cancellations (violates refund); the text contains a conflicting instruction stating 01:30 arrival requires prior permission (violates arrival); the pool is free (meets facility); no statement about the guided walk is supplied (insufficient activity)."
+    },
+    {
+      "id": "round1-deeper-fp16-0152",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Full payment is returned with no deduction (meets refund); 01:30 arrival requires prior permission (violates arrival); the pool costs 19 euros (violates facility); the walking excursion is included with nothing further to pay (meets activity)."
+    },
+    {
+      "id": "round1-deeper-fp16-0153",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "A 27 euro charge applies (violates refund); two authoritative policies regarding arrival disagree (insufficient arrival); the pool is free (meets facility); no statement about the guided walk is supplied (insufficient activity)."
+    },
+    {
+      "id": "round1-deeper-fp16-0154",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund documentation is missing (insufficient refund); arrival is automatic at 01:30 (meets arrival); the pool costs 19 euros (violates facility); the hike is included with nothing further to pay (meets activity)."
+    },
+    {
+      "id": "round1-deeper-fp16-0155",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund terms are unclear (insufficient refund); arrival is automatic at 01:30 (meets arrival); the pool is free (meets facility); the hike requires a separate 38 euro payment (violates activity)."
+    }
+  ],
+  "documents_sha256": "1a2fbd232abd26938a77a112611602c559d4d8242f434408e0b9c0bd960004d5"
+}

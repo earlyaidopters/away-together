@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0344",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The agent states the pool has an extra charge (violates facility); check-in after midnight requires prior permission (violates arrival); the agent states the system does not document refund details (insufficient_evidence refund); and the agent states the quote does not state if a guided walk is included (insufficient_evidence activity)."
+    }
+  ],
+  "documents_sha256": "ef0f386965e69ea955335d81b678ddabbc4688481d2ce6cf509ce9aeb7b188af"
+}

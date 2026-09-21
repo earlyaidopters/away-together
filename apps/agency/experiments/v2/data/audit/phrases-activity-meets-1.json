@@ -1,0 +1,72 @@
+{
+  "source": "phrases-activity-meets-1.json",
+  "source_sha256": "23a4aacd6184ef87cac49df9d851b327e4cfe57a0072c958887ef7ae8cc69108",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "meets",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states the rate includes a 'guided walk' (hike with a guide)."
+    },
+    {
+      "index": 1,
+      "label": "meets",
+      "reason": "Explicitly confirms the rate includes a 'trek' with an 'expert local guide'."
+    },
+    {
+      "index": 2,
+      "label": "insufficient_evidence",
+      "reason": "Mentions a 'guided excursion' and 'path traverse' but does not explicitly use the term 'hike' or confirm the activity is a hike, though it is strongly implied."
+    },
+    {
+      "index": 3,
+      "label": "insufficient_evidence",
+      "reason": "Mentions a 'guided descent' on a 'valley route' but does not explicitly define the activity as a 'hike'."
+    },
+    {
+      "index": 4,
+      "label": "insufficient_evidence",
+      "reason": "Mentions a 'supervised journey' on a 'mountain track' but does not explicitly use the term 'hike'."
+    },
+    {
+      "index": 5,
+      "label": "insufficient_evidence",
+      "reason": "Mentions a 'guided lowland ramble' but does not explicitly use the term 'hike'."
+    },
+    {
+      "index": 6,
+      "label": "insufficient_evidence",
+      "reason": "Mentions a 'scenic hillside walk' with a guide but does not explicitly use the term 'hike'."
+    },
+    {
+      "index": 7,
+      "label": "insufficient_evidence",
+      "reason": "Mentions 'guided exploration' of 'pathways' but does not explicitly use the term 'hike'."
+    },
+    {
+      "index": 8,
+      "label": "meets",
+      "reason": "Explicitly lists 'Guided mountain trail walk' as included, which satisfies the hike and guide requirement."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "Mentions a 'guided upland circuit' but does not explicitly use the term 'hike'."
+    },
+    {
+      "index": 10,
+      "label": "meets",
+      "reason": "Explicitly states 'professional guidance' is included during a 'marked forest path trek' (trek is synonymous with hike in this context)."
+    },
+    {
+      "index": 11,
+      "label": "insufficient_evidence",
+      "reason": "Lists 'Local Hill Path' as included but does not explicitly state it is a 'hike' or that a 'guide' is provided for it."
+    }
+  ],
+  "agreement": 4,
+  "n": 12,
+  "seconds": 36.10468792915344,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

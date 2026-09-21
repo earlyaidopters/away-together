@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0267",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The refund policy is unresolved due to two conflicting authoritative policies (Policy A vs Policy B). Arrival violates the requirement because check-in after midnight requires prior permission. The facility violates the requirement because there is an extra charge for the pool. The activity is insufficient because no information is supplied regarding a guided hike."
+    }
+  ],
+  "documents_sha256": "54128d34a426d29b646afb030f94269be4f86673186289b00f6b0c06c1a618f7"
+}

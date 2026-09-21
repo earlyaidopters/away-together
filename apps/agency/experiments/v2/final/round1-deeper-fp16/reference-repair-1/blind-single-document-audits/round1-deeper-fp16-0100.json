@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0100",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "The document states the walking excursion with a guide is included (activity: meets), but it explicitly states the swimming area's price and conditions are unknown (facility: insufficient_evidence), that there are no rules regarding arrival/registration (arrival: insufficient_evidence), and that refund terms for the selected stay are undocumented (refund: insufficient_evidence)."
+    }
+  ],
+  "documents_sha256": "38df069f9b2ee8624761eb91817b72bd73cc5a25077dcf0c5f122c20ae366f0d"
+}

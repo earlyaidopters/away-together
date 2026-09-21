@@ -1,0 +1,72 @@
+{
+  "source": "phrases-activity-violates-1.json",
+  "source_sha256": "6979423456ae39e2c9b399927c31a03e9ac2eb94746b503bb089e2e151eef1b0",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "violates",
+  "answers": [
+    {
+      "index": 0,
+      "label": "violates",
+      "reason": "The text explicitly states the quoted rate covers 'accommodation only' and the guide must be booked 'independently', failing the requirement that the guide is included."
+    },
+    {
+      "index": 1,
+      "label": "violates",
+      "reason": "The text states the guided trek is an 'add-on' and must be 'arranged separately', explicitly failing the inclusion requirement."
+    },
+    {
+      "index": 2,
+      "label": "violates",
+      "reason": "The text explicitly excludes specialized activities and states guides are available for 'separate remittance', violating the inclusion requirement."
+    },
+    {
+      "index": 3,
+      "label": "violates",
+      "reason": "The text lists the professional escort under 'optional services', explicitly failing the requirement that it is included in the price."
+    },
+    {
+      "index": 4,
+      "label": "violates",
+      "reason": "The text states the accompanying expert is quoted at an 'additional fee', which violates the 'included' condition."
+    },
+    {
+      "index": 5,
+      "label": "violates",
+      "reason": "The text requires a 'supplementary fee' for professional accompaniment, explicitly failing the inclusion requirement."
+    },
+    {
+      "index": 6,
+      "label": "violates",
+      "reason": "The text explicitly states the rate 'does not include the local expert', failing the requirement."
+    },
+    {
+      "index": 7,
+      "label": "violates",
+      "reason": "The text states the trek element is 'not covered' and guides are 'not bundled', explicitly failing the requirement."
+    },
+    {
+      "index": 8,
+      "label": "violates",
+      "reason": "The text explicitly lists 'Guided ascent excursions' under 'Excludes', failing the inclusion requirement."
+    },
+    {
+      "index": 9,
+      "label": "violates",
+      "reason": "The text states the guide fee is 'separate from the base package cost', explicitly failing the inclusion requirement."
+    },
+    {
+      "index": 10,
+      "label": "violates",
+      "reason": "The text states guided interpretation 'must be pre-purchased separately', explicitly failing the inclusion requirement."
+    },
+    {
+      "index": 11,
+      "label": "violates",
+      "reason": "The text explicitly states the price 'excludes mandatory guiding services', failing the requirement."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 33.18343782424927,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

@@ -1,0 +1,72 @@
+{
+  "source": "phrases-facility-insufficient_evidence-1.json",
+  "source_sha256": "e350cb8cdc634e7266afa31b0b42a0283cd792aa059f97e3148a884fa48f6bd7",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "insufficient_evidence",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states access to the 'recreational water area' (swimming pool) for 'guests staying on-site' (booked property) 'throughout their visit' (described stay) at 'no extra cost'."
+    },
+    {
+      "index": 1,
+      "label": "insufficient_evidence",
+      "reason": "Refers to 'water features' within 'spa facilities' rather than explicitly confirming a 'swimming pool' or 'no additional charge'."
+    },
+    {
+      "index": 2,
+      "label": "violates",
+      "reason": "Explicitly states that 'associated entry fees' are subject to change, failing the 'no additional charge' requirement."
+    },
+    {
+      "index": 3,
+      "label": "meets",
+      "reason": "Explicitly states 'water leisure facilities' (swimming pool) are available 'throughout the duration of the reservation' (described stay) 'without an additional tariff'."
+    },
+    {
+      "index": 4,
+      "label": "meets",
+      "reason": "Explicitly grants 'complimentary access' to the 'pool area' during 'confirmed accommodation dates'."
+    },
+    {
+      "index": 5,
+      "label": "meets",
+      "reason": "Explicitly states the 'rate includes use of the pool' for the stay; checking operational status does not negate the inclusion of the fee."
+    },
+    {
+      "index": 6,
+      "label": "meets",
+      "reason": "Explicitly states access is 'complimentary' for 'overnight guests'; potential closure due to renovation is a condition of availability, not a fee or explicit failure of the policy terms."
+    },
+    {
+      "index": 7,
+      "label": "meets",
+      "reason": "Explicitly states 'swimming amenities' are 'included in the room rate' for guests utilizing the property."
+    },
+    {
+      "index": 8,
+      "label": "meets",
+      "reason": "Explicitly states the 'stay package covers entry to the water recreation zone' (swimming pool)."
+    },
+    {
+      "index": 9,
+      "label": "meets",
+      "reason": "Explicitly states access to 'aquatic leisure amenities' is 'included'."
+    },
+    {
+      "index": 10,
+      "label": "violates",
+      "reason": "Explicitly states the privilege 'does not guarantee availability' and 'does not mention specific usage rates', failing the requirement to establish the no-charge condition for the stay."
+    },
+    {
+      "index": 11,
+      "label": "meets",
+      "reason": "Explicitly states 'pool area use is complimentary' during the visit; potential temporary closures do not negate the policy's explicit inclusion of the fee."
+    }
+  ],
+  "agreement": 1,
+  "n": 12,
+  "seconds": 37.13739323616028,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

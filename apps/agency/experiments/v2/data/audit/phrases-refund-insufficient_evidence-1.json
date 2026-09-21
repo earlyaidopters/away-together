@@ -1,0 +1,72 @@
+{
+  "source": "phrases-refund-insufficient_evidence-1.json",
+  "source_sha256": "c98dc00f55ed6f0a855c71b89635373b1c2be5f95e8d725e2313204824ab31f5",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "insufficient_evidence",
+  "answers": [
+    {
+      "index": 0,
+      "label": "insufficient_evidence",
+      "reason": "The text advises reviewing terms for potential reimbursement but does not explicitly state that a full refund with no fee is guaranteed before a deadline."
+    },
+    {
+      "index": 1,
+      "label": "insufficient_evidence",
+      "reason": "It mentions a refundable deposit contingent on other rules, but does not explicitly confirm the entire amount is returned without a retained fee."
+    },
+    {
+      "index": 2,
+      "label": "insufficient_evidence",
+      "reason": "While it sets a 48-hour deadline, it defers reimbursement details to package guidelines without explicitly confirming a full, fee-free refund."
+    },
+    {
+      "index": 3,
+      "label": "insufficient_evidence",
+      "reason": "The text directs the user to an external document for specifics and contains no explicit statement regarding the refund amount or fees."
+    },
+    {
+      "index": 4,
+      "label": "insufficient_evidence",
+      "reason": "It refers to separate guidelines and accommodation tiers without explicitly establishing the requirement for a full, fee-free refund."
+    },
+    {
+      "index": 5,
+      "label": "insufficient_evidence",
+      "reason": "The text points to a 'Changes' section for payment information but does not explicitly state the refund policy within the provided text."
+    },
+    {
+      "index": 6,
+      "label": "insufficient_evidence",
+      "reason": "It mentions reviewing fine print for financial outcomes but does not explicitly confirm the specific refund terms required."
+    },
+    {
+      "index": 7,
+      "label": "insufficient_evidence",
+      "reason": "The text offers flexibility but directs the user to a link for policy details, failing to explicitly state the refund conditions."
+    },
+    {
+      "index": 8,
+      "label": "insufficient_evidence",
+      "reason": "It states refunds depend on an addendum but does not explicitly confirm that the entire amount is returned without a fee."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "The text notes that refund structures vary based on inclusions, which implies the requirement is not universally met, but does not explicitly define the specific outcome for the deadline scenario."
+    },
+    {
+      "index": 10,
+      "label": "insufficient_evidence",
+      "reason": "It references accompanying documentation for refund processing without explicitly stating the terms of the refund in the text provided."
+    },
+    {
+      "index": 11,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states that the reimbursement processing method is 'not confirmed,' meaning the requirement cannot be established."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 35.32312083244324,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

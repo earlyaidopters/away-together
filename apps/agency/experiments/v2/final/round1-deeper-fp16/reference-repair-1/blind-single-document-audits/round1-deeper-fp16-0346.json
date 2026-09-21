@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0346",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "refund: violates because a 27 euro administration charge is deducted, meaning it is not a full cash refund; arrival: meets because 01:30 registration is available automatically without prior contact; facility: violates because there is a 19 euro charge for the pool; activity: meets because the price includes a walking excursion with a guide."
+    }
+  ],
+  "documents_sha256": "48101c17b19dd5a5d175a4d0fc71871d3247b43d801b5e0686946479be14b2c9"
+}

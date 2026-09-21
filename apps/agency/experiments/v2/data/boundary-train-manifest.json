@@ -1,0 +1,8 @@
+{
+  "scenarios": 432,
+  "unique_authored_clauses": 36,
+  "sha256": "901d3a9513b3a892db0ac2dc840bfb87c5b31093a260fe539b75345b6b33a7b0",
+  "purpose": "Additional training only. Never count this as independent evaluation evidence.",
+  "rules": "Explicit failure of a required condition violates; missing necessary evidence is unknown; all required conditions confirmed meets. Scope, date and precedence resolve applicability; unresolved authoritative contradictions are unknown.",
+  "limitations": "Agent-authored synthetic language; repeated templates and clauses; no independent human review. Exact document separation is not proof of semantic independence."
+}

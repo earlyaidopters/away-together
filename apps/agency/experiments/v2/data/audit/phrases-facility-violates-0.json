@@ -1,0 +1,72 @@
+{
+  "source": "phrases-facility-violates-0.json",
+  "source_sha256": "eebc9bc05f0d0b25d36f79ccbfe53074aa57da08167e86024a50d5fc93152ddc",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "violates",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states guests can use the on-site aquatic facility without supplemental charges for the duration of the visit."
+    },
+    {
+      "index": 1,
+      "label": "insufficient_evidence",
+      "reason": "Confirms pool access is at the property but does not explicitly state whether it is free or included in the stay."
+    },
+    {
+      "index": 2,
+      "label": "violates",
+      "reason": "Explicitly states the standard rate does not include access to swimming facilities and they must be selected separately."
+    },
+    {
+      "index": 3,
+      "label": "meets",
+      "reason": "Explicitly confirms complimentary use of the swimming pool at the lodging premises throughout reserved dates."
+    },
+    {
+      "index": 4,
+      "label": "meets",
+      "reason": "Explicitly states guests benefit from complimentary recreational swimming at the designated pool within the complex for the entirety of the stay."
+    },
+    {
+      "index": 5,
+      "label": "meets",
+      "reason": "Explicitly states pool access is complimentary for all guests with no extra fees applying."
+    },
+    {
+      "index": 6,
+      "label": "meets",
+      "reason": "Explicitly states the pool is available for use with no extra payment necessary for guests staying at the hotel."
+    },
+    {
+      "index": 7,
+      "label": "insufficient_evidence",
+      "reason": "States the reservation covers access but does not explicitly confirm if this access is free or included without extra charge."
+    },
+    {
+      "index": 8,
+      "label": "meets",
+      "reason": "Explicitly states amenities include access to the swimming pool available complimentary throughout the stay."
+    },
+    {
+      "index": 9,
+      "label": "meets",
+      "reason": "Explicitly states pool privileges are automatically included with no adjustment to the rate needed."
+    },
+    {
+      "index": 10,
+      "label": "meets",
+      "reason": "Explicitly grants complimentary use of the main swimming area on the premises for the entire vacation duration."
+    },
+    {
+      "index": 11,
+      "label": "meets",
+      "reason": "Explicitly states property pool access is included and excludes separate fees."
+    }
+  ],
+  "agreement": 1,
+  "n": 12,
+  "seconds": 24.07642102241516,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0330",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund violates because a 27 euro charge is deducted, preventing a full refund; arrival, facility, and activity meet all criteria."
+    },
+    {
+      "id": "round1-deeper-fp16-0331",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund meets (entire payment returned with no deduction); arrival violates (requires permission); facility meets; activity violates (requires separate 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0332",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund violates (27 euro charge); arrival violates (requires permission); facility meets; activity meets."
+    },
+    {
+      "id": "round1-deeper-fp16-0333",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is unknown; arrival violates (requires permission); facility violates (19 euro fee); activity is unresolved due to conflicting policies."
+    },
+    {
+      "id": "round1-deeper-fp16-0334",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund violates (27 euro charge); arrival meets; facility is unknown (price/access not stated); activity violates (requires separate 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0335",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund violates (27 euro charge); arrival, facility, and activity meet all criteria."
+    }
+  ],
+  "documents_sha256": "131f9f9b5c5cc49005edcf11b0082d9f52b64f0e4262253abd894c8a4ab83372"
+}

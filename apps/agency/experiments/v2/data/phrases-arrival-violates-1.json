@@ -1,0 +1,62 @@
+{
+  "task": "arrival",
+  "label": "violates",
+  "batch": 1,
+  "requirement": "A guest can check in after midnight without making any prior arrangement.",
+  "meaning_constraints": "Use varied counterexamples: must request code in advance; check-in closes before midnight; overnight arrivals refused; desk 24h but actual check-in not; late arrival needs prior approval.",
+  "clauses": [
+    {
+      "text": "Guests arriving after 12:00 AM are welcome to check in directly at the reception desk without pre-booking.",
+      "rationale": "Explicitly states no prior arrangement is needed for post-midnight arrivals."
+    },
+    {
+      "text": "For arrivals following midnight, please note that advance coordination with your booking agent is mandatory.",
+      "rationale": "Requires advance coordination for check-ins after midnight."
+    },
+    {
+      "text": "Late check-ins after 11 PM necessitate contacting us at least two hours prior to guarantee room access.",
+      "rationale": "Requires advance notice for late arrivals, implying constraints near midnight."
+    },
+    {
+      "text": "Should your arrival extend past the twelve-hour mark, please understand that we require confirmation of your itinerary beforehand.",
+      "rationale": "Requires prior confirmation for arrivals after midnight."
+    },
+    {
+      "text": "Overnight stays arriving past midnight are restricted unless special arrangements have been confirmed on file.",
+      "rationale": "Refuses or restricts overnight arrivals without prior arrangement."
+    },
+    {
+      "text": "While the desk operates around the clock, actual room key issuance for arrivals after midnight requires manual pre-authorization.",
+      "rationale": "Desk is always open, but actual check-in process requires prior approval for late arrivals."
+    },
+    {
+      "text": "Check-in procedures close promptly at midnight; subsequent arrivals must secure an extension approval.",
+      "rationale": "Implies a hard cutoff before midnight, necessitating special approval afterward."
+    },
+    {
+      "text": "Midnight arrivals are permissible; however, failure to notify us 24 hours in advance may result in inconvenience.",
+      "rationale": "Suggests a requirement for advanced notice even if technically allowed after midnight."
+    },
+    {
+      "text": "Arrivals after twelve o'clock require a pre-booked confirmation code to ensure seamless entry.",
+      "rationale": "Requires a code/booking confirmation in advance for post-midnight arrivals."
+    },
+    {
+      "text": "If your party arrives past the stroke of midnight, booking amendments must be processed through the concierge service.",
+      "rationale": "Specifies that changes/arrangements for late arrivals need an administrative process."
+    },
+    {
+      "text": "For arrivals spanning midnight, please consult our guidelines; spontaneous check-ins are not supported.",
+      "rationale": "Indicates that unscheduled late arrivals are not supported without prior steps."
+    },
+    {
+      "text": "Midnight arrivals are fine; however, any deviation from the original reservation must receive express permission.",
+      "rationale": "Although possible, emphasizes the need for explicit permission/approval for late arrivals."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 15.926819801330566,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "31be2424c23e8dc6030b1b150cc47b5946f02005df74542d74f55523a3c4b160"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0319",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "The document explicitly confirms a full cash refund for cancellations before the cutoff, a guided walking excursion included in the price, and free swimming pool access. However, it explicitly states that no rules address overnight registration, leaving the arrival policy unknown."
+    }
+  ],
+  "documents_sha256": "91c31b73f622697f5e273f80cc1889bf8c9892fa014a17e1747a3435c8a4e026"
+}

@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0066",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund info is undocumented; arrival requires prior permission; pool has an extra charge; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0067",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund info is undocumented; arrival rules are not addressed; pool is free; hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0068",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Full cash refund is provided; arrival requires prior permission; pool is free; hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0069",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a mandatory charge; arrival requires prior permission; pool is free; activity policies are equally authoritative and conflicting."
+    },
+    {
+      "id": "round1-deeper-fp16-0070",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund info is undocumented; arrival is automatic; pool has an extra charge; hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0071",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Full cash refund is provided; arrival rules are not addressed; pool has an extra charge; hike requires separate payment."
+    }
+  ],
+  "documents_sha256": "d85f003c3b9dcd6aed0a689a811c77d59d6a60162019926adc29e1d1f7421848"
+}

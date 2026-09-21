@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0156",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund info is undocumented; arrival at 01:30 is automatic; pool requires 19 euros; hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0157",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund has a mandatory charge; arrival rules are not addressed; footnote confirms free pool; hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0158",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund info is undocumented; arrival rules are not addressed; pool is free; hike is included with nothing further to pay."
+    },
+    {
+      "id": "round1-deeper-fp16-0159",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund info is undocumented; arrival at 01:30 is automatic; two authoritative policies conflict regarding pool price; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0160",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Entire payment is returned as money; arrival at 01:30 is automatic; pool is free; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0161",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund has a mandatory charge; arrival at 01:30 requires prior permission; pool details are not stated; hike is included."
+    }
+  ],
+  "documents_sha256": "8b586f5855068d70e4e2ad9445ce1c5ecbeba9b11286f3136eebd5453c376d1a"
+}

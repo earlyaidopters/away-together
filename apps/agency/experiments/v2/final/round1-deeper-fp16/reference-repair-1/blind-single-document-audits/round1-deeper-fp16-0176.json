@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0176",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "The document states check-in after midnight requires prior permission (violating the arrival requirement), confirms the hike includes a guide at no extra cost (meeting the activity requirement), but fails to mention refund methods/amounts and provides no details on pool pricing or access (insufficient evidence for refund and facility)."
+    }
+  ],
+  "documents_sha256": "5f7d49a53dec0787d79773e25ec26689ee97a1d9d8885e3a411d60437c948193"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0356",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates because a 27 euro charge is mandatory (not a full cash refund); Arrival meets as 01:30 is allowed without contact; Facility meets as the pool is available without a separate fee; Activity is insufficient_evidence because the text states no itinerary or statement about a guided walk is supplied."
+    }
+  ],
+  "documents_sha256": "a2b053415fa044b783f26a3f77f99696437fe9b1d4d0209c5c63fe8879763e37"
+}

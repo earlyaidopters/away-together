@@ -1,0 +1,9 @@
+{
+  "research_date": "2026-09-21",
+  "pr": "https://github.com/vllm-project/vllm/pull/57250",
+  "implementation_revision": "407326b735c289a5f079a000a1b34c2e4be6b94c",
+  "pr_status_at_research": "open, unmerged",
+  "model": "nvidia/diffusiongemma-26B-A4B-it-NVFP4",
+  "model_revision": "ec4ff3df205028f4e81c954c2227f9312b3ec2ea",
+  "status": "adapter tested with fixtures; no GPU inference performed"
+}

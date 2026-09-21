@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0108",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund is full cash; arrival requires prior permission (violates); pool has an extra charge (violates); activity includes a guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0109",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund details are undocumented; arrival is automatic; pool has an extra charge; activity details are not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0110",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is full cash; arrival is automatic; pool is free; activity details are not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0111",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is full cash; arrival requires permission; pool policy is unresolved between two authoritative sources; activity details are not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0112",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a mandatory charge; arrival rules are not addressed; pool details are not stated; activity details are not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0113",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is full cash; arrival requires permission; pool has an extra charge; activity details are not supplied."
+    }
+  ],
+  "documents_sha256": "b57132c7e0181436479919ba0862d8e057bc96cdcf541d8e90304bbc30010a02"
+}

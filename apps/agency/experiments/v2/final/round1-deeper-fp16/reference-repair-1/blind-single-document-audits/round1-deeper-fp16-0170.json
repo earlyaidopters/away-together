@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0170",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: The text states the current refund amount and method remain undocumented; arrival: The text explicitly states guests cannot check in at 01:30 without prior permission; facility: The text states there is a 19 euro charge for the pool; activity: The text states no statement about a guided walk being included is supplied."
+    }
+  ],
+  "documents_sha256": "2e854e373b1e3922390dc2d15fe0286217d656f78c86bb87209a232edcb36c7f"
+}

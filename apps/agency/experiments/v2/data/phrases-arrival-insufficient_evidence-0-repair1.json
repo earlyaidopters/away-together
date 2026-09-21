@@ -1,0 +1,113 @@
+{
+  "task": "arrival",
+  "label": "insufficient_evidence",
+  "batch": 0,
+  "requirement": "A guest can check in after midnight without making any prior arrangement.",
+  "meaning_constraints": "Opening hours/procedure absent, late arrival mentioned without defining hours or prior-arrangement rules, operator says ask for instructions. Do not explicitly permit or forbid unarranged after-midnight check-in.",
+  "clauses": [
+    {
+      "text": "Q: What should I do if I arrive late? A: Late arrivals are mentioned in our policy, but we do not specify arrival hours or any requirements for advance arrangements.",
+      "rationale": "Preserved the mention of late arrivals while maintaining the absence of specific hours and advance-arrangement details."
+    },
+    {
+      "text": "Dear Client, please note that the arrival instructions are not provided in the current listing for this property.",
+      "rationale": "Maintained the exact negation that arrival instructions are missing from the listing."
+    },
+    {
+      "text": "*Property is convenient for late flights; however, check-in rules remain unspecified.",
+      "rationale": "Kept the convenience for late flights while noting that check-in rules are not specified."
+    },
+    {
+      "text": "Your booking is confirmed. Please note that while late arrivals are mentioned, neither their specific hours nor any advance-arrangement requirements are given.",
+      "rationale": "Preserved the mention of late arrivals and the lack of information regarding hours and arrangements."
+    },
+    {
+      "text": "Supplier Policy: Please be advised that the arrival instructions are not provided in the listing.",
+      "rationale": "Strictly adhered to the fact that arrival instructions are missing from the listing."
+    },
+    {
+      "text": "Note: The property is convenient for late flights, but check-in rules are unspecified.",
+      "rationale": "Preserved the convenience for late flights and the lack of specified check-in rules."
+    },
+    {
+      "text": "Regarding your inquiry, late arrivals are mentioned, but neither their hours nor any advance-arrangement requirements are given at this time.",
+      "rationale": "Maintained the mention of late arrivals and the absence of hours and arrangement requirements."
+    },
+    {
+      "text": "Arrival instructions are not provided in the listing.",
+      "rationale": "Preserved the exact factual negation regarding the missing arrival instructions."
+    },
+    {
+      "text": "Convenient for late flights; check-in rules are unspecified.",
+      "rationale": "Kept the property's convenience for late flights and the unspecified nature of check-in rules."
+    },
+    {
+      "text": "Amendment Notice: Late arrivals are mentioned, but neither their hours nor any advance-arrangement requirements are given in the documentation.",
+      "rationale": "Preserved the mention of late arrivals and the lack of specific hours or arrangement requirements."
+    },
+    {
+      "text": "Operator Statement: The arrival instructions are not provided in the listing.",
+      "rationale": "Maintained the fact that arrival instructions are not included in the listing."
+    },
+    {
+      "text": "Late Flight Convenience: Yes | Check-in Rules: Unspecified",
+      "rationale": "Preserved the convenience for late flights and the unspecified status of check-in rules."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 12.109958171844482,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "2abbafbb288250a4a8f4249f0b9043790081bfa270446a327279685d9175c4f1",
+  "repair_of": "phrases-arrival-insufficient_evidence-0.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "Late arrivals are mentioned, but neither their hours nor any advance-arrangement requirements are given."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "The arrival instructions are not provided in the listing."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "The property is convenient for late flights, but check-in rules are unspecified."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "Late arrivals are mentioned, but neither their hours nor any advance-arrangement requirements are given."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "The arrival instructions are not provided in the listing."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "The property is convenient for late flights, but check-in rules are unspecified."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "Late arrivals are mentioned, but neither their hours nor any advance-arrangement requirements are given."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "The arrival instructions are not provided in the listing."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "The property is convenient for late flights, but check-in rules are unspecified."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "Late arrivals are mentioned, but neither their hours nor any advance-arrangement requirements are given."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "The arrival instructions are not provided in the listing."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "The property is convenient for late flights, but check-in rules are unspecified."
+    }
+  ]
+}

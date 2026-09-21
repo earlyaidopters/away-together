@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0295",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "refund: The text states the refund method and return of payment are not documented; arrival: For the selected Alder, check-in after midnight requires prior permission, violating the 'without arranging it beforehand' rule; facility: The pool requires a 19 euro charge, violating the 'no extra charge' rule; activity: The hike requires a separate payment, violating the 'price includes' rule."
+    }
+  ],
+  "documents_sha256": "7679182717effc9b11b43a817d20f028b050f12386a3da6a81babdc7f901d33f"
+}

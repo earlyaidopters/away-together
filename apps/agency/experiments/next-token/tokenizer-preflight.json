@@ -1,0 +1,17 @@
+{
+  "documents": 400,
+  "decisions": 1600,
+  "max_tokens": 328,
+  "label_ids": [
+    32,
+    33,
+    34
+  ],
+  "pin": {
+    "id": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "source": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+    "scope": "Untuned non-thinking causal next-token development comparator"
+  },
+  "status": "Exact prompt-prefix and one-token continuation validation passed; no model inference"
+}

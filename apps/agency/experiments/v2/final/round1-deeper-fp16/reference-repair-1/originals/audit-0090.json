@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0090",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund violates (admin charge retained); arrival violates (permission required for 01:30); facility is insufficient (location/price/access unknown); activity violates (separate payment required)."
+    },
+    {
+      "id": "round1-deeper-fp16-0091",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates (admin charge retained); arrival is insufficient (silent on rules); facility meets (no separate fee); activity is insufficient (the policy mentioned is explicitly noted as belonging to an unselected offer)."
+    },
+    {
+      "id": "round1-deeper-fp16-0092",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund meets (entire payment returned); arrival meets (automatic without contact); facility violates (19 euro charge); activity meets (includes excursion with no further pay)."
+    },
+    {
+      "id": "round1-deeper-fp16-0093",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is insufficient (missing details); arrival is insufficient (unclear); facility meets (no separate fee); activity is insufficient (two equally authoritative conflicting policies)."
+    },
+    {
+      "id": "round1-deeper-fp16-0094",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is insufficient (not documented); arrival meets (automatic without contact); facility meets (no separate fee); activity meets (conflicting policy is superseded/not applicable)."
+    },
+    {
+      "id": "round1-deeper-fp16-0095",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund meets (entire payment returned); arrival is insufficient (no rules address it); facility violates (19 euro charge); activity violates (separate payment required)."
+    }
+  ],
+  "documents_sha256": "c7a77c35751fd38c4c6a4e65414af228568a69e136d644ec5a0cc034127e6439"
+}

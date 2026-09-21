@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0140",
+      "labels": {
+        "activity": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "refund": "meets"
+      },
+      "reason": "Refund: The text explicitly states the entire payment is returned as money if cancelled before the cutoff, meeting the requirement. Arrival: The text explicitly forbids check-in at 01:30 without prior permission, violating the requirement for midnight check-in without arrangement. Facility: The text mentions a swimming area but explicitly states location, price, and access conditions are unknown, leaving the 'no extra charge' requirement unverified. Activity: Although a footnote suggests a separate fee, the text immediately clarifies that 'Current selected terms completely replace this old policy' and the main body states the quoted amount covers the guided hike with 'nothing further to pay,' thus meeting the requirement."
+    }
+  ],
+  "documents_sha256": "8492267c713560d05c4ed7460e7dc8fd22c286e30b86226c01e3ca4a9ef81703"
+}

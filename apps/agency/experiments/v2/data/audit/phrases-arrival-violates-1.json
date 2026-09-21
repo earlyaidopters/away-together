@@ -1,0 +1,72 @@
+{
+  "source": "phrases-arrival-violates-1.json",
+  "source_sha256": "bbd04ba74a87804a7b9eaf6edd00d36798134f5942cc13bb6ca813820f392e49",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "violates",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states guests arriving after 12:00 AM can check in directly without pre-booking."
+    },
+    {
+      "index": 1,
+      "label": "violates",
+      "reason": "Explicitly mandates advance coordination with a booking agent for arrivals after midnight."
+    },
+    {
+      "index": 2,
+      "label": "violates",
+      "reason": "Explicitly requires contacting the property at least two hours prior for late check-ins after 11 PM (which includes after midnight)."
+    },
+    {
+      "index": 3,
+      "label": "violates",
+      "reason": "Explicitly requires confirmation of itinerary beforehand for arrivals past the twelve-hour mark (midnight)."
+    },
+    {
+      "index": 4,
+      "label": "violates",
+      "reason": "Explicitly restricts arrivals past midnight unless special arrangements are confirmed."
+    },
+    {
+      "index": 5,
+      "label": "violates",
+      "reason": "Explicitly states room key issuance after midnight requires manual pre-authorization."
+    },
+    {
+      "index": 6,
+      "label": "violates",
+      "reason": "Explicitly states check-in procedures close at midnight and subsequent arrivals must secure extension approval."
+    },
+    {
+      "index": 7,
+      "label": "violates",
+      "reason": "Explicitly requires notification 24 hours in advance to avoid inconvenience, implying a mandatory prior arrangement."
+    },
+    {
+      "index": 8,
+      "label": "violates",
+      "reason": "Explicitly requires a pre-booked confirmation code for arrivals after twelve o'clock."
+    },
+    {
+      "index": 9,
+      "label": "violates",
+      "reason": "Explicitly mandates that booking amendments be processed through the concierge for arrivals past midnight."
+    },
+    {
+      "index": 10,
+      "label": "violates",
+      "reason": "Explicitly states that spontaneous check-ins are not supported for arrivals spanning midnight."
+    },
+    {
+      "index": 11,
+      "label": "violates",
+      "reason": "Explicitly requires express permission for any deviation from the original reservation for midnight arrivals."
+    }
+  ],
+  "agreement": 11,
+  "n": 12,
+  "seconds": 29.536858320236206,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

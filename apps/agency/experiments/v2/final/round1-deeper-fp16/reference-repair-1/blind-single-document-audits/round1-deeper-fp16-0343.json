@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0343",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "The document explicitly confirms the swimming pool and guided hike for the selected Alder offer. However, it states no rules address overnight registration (arrival) for Alder, and it does not document any refund method (refund)."
+    }
+  ],
+  "documents_sha256": "9eeaa6f7b4498b47521bca7fb0b3d4adf11070d0fd51ff6cee27c28f6675b957"
+}

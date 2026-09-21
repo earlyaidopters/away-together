@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0096",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund policy is undocumented; arrival allows 01:30 check-in without prior contact; pool is free; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0097",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is not 'full cash' due to a mandatory 27 euro charge; arrival requires prior permission; pool is free; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0098",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is not 'full cash' due to a 27 euro charge; arrival requires permission; pool is free; hike requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0099",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund policy contains two equally authoritative conflicting policies; arrival rules do not address overnight registration; pool is free; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0100",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund is not 'full cash' due to a 27 euro charge; arrival rules are not addressed; pool price/access is not stated; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0101",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is not 'full cash' due to a 27 euro charge; arrival requires permission; pool is free; hike is included."
+    }
+  ],
+  "documents_sha256": "8ec4620d82be559abf07d4de57b15345aa2c37546510a8333b6134585920bb92"
+}

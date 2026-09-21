@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0078",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document explicitly confirms a full cash refund for cancellations before the cutoff and a free swimming pool. However, it explicitly states it has not provided information regarding the guided walk (activity) or the rules for midnight arrival (arrival)."
+    }
+  ],
+  "documents_sha256": "eaea998b0fa78ef010595dc1bac7d7f25ddb24f769f1230dca1f7f2407b3c4fc"
+}

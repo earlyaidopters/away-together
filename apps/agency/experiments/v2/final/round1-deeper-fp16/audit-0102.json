@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0102",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund and facility details are undocumented/unstated; arrival requires prior permission (violates); activity inclusion is not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0103",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund has a mandatory charge (violates); arrival requires permission (violates); pool costs 19 euros (violates); hike requires separate payment (violates)."
+    },
+    {
+      "id": "round1-deeper-fp16-0104",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund method/amount is undocumented; arrival requires permission (violates); pool costs 19 euros (violates); hike is included (meets)."
+    },
+    {
+      "id": "round1-deeper-fp16-0105",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is undocumented; arrival policies are conflicting/unresolved; pool costs 19 euros (violates); activity inclusion is not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0106",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Full cash refund is provided (meets); arrival requires permission (violates); pool has no separate fee (meets); hike requires separate payment (violates)."
+    },
+    {
+      "id": "round1-deeper-fp16-0107",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund is undocumented; arrival requires permission (violates); pool details are unstated; hike is included (meets)."
+    }
+  ],
+  "documents_sha256": "377c6437a98730ebc26e03ef8dcee00a3c16e0c1c0a207c968dc990d3cb5ce6e"
+}

@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0222",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy meets the requirement (full money returned with no deduction). Arrival, facility (price/access unstated), and activity (no statement on guided walk) lack sufficient information."
+    },
+    {
+      "id": "round1-deeper-fp16-0223",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund method/amount is undocumented (insufficient). Arrival (automatic at 01:30) and facility (pool with no separate fee) meet requirements. Activity (no statement on guided walk) is insufficient."
+    },
+    {
+      "id": "round1-deeper-fp16-0224",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund violates (mandatory 27 euro charge). Arrival is insufficient (no rules address it). Facility (pool with no separate fee) and activity (walking excursion with guide included) meet requirements."
+    },
+    {
+      "id": "round1-deeper-fp16-0225",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund meets (full money, no deduction). Arrival is insufficient due to conflicting authoritative policies. Facility is insufficient (price/access unstated). Activity violates (requires separate payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0226",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates (mandatory 27 euro charge). Arrival is insufficient (no rules address it). Facility meets (pool with no separate fee). Activity is insufficient (no statement on guided walk)."
+    },
+    {
+      "id": "round1-deeper-fp16-0227",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund meets (entire payment returned). Arrival is insufficient (no rules address it). Facility violates (19 euro charge). Activity violates (requires separate payment)."
+    }
+  ],
+  "documents_sha256": "103be3b144565bf93aed88fc659d04b0f5c31017b7b8d6ac157c580381977a93"
+}

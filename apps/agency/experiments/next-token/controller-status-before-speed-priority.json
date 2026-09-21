@@ -1,0 +1,6 @@
+{
+  "pid": 51327,
+  "stage": "superseded-while-waiting",
+  "utc": "2026-09-21T14:56:04.862374+00:00",
+  "reason": "User prioritizes speed; reorder speed before next-token comparator"
+}

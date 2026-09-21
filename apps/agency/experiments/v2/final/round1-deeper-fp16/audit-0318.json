@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0318",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is a full cash return; arrival rules are unaddressed; pool is free; hike requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0319",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is a full cash return; arrival after midnight requires prior permission; pool is free; hike is included with nothing further to pay."
+    },
+    {
+      "id": "round1-deeper-fp16-0320",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund info is not documented; arrival requires prior permission; pool has a fee; activity info is not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0321",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is a full cash return; arrival policies are conflicting/unresolved; pool is free; activity info is not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0322",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund info is not documented; arrival after midnight is automatic; pool details are not stated; hike requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0323",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund is a full cash return; arrival after midnight requires permission; pool details are not stated; hike requires extra payment."
+    }
+  ],
+  "documents_sha256": "1c84ba9eb5ef6b258f2b6e55c1f5d60b2e436a7e46ace8c5eb9c208f60cdf1ba"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0106",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund policy matches the requirement; arrival policy for May is explicitly stated as undocumented; swimming pool is free; hike requires an extra fee, violating the inclusion requirement."
+    }
+  ],
+  "documents_sha256": "185debf5dd3a7f478cc0c1cded4f4b0d4c14387ac4147107a97b8ad0a1f5422d"
+}

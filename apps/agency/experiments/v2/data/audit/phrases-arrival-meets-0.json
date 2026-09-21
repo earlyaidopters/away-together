@@ -1,0 +1,72 @@
+{
+  "source": "phrases-arrival-meets-0.json",
+  "source_sha256": "4bbfc0b4241240ce5d0416d2833bcaa04a57400aaf5a611ba58b9a5a50ae1e0a",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "meets",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states guests arriving after 12:00 AM are welcome and can proceed to the lobby without prior arrangement."
+    },
+    {
+      "index": 1,
+      "label": "meets",
+      "reason": "Explicitly states no special booking or pre-registration is necessary for arrivals exceeding midnight."
+    },
+    {
+      "index": 2,
+      "label": "meets",
+      "reason": "Explicitly states no advance notification is required for late night (post-midnight) arrivals."
+    },
+    {
+      "index": 3,
+      "label": "meets",
+      "reason": "Explicitly states post-midnight arrivals require no coordination and can present ID at any time."
+    },
+    {
+      "index": 4,
+      "label": "meets",
+      "reason": "Explicitly states walk-ins are fine after midnight and the system handles the process without exception."
+    },
+    {
+      "index": 5,
+      "label": "meets",
+      "reason": "Explicitly states entry is streamlined regardless of the hour past midnight and simply arriving is sufficient."
+    },
+    {
+      "index": 6,
+      "label": "meets",
+      "reason": "Explicitly states guests are welcome straight away after midnight and key card access is available without calling ahead."
+    },
+    {
+      "index": 7,
+      "label": "meets",
+      "reason": "Explicitly states after midnight check-ins are permissible without pre-booking or special codes."
+    },
+    {
+      "index": 8,
+      "label": "meets",
+      "reason": "Explicitly states the property accepts guests at any time past midnight with fully supported walk-in registration."
+    },
+    {
+      "index": 9,
+      "label": "meets",
+      "reason": "Explicitly states entry is automatic after 12:00 AM regardless of advance notice."
+    },
+    {
+      "index": 10,
+      "label": "meets",
+      "reason": "Explicitly states midnight arrivals are accommodated and no prior digital check-in is needed."
+    },
+    {
+      "index": 11,
+      "label": "meets",
+      "reason": "Explicitly states overnight arrivals are supported without any advance coordination."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 30.47920322418213,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

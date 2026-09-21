@@ -1,0 +1,1 @@
+{"name":"away-together","private":true,"version":"1.0.0","description":"Local decision systems and visual teaching by Mark Kashef / Prompt Advisers","scripts":{"dev:explainer":"python3 apps/explainer/serve.py","build:agency":"npm --prefix apps/agency/app run build","test:agency":"npm --prefix apps/agency/app test","check:source":"python3 tools/check_source.py"}}

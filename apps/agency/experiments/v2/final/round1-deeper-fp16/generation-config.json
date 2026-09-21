@@ -1,0 +1,8 @@
+{
+  "freeze_sha256": "ee824b7cd33b083e48b043e7cd5d88f913ca7c9c59b9c2bbf44db4290d250ca4",
+  "seed": 2026092101,
+  "n": 360,
+  "writer": "qwen3.5-122b-a10b:latest",
+  "auditor": "gemma4:26b",
+  "generator_sha256": "b8284ff70860525f840018bcbfa645dab8108d60da691706eae103ef00988c88"
+}

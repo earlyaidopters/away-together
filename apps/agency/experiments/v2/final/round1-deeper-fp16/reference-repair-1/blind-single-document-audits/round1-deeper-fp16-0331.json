@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0331",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy matches (full money returned); arrival policy violates (requires permission for check-in after midnight); facility matches (pool available without extra fee); activity is unknown (no statement provided for the selected Alder offer)."
+    }
+  ],
+  "documents_sha256": "052f3084912ec6eaab87c01898e968ce8da8f459f2d5ed8dde7b5d470deca1db"
+}

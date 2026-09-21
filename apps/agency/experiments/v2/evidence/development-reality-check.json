@@ -1,0 +1,21 @@
+{
+  "original": {
+    "accuracy": 0.99375,
+    "macro_f1": 0.9936704223761978,
+    "n": 800,
+    "elapsed_s": 24.11254596710205,
+    "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "split": "original dev only; no final scoring"
+  },
+  "harder": {
+    "accuracy": 0.7847222222222222,
+    "macro_f1": 0.7532761216971743,
+    "n": 576,
+    "elapsed_s": 23.024380922317505,
+    "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+    "split": "experiments/v2/data/robustness-dev.jsonl; development only; no final scoring"
+  },
+  "claim": "Pretrained model accuracy fell on more complex development inputs; comparison is between datasets, not models.",
+  "synthetic": true,
+  "final_test": false
+}

@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0132",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is full with no deduction; arrival rules are not addressed; pool is free; hike requires a separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0133",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a mandatory charge; arrival requires prior permission; pool details are not stated; hike inclusion is not mentioned."
+    },
+    {
+      "id": "round1-deeper-fp16-0134",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a mandatory charge; arrival rules are not addressed; pool is free; hike inclusion is not mentioned."
+    },
+    {
+      "id": "round1-deeper-fp16-0135",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a mandatory charge; arrival rules are not addressed; pool policies are conflicting/unresolved; hike inclusion is not mentioned."
+    },
+    {
+      "id": "round1-deeper-fp16-0136",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is full with no deduction; arrival rules are not addressed; pool is free; hike inclusion is not mentioned."
+    },
+    {
+      "id": "round1-deeper-fp16-0137",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is full with no deduction; arrival at 01:30 is automatic; pool has a 19 euro charge; hike inclusion is not mentioned."
+    }
+  ],
+  "documents_sha256": "fb79be49bff8b26afe54c1827a3319572bd0c80dd152639aa2aa3347ac363f1d"
+}

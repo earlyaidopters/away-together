@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0067",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "The document states records do not document refund methods (insufficient); no rules address overnight registration (insufficient); it explicitly confirms a free swimming pool (meets); and confirms the Alder offer includes a guided walking excursion with no extra charge (meets)."
+    }
+  ],
+  "documents_sha256": "8eafdcb055c6bfc93f40a007e341f5ee03ce5876f0b09cbf775ab4985c032083"
+}

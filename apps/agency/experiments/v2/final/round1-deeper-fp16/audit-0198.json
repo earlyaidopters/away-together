@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0198",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund and arrival policies are undocumented; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0199",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is undocumented; arrival at 01:30 is automatic; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0200",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is undocumented; arrival at 01:30 requires prior permission; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0201",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is undocumented; arrival policy contains two equally authoritative conflicting statements; pool is free; hike requires a separate 38 euro payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0202",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Cancellation incurs a 27 euro charge; arrival rules are not addressed; pool details (price/access) are not stated; hike requires a separate 38 euro payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0203",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Full cash refund is provided; arrival at 01:30 is automatic; pool location/price/access are not stated; hike requires a separate 38 euro payment."
+    }
+  ],
+  "documents_sha256": "13f32bfea2e2682157f4a1c3c423bae6dcec17b68f72a38dc5757863d36e61a1"
+}

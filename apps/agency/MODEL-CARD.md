@@ -1,0 +1,41 @@
+# Away Together travel-nli
+Experimental English policy classifier. Research/demo use; failed the preregistered product quality gate.
+
+This opening card describes the currently served V1 model. A separately frozen V2 challenger is described below. It lost its fresh head-to-head comparison and was not promoted.
+
+Base: MoritzLaurer/ModernBERT-base-zeroshot-v2.0, revision d421c4545a438fd006fb43f8b981c5d908faa1e1. Selected file: models/travel-nli/model.safetensors. SHA256: 570136bd194dd2fa51aa29dca2d86bde0151db0c791e21aad71f7d6f612ed152. Base model is approximately 149M parameters. Its card declares Apache-2.0; preserve upstream license and attribution. See research/UPSTREAM-EXPOSURE.md for mixed training-data provenance.
+
+Task: match offer text to three natural-language hypotheses for each of four policies: cash refund, midnight arrival, included onsite pool, included guided hike. Labels are meets, violates, insufficient_evidence. The pretrained entailment head scores each candidate. Softmax groups candidates; top two encoder layers and the original head were updated with independent synthetic travel labels. Two epochs, learning rate 5e-6, 375 seconds recorded training. Temperature 1.1 and accept threshold 0.57 came from calibration, not final tests.
+
+Splits: 1200/200/200/300/100 scenarios for train/dev/calibration/test/challenge, four decisions each. Exact text and prose family are split-disjoint, but each class/task has one wording per split and the underlying four three-way dimensions permit only 81 combinations per split. Counts greatly overstate diversity if read as independent real-world situations. No human audit has been completed.
+
+Held-out travel accuracy 66.5%, macro F1 by field 0.6046. Eighty-five of 365 accepted decisions were wrong, 23.29%. Challenge accuracy 81.5%. These results miss the planned 0.85 macro F1 and <=5% false-accept targets. Do not automate booking based on this model.
+
+Initial base-encoder training failed to generalize. Final model weights were frozen before scoring. A serving serialization mismatch was found after an initial invalid scoring attempt, corrected to match training, and reloaded development metrics matched the training receipt. Invalid predictions remain archived. No final error-driven model tuning occurred. See runs/interventions.jsonl and runs/preflight/reload-parity.json.
+
+Only textual policy clauses enter the V1 text model. The new OpenJev vision branch receives selected photo pixels separately. Avatars, budget arithmetic, currency checks, evidence-field linkage and group aggregation are application code. Confidence scores are empirically calibrated only on the narrow calibration set. Unsupported prose can yield confident errors. Human review is essential.
+
+Offline serving works with local config/tokenizer/weights. CPU is supported by the code but final published timings used MPS on the local Mac. No Railway or remote CPU performance has been measured.
+
+## V2 frozen final result: not qualified, not promoted
+
+Checkpoint: experiments/v2/models/deberta-travel-deeper-fp16. Freeze: experiments/v2/freezes/deeper-fp16-20260921.json. Weight SHA256: 0c377b5e7f39b6f30a6379ab15bb750ff267b073a2f6fc134a357bb719fdc874. Base: MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli at b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7, a previously trained three-way NLI classifier. Its model card declares MIT licensing. See THIRD-PARTY-NOTICES.md and the V2 provenance note.
+
+The adapter reads the complete document for each requirement and maps entailment, contradiction and neutral to meets, violates and insufficient_evidence. Inputs over 512 tokenizer tokens are refused, never silently truncated. Four native policy hypotheses share one forward batch. No reference clause or Jev prediction is supplied as an input or training label.
+
+Development: 2400 original training documents plus 432 boundary-training documents, 400 development documents plus 144 authored hard development cases, and 400 separate calibration documents. Four decisions per document. The final deeper adaptation updated four encoder layers for two additional passes at learning rate 1e-6, following earlier development-selected runs. Report the complete experiment history, not just this final pass. Exact training and source hashes are in the freeze and selection receipts.
+
+Inference is FP16 with temperature 1.8 and acceptance threshold 0.89. Development agreement is 91.9577% and macro F1 is 0.919686. Calibration accepted 403 decisions, 12 incorrectly; correct-meets recall is 391/493, or 79.31%. These are development/calibration results, not final held-out evidence. A four-block precision experiment found zero changed development choices across 2176 decisions and approximately twice-as-fast warm model inference; loading, HTTP and browser time were excluded.
+
+Fresh final generation occurs after freeze, using fact-first Qwen prose and a blind Gemma reference audit. References remain synthetic rather than human judgments. All prespecified cases must be retained; audit disagreements require documented resolution before either contestant is scored. The first generation attempt disconnected after 72 saved drafts and resumed from those files using the same protocol. The first blind audit found 59 disagreements. Before any contestant inference, an agent compared them with the prespecified facts, made 52 surgical fact/scope or ambiguity repairs, and retained seven documents unchanged for auditor errors. Original drafts, audits and a full repair ledger are preserved in the round directory. Fresh blind single-document Gemma audits use the same label contract without seeing expected labels. All 360 cases remain; neither candidate weights nor latent labels changed. This is agent-assisted reference review, not human validation. Two Gemma disagreements remained after the single-document audits. A fixed blind Qwen second opinion agreed with the prespecified facts on both unchanged documents. Qwen also wrote the original drafts, so those two adjudications are not independent of the writer; Gemma dissent is preserved. The final manifest and per-row provenance disclose this process.
+
+Promotion requires all registered quality and coverage gates in two non-overlapping fresh rounds. Independent public results remain separate and cannot tune the candidate. Repeated fact templates, model-assisted reference validation, upstream training exposure uncertainty, and synthetic travel language limit generalization. No universal superiority or real booking safety is established.
+
+
+Final round 1: 360 scenarios, 1,440 decisions per engine, zero failed decisions. Local accuracy 95.2778%, macro F1 0.9528499; Jev accuracy 98.6111%, macro F1 0.9863203. Scenario-paired local-minus-Jev accuracy difference -3.3333 percentage points, with a 95% bootstrap interval of [-4.3750, -2.2917]. The prespecified superiority gate failed. Other gates passed: 393 accepted local decisions, zero observed accepted errors, and 83.4395% correct-meets recall. These observations do not establish zero population risk.
+
+Disposition: no promotion and no conditional second-round replication after the first-round failure. No replacement seed, threshold changes or final-error tuning. App inference remains on historical V1. The unpromoted V2 weights, complete references and raw predictions are included for reproduction. Public results are independent lanes in output/benchmarks/FROZEN-V2-RESULTS.md and cannot tune this checkpoint.
+
+## Photo-aware revision, 21 September 2026
+
+The agency now uses real local OpenJev / DiffusionGemma image inference alongside the existing V1 text classifier. Each destination has three fictional listing photos, with selectable image evidence and editable traveller photo preferences. Run `Launch Vision.command` once to set up the pinned Apple Silicon backend, then launch the agency. The additional model download is about 16 GB and is not included in the ZIP. It runs in a separate environment on localhost:8081. Photo observations do not establish prices, free access, availability or accessibility. Missing evidence requires review. See `experiments/openjev-vision/README.md` for source pins, installation, real run receipts and limits. The historical V2 text comparison is unchanged; this is not a new Jev superiority result.

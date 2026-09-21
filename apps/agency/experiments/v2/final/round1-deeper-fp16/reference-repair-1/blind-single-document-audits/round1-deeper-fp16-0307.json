@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0307",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Arrival and pool policies are explicitly stated; refund and activity policies are explicitly noted as not being documented or supplied for the selected Alder offer."
+    }
+  ],
+  "documents_sha256": "3e5729cda26029ff29186a01fe2ea155cff36dd6ca2a3278081b05ba5f5f0ca8"
+}

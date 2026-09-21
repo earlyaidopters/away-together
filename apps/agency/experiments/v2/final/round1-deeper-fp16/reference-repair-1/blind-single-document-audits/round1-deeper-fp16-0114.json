@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0114",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy matches (full money returned); arrival policy matches (01:30 allowed without contact); facility policy violates (19 euro charge for pool); activity policy is insufficient (document states no statement about a guided walk is supplied, leaving the inclusion status unknown)."
+    }
+  ],
+  "documents_sha256": "f9638419c4ef4534c99f0d6f728a1405ad3e824bfe77c8f344b9077568da9a79"
+}

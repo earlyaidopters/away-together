@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0078",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund and facility requirements are met; arrival policy is unaddressed; activity explicitly excludes the guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0079",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund and arrival requirements are met; facility requires an extra fee; activity requires a separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0080",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund, arrival, and facility requirements are met; activity explicitly excludes the guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0081",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund, arrival, and facility information is missing or conflicting; activity explicitly excludes the guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0082",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund info is missing; arrival requires prior permission; facility requires an extra fee; activity requires a separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0083",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund, arrival, and facility requirements are met; activity explicitly excludes the guided hike."
+    }
+  ],
+  "documents_sha256": "510d53f17895c1b0d014804b40ed9a2a06d321d6290bbd55d3b1bf41e17cc5d0"
+}

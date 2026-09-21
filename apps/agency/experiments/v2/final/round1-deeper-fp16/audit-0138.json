@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0138",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund violates due to mandatory 27 euro charge; arrival violates because permission is required for late check-in; facility and activity meet requirements."
+    },
+    {
+      "id": "round1-deeper-fp16-0139",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund and facility lack necessary info; arrival violates because permission is required; activity is noted as not supplied in the offer details."
+    },
+    {
+      "id": "round1-deeper-fp16-0140",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund meets (no deduction); arrival violates (permission required); facility is insufficient (location/price/access unknown); activity violates because the current policy requires a separate 38 euro payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0141",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund meets; arrival is insufficient (no rules addressing it); facility violates (19 euro charge); activity is insufficient due to two equally authoritative conflicting policies."
+    },
+    {
+      "id": "round1-deeper-fp16-0142",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund and arrival are insufficient (no documentation/rules); facility meets; activity violates because the included hike policy only applies to December, not the selected May stay."
+    },
+    {
+      "id": "round1-deeper-fp16-0143",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund violates (27 euro charge); arrival violates (permission required); facility meets; activity violates (requires separate 38 euro payment)."
+    }
+  ],
+  "documents_sha256": "8f893f583497f988c5b29a6f1ee824cfc3da8dcebdfbb6675870844356ffc42c"
+}

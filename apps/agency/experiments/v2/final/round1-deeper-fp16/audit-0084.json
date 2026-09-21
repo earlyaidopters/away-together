@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0084",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "The agent confirms full refund with no deduction, automatic check-in after midnight without contact, free pool access, and a guided hike included in the price."
+    },
+    {
+      "id": "round1-deeper-fp16-0085",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund info is undocumented; arrival requires prior permission (violates); pool is free per the booked accommodation policy; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0086",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund info is undocumented; arrival rules are not addressed; pool is free per current terms; hike requires a separate payment (violates)."
+    },
+    {
+      "id": "round1-deeper-fp16-0087",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a mandatory charge (violates); arrival rules are not addressed; pool policies are conflicting/unresolved; hike info is not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0088",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund has a mandatory charge (violates); arrival rules are not addressed; pool price/conditions are not stated; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0089",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a mandatory charge (violates); arrival rules are not addressed; pool price/conditions are not stated; hike info is not supplied."
+    }
+  ],
+  "documents_sha256": "ccdac2433609d9d45664229eed91464142321418019003749c5108a3d44a3542"
+}

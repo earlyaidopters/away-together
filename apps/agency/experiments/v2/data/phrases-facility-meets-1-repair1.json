@@ -1,0 +1,113 @@
+{
+  "task": "facility",
+  "label": "meets",
+  "batch": 1,
+  "requirement": "Guests can use a swimming pool located at the booked property for no additional charge during the described stay.",
+  "meaning_constraints": "Own onsite swimming pool open during stay, included/free for all resident guests.",
+  "clauses": [
+    {
+      "text": "Can we use the pool? Yes, use of the onsite swimming pool is included for everyone on this booking throughout the stay.",
+      "rationale": "Maintained 'onsite', 'included for everyone on this booking', and 'throughout the stay' in an FAQ format."
+    },
+    {
+      "text": "Regarding your inquiry: resident guests swim free in the hotel courtyard pool; it is open for the booked week.",
+      "rationale": "Preserved 'resident guests', 'swim free', 'hotel courtyard pool', and the specific 'booked week' timeframe."
+    },
+    {
+      "text": "*The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it.",
+      "rationale": "Kept 'own swimming pool', 'open during these stay dates', and the 'nothing extra' cost condition."
+    },
+    {
+      "text": "Your reservation is confirmed. Use of the onsite swimming pool is included for everyone on this booking throughout the stay.",
+      "rationale": "Retained 'onsite', 'included for everyone on this booking', and 'throughout the stay' within a confirmation context."
+    },
+    {
+      "text": "Policy Note: Resident guests swim free in the hotel courtyard pool; it is open for the booked week.",
+      "rationale": "Preserved 'resident guests', 'swim free', 'hotel courtyard pool', and the 'booked week' duration."
+    },
+    {
+      "text": "Note: The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it.",
+      "rationale": "Maintained 'own swimming pool', 'open during these stay dates', and 'pay nothing extra' for the fine print."
+    },
+    {
+      "text": "To answer your question, use of the onsite swimming pool is included for everyone on this booking throughout the stay.",
+      "rationale": "Preserved 'onsite', 'included for everyone on this booking', and 'throughout the stay' in a support tone."
+    },
+    {
+      "text": "Resident guests swim free in the hotel courtyard pool. It is open for the booked week.",
+      "rationale": "Kept 'resident guests', 'swim free', 'hotel courtyard pool', and the 'booked week' constraint."
+    },
+    {
+      "text": "Amenities: The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it.",
+      "rationale": "Preserved 'own swimming pool', 'open during these stay dates', and 'pay nothing extra' for an entry."
+    },
+    {
+      "text": "Please note an update: use of the onsite swimming pool is included for everyone on this booking throughout the stay.",
+      "rationale": "Retained 'onsite', 'included for everyone on this booking', and 'throughout the stay' for the amendment."
+    },
+    {
+      "text": "Operator Statement: Resident guests swim free in the hotel courtyard pool; it is open for the booked week.",
+      "rationale": "Preserved 'resident guests', 'swim free', 'hotel courtyard pool', and the 'booked week' timeframe."
+    },
+    {
+      "text": "Pool Access: The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it.",
+      "rationale": "Maintained 'own swimming pool', 'open during these stay dates', and 'pay nothing extra' for a table."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 12.771217823028564,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "09424c5efbb6931d01ced0e3d54beca32fb772601fac7eca5e7f487552de4b5a",
+  "repair_of": "phrases-facility-meets-1.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "Resident guests swim free in the hotel courtyard pool; it is open for the booked week."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "Resident guests swim free in the hotel courtyard pool; it is open for the booked week."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "Resident guests swim free in the hotel courtyard pool; it is open for the booked week."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "Use of the onsite swimming pool is included for everyone on this booking throughout the stay."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "Resident guests swim free in the hotel courtyard pool; it is open for the booked week."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "The property has its own swimming pool, open during these stay dates, and guests pay nothing extra to use it."
+    }
+  ]
+}

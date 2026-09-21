@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-09-21T18:34:25.952027+00:00",
+  "scenarios": 360,
+  "original_disagreements": 59,
+  "documents_repaired_against_prespecified_facts": 52,
+  "reviewed_documents_unchanged": 7,
+  "single_document_gemma_agreements": 57,
+  "nonunanimous_adjudications": [
+    {
+      "id": "round1-deeper-fp16-0140",
+      "gemma_dissent": {
+        "id": "round1-deeper-fp16-0140",
+        "labels": {
+          "refund": "meets",
+          "arrival": "violates",
+          "facility": "insufficient_evidence",
+          "activity": "violates"
+        },
+        "reason": "refund: states entire payment is returned as money with no deduction; arrival: explicitly states check-in after midnight requires prior permission; facility: mentions a swimming area but lacks information on price or access; activity: the note explicitly states the hike requires a separate 38 euro payment, contradicting the main text and superseding it."
+      },
+      "blind_second_opinion": {
+        "id": "round1-deeper-fp16-0140",
+        "labels": {
+          "activity": "meets",
+          "arrival": "violates",
+          "facility": "insufficient_evidence",
+          "refund": "meets"
+        },
+        "reason": "Refund: The text explicitly states the entire payment is returned as money if cancelled before the cutoff, meeting the requirement. Arrival: The text explicitly forbids check-in at 01:30 without prior permission, violating the requirement for midnight check-in without arrangement. Facility: The text mentions a swimming area but explicitly states location, price, and access conditions are unknown, leaving the 'no extra charge' requirement unverified. Activity: Although a footnote suggests a separate fee, the text immediately clarifies that 'Current selected terms completely replace this old policy' and the main body states the quoted amount covers the guided hike with 'nothing further to pay,' thus meeting the requirement."
+      },
+      "adjudication_basis": "Prespecified facts and agent review of unchanged document scope, supported by blind second opinion.",
+      "independence_limit": "Second-opinion model also wrote original drafts; not independent human validation."
+    },
+    {
+      "id": "round1-deeper-fp16-0235",
+      "gemma_dissent": {
+        "id": "round1-deeper-fp16-0235",
+        "labels": {
+          "refund": "meets",
+          "arrival": "insufficient_evidence",
+          "facility": "violates",
+          "activity": "insufficient_evidence"
+        },
+        "reason": "Refund policy meets the requirement (entire payment returned as money). Arrival policy is explicitly stated as having no rules (insufficient evidence). Facility policy violates the requirement (charges 19 euros for the pool). Activity policy is insufficient evidence because the agent states the information is missing from the unbooked offer policy, despite the conversational context."
+      },
+      "blind_second_opinion": {
+        "id": "round1-deeper-fp16-0235",
+        "labels": {
+          "activity": "meets",
+          "arrival": "insufficient_evidence",
+          "facility": "violates",
+          "refund": "meets"
+        },
+        "reason": "Refund: The text explicitly states 'the entire payment is returned as money' before the cutoff, meeting the requirement. Arrival: The text explicitly states 'no rules address overnight registration', leaving the policy unknown. Facility: The text states guests are 'charges booked guests 19 euros' for the pool, violating the 'no extra charge' requirement. Activity: The text explicitly states the quoted amount 'pays for a walking excursion... accompanied by a human guide, with nothing further to pay', meeting the requirement; the mention of missing info applies only to the unselected offer."
+      },
+      "adjudication_basis": "Prespecified facts and agent review of unchanged document scope, supported by blind second opinion.",
+      "independence_limit": "Second-opinion model also wrote original drafts; not independent human validation."
+    }
+  ],
+  "excluded_scenarios": 0,
+  "classifier_predictions_consulted": false,
+  "human_validated": false,
+  "ledger_sha256": "1734c7dca7bdf4c7cca43e006b2724b0e9253f5a69e73420741b67993db4f9c2",
+  "original_hash_manifest_sha256": "70ba8c078bb1d07a36adf1777998472abff07c69de4d3577b7024a7dc4008e67",
+  "supplemental_sealer_sha256": "4b67147d2385bd38b08bfb7af27dc4d6d9c8aa79383e9139796ac2d6481441da",
+  "reference_scope": "Synthetic fact-first references with agent factual repairs, blind Gemma audits and two openly recorded writer-assisted adjudications."
+}

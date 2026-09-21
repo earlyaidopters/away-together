@@ -1,0 +1,62 @@
+{
+  "task": "refund",
+  "label": "violates",
+  "batch": 0,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "Use varied explicit counterexamples: voucher only; retained handling fee; only partial refund; deposit forfeited; non-refundable advance purchase; money never returned even before the cutoff.",
+  "clauses": [
+    {
+      "text": "If plans change, cancellations made through our portal prior to the seven-day mark receive a full reimbursement of the booking total.",
+      "rationale": "The text explicitly states a full refund of the paid amount for early cancellation."
+    },
+    {
+      "text": "Should you need to cancel, please note that voucher redemptions are final; no monetary refunds are issued upon withdrawal.",
+      "rationale": "The text only mentions voucher usage and specifically excludes monetary returns."
+    },
+    {
+      "text": "Cancellation within 14 days allows for a refund, minus a standard administrative processing charge.",
+      "rationale": "The text mentions a refund but specifies a deduction (handling fee), not a full return."
+    },
+    {
+      "text": "Your deposit secures your reservation; this sum is retained by the property regardless of cancellation timing.",
+      "rationale": "The text clearly states the deposit money is kept by the property upon cancellation."
+    },
+    {
+      "text": "This special rate requires a non-refundable advance purchase, meaning the initial outlay is kept regardless of itinerary changes.",
+      "rationale": "The text uses 'non-refundable' and confirms the initial payment is kept."
+    },
+    {
+      "text": "By booking this package, you acknowledge that deposits are forfeited if the travel dates are altered by the guest.",
+      "rationale": "The text states that forfeited deposits occur upon itinerary change."
+    },
+    {
+      "text": "We generally process refunds immediately, though some minor service fees may apply to the returned balance.",
+      "rationale": "The text suggests a refund but qualifies it with potentially applicable fees."
+    },
+    {
+      "text": "Full credit is provided for cancellations made more than 30 days out; otherwise, the remaining balance is subject to forfeiture.",
+      "rationale": "The text implies a full refund threshold, and what is left over can be forfeited."
+    },
+    {
+      "text": "The initial payment covers the booking. If canceled, the amount paid will only be credited toward future stays, not returned to the original funding source.",
+      "rationale": "The text restricts the return of money, limiting it to credit rather than a cash refund."
+    },
+    {
+      "text": "Changes require submitting a modification request; otherwise, payments received are considered fully utilized for booking confirmation.",
+      "rationale": "The text implies that payments made are considered fully used up and not refundable."
+    },
+    {
+      "text": "If cancellation notice precedes the due date, the full payment amount is returned to the original payment method.",
+      "rationale": "The text explicitly guarantees the return of the entire paid amount."
+    },
+    {
+      "text": "A change in plans before the cutoff point means the initial payment is lost; no refund is issued under any circumstances.",
+      "rationale": "The text uses definitive language stating no refund is given under any condition."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 16.907828092575073,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "915891c001f0157e7cd5c69b9df02bfb7916565a9765aeeffbc3e2c6988fd76e"
+}

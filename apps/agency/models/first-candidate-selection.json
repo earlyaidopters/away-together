@@ -1,0 +1,52 @@
+{
+  "selected": "travel-v1",
+  "temperature": 4.0,
+  "accept_threshold": 1.01,
+  "calibration_n": 800,
+  "head_weight_delta_l2": 8.363186836242676,
+  "training_seconds": 944.3324308395386,
+  "history": [
+    {
+      "stage": "frozen-head",
+      "epoch": 1,
+      "loss": 1.1015577632188798,
+      "dev": {
+        "macro_f1": 0.16304689959080895,
+        "accuracy": 0.32375
+      },
+      "seconds": 170.69817113876343
+    },
+    {
+      "stage": "travel-v1",
+      "epoch": 1,
+      "loss": 0.7248943402913088,
+      "dev": {
+        "macro_f1": 0.28343545730343256,
+        "accuracy": 0.3025
+      },
+      "seconds": 233.67803812026978
+    },
+    {
+      "stage": "travel-v1",
+      "epoch": 2,
+      "loss": 0.014756308764693435,
+      "dev": {
+        "macro_f1": 0.26390549731020824,
+        "accuracy": 0.28
+      },
+      "seconds": 237.99229788780212
+    },
+    {
+      "stage": "travel-v1",
+      "epoch": 3,
+      "loss": 0.0015489238871044127,
+      "dev": {
+        "macro_f1": 0.2818680311808404,
+        "accuracy": 0.3125
+      },
+      "seconds": 274.9401249885559
+    }
+  ],
+  "sha256": "f8c61a30bdfe895be2fe6c2c1bfb6df8f61076f8fe3860231ca4781601158247",
+  "frozen_at_utc": "2026-09-21T03:30:30.145669+00:00"
+}

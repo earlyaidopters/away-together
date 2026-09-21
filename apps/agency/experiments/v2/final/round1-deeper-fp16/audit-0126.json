@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0126",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is full with no deduction; arrival requires prior permission (violates); pool is free; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0127",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund has a 27 euro charge; arrival requires prior permission; pool is free; hike requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0128",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund is full; arrival policy is unaddressed/unknown; pool price and access are not stated; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0129",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a 27 euro charge; arrival policies are conflicting/unresolved; pool costs 19 euros; hike information is not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0130",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is full; arrival at 01:30 is automatic; pool costs 19 euros; hike requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0131",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund has a 27 euro charge; arrival is automatic; pool price/access not stated; hike is included."
+    }
+  ],
+  "documents_sha256": "c947b3ee76f852290b12b619a5366f73cd90382aa25a274c77479d0213d34c12"
+}

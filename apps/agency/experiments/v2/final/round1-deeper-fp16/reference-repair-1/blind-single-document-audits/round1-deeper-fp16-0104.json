@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0104",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "The document states the refund method/amount is not documented (insufficient_evidence); it states no rules address overnight registration (insufficient_evidence); it explicitly states there is a 19 euro charge for the pool (violates); and it confirms the price includes a guided walking excursion (meets)."
+    }
+  ],
+  "documents_sha256": "c95e3098fbae2b9a16c3be81f9afa73b3a85a58f419a735b66aeea22afff375b"
+}

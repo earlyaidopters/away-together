@@ -1,0 +1,72 @@
+{
+  "source": "phrases-activity-insufficient_evidence-1.json",
+  "source_sha256": "11408ab1887cda2ff765fa0f6efbbaa594c2e9327742fdd8c3ec01619caa8348",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "insufficient_evidence",
+  "answers": [
+    {
+      "index": 0,
+      "label": "insufficient_evidence",
+      "reason": "The text states that details on guided support are subject to confirmation, so it neither explicitly includes nor excludes a guide in the advertised price."
+    },
+    {
+      "index": 1,
+      "label": "insufficient_evidence",
+      "reason": "The text mentions that trekking support levels vary by tier but does not explicitly state whether the standard package includes a guide or not."
+    },
+    {
+      "index": 2,
+      "label": "insufficient_evidence",
+      "reason": "The text requires checking add-on details for elevated activities but does not explicitly confirm or deny if a guide is included in the base price."
+    },
+    {
+      "index": 3,
+      "label": "violates",
+      "reason": "The text explicitly states that specific guided walks must be booked separately, meaning the guide is not included in the advertised price."
+    },
+    {
+      "index": 4,
+      "label": "violates",
+      "reason": "The text states that alpine exploration requires reviewing supplemental guiding service agreements, implying the guide is an extra cost and not included."
+    },
+    {
+      "index": 5,
+      "label": "insufficient_evidence",
+      "reason": "The text says confirmation of guided accompaniment is pending, so it does not explicitly establish inclusion or exclusion."
+    },
+    {
+      "index": 6,
+      "label": "insufficient_evidence",
+      "reason": "The text asks the user to verify the scope of guidance required, without explicitly stating whether a guide is included in the price."
+    },
+    {
+      "index": 7,
+      "label": "violates",
+      "reason": "The text states that expert local guidance is at the discretion of the site manager, implying it is not a guaranteed inclusion in the advertised price."
+    },
+    {
+      "index": 8,
+      "label": "insufficient_evidence",
+      "reason": "The text mentions extended hiking adventures are subject to assessment but does not explicitly state if a guide is included in the base fare."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "The text requires a follow-up questionnaire to confirm guide staffing levels, so inclusion is not explicitly established."
+    },
+    {
+      "index": 10,
+      "label": "violates",
+      "reason": "The text implies that extended trekking requires further costing and logistical plans, suggesting the guide is an additional cost not included in the base price."
+    },
+    {
+      "index": 11,
+      "label": "insufficient_evidence",
+      "reason": "The text states that confirmation regarding expert facilitation is pending, so it does not explicitly establish inclusion."
+    }
+  ],
+  "agreement": 8,
+  "n": 12,
+  "seconds": 34.76102304458618,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

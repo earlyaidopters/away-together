@@ -1,0 +1,105 @@
+{
+  "history_sha256": "bb4611067304af3ba249c2c050bee9b5a73da566aa9242f42a4a37e64572fa38",
+  "completed_measurements": [
+    {
+      "epoch": 0,
+      "dev": {
+        "accuracy": 0.7624080882352942,
+        "macro_f1_by_field": 0.7365025844168985,
+        "fields": {
+          "refund": 0.7240348136634932,
+          "arrival": 0.7995869691566769,
+          "facility": 0.7231728361042222,
+          "activity": 0.6992157187432019
+        }
+      },
+      "authored_robustness_dev": {
+        "accuracy": 0.7847222222222222,
+        "macro_f1_by_field": 0.7406907009137716,
+        "fields": {
+          "refund": 0.7068389500029103,
+          "arrival": 0.9162101942226166,
+          "facility": 0.6910057598582188,
+          "activity": 0.648707899571341
+        }
+      },
+      "elapsed": 140.02188801765442
+    },
+    {
+      "epoch": 1,
+      "dev": {
+        "accuracy": 0.8391544117647058,
+        "macro_f1_by_field": 0.8339674379943781,
+        "fields": {
+          "refund": 0.8187329813930275,
+          "arrival": 0.8958352107632339,
+          "facility": 0.8010056019176176,
+          "activity": 0.8202959579036335
+        }
+      },
+      "authored_robustness_dev": {
+        "accuracy": 0.875,
+        "macro_f1_by_field": 0.8608825857267591,
+        "fields": {
+          "refund": 0.8422799422799422,
+          "arrival": 0.954591836734694,
+          "facility": 0.8405297152960705,
+          "activity": 0.8061288485963298
+        }
+      },
+      "loss": 0.5913348343471686,
+      "elapsed": 1169.8596651554108
+    },
+    {
+      "epoch": 2,
+      "dev": {
+        "accuracy": 0.8772977941176471,
+        "macro_f1_by_field": 0.8763026501110491,
+        "fields": {
+          "refund": 0.8424903367432103,
+          "arrival": 0.9152696189028445,
+          "facility": 0.8329456922029218,
+          "activity": 0.9145049525952201
+        }
+      },
+      "authored_robustness_dev": {
+        "accuracy": 0.8993055555555556,
+        "macro_f1_by_field": 0.8925092141846294,
+        "fields": {
+          "refund": 0.8032476665388057,
+          "arrival": 0.9477271483970188,
+          "facility": 0.888853584387565,
+          "activity": 0.930208457415128
+        }
+      },
+      "loss": 0.43331172345827024,
+      "elapsed": 2213.8640921115875
+    },
+    {
+      "epoch": 3,
+      "dev": {
+        "accuracy": 0.8929227941176471,
+        "macro_f1_by_field": 0.8927610801530587,
+        "fields": {
+          "refund": 0.8703471967717032,
+          "arrival": 0.9210039234829758,
+          "facility": 0.8451489993793811,
+          "activity": 0.9345442009781743
+        }
+      },
+      "authored_robustness_dev": {
+        "accuracy": 0.9114583333333334,
+        "macro_f1_by_field": 0.9060374157720897,
+        "fields": {
+          "refund": 0.8191170968948747,
+          "arrival": 0.9477271483970188,
+          "facility": 0.9113663814149513,
+          "activity": 0.9459390363815142
+        }
+      },
+      "loss": 0.3694227640889585,
+      "elapsed": 3122.1551883220673
+    }
+  ],
+  "purpose": "Development receipt, not final validation"
+}

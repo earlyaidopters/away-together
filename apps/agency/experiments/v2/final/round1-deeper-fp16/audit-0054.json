@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0054",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund info is undocumented; arrival at 01:30 is automatic; pool requires a 19 euro fee; guided walk inclusion is not stated."
+    },
+    {
+      "id": "round1-deeper-fp16-0055",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Full cash refund is provided; arrival at 01:30 requires prior permission; pool is free; hike requires a separate 38 euro payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0056",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is not full due to a 27 euro charge; arrival at 01:30 requires prior permission; pool is free; guided walk is fully included."
+    },
+    {
+      "id": "round1-deeper-fp16-0057",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is not full due to a 27 euro charge; arrival policy is explicitly stated as unresolved/conflicting; pool is free; hike requires a separate 38 euro payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0058",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Full cash refund is provided; arrival rules are not addressed; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0059",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Full cash refund is provided; arrival rules are not addressed; pool requires a 19 euro fee; guided walk inclusion is not stated."
+    }
+  ],
+  "documents_sha256": "672c2c8e1366d883304c57d95d47eb7ea831d50a1c09d310db40de242505218f"
+}

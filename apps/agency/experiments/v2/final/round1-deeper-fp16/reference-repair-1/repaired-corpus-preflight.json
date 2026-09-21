@@ -1,0 +1,7272 @@
+{
+  "scenarios": 360,
+  "policy_pairs": 1440,
+  "max_tokens": 216,
+  "overlong": 0,
+  "inference_performed": false,
+  "documents_sha256": "b580c5eb5ca62a6c7095159db07597af9de0f6d057ae812dae858c0b643b94cb",
+  "draft_files": {
+    "drafts-0000.json": "cc6b1bcdaea2bd8c781ec72254ff86170e380d557a707449e65e4f0e331fb76d",
+    "drafts-0006.json": "97cf944fe1da7c3931339dc76d31c5d75ba447a2bf1cdfdbd8accdbe6cfc8c9a",
+    "drafts-0012.json": "03819b69b7f304f9c6a43c2712a16adf32ed4e6c8d966f23c010dd23bfc9846e",
+    "drafts-0018.json": "9ac852ab8082c51012eeb215fb2442846aaaed5fb93b1f2d6df733b5643ca49c",
+    "drafts-0024.json": "b08aad82b08907170316b959b34e1f68682bae65009fbbe5ab1018531286a978",
+    "drafts-0030.json": "2ed4173c132614b352b93e7d7401f94ec3db75ae00c21e0d71fa3df2ba84b178",
+    "drafts-0036.json": "cacc72c004c5ff57659bf04a3358d2a6d9776e6f089aefbc0700262a58ed1edb",
+    "drafts-0042.json": "c254e4cdf21c0bc430b5eb6e263dd5b0896cb7eaf7fe560365b4b25e1d057424",
+    "drafts-0048.json": "8dea452e2c41c4e09b2356aff9c9ebb502e8b76109d50f61b774e3dcbdd48d82",
+    "drafts-0054.json": "6b5b4b580c696f4e96f1d0b78d35ac5e4a185468d2b91e98f71998984624dcfc",
+    "drafts-0060.json": "65b0133cd56907f235731e10b3df3ca722ee304e8ec70435c0a4032af12066b0",
+    "drafts-0066.json": "0527fb9eac68ef5f44a3a2c64ff60e761b662ce41723dd3a10867bb15a841aa8",
+    "drafts-0072.json": "6f2c8e2278cff8e0bea860ccfc7b00a75db85ec0cd2196169808137fc597589c",
+    "drafts-0078.json": "0299b7af1f9be3048ffafa73e41a6ff97b1425ae541108c547daa566a35479f1",
+    "drafts-0084.json": "151f1ee236661953feaef1e20998eda216e57f203062ec4552c88fcc8d6406b4",
+    "drafts-0090.json": "9eb843d37ed15fdc2dfa6ab1a5eea27c54f2b7cb9b485b4243f37a89af8c0b44",
+    "drafts-0096.json": "4326e7b8cd529a7b883c700aca3e37ddb41a1ebe5393904842c8a873df1b72ac",
+    "drafts-0102.json": "f435a27c1fae94ad7bd68f81917c8fb2744424d408884e4bc3cd111c94db6791",
+    "drafts-0108.json": "97f238155ee15d1f798aff560e4958c93ab7815d00df1d6b41a08decec23e739",
+    "drafts-0114.json": "fbd1f57ab3274567628249a63c0d9d66fffa4187da92a72c925060d6366fdba0",
+    "drafts-0120.json": "7f6adaa3a92bc7d588bd459921d6b352e939003eca4cab3b1c7815bb29ef39d3",
+    "drafts-0126.json": "39ab6c2563525e32af8caa2f12a3b5ef8c6278d663ba9ff7b8d7d2b0dc3bcb37",
+    "drafts-0132.json": "7bce96e0c92b012f0298b47440bbab4151f606b889353ac0672c88b21a16577d",
+    "drafts-0138.json": "2bc34a1a7b213be26a426996c2a5836ea95a551430a93f30070da4dda66c8d24",
+    "drafts-0144.json": "d1137cbc23da0c59de666c8a43d09d2537377b9770af655a9f4e817d73aaed45",
+    "drafts-0150.json": "21e3def08b4c6563a5d76074e6a9d89b4804b24b3606a4aba9fc4f09f9a70905",
+    "drafts-0156.json": "0205a59295540705caac3a3dd97b9b90e1526d0d88fee0fbc154c7d546164399",
+    "drafts-0162.json": "7d3df866df0d87adef457d705367a387455d2d903e1b2f9064d5c57e40088407",
+    "drafts-0168.json": "1610dd0aa7a807315e5bd31d4d2a2d2271827d63e14ddbf90067cbe08d919c0b",
+    "drafts-0174.json": "4fc346d97925f5f3d91d85ab71c25190ab8f540e9c43c6688b1aa873321faff7",
+    "drafts-0180.json": "1ee5be3eb06089fa0b878396232771717837cdff1a468d01f5b1455d1829d140",
+    "drafts-0186.json": "f790419104e3b7247410201242e7b21cdc934a6eb483e68a9ba783c1d3a81f6b",
+    "drafts-0192.json": "c668e7bb08323b7a345f370e92d0ee6ef30980a83e1f5b24333657dd70b9b4ec",
+    "drafts-0198.json": "5130c4ed149eec7a26be9f56251e0c817b47b8c8c0643d51d92371ee34910970",
+    "drafts-0204.json": "2b2ce17d9481687667b53fea82e8dc337bb71ee8505daf853f697a02104b1a65",
+    "drafts-0210.json": "45c98f1d11ec654ae2a05ba465bc9759ce123e853b699bd552ad031c8c05e1c0",
+    "drafts-0216.json": "958db8c5b4bb9634a9207eaf205aee51b84d21caa7f1229271ad67f93daebb8e",
+    "drafts-0222.json": "5cbc25b529cbc99b4edcccfca36ab70d29c2ed1563757c5b0ed7db4239d1e8af",
+    "drafts-0228.json": "56bca264365695e011e0c664811878cc6fb47160e8af9110819ff3182c379095",
+    "drafts-0234.json": "6eb3eaa19e7b4dc810d0edf713e6ef9a1024ecc6176b7532a9abda97d8d0a930",
+    "drafts-0240.json": "d2b3e7c94703d4c0bd4b93d1028fbae67e901de94dc26f784effc5307d1d6271",
+    "drafts-0246.json": "7ebce9c194164cbfa2c210fddcb5819fee394efd0fcdecd7ad8cc0984eeb5ec1",
+    "drafts-0252.json": "5fea62e399d466944e0cc489191d79a62d79f0d15298a39430fc8ff170570cf9",
+    "drafts-0258.json": "e480bc2d9b25774a7656afbe90f9d19ca2a44c75dc2598231861b96e6c1b26c7",
+    "drafts-0264.json": "54d0878b5182e8dbb2183ff3352b8d82dba384e2256d1f0771868a13b5e3be09",
+    "drafts-0270.json": "3844246d31b7a58b07b6ace3190611d45348318f551783c6804cfba6fedbc7c7",
+    "drafts-0276.json": "81106b027781e52f788a95318af8536b3c5b4ad6f8bd927a317aa406e9970c2e",
+    "drafts-0282.json": "e0c21f3b47b765970aa534d5cd6562c5c3fb85f29acb009c60e91fc685ac3046",
+    "drafts-0288.json": "0eb174cbb93e63eb8788efa8b4f828dd1505a6afec8d9f85db876b5da2db7c1b",
+    "drafts-0294.json": "9d2a7053d2df34cb0dc164a8aca1766512967ce13fa9212cdb617d04d7abe599",
+    "drafts-0300.json": "efcd4480c2b0ab28cb14fed67ab9321db742bea9dcd5c62e8d3b35dd532247b7",
+    "drafts-0306.json": "5d29467f1ec751c4482cbff3f2da38e0a14eadfc08ea8a3a9c0c1f5054d89925",
+    "drafts-0312.json": "b96ec932cf93724aa8b7a46b40dbe20180a3c4105aa5542d01a3f2a25f699f06",
+    "drafts-0318.json": "1d630349b8e371c174001ce48b707c4bbd6a38ba994ea6fee2f2d02611ae837a",
+    "drafts-0324.json": "10850a40b4551fc89399329706e01bb38666f452f3856609c37dd12041b70650",
+    "drafts-0330.json": "b323a10da35ffcbfcf81823ead1a8fe7d6565167e1b319a17b4c713a7d83d9bc",
+    "drafts-0336.json": "5610d0076f29808349b34a461d04f57dda50e67577157818ea3b9376b049e2ba",
+    "drafts-0342.json": "62acf126f04a52ca270a932f689a143f1bca62b79665d23e4c09ca391853687f",
+    "drafts-0348.json": "74fbea4d86684363e31ecc28620f1908ad8ae9feec00959451a6ad048a7e077e",
+    "drafts-0354.json": "1d97f250814fbc9524cf8a50f454cec1926569d5a3e3310edd7951e9a5c9b7d1"
+  },
+  "lengths": [
+    {
+      "id": "round1-deeper-fp16-0000",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0000",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0000",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0000",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0001",
+      "task": "refund",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0001",
+      "task": "arrival",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0001",
+      "task": "facility",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0001",
+      "task": "activity",
+      "tokens": 168
+    },
+    {
+      "id": "round1-deeper-fp16-0002",
+      "task": "refund",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0002",
+      "task": "arrival",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0002",
+      "task": "facility",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0002",
+      "task": "activity",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0003",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0003",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0003",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0003",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0004",
+      "task": "refund",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0004",
+      "task": "arrival",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0004",
+      "task": "facility",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0004",
+      "task": "activity",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0005",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0005",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0005",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0005",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0006",
+      "task": "refund",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0006",
+      "task": "arrival",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0006",
+      "task": "facility",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0006",
+      "task": "activity",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0007",
+      "task": "refund",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0007",
+      "task": "arrival",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0007",
+      "task": "facility",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0007",
+      "task": "activity",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0008",
+      "task": "refund",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0008",
+      "task": "arrival",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0008",
+      "task": "facility",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0008",
+      "task": "activity",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0009",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0009",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0009",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0009",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0010",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0010",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0010",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0010",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0011",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0011",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0011",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0011",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0012",
+      "task": "refund",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0012",
+      "task": "arrival",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0012",
+      "task": "facility",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0012",
+      "task": "activity",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0013",
+      "task": "refund",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0013",
+      "task": "arrival",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0013",
+      "task": "facility",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0013",
+      "task": "activity",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0014",
+      "task": "refund",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0014",
+      "task": "arrival",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0014",
+      "task": "facility",
+      "tokens": 173
+    },
+    {
+      "id": "round1-deeper-fp16-0014",
+      "task": "activity",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0015",
+      "task": "refund",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0015",
+      "task": "arrival",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0015",
+      "task": "facility",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0015",
+      "task": "activity",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0016",
+      "task": "refund",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0016",
+      "task": "arrival",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0016",
+      "task": "facility",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0016",
+      "task": "activity",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0017",
+      "task": "refund",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0017",
+      "task": "arrival",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0017",
+      "task": "facility",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0017",
+      "task": "activity",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0018",
+      "task": "refund",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0018",
+      "task": "arrival",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0018",
+      "task": "facility",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0018",
+      "task": "activity",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0019",
+      "task": "refund",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0019",
+      "task": "arrival",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0019",
+      "task": "facility",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0019",
+      "task": "activity",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0020",
+      "task": "refund",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0020",
+      "task": "arrival",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0020",
+      "task": "facility",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0020",
+      "task": "activity",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0021",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0021",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0021",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0021",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0022",
+      "task": "refund",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0022",
+      "task": "arrival",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0022",
+      "task": "facility",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0022",
+      "task": "activity",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0023",
+      "task": "refund",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0023",
+      "task": "arrival",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0023",
+      "task": "facility",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0023",
+      "task": "activity",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0024",
+      "task": "refund",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0024",
+      "task": "arrival",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0024",
+      "task": "facility",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0024",
+      "task": "activity",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0025",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0025",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0025",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0025",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0026",
+      "task": "refund",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0026",
+      "task": "arrival",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0026",
+      "task": "facility",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0026",
+      "task": "activity",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0027",
+      "task": "refund",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0027",
+      "task": "arrival",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0027",
+      "task": "facility",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0027",
+      "task": "activity",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0028",
+      "task": "refund",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0028",
+      "task": "arrival",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0028",
+      "task": "facility",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0028",
+      "task": "activity",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0029",
+      "task": "refund",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0029",
+      "task": "arrival",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0029",
+      "task": "facility",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0029",
+      "task": "activity",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0030",
+      "task": "refund",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0030",
+      "task": "arrival",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0030",
+      "task": "facility",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0030",
+      "task": "activity",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0031",
+      "task": "refund",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0031",
+      "task": "arrival",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0031",
+      "task": "facility",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0031",
+      "task": "activity",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0032",
+      "task": "refund",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0032",
+      "task": "arrival",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0032",
+      "task": "facility",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0032",
+      "task": "activity",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0033",
+      "task": "refund",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0033",
+      "task": "arrival",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0033",
+      "task": "facility",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0033",
+      "task": "activity",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0034",
+      "task": "refund",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0034",
+      "task": "arrival",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0034",
+      "task": "facility",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0034",
+      "task": "activity",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0035",
+      "task": "refund",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0035",
+      "task": "arrival",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0035",
+      "task": "facility",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0035",
+      "task": "activity",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0036",
+      "task": "refund",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0036",
+      "task": "arrival",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0036",
+      "task": "facility",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0036",
+      "task": "activity",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0037",
+      "task": "refund",
+      "tokens": 183
+    },
+    {
+      "id": "round1-deeper-fp16-0037",
+      "task": "arrival",
+      "tokens": 183
+    },
+    {
+      "id": "round1-deeper-fp16-0037",
+      "task": "facility",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0037",
+      "task": "activity",
+      "tokens": 181
+    },
+    {
+      "id": "round1-deeper-fp16-0038",
+      "task": "refund",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0038",
+      "task": "arrival",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0038",
+      "task": "facility",
+      "tokens": 193
+    },
+    {
+      "id": "round1-deeper-fp16-0038",
+      "task": "activity",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0039",
+      "task": "refund",
+      "tokens": 193
+    },
+    {
+      "id": "round1-deeper-fp16-0039",
+      "task": "arrival",
+      "tokens": 193
+    },
+    {
+      "id": "round1-deeper-fp16-0039",
+      "task": "facility",
+      "tokens": 195
+    },
+    {
+      "id": "round1-deeper-fp16-0039",
+      "task": "activity",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0040",
+      "task": "refund",
+      "tokens": 200
+    },
+    {
+      "id": "round1-deeper-fp16-0040",
+      "task": "arrival",
+      "tokens": 200
+    },
+    {
+      "id": "round1-deeper-fp16-0040",
+      "task": "facility",
+      "tokens": 202
+    },
+    {
+      "id": "round1-deeper-fp16-0040",
+      "task": "activity",
+      "tokens": 198
+    },
+    {
+      "id": "round1-deeper-fp16-0041",
+      "task": "refund",
+      "tokens": 204
+    },
+    {
+      "id": "round1-deeper-fp16-0041",
+      "task": "arrival",
+      "tokens": 204
+    },
+    {
+      "id": "round1-deeper-fp16-0041",
+      "task": "facility",
+      "tokens": 206
+    },
+    {
+      "id": "round1-deeper-fp16-0041",
+      "task": "activity",
+      "tokens": 202
+    },
+    {
+      "id": "round1-deeper-fp16-0042",
+      "task": "refund",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0042",
+      "task": "arrival",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0042",
+      "task": "facility",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0042",
+      "task": "activity",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0043",
+      "task": "refund",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0043",
+      "task": "arrival",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0043",
+      "task": "facility",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0043",
+      "task": "activity",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0044",
+      "task": "refund",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0044",
+      "task": "arrival",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0044",
+      "task": "facility",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0044",
+      "task": "activity",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0045",
+      "task": "refund",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0045",
+      "task": "arrival",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0045",
+      "task": "facility",
+      "tokens": 166
+    },
+    {
+      "id": "round1-deeper-fp16-0045",
+      "task": "activity",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0046",
+      "task": "refund",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0046",
+      "task": "arrival",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0046",
+      "task": "facility",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0046",
+      "task": "activity",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0047",
+      "task": "refund",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0047",
+      "task": "arrival",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0047",
+      "task": "facility",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0047",
+      "task": "activity",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0048",
+      "task": "refund",
+      "tokens": 113
+    },
+    {
+      "id": "round1-deeper-fp16-0048",
+      "task": "arrival",
+      "tokens": 113
+    },
+    {
+      "id": "round1-deeper-fp16-0048",
+      "task": "facility",
+      "tokens": 115
+    },
+    {
+      "id": "round1-deeper-fp16-0048",
+      "task": "activity",
+      "tokens": 111
+    },
+    {
+      "id": "round1-deeper-fp16-0049",
+      "task": "refund",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0049",
+      "task": "arrival",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0049",
+      "task": "facility",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0049",
+      "task": "activity",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0050",
+      "task": "refund",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0050",
+      "task": "arrival",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0050",
+      "task": "facility",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0050",
+      "task": "activity",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0051",
+      "task": "refund",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0051",
+      "task": "arrival",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0051",
+      "task": "facility",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0051",
+      "task": "activity",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0052",
+      "task": "refund",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0052",
+      "task": "arrival",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0052",
+      "task": "facility",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0052",
+      "task": "activity",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0053",
+      "task": "refund",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0053",
+      "task": "arrival",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0053",
+      "task": "facility",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0053",
+      "task": "activity",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0054",
+      "task": "refund",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0054",
+      "task": "arrival",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0054",
+      "task": "facility",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0054",
+      "task": "activity",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0055",
+      "task": "refund",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0055",
+      "task": "arrival",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0055",
+      "task": "facility",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0055",
+      "task": "activity",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0056",
+      "task": "refund",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0056",
+      "task": "arrival",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0056",
+      "task": "facility",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0056",
+      "task": "activity",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0057",
+      "task": "refund",
+      "tokens": 194
+    },
+    {
+      "id": "round1-deeper-fp16-0057",
+      "task": "arrival",
+      "tokens": 194
+    },
+    {
+      "id": "round1-deeper-fp16-0057",
+      "task": "facility",
+      "tokens": 196
+    },
+    {
+      "id": "round1-deeper-fp16-0057",
+      "task": "activity",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0058",
+      "task": "refund",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0058",
+      "task": "arrival",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0058",
+      "task": "facility",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0058",
+      "task": "activity",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0059",
+      "task": "refund",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0059",
+      "task": "arrival",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0059",
+      "task": "facility",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0059",
+      "task": "activity",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0060",
+      "task": "refund",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0060",
+      "task": "arrival",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0060",
+      "task": "facility",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0060",
+      "task": "activity",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0061",
+      "task": "refund",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0061",
+      "task": "arrival",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0061",
+      "task": "facility",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0061",
+      "task": "activity",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0062",
+      "task": "refund",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0062",
+      "task": "arrival",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0062",
+      "task": "facility",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0062",
+      "task": "activity",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0063",
+      "task": "refund",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0063",
+      "task": "arrival",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0063",
+      "task": "facility",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0063",
+      "task": "activity",
+      "tokens": 119
+    },
+    {
+      "id": "round1-deeper-fp16-0064",
+      "task": "refund",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0064",
+      "task": "arrival",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0064",
+      "task": "facility",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0064",
+      "task": "activity",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0065",
+      "task": "refund",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0065",
+      "task": "arrival",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0065",
+      "task": "facility",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0065",
+      "task": "activity",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0066",
+      "task": "refund",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0066",
+      "task": "arrival",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0066",
+      "task": "facility",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0066",
+      "task": "activity",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0067",
+      "task": "refund",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0067",
+      "task": "arrival",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0067",
+      "task": "facility",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0067",
+      "task": "activity",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0068",
+      "task": "refund",
+      "tokens": 173
+    },
+    {
+      "id": "round1-deeper-fp16-0068",
+      "task": "arrival",
+      "tokens": 173
+    },
+    {
+      "id": "round1-deeper-fp16-0068",
+      "task": "facility",
+      "tokens": 175
+    },
+    {
+      "id": "round1-deeper-fp16-0068",
+      "task": "activity",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0069",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0069",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0069",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0069",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0070",
+      "task": "refund",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0070",
+      "task": "arrival",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0070",
+      "task": "facility",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0070",
+      "task": "activity",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0071",
+      "task": "refund",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0071",
+      "task": "arrival",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0071",
+      "task": "facility",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0071",
+      "task": "activity",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0072",
+      "task": "refund",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0072",
+      "task": "arrival",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0072",
+      "task": "facility",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0072",
+      "task": "activity",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0073",
+      "task": "refund",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0073",
+      "task": "arrival",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0073",
+      "task": "facility",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0073",
+      "task": "activity",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0074",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0074",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0074",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0074",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0075",
+      "task": "refund",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0075",
+      "task": "arrival",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0075",
+      "task": "facility",
+      "tokens": 173
+    },
+    {
+      "id": "round1-deeper-fp16-0075",
+      "task": "activity",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0076",
+      "task": "refund",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0076",
+      "task": "arrival",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0076",
+      "task": "facility",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0076",
+      "task": "activity",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0077",
+      "task": "refund",
+      "tokens": 183
+    },
+    {
+      "id": "round1-deeper-fp16-0077",
+      "task": "arrival",
+      "tokens": 183
+    },
+    {
+      "id": "round1-deeper-fp16-0077",
+      "task": "facility",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0077",
+      "task": "activity",
+      "tokens": 181
+    },
+    {
+      "id": "round1-deeper-fp16-0078",
+      "task": "refund",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0078",
+      "task": "arrival",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0078",
+      "task": "facility",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0078",
+      "task": "activity",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0079",
+      "task": "refund",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0079",
+      "task": "arrival",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0079",
+      "task": "facility",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0079",
+      "task": "activity",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0080",
+      "task": "refund",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0080",
+      "task": "arrival",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0080",
+      "task": "facility",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0080",
+      "task": "activity",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0081",
+      "task": "refund",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0081",
+      "task": "arrival",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0081",
+      "task": "facility",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0081",
+      "task": "activity",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0082",
+      "task": "refund",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0082",
+      "task": "arrival",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0082",
+      "task": "facility",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0082",
+      "task": "activity",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0083",
+      "task": "refund",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0083",
+      "task": "arrival",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0083",
+      "task": "facility",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0083",
+      "task": "activity",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0084",
+      "task": "refund",
+      "tokens": 177
+    },
+    {
+      "id": "round1-deeper-fp16-0084",
+      "task": "arrival",
+      "tokens": 177
+    },
+    {
+      "id": "round1-deeper-fp16-0084",
+      "task": "facility",
+      "tokens": 179
+    },
+    {
+      "id": "round1-deeper-fp16-0084",
+      "task": "activity",
+      "tokens": 175
+    },
+    {
+      "id": "round1-deeper-fp16-0085",
+      "task": "refund",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0085",
+      "task": "arrival",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0085",
+      "task": "facility",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0085",
+      "task": "activity",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0086",
+      "task": "refund",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0086",
+      "task": "arrival",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0086",
+      "task": "facility",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0086",
+      "task": "activity",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0087",
+      "task": "refund",
+      "tokens": 104
+    },
+    {
+      "id": "round1-deeper-fp16-0087",
+      "task": "arrival",
+      "tokens": 104
+    },
+    {
+      "id": "round1-deeper-fp16-0087",
+      "task": "facility",
+      "tokens": 106
+    },
+    {
+      "id": "round1-deeper-fp16-0087",
+      "task": "activity",
+      "tokens": 102
+    },
+    {
+      "id": "round1-deeper-fp16-0088",
+      "task": "refund",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0088",
+      "task": "arrival",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0088",
+      "task": "facility",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0088",
+      "task": "activity",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0089",
+      "task": "refund",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0089",
+      "task": "arrival",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0089",
+      "task": "facility",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0089",
+      "task": "activity",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0090",
+      "task": "refund",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0090",
+      "task": "arrival",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0090",
+      "task": "facility",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0090",
+      "task": "activity",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0091",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0091",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0091",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0091",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0092",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0092",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0092",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0092",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0093",
+      "task": "refund",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0093",
+      "task": "arrival",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0093",
+      "task": "facility",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0093",
+      "task": "activity",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0094",
+      "task": "refund",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0094",
+      "task": "arrival",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0094",
+      "task": "facility",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0094",
+      "task": "activity",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0095",
+      "task": "refund",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0095",
+      "task": "arrival",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0095",
+      "task": "facility",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0095",
+      "task": "activity",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0096",
+      "task": "refund",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0096",
+      "task": "arrival",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0096",
+      "task": "facility",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0096",
+      "task": "activity",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0097",
+      "task": "refund",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0097",
+      "task": "arrival",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0097",
+      "task": "facility",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0097",
+      "task": "activity",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0098",
+      "task": "refund",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0098",
+      "task": "arrival",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0098",
+      "task": "facility",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0098",
+      "task": "activity",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0099",
+      "task": "refund",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0099",
+      "task": "arrival",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0099",
+      "task": "facility",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0099",
+      "task": "activity",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0100",
+      "task": "refund",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0100",
+      "task": "arrival",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0100",
+      "task": "facility",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0100",
+      "task": "activity",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0101",
+      "task": "refund",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0101",
+      "task": "arrival",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0101",
+      "task": "facility",
+      "tokens": 182
+    },
+    {
+      "id": "round1-deeper-fp16-0101",
+      "task": "activity",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0102",
+      "task": "refund",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0102",
+      "task": "arrival",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0102",
+      "task": "facility",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0102",
+      "task": "activity",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0103",
+      "task": "refund",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0103",
+      "task": "arrival",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0103",
+      "task": "facility",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0103",
+      "task": "activity",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0104",
+      "task": "refund",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0104",
+      "task": "arrival",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0104",
+      "task": "facility",
+      "tokens": 194
+    },
+    {
+      "id": "round1-deeper-fp16-0104",
+      "task": "activity",
+      "tokens": 190
+    },
+    {
+      "id": "round1-deeper-fp16-0105",
+      "task": "refund",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0105",
+      "task": "arrival",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0105",
+      "task": "facility",
+      "tokens": 182
+    },
+    {
+      "id": "round1-deeper-fp16-0105",
+      "task": "activity",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0106",
+      "task": "refund",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0106",
+      "task": "arrival",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0106",
+      "task": "facility",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0106",
+      "task": "activity",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0107",
+      "task": "refund",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0107",
+      "task": "arrival",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0107",
+      "task": "facility",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0107",
+      "task": "activity",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0108",
+      "task": "refund",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0108",
+      "task": "arrival",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0108",
+      "task": "facility",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0108",
+      "task": "activity",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0109",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0109",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0109",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0109",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0110",
+      "task": "refund",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0110",
+      "task": "arrival",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0110",
+      "task": "facility",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0110",
+      "task": "activity",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0111",
+      "task": "refund",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0111",
+      "task": "arrival",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0111",
+      "task": "facility",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0111",
+      "task": "activity",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0112",
+      "task": "refund",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0112",
+      "task": "arrival",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0112",
+      "task": "facility",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0112",
+      "task": "activity",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0113",
+      "task": "refund",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0113",
+      "task": "arrival",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0113",
+      "task": "facility",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0113",
+      "task": "activity",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0114",
+      "task": "refund",
+      "tokens": 118
+    },
+    {
+      "id": "round1-deeper-fp16-0114",
+      "task": "arrival",
+      "tokens": 118
+    },
+    {
+      "id": "round1-deeper-fp16-0114",
+      "task": "facility",
+      "tokens": 120
+    },
+    {
+      "id": "round1-deeper-fp16-0114",
+      "task": "activity",
+      "tokens": 116
+    },
+    {
+      "id": "round1-deeper-fp16-0115",
+      "task": "refund",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0115",
+      "task": "arrival",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0115",
+      "task": "facility",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0115",
+      "task": "activity",
+      "tokens": 168
+    },
+    {
+      "id": "round1-deeper-fp16-0116",
+      "task": "refund",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0116",
+      "task": "arrival",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0116",
+      "task": "facility",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0116",
+      "task": "activity",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0117",
+      "task": "refund",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0117",
+      "task": "arrival",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0117",
+      "task": "facility",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0117",
+      "task": "activity",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0118",
+      "task": "refund",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0118",
+      "task": "arrival",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0118",
+      "task": "facility",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0118",
+      "task": "activity",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0119",
+      "task": "refund",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0119",
+      "task": "arrival",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0119",
+      "task": "facility",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0119",
+      "task": "activity",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0120",
+      "task": "refund",
+      "tokens": 120
+    },
+    {
+      "id": "round1-deeper-fp16-0120",
+      "task": "arrival",
+      "tokens": 120
+    },
+    {
+      "id": "round1-deeper-fp16-0120",
+      "task": "facility",
+      "tokens": 122
+    },
+    {
+      "id": "round1-deeper-fp16-0120",
+      "task": "activity",
+      "tokens": 118
+    },
+    {
+      "id": "round1-deeper-fp16-0121",
+      "task": "refund",
+      "tokens": 124
+    },
+    {
+      "id": "round1-deeper-fp16-0121",
+      "task": "arrival",
+      "tokens": 124
+    },
+    {
+      "id": "round1-deeper-fp16-0121",
+      "task": "facility",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0121",
+      "task": "activity",
+      "tokens": 122
+    },
+    {
+      "id": "round1-deeper-fp16-0122",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0122",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0122",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0122",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0123",
+      "task": "refund",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0123",
+      "task": "arrival",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0123",
+      "task": "facility",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0123",
+      "task": "activity",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0124",
+      "task": "refund",
+      "tokens": 116
+    },
+    {
+      "id": "round1-deeper-fp16-0124",
+      "task": "arrival",
+      "tokens": 116
+    },
+    {
+      "id": "round1-deeper-fp16-0124",
+      "task": "facility",
+      "tokens": 118
+    },
+    {
+      "id": "round1-deeper-fp16-0124",
+      "task": "activity",
+      "tokens": 114
+    },
+    {
+      "id": "round1-deeper-fp16-0125",
+      "task": "refund",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0125",
+      "task": "arrival",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0125",
+      "task": "facility",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0125",
+      "task": "activity",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0126",
+      "task": "refund",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0126",
+      "task": "arrival",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0126",
+      "task": "facility",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0126",
+      "task": "activity",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0127",
+      "task": "refund",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0127",
+      "task": "arrival",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0127",
+      "task": "facility",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0127",
+      "task": "activity",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0128",
+      "task": "refund",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0128",
+      "task": "arrival",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0128",
+      "task": "facility",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0128",
+      "task": "activity",
+      "tokens": 124
+    },
+    {
+      "id": "round1-deeper-fp16-0129",
+      "task": "refund",
+      "tokens": 175
+    },
+    {
+      "id": "round1-deeper-fp16-0129",
+      "task": "arrival",
+      "tokens": 175
+    },
+    {
+      "id": "round1-deeper-fp16-0129",
+      "task": "facility",
+      "tokens": 177
+    },
+    {
+      "id": "round1-deeper-fp16-0129",
+      "task": "activity",
+      "tokens": 173
+    },
+    {
+      "id": "round1-deeper-fp16-0130",
+      "task": "refund",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0130",
+      "task": "arrival",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0130",
+      "task": "facility",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0130",
+      "task": "activity",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0131",
+      "task": "refund",
+      "tokens": 117
+    },
+    {
+      "id": "round1-deeper-fp16-0131",
+      "task": "arrival",
+      "tokens": 117
+    },
+    {
+      "id": "round1-deeper-fp16-0131",
+      "task": "facility",
+      "tokens": 119
+    },
+    {
+      "id": "round1-deeper-fp16-0131",
+      "task": "activity",
+      "tokens": 115
+    },
+    {
+      "id": "round1-deeper-fp16-0132",
+      "task": "refund",
+      "tokens": 119
+    },
+    {
+      "id": "round1-deeper-fp16-0132",
+      "task": "arrival",
+      "tokens": 119
+    },
+    {
+      "id": "round1-deeper-fp16-0132",
+      "task": "facility",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0132",
+      "task": "activity",
+      "tokens": 117
+    },
+    {
+      "id": "round1-deeper-fp16-0133",
+      "task": "refund",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0133",
+      "task": "arrival",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0133",
+      "task": "facility",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0133",
+      "task": "activity",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0134",
+      "task": "refund",
+      "tokens": 120
+    },
+    {
+      "id": "round1-deeper-fp16-0134",
+      "task": "arrival",
+      "tokens": 120
+    },
+    {
+      "id": "round1-deeper-fp16-0134",
+      "task": "facility",
+      "tokens": 122
+    },
+    {
+      "id": "round1-deeper-fp16-0134",
+      "task": "activity",
+      "tokens": 118
+    },
+    {
+      "id": "round1-deeper-fp16-0135",
+      "task": "refund",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0135",
+      "task": "arrival",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0135",
+      "task": "facility",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0135",
+      "task": "activity",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0136",
+      "task": "refund",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0136",
+      "task": "arrival",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0136",
+      "task": "facility",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0136",
+      "task": "activity",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0137",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0137",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0137",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0137",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0138",
+      "task": "refund",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0138",
+      "task": "arrival",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0138",
+      "task": "facility",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0138",
+      "task": "activity",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0139",
+      "task": "refund",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0139",
+      "task": "arrival",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0139",
+      "task": "facility",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0139",
+      "task": "activity",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0140",
+      "task": "refund",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0140",
+      "task": "arrival",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0140",
+      "task": "facility",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0140",
+      "task": "activity",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0141",
+      "task": "refund",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0141",
+      "task": "arrival",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0141",
+      "task": "facility",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0141",
+      "task": "activity",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0142",
+      "task": "refund",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0142",
+      "task": "arrival",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0142",
+      "task": "facility",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0142",
+      "task": "activity",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0143",
+      "task": "refund",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0143",
+      "task": "arrival",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0143",
+      "task": "facility",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0143",
+      "task": "activity",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0144",
+      "task": "refund",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0144",
+      "task": "arrival",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0144",
+      "task": "facility",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0144",
+      "task": "activity",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0145",
+      "task": "refund",
+      "tokens": 177
+    },
+    {
+      "id": "round1-deeper-fp16-0145",
+      "task": "arrival",
+      "tokens": 177
+    },
+    {
+      "id": "round1-deeper-fp16-0145",
+      "task": "facility",
+      "tokens": 179
+    },
+    {
+      "id": "round1-deeper-fp16-0145",
+      "task": "activity",
+      "tokens": 175
+    },
+    {
+      "id": "round1-deeper-fp16-0146",
+      "task": "refund",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0146",
+      "task": "arrival",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0146",
+      "task": "facility",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0146",
+      "task": "activity",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0147",
+      "task": "refund",
+      "tokens": 202
+    },
+    {
+      "id": "round1-deeper-fp16-0147",
+      "task": "arrival",
+      "tokens": 202
+    },
+    {
+      "id": "round1-deeper-fp16-0147",
+      "task": "facility",
+      "tokens": 204
+    },
+    {
+      "id": "round1-deeper-fp16-0147",
+      "task": "activity",
+      "tokens": 200
+    },
+    {
+      "id": "round1-deeper-fp16-0148",
+      "task": "refund",
+      "tokens": 204
+    },
+    {
+      "id": "round1-deeper-fp16-0148",
+      "task": "arrival",
+      "tokens": 204
+    },
+    {
+      "id": "round1-deeper-fp16-0148",
+      "task": "facility",
+      "tokens": 206
+    },
+    {
+      "id": "round1-deeper-fp16-0148",
+      "task": "activity",
+      "tokens": 202
+    },
+    {
+      "id": "round1-deeper-fp16-0149",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0149",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0149",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0149",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0150",
+      "task": "refund",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0150",
+      "task": "arrival",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0150",
+      "task": "facility",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0150",
+      "task": "activity",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0151",
+      "task": "refund",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0151",
+      "task": "arrival",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0151",
+      "task": "facility",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0151",
+      "task": "activity",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0152",
+      "task": "refund",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0152",
+      "task": "arrival",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0152",
+      "task": "facility",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0152",
+      "task": "activity",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0153",
+      "task": "refund",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0153",
+      "task": "arrival",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0153",
+      "task": "facility",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0153",
+      "task": "activity",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0154",
+      "task": "refund",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0154",
+      "task": "arrival",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0154",
+      "task": "facility",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0154",
+      "task": "activity",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0155",
+      "task": "refund",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0155",
+      "task": "arrival",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0155",
+      "task": "facility",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0155",
+      "task": "activity",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0156",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0156",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0156",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0156",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0157",
+      "task": "refund",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0157",
+      "task": "arrival",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0157",
+      "task": "facility",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0157",
+      "task": "activity",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0158",
+      "task": "refund",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0158",
+      "task": "arrival",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0158",
+      "task": "facility",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0158",
+      "task": "activity",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0159",
+      "task": "refund",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0159",
+      "task": "arrival",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0159",
+      "task": "facility",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0159",
+      "task": "activity",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0160",
+      "task": "refund",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0160",
+      "task": "arrival",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0160",
+      "task": "facility",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0160",
+      "task": "activity",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0161",
+      "task": "refund",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0161",
+      "task": "arrival",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0161",
+      "task": "facility",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0161",
+      "task": "activity",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0162",
+      "task": "refund",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0162",
+      "task": "arrival",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0162",
+      "task": "facility",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0162",
+      "task": "activity",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0163",
+      "task": "refund",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0163",
+      "task": "arrival",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0163",
+      "task": "facility",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0163",
+      "task": "activity",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0164",
+      "task": "refund",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0164",
+      "task": "arrival",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0164",
+      "task": "facility",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0164",
+      "task": "activity",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0165",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0165",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0165",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0165",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0166",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0166",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0166",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0166",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0167",
+      "task": "refund",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0167",
+      "task": "arrival",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0167",
+      "task": "facility",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0167",
+      "task": "activity",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0168",
+      "task": "refund",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0168",
+      "task": "arrival",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0168",
+      "task": "facility",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0168",
+      "task": "activity",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0169",
+      "task": "refund",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0169",
+      "task": "arrival",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0169",
+      "task": "facility",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0169",
+      "task": "activity",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0170",
+      "task": "refund",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0170",
+      "task": "arrival",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0170",
+      "task": "facility",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0170",
+      "task": "activity",
+      "tokens": 168
+    },
+    {
+      "id": "round1-deeper-fp16-0171",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0171",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0171",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0171",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0172",
+      "task": "refund",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0172",
+      "task": "arrival",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0172",
+      "task": "facility",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0172",
+      "task": "activity",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0173",
+      "task": "refund",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0173",
+      "task": "arrival",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0173",
+      "task": "facility",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0173",
+      "task": "activity",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0174",
+      "task": "refund",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0174",
+      "task": "arrival",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0174",
+      "task": "facility",
+      "tokens": 173
+    },
+    {
+      "id": "round1-deeper-fp16-0174",
+      "task": "activity",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0175",
+      "task": "refund",
+      "tokens": 181
+    },
+    {
+      "id": "round1-deeper-fp16-0175",
+      "task": "arrival",
+      "tokens": 181
+    },
+    {
+      "id": "round1-deeper-fp16-0175",
+      "task": "facility",
+      "tokens": 183
+    },
+    {
+      "id": "round1-deeper-fp16-0175",
+      "task": "activity",
+      "tokens": 179
+    },
+    {
+      "id": "round1-deeper-fp16-0176",
+      "task": "refund",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0176",
+      "task": "arrival",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0176",
+      "task": "facility",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0176",
+      "task": "activity",
+      "tokens": 183
+    },
+    {
+      "id": "round1-deeper-fp16-0177",
+      "task": "refund",
+      "tokens": 186
+    },
+    {
+      "id": "round1-deeper-fp16-0177",
+      "task": "arrival",
+      "tokens": 186
+    },
+    {
+      "id": "round1-deeper-fp16-0177",
+      "task": "facility",
+      "tokens": 188
+    },
+    {
+      "id": "round1-deeper-fp16-0177",
+      "task": "activity",
+      "tokens": 184
+    },
+    {
+      "id": "round1-deeper-fp16-0178",
+      "task": "refund",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0178",
+      "task": "arrival",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0178",
+      "task": "facility",
+      "tokens": 193
+    },
+    {
+      "id": "round1-deeper-fp16-0178",
+      "task": "activity",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0179",
+      "task": "refund",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0179",
+      "task": "arrival",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0179",
+      "task": "facility",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0179",
+      "task": "activity",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0180",
+      "task": "refund",
+      "tokens": 168
+    },
+    {
+      "id": "round1-deeper-fp16-0180",
+      "task": "arrival",
+      "tokens": 168
+    },
+    {
+      "id": "round1-deeper-fp16-0180",
+      "task": "facility",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0180",
+      "task": "activity",
+      "tokens": 166
+    },
+    {
+      "id": "round1-deeper-fp16-0181",
+      "task": "refund",
+      "tokens": 196
+    },
+    {
+      "id": "round1-deeper-fp16-0181",
+      "task": "arrival",
+      "tokens": 196
+    },
+    {
+      "id": "round1-deeper-fp16-0181",
+      "task": "facility",
+      "tokens": 198
+    },
+    {
+      "id": "round1-deeper-fp16-0181",
+      "task": "activity",
+      "tokens": 194
+    },
+    {
+      "id": "round1-deeper-fp16-0182",
+      "task": "refund",
+      "tokens": 195
+    },
+    {
+      "id": "round1-deeper-fp16-0182",
+      "task": "arrival",
+      "tokens": 195
+    },
+    {
+      "id": "round1-deeper-fp16-0182",
+      "task": "facility",
+      "tokens": 197
+    },
+    {
+      "id": "round1-deeper-fp16-0182",
+      "task": "activity",
+      "tokens": 193
+    },
+    {
+      "id": "round1-deeper-fp16-0183",
+      "task": "refund",
+      "tokens": 207
+    },
+    {
+      "id": "round1-deeper-fp16-0183",
+      "task": "arrival",
+      "tokens": 207
+    },
+    {
+      "id": "round1-deeper-fp16-0183",
+      "task": "facility",
+      "tokens": 209
+    },
+    {
+      "id": "round1-deeper-fp16-0183",
+      "task": "activity",
+      "tokens": 205
+    },
+    {
+      "id": "round1-deeper-fp16-0184",
+      "task": "refund",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0184",
+      "task": "arrival",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0184",
+      "task": "facility",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0184",
+      "task": "activity",
+      "tokens": 183
+    },
+    {
+      "id": "round1-deeper-fp16-0185",
+      "task": "refund",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0185",
+      "task": "arrival",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0185",
+      "task": "facility",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0185",
+      "task": "activity",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0186",
+      "task": "refund",
+      "tokens": 108
+    },
+    {
+      "id": "round1-deeper-fp16-0186",
+      "task": "arrival",
+      "tokens": 108
+    },
+    {
+      "id": "round1-deeper-fp16-0186",
+      "task": "facility",
+      "tokens": 110
+    },
+    {
+      "id": "round1-deeper-fp16-0186",
+      "task": "activity",
+      "tokens": 106
+    },
+    {
+      "id": "round1-deeper-fp16-0187",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0187",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0187",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0187",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0188",
+      "task": "refund",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0188",
+      "task": "arrival",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0188",
+      "task": "facility",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0188",
+      "task": "activity",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0189",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0189",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0189",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0189",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0190",
+      "task": "refund",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0190",
+      "task": "arrival",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0190",
+      "task": "facility",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0190",
+      "task": "activity",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0191",
+      "task": "refund",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0191",
+      "task": "arrival",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0191",
+      "task": "facility",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0191",
+      "task": "activity",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0192",
+      "task": "refund",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0192",
+      "task": "arrival",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0192",
+      "task": "facility",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0192",
+      "task": "activity",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0193",
+      "task": "refund",
+      "tokens": 188
+    },
+    {
+      "id": "round1-deeper-fp16-0193",
+      "task": "arrival",
+      "tokens": 188
+    },
+    {
+      "id": "round1-deeper-fp16-0193",
+      "task": "facility",
+      "tokens": 190
+    },
+    {
+      "id": "round1-deeper-fp16-0193",
+      "task": "activity",
+      "tokens": 186
+    },
+    {
+      "id": "round1-deeper-fp16-0194",
+      "task": "refund",
+      "tokens": 197
+    },
+    {
+      "id": "round1-deeper-fp16-0194",
+      "task": "arrival",
+      "tokens": 197
+    },
+    {
+      "id": "round1-deeper-fp16-0194",
+      "task": "facility",
+      "tokens": 199
+    },
+    {
+      "id": "round1-deeper-fp16-0194",
+      "task": "activity",
+      "tokens": 195
+    },
+    {
+      "id": "round1-deeper-fp16-0195",
+      "task": "refund",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0195",
+      "task": "arrival",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0195",
+      "task": "facility",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0195",
+      "task": "activity",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0196",
+      "task": "refund",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0196",
+      "task": "arrival",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0196",
+      "task": "facility",
+      "tokens": 166
+    },
+    {
+      "id": "round1-deeper-fp16-0196",
+      "task": "activity",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0197",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0197",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0197",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0197",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0198",
+      "task": "refund",
+      "tokens": 119
+    },
+    {
+      "id": "round1-deeper-fp16-0198",
+      "task": "arrival",
+      "tokens": 119
+    },
+    {
+      "id": "round1-deeper-fp16-0198",
+      "task": "facility",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0198",
+      "task": "activity",
+      "tokens": 117
+    },
+    {
+      "id": "round1-deeper-fp16-0199",
+      "task": "refund",
+      "tokens": 118
+    },
+    {
+      "id": "round1-deeper-fp16-0199",
+      "task": "arrival",
+      "tokens": 118
+    },
+    {
+      "id": "round1-deeper-fp16-0199",
+      "task": "facility",
+      "tokens": 120
+    },
+    {
+      "id": "round1-deeper-fp16-0199",
+      "task": "activity",
+      "tokens": 116
+    },
+    {
+      "id": "round1-deeper-fp16-0200",
+      "task": "refund",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0200",
+      "task": "arrival",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0200",
+      "task": "facility",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0200",
+      "task": "activity",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0201",
+      "task": "refund",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0201",
+      "task": "arrival",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0201",
+      "task": "facility",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0201",
+      "task": "activity",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0202",
+      "task": "refund",
+      "tokens": 117
+    },
+    {
+      "id": "round1-deeper-fp16-0202",
+      "task": "arrival",
+      "tokens": 117
+    },
+    {
+      "id": "round1-deeper-fp16-0202",
+      "task": "facility",
+      "tokens": 119
+    },
+    {
+      "id": "round1-deeper-fp16-0202",
+      "task": "activity",
+      "tokens": 115
+    },
+    {
+      "id": "round1-deeper-fp16-0203",
+      "task": "refund",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0203",
+      "task": "arrival",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0203",
+      "task": "facility",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0203",
+      "task": "activity",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0204",
+      "task": "refund",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0204",
+      "task": "arrival",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0204",
+      "task": "facility",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0204",
+      "task": "activity",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0205",
+      "task": "refund",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0205",
+      "task": "arrival",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0205",
+      "task": "facility",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0205",
+      "task": "activity",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0206",
+      "task": "refund",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0206",
+      "task": "arrival",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0206",
+      "task": "facility",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0206",
+      "task": "activity",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0207",
+      "task": "refund",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0207",
+      "task": "arrival",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0207",
+      "task": "facility",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0207",
+      "task": "activity",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0208",
+      "task": "refund",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0208",
+      "task": "arrival",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0208",
+      "task": "facility",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0208",
+      "task": "activity",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0209",
+      "task": "refund",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0209",
+      "task": "arrival",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0209",
+      "task": "facility",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0209",
+      "task": "activity",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0210",
+      "task": "refund",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0210",
+      "task": "arrival",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0210",
+      "task": "facility",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0210",
+      "task": "activity",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0211",
+      "task": "refund",
+      "tokens": 182
+    },
+    {
+      "id": "round1-deeper-fp16-0211",
+      "task": "arrival",
+      "tokens": 182
+    },
+    {
+      "id": "round1-deeper-fp16-0211",
+      "task": "facility",
+      "tokens": 184
+    },
+    {
+      "id": "round1-deeper-fp16-0211",
+      "task": "activity",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0212",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0212",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0212",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0212",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0213",
+      "task": "refund",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0213",
+      "task": "arrival",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0213",
+      "task": "facility",
+      "tokens": 182
+    },
+    {
+      "id": "round1-deeper-fp16-0213",
+      "task": "activity",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0214",
+      "task": "refund",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0214",
+      "task": "arrival",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0214",
+      "task": "facility",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0214",
+      "task": "activity",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0215",
+      "task": "refund",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0215",
+      "task": "arrival",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0215",
+      "task": "facility",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0215",
+      "task": "activity",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0216",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0216",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0216",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0216",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0217",
+      "task": "refund",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0217",
+      "task": "arrival",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0217",
+      "task": "facility",
+      "tokens": 173
+    },
+    {
+      "id": "round1-deeper-fp16-0217",
+      "task": "activity",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0218",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0218",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0218",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0218",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0219",
+      "task": "refund",
+      "tokens": 188
+    },
+    {
+      "id": "round1-deeper-fp16-0219",
+      "task": "arrival",
+      "tokens": 188
+    },
+    {
+      "id": "round1-deeper-fp16-0219",
+      "task": "facility",
+      "tokens": 190
+    },
+    {
+      "id": "round1-deeper-fp16-0219",
+      "task": "activity",
+      "tokens": 186
+    },
+    {
+      "id": "round1-deeper-fp16-0220",
+      "task": "refund",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0220",
+      "task": "arrival",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0220",
+      "task": "facility",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0220",
+      "task": "activity",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0221",
+      "task": "refund",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0221",
+      "task": "arrival",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0221",
+      "task": "facility",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0221",
+      "task": "activity",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0222",
+      "task": "refund",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0222",
+      "task": "arrival",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0222",
+      "task": "facility",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0222",
+      "task": "activity",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0223",
+      "task": "refund",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0223",
+      "task": "arrival",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0223",
+      "task": "facility",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0223",
+      "task": "activity",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0224",
+      "task": "refund",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0224",
+      "task": "arrival",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0224",
+      "task": "facility",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0224",
+      "task": "activity",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0225",
+      "task": "refund",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0225",
+      "task": "arrival",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0225",
+      "task": "facility",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0225",
+      "task": "activity",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0226",
+      "task": "refund",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0226",
+      "task": "arrival",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0226",
+      "task": "facility",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0226",
+      "task": "activity",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0227",
+      "task": "refund",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0227",
+      "task": "arrival",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0227",
+      "task": "facility",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0227",
+      "task": "activity",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0228",
+      "task": "refund",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0228",
+      "task": "arrival",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0228",
+      "task": "facility",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0228",
+      "task": "activity",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0229",
+      "task": "refund",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0229",
+      "task": "arrival",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0229",
+      "task": "facility",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0229",
+      "task": "activity",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0230",
+      "task": "refund",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0230",
+      "task": "arrival",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0230",
+      "task": "facility",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0230",
+      "task": "activity",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0231",
+      "task": "refund",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0231",
+      "task": "arrival",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0231",
+      "task": "facility",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0231",
+      "task": "activity",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0232",
+      "task": "refund",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0232",
+      "task": "arrival",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0232",
+      "task": "facility",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0232",
+      "task": "activity",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0233",
+      "task": "refund",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0233",
+      "task": "arrival",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0233",
+      "task": "facility",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0233",
+      "task": "activity",
+      "tokens": 124
+    },
+    {
+      "id": "round1-deeper-fp16-0234",
+      "task": "refund",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0234",
+      "task": "arrival",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0234",
+      "task": "facility",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0234",
+      "task": "activity",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0235",
+      "task": "refund",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0235",
+      "task": "arrival",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0235",
+      "task": "facility",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0235",
+      "task": "activity",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0236",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0236",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0236",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0236",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0237",
+      "task": "refund",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0237",
+      "task": "arrival",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0237",
+      "task": "facility",
+      "tokens": 194
+    },
+    {
+      "id": "round1-deeper-fp16-0237",
+      "task": "activity",
+      "tokens": 190
+    },
+    {
+      "id": "round1-deeper-fp16-0238",
+      "task": "refund",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0238",
+      "task": "arrival",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0238",
+      "task": "facility",
+      "tokens": 194
+    },
+    {
+      "id": "round1-deeper-fp16-0238",
+      "task": "activity",
+      "tokens": 190
+    },
+    {
+      "id": "round1-deeper-fp16-0239",
+      "task": "refund",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0239",
+      "task": "arrival",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0239",
+      "task": "facility",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0239",
+      "task": "activity",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0240",
+      "task": "refund",
+      "tokens": 124
+    },
+    {
+      "id": "round1-deeper-fp16-0240",
+      "task": "arrival",
+      "tokens": 124
+    },
+    {
+      "id": "round1-deeper-fp16-0240",
+      "task": "facility",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0240",
+      "task": "activity",
+      "tokens": 122
+    },
+    {
+      "id": "round1-deeper-fp16-0241",
+      "task": "refund",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0241",
+      "task": "arrival",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0241",
+      "task": "facility",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0241",
+      "task": "activity",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0242",
+      "task": "refund",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0242",
+      "task": "arrival",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0242",
+      "task": "facility",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0242",
+      "task": "activity",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0243",
+      "task": "refund",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0243",
+      "task": "arrival",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0243",
+      "task": "facility",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0243",
+      "task": "activity",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0244",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0244",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0244",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0244",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0245",
+      "task": "refund",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0245",
+      "task": "arrival",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0245",
+      "task": "facility",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0245",
+      "task": "activity",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0246",
+      "task": "refund",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0246",
+      "task": "arrival",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0246",
+      "task": "facility",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0246",
+      "task": "activity",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0247",
+      "task": "refund",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0247",
+      "task": "arrival",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0247",
+      "task": "facility",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0247",
+      "task": "activity",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0248",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0248",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0248",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0248",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0249",
+      "task": "refund",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0249",
+      "task": "arrival",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0249",
+      "task": "facility",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0249",
+      "task": "activity",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0250",
+      "task": "refund",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0250",
+      "task": "arrival",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0250",
+      "task": "facility",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0250",
+      "task": "activity",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0251",
+      "task": "refund",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0251",
+      "task": "arrival",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0251",
+      "task": "facility",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0251",
+      "task": "activity",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0252",
+      "task": "refund",
+      "tokens": 195
+    },
+    {
+      "id": "round1-deeper-fp16-0252",
+      "task": "arrival",
+      "tokens": 195
+    },
+    {
+      "id": "round1-deeper-fp16-0252",
+      "task": "facility",
+      "tokens": 197
+    },
+    {
+      "id": "round1-deeper-fp16-0252",
+      "task": "activity",
+      "tokens": 193
+    },
+    {
+      "id": "round1-deeper-fp16-0253",
+      "task": "refund",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0253",
+      "task": "arrival",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0253",
+      "task": "facility",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0253",
+      "task": "activity",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0254",
+      "task": "refund",
+      "tokens": 177
+    },
+    {
+      "id": "round1-deeper-fp16-0254",
+      "task": "arrival",
+      "tokens": 177
+    },
+    {
+      "id": "round1-deeper-fp16-0254",
+      "task": "facility",
+      "tokens": 179
+    },
+    {
+      "id": "round1-deeper-fp16-0254",
+      "task": "activity",
+      "tokens": 175
+    },
+    {
+      "id": "round1-deeper-fp16-0255",
+      "task": "refund",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0255",
+      "task": "arrival",
+      "tokens": 172
+    },
+    {
+      "id": "round1-deeper-fp16-0255",
+      "task": "facility",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0255",
+      "task": "activity",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0256",
+      "task": "refund",
+      "tokens": 213
+    },
+    {
+      "id": "round1-deeper-fp16-0256",
+      "task": "arrival",
+      "tokens": 213
+    },
+    {
+      "id": "round1-deeper-fp16-0256",
+      "task": "facility",
+      "tokens": 215
+    },
+    {
+      "id": "round1-deeper-fp16-0256",
+      "task": "activity",
+      "tokens": 211
+    },
+    {
+      "id": "round1-deeper-fp16-0257",
+      "task": "refund",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0257",
+      "task": "arrival",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0257",
+      "task": "facility",
+      "tokens": 182
+    },
+    {
+      "id": "round1-deeper-fp16-0257",
+      "task": "activity",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0258",
+      "task": "refund",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0258",
+      "task": "arrival",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0258",
+      "task": "facility",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0258",
+      "task": "activity",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0259",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0259",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0259",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0259",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0260",
+      "task": "refund",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0260",
+      "task": "arrival",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0260",
+      "task": "facility",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0260",
+      "task": "activity",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0261",
+      "task": "refund",
+      "tokens": 214
+    },
+    {
+      "id": "round1-deeper-fp16-0261",
+      "task": "arrival",
+      "tokens": 214
+    },
+    {
+      "id": "round1-deeper-fp16-0261",
+      "task": "facility",
+      "tokens": 216
+    },
+    {
+      "id": "round1-deeper-fp16-0261",
+      "task": "activity",
+      "tokens": 212
+    },
+    {
+      "id": "round1-deeper-fp16-0262",
+      "task": "refund",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0262",
+      "task": "arrival",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0262",
+      "task": "facility",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0262",
+      "task": "activity",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0263",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0263",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0263",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0263",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0264",
+      "task": "refund",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0264",
+      "task": "arrival",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0264",
+      "task": "facility",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0264",
+      "task": "activity",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0265",
+      "task": "refund",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0265",
+      "task": "arrival",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0265",
+      "task": "facility",
+      "tokens": 171
+    },
+    {
+      "id": "round1-deeper-fp16-0265",
+      "task": "activity",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0266",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0266",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0266",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0266",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0267",
+      "task": "refund",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0267",
+      "task": "arrival",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0267",
+      "task": "facility",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0267",
+      "task": "activity",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0268",
+      "task": "refund",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0268",
+      "task": "arrival",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0268",
+      "task": "facility",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0268",
+      "task": "activity",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0269",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0269",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0269",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0269",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0270",
+      "task": "refund",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0270",
+      "task": "arrival",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0270",
+      "task": "facility",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0270",
+      "task": "activity",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0271",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0271",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0271",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0271",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0272",
+      "task": "refund",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0272",
+      "task": "arrival",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0272",
+      "task": "facility",
+      "tokens": 166
+    },
+    {
+      "id": "round1-deeper-fp16-0272",
+      "task": "activity",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0273",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0273",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0273",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0273",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0274",
+      "task": "refund",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0274",
+      "task": "arrival",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0274",
+      "task": "facility",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0274",
+      "task": "activity",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0275",
+      "task": "refund",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0275",
+      "task": "arrival",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0275",
+      "task": "facility",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0275",
+      "task": "activity",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0276",
+      "task": "refund",
+      "tokens": 120
+    },
+    {
+      "id": "round1-deeper-fp16-0276",
+      "task": "arrival",
+      "tokens": 120
+    },
+    {
+      "id": "round1-deeper-fp16-0276",
+      "task": "facility",
+      "tokens": 122
+    },
+    {
+      "id": "round1-deeper-fp16-0276",
+      "task": "activity",
+      "tokens": 118
+    },
+    {
+      "id": "round1-deeper-fp16-0277",
+      "task": "refund",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0277",
+      "task": "arrival",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0277",
+      "task": "facility",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0277",
+      "task": "activity",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0278",
+      "task": "refund",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0278",
+      "task": "arrival",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0278",
+      "task": "facility",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0278",
+      "task": "activity",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0279",
+      "task": "refund",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0279",
+      "task": "arrival",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0279",
+      "task": "facility",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0279",
+      "task": "activity",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0280",
+      "task": "refund",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0280",
+      "task": "arrival",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0280",
+      "task": "facility",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0280",
+      "task": "activity",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0281",
+      "task": "refund",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0281",
+      "task": "arrival",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0281",
+      "task": "facility",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0281",
+      "task": "activity",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0282",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0282",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0282",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0282",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0283",
+      "task": "refund",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0283",
+      "task": "arrival",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0283",
+      "task": "facility",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0283",
+      "task": "activity",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0284",
+      "task": "refund",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0284",
+      "task": "arrival",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0284",
+      "task": "facility",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0284",
+      "task": "activity",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0285",
+      "task": "refund",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0285",
+      "task": "arrival",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0285",
+      "task": "facility",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0285",
+      "task": "activity",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0286",
+      "task": "refund",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0286",
+      "task": "arrival",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0286",
+      "task": "facility",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0286",
+      "task": "activity",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0287",
+      "task": "refund",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0287",
+      "task": "arrival",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0287",
+      "task": "facility",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0287",
+      "task": "activity",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0288",
+      "task": "refund",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0288",
+      "task": "arrival",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0288",
+      "task": "facility",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0288",
+      "task": "activity",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0289",
+      "task": "refund",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0289",
+      "task": "arrival",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0289",
+      "task": "facility",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0289",
+      "task": "activity",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0290",
+      "task": "refund",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0290",
+      "task": "arrival",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0290",
+      "task": "facility",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0290",
+      "task": "activity",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0291",
+      "task": "refund",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0291",
+      "task": "arrival",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0291",
+      "task": "facility",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0291",
+      "task": "activity",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0292",
+      "task": "refund",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0292",
+      "task": "arrival",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0292",
+      "task": "facility",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0292",
+      "task": "activity",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0293",
+      "task": "refund",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0293",
+      "task": "arrival",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0293",
+      "task": "facility",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0293",
+      "task": "activity",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0294",
+      "task": "refund",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0294",
+      "task": "arrival",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0294",
+      "task": "facility",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0294",
+      "task": "activity",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0295",
+      "task": "refund",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0295",
+      "task": "arrival",
+      "tokens": 180
+    },
+    {
+      "id": "round1-deeper-fp16-0295",
+      "task": "facility",
+      "tokens": 182
+    },
+    {
+      "id": "round1-deeper-fp16-0295",
+      "task": "activity",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0296",
+      "task": "refund",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0296",
+      "task": "arrival",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0296",
+      "task": "facility",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0296",
+      "task": "activity",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0297",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0297",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0297",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0297",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0298",
+      "task": "refund",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0298",
+      "task": "arrival",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0298",
+      "task": "facility",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0298",
+      "task": "activity",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0299",
+      "task": "refund",
+      "tokens": 109
+    },
+    {
+      "id": "round1-deeper-fp16-0299",
+      "task": "arrival",
+      "tokens": 109
+    },
+    {
+      "id": "round1-deeper-fp16-0299",
+      "task": "facility",
+      "tokens": 111
+    },
+    {
+      "id": "round1-deeper-fp16-0299",
+      "task": "activity",
+      "tokens": 107
+    },
+    {
+      "id": "round1-deeper-fp16-0300",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0300",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0300",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0300",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0301",
+      "task": "refund",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0301",
+      "task": "arrival",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0301",
+      "task": "facility",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0301",
+      "task": "activity",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0302",
+      "task": "refund",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0302",
+      "task": "arrival",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0302",
+      "task": "facility",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0302",
+      "task": "activity",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0303",
+      "task": "refund",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0303",
+      "task": "arrival",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0303",
+      "task": "facility",
+      "tokens": 169
+    },
+    {
+      "id": "round1-deeper-fp16-0303",
+      "task": "activity",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0304",
+      "task": "refund",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0304",
+      "task": "arrival",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0304",
+      "task": "facility",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0304",
+      "task": "activity",
+      "tokens": 183
+    },
+    {
+      "id": "round1-deeper-fp16-0305",
+      "task": "refund",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0305",
+      "task": "arrival",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0305",
+      "task": "facility",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0305",
+      "task": "activity",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0306",
+      "task": "refund",
+      "tokens": 110
+    },
+    {
+      "id": "round1-deeper-fp16-0306",
+      "task": "arrival",
+      "tokens": 110
+    },
+    {
+      "id": "round1-deeper-fp16-0306",
+      "task": "facility",
+      "tokens": 112
+    },
+    {
+      "id": "round1-deeper-fp16-0306",
+      "task": "activity",
+      "tokens": 108
+    },
+    {
+      "id": "round1-deeper-fp16-0307",
+      "task": "refund",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0307",
+      "task": "arrival",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0307",
+      "task": "facility",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0307",
+      "task": "activity",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0308",
+      "task": "refund",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0308",
+      "task": "arrival",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0308",
+      "task": "facility",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0308",
+      "task": "activity",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0309",
+      "task": "refund",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0309",
+      "task": "arrival",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0309",
+      "task": "facility",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0309",
+      "task": "activity",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0310",
+      "task": "refund",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0310",
+      "task": "arrival",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0310",
+      "task": "facility",
+      "tokens": 147
+    },
+    {
+      "id": "round1-deeper-fp16-0310",
+      "task": "activity",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0311",
+      "task": "refund",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0311",
+      "task": "arrival",
+      "tokens": 123
+    },
+    {
+      "id": "round1-deeper-fp16-0311",
+      "task": "facility",
+      "tokens": 125
+    },
+    {
+      "id": "round1-deeper-fp16-0311",
+      "task": "activity",
+      "tokens": 121
+    },
+    {
+      "id": "round1-deeper-fp16-0312",
+      "task": "refund",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0312",
+      "task": "arrival",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0312",
+      "task": "facility",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0312",
+      "task": "activity",
+      "tokens": 126
+    },
+    {
+      "id": "round1-deeper-fp16-0313",
+      "task": "refund",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0313",
+      "task": "arrival",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0313",
+      "task": "facility",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0313",
+      "task": "activity",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0314",
+      "task": "refund",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0314",
+      "task": "arrival",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0314",
+      "task": "facility",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0314",
+      "task": "activity",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0315",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0315",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0315",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0315",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0316",
+      "task": "refund",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0316",
+      "task": "arrival",
+      "tokens": 140
+    },
+    {
+      "id": "round1-deeper-fp16-0316",
+      "task": "facility",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0316",
+      "task": "activity",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0317",
+      "task": "refund",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0317",
+      "task": "arrival",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0317",
+      "task": "facility",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0317",
+      "task": "activity",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0318",
+      "task": "refund",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0318",
+      "task": "arrival",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0318",
+      "task": "facility",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0318",
+      "task": "activity",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0319",
+      "task": "refund",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0319",
+      "task": "arrival",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0319",
+      "task": "facility",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0319",
+      "task": "activity",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0320",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0320",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0320",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0320",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0321",
+      "task": "refund",
+      "tokens": 168
+    },
+    {
+      "id": "round1-deeper-fp16-0321",
+      "task": "arrival",
+      "tokens": 168
+    },
+    {
+      "id": "round1-deeper-fp16-0321",
+      "task": "facility",
+      "tokens": 170
+    },
+    {
+      "id": "round1-deeper-fp16-0321",
+      "task": "activity",
+      "tokens": 166
+    },
+    {
+      "id": "round1-deeper-fp16-0322",
+      "task": "refund",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0322",
+      "task": "arrival",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0322",
+      "task": "facility",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0322",
+      "task": "activity",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0323",
+      "task": "refund",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0323",
+      "task": "arrival",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0323",
+      "task": "facility",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0323",
+      "task": "activity",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0324",
+      "task": "refund",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0324",
+      "task": "arrival",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0324",
+      "task": "facility",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0324",
+      "task": "activity",
+      "tokens": 127
+    },
+    {
+      "id": "round1-deeper-fp16-0325",
+      "task": "refund",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0325",
+      "task": "arrival",
+      "tokens": 162
+    },
+    {
+      "id": "round1-deeper-fp16-0325",
+      "task": "facility",
+      "tokens": 164
+    },
+    {
+      "id": "round1-deeper-fp16-0325",
+      "task": "activity",
+      "tokens": 160
+    },
+    {
+      "id": "round1-deeper-fp16-0326",
+      "task": "refund",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0326",
+      "task": "arrival",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0326",
+      "task": "facility",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0326",
+      "task": "activity",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0327",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0327",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0327",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0327",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0328",
+      "task": "refund",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0328",
+      "task": "arrival",
+      "tokens": 151
+    },
+    {
+      "id": "round1-deeper-fp16-0328",
+      "task": "facility",
+      "tokens": 153
+    },
+    {
+      "id": "round1-deeper-fp16-0328",
+      "task": "activity",
+      "tokens": 149
+    },
+    {
+      "id": "round1-deeper-fp16-0329",
+      "task": "refund",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0329",
+      "task": "arrival",
+      "tokens": 136
+    },
+    {
+      "id": "round1-deeper-fp16-0329",
+      "task": "facility",
+      "tokens": 138
+    },
+    {
+      "id": "round1-deeper-fp16-0329",
+      "task": "activity",
+      "tokens": 134
+    },
+    {
+      "id": "round1-deeper-fp16-0330",
+      "task": "refund",
+      "tokens": 194
+    },
+    {
+      "id": "round1-deeper-fp16-0330",
+      "task": "arrival",
+      "tokens": 194
+    },
+    {
+      "id": "round1-deeper-fp16-0330",
+      "task": "facility",
+      "tokens": 196
+    },
+    {
+      "id": "round1-deeper-fp16-0330",
+      "task": "activity",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0331",
+      "task": "refund",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0331",
+      "task": "arrival",
+      "tokens": 176
+    },
+    {
+      "id": "round1-deeper-fp16-0331",
+      "task": "facility",
+      "tokens": 178
+    },
+    {
+      "id": "round1-deeper-fp16-0331",
+      "task": "activity",
+      "tokens": 174
+    },
+    {
+      "id": "round1-deeper-fp16-0332",
+      "task": "refund",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0332",
+      "task": "arrival",
+      "tokens": 187
+    },
+    {
+      "id": "round1-deeper-fp16-0332",
+      "task": "facility",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0332",
+      "task": "activity",
+      "tokens": 185
+    },
+    {
+      "id": "round1-deeper-fp16-0333",
+      "task": "refund",
+      "tokens": 202
+    },
+    {
+      "id": "round1-deeper-fp16-0333",
+      "task": "arrival",
+      "tokens": 202
+    },
+    {
+      "id": "round1-deeper-fp16-0333",
+      "task": "facility",
+      "tokens": 204
+    },
+    {
+      "id": "round1-deeper-fp16-0333",
+      "task": "activity",
+      "tokens": 200
+    },
+    {
+      "id": "round1-deeper-fp16-0334",
+      "task": "refund",
+      "tokens": 199
+    },
+    {
+      "id": "round1-deeper-fp16-0334",
+      "task": "arrival",
+      "tokens": 199
+    },
+    {
+      "id": "round1-deeper-fp16-0334",
+      "task": "facility",
+      "tokens": 201
+    },
+    {
+      "id": "round1-deeper-fp16-0334",
+      "task": "activity",
+      "tokens": 197
+    },
+    {
+      "id": "round1-deeper-fp16-0335",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0335",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0335",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0335",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0336",
+      "task": "refund",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0336",
+      "task": "arrival",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0336",
+      "task": "facility",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0336",
+      "task": "activity",
+      "tokens": 129
+    },
+    {
+      "id": "round1-deeper-fp16-0337",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0337",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0337",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0337",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0338",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0338",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0338",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0338",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0339",
+      "task": "refund",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0339",
+      "task": "arrival",
+      "tokens": 157
+    },
+    {
+      "id": "round1-deeper-fp16-0339",
+      "task": "facility",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0339",
+      "task": "activity",
+      "tokens": 155
+    },
+    {
+      "id": "round1-deeper-fp16-0340",
+      "task": "refund",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0340",
+      "task": "arrival",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0340",
+      "task": "facility",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0340",
+      "task": "activity",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0341",
+      "task": "refund",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0341",
+      "task": "arrival",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0341",
+      "task": "facility",
+      "tokens": 167
+    },
+    {
+      "id": "round1-deeper-fp16-0341",
+      "task": "activity",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0342",
+      "task": "refund",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0342",
+      "task": "arrival",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0342",
+      "task": "facility",
+      "tokens": 165
+    },
+    {
+      "id": "round1-deeper-fp16-0342",
+      "task": "activity",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0343",
+      "task": "refund",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0343",
+      "task": "arrival",
+      "tokens": 161
+    },
+    {
+      "id": "round1-deeper-fp16-0343",
+      "task": "facility",
+      "tokens": 163
+    },
+    {
+      "id": "round1-deeper-fp16-0343",
+      "task": "activity",
+      "tokens": 159
+    },
+    {
+      "id": "round1-deeper-fp16-0344",
+      "task": "refund",
+      "tokens": 184
+    },
+    {
+      "id": "round1-deeper-fp16-0344",
+      "task": "arrival",
+      "tokens": 184
+    },
+    {
+      "id": "round1-deeper-fp16-0344",
+      "task": "facility",
+      "tokens": 186
+    },
+    {
+      "id": "round1-deeper-fp16-0344",
+      "task": "activity",
+      "tokens": 182
+    },
+    {
+      "id": "round1-deeper-fp16-0345",
+      "task": "refund",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0345",
+      "task": "arrival",
+      "tokens": 192
+    },
+    {
+      "id": "round1-deeper-fp16-0345",
+      "task": "facility",
+      "tokens": 194
+    },
+    {
+      "id": "round1-deeper-fp16-0345",
+      "task": "activity",
+      "tokens": 190
+    },
+    {
+      "id": "round1-deeper-fp16-0346",
+      "task": "refund",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0346",
+      "task": "arrival",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0346",
+      "task": "facility",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0346",
+      "task": "activity",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0347",
+      "task": "refund",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0347",
+      "task": "arrival",
+      "tokens": 191
+    },
+    {
+      "id": "round1-deeper-fp16-0347",
+      "task": "facility",
+      "tokens": 193
+    },
+    {
+      "id": "round1-deeper-fp16-0347",
+      "task": "activity",
+      "tokens": 189
+    },
+    {
+      "id": "round1-deeper-fp16-0348",
+      "task": "refund",
+      "tokens": 112
+    },
+    {
+      "id": "round1-deeper-fp16-0348",
+      "task": "arrival",
+      "tokens": 112
+    },
+    {
+      "id": "round1-deeper-fp16-0348",
+      "task": "facility",
+      "tokens": 114
+    },
+    {
+      "id": "round1-deeper-fp16-0348",
+      "task": "activity",
+      "tokens": 110
+    },
+    {
+      "id": "round1-deeper-fp16-0349",
+      "task": "refund",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0349",
+      "task": "arrival",
+      "tokens": 156
+    },
+    {
+      "id": "round1-deeper-fp16-0349",
+      "task": "facility",
+      "tokens": 158
+    },
+    {
+      "id": "round1-deeper-fp16-0349",
+      "task": "activity",
+      "tokens": 154
+    },
+    {
+      "id": "round1-deeper-fp16-0350",
+      "task": "refund",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0350",
+      "task": "arrival",
+      "tokens": 130
+    },
+    {
+      "id": "round1-deeper-fp16-0350",
+      "task": "facility",
+      "tokens": 132
+    },
+    {
+      "id": "round1-deeper-fp16-0350",
+      "task": "activity",
+      "tokens": 128
+    },
+    {
+      "id": "round1-deeper-fp16-0351",
+      "task": "refund",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0351",
+      "task": "arrival",
+      "tokens": 150
+    },
+    {
+      "id": "round1-deeper-fp16-0351",
+      "task": "facility",
+      "tokens": 152
+    },
+    {
+      "id": "round1-deeper-fp16-0351",
+      "task": "activity",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0352",
+      "task": "refund",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0352",
+      "task": "arrival",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0352",
+      "task": "facility",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0352",
+      "task": "activity",
+      "tokens": 142
+    },
+    {
+      "id": "round1-deeper-fp16-0353",
+      "task": "refund",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0353",
+      "task": "arrival",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0353",
+      "task": "facility",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0353",
+      "task": "activity",
+      "tokens": 131
+    },
+    {
+      "id": "round1-deeper-fp16-0354",
+      "task": "refund",
+      "tokens": 112
+    },
+    {
+      "id": "round1-deeper-fp16-0354",
+      "task": "arrival",
+      "tokens": 112
+    },
+    {
+      "id": "round1-deeper-fp16-0354",
+      "task": "facility",
+      "tokens": 114
+    },
+    {
+      "id": "round1-deeper-fp16-0354",
+      "task": "activity",
+      "tokens": 110
+    },
+    {
+      "id": "round1-deeper-fp16-0355",
+      "task": "refund",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0355",
+      "task": "arrival",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0355",
+      "task": "facility",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0355",
+      "task": "activity",
+      "tokens": 139
+    },
+    {
+      "id": "round1-deeper-fp16-0356",
+      "task": "refund",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0356",
+      "task": "arrival",
+      "tokens": 135
+    },
+    {
+      "id": "round1-deeper-fp16-0356",
+      "task": "facility",
+      "tokens": 137
+    },
+    {
+      "id": "round1-deeper-fp16-0356",
+      "task": "activity",
+      "tokens": 133
+    },
+    {
+      "id": "round1-deeper-fp16-0357",
+      "task": "refund",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0357",
+      "task": "arrival",
+      "tokens": 146
+    },
+    {
+      "id": "round1-deeper-fp16-0357",
+      "task": "facility",
+      "tokens": 148
+    },
+    {
+      "id": "round1-deeper-fp16-0357",
+      "task": "activity",
+      "tokens": 144
+    },
+    {
+      "id": "round1-deeper-fp16-0358",
+      "task": "refund",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0358",
+      "task": "arrival",
+      "tokens": 143
+    },
+    {
+      "id": "round1-deeper-fp16-0358",
+      "task": "facility",
+      "tokens": 145
+    },
+    {
+      "id": "round1-deeper-fp16-0358",
+      "task": "activity",
+      "tokens": 141
+    },
+    {
+      "id": "round1-deeper-fp16-0359",
+      "task": "refund",
+      "tokens": 115
+    },
+    {
+      "id": "round1-deeper-fp16-0359",
+      "task": "arrival",
+      "tokens": 115
+    },
+    {
+      "id": "round1-deeper-fp16-0359",
+      "task": "facility",
+      "tokens": 117
+    },
+    {
+      "id": "round1-deeper-fp16-0359",
+      "task": "activity",
+      "tokens": 113
+    }
+  ]
+}

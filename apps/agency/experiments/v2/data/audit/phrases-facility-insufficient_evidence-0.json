@@ -1,0 +1,72 @@
+{
+  "source": "phrases-facility-insufficient_evidence-0.json",
+  "source_sha256": "5af7d98729f53e8833861ab5505620f2c3a7c2c6f2fa4df55f8b545ebbbc603d",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "insufficient_evidence",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states guests can use the 'main aquatic area' (swimming pool) 'throughout their duration' (during stay) with 'no supplemental fee' (no additional charge)."
+    },
+    {
+      "index": 1,
+      "label": "meets",
+      "reason": "Explicitly states the 'water recreation zone' (swimming pool) at the 'selected lodging' is 'complimentary' (no additional charge) for the 'entire length of your reservation period' (during stay)."
+    },
+    {
+      "index": 2,
+      "label": "meets",
+      "reason": "Explicitly grants access to 'water features' (swimming pool) for 'registered guests staying overnight' (during stay) with 'no extra charges' (no additional charge)."
+    },
+    {
+      "index": 3,
+      "label": "meets",
+      "reason": "Explicitly states 'swimming facilities' are 'included in your room rate' (no additional charge) 'during your visit' (during stay)."
+    },
+    {
+      "index": 4,
+      "label": "insufficient_evidence",
+      "reason": "While access is granted for free, the text states specific hours are 'pending,' creating uncertainty about availability during the entire stay without explicit confirmation."
+    },
+    {
+      "index": 5,
+      "label": "insufficient_evidence",
+      "reason": "The text directs the user to 'check our updated site notices' for costs, meaning the text itself does not explicitly establish that there are no additional charges."
+    },
+    {
+      "index": 6,
+      "label": "meets",
+      "reason": "Explicitly states 'water recreation' is 'complimentary of charge' (no additional charge) for the 'duration' (during stay) for 'all guests staying on site'."
+    },
+    {
+      "index": 7,
+      "label": "insufficient_evidence",
+      "reason": "The phrase 'additional costs are not anticipated' is a prediction rather than an explicit guarantee of 'no additional charge'."
+    },
+    {
+      "index": 8,
+      "label": "insufficient_evidence",
+      "reason": "The clause 'Subject to final operational review' introduces a condition that prevents the explicit establishment of the amenity's availability during the stay."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "The recommendation to 'verify current operating status' implies the amenity might not be available, failing to explicitly establish the right to use it during the stay."
+    },
+    {
+      "index": 10,
+      "label": "insufficient_evidence",
+      "reason": "The statement 'usage conditions are subject to change' prevents the explicit establishment that the amenity is available without additional charge for the entire stay."
+    },
+    {
+      "index": 11,
+      "label": "insufficient_evidence",
+      "reason": "The phrase 'Specific operational timelines are forthcoming' creates uncertainty about whether the pool will be accessible during the stay."
+    }
+  ],
+  "agreement": 7,
+  "n": 12,
+  "seconds": 38.95625185966492,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

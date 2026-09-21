@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0151",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates because a mandatory 27 euro charge is deducted (not a full cash refund); arrival meets because 01:30 registration is automatic without contact; facility meets because the pool is available without a separate fee; activity is insufficient_evidence because the document states no statement about a guided walk is supplied."
+    }
+  ],
+  "documents_sha256": "4c4a1a96ad26ee5ee966fa771e0e5a334b845e984ff6d73c4cc27035b8a94286"
+}

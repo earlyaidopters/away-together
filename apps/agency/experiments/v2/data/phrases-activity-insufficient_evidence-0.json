@@ -1,0 +1,62 @@
+{
+  "task": "activity",
+  "label": "insufficient_evidence",
+  "batch": 0,
+  "requirement": "The advertised holiday price includes a hike accompanied by a guide.",
+  "meaning_constraints": "Outdoor experiences mentioned but guided hiking or inclusion not confirmed; walking options exist but guiding/price unclear; itinerary pending. No explicit yes or no.",
+  "clauses": [
+    {
+      "text": "While nature walks are available locally, details regarding guided treks or bundled pricing for such excursions require further inquiry.",
+      "rationale": "Mentions 'nature walks' but leaves guided trekking details and pricing unconfirmed."
+    },
+    {
+      "text": "We advise clients to inquire directly about the inclusion of expert trekking support when finalizing their itinerary packages.",
+      "rationale": "Suggests inquiring about support but doesn't confirm its inclusion or cost upfront."
+    },
+    {
+      "text": "Please note that optional excursions, including mountain paths, are priced separately and are not bundled into the base rate shown.",
+      "rationale": "Discusses optional paths and separate pricing without confirming inclusion or guides."
+    },
+    {
+      "text": "The package covers accommodation; any specified physical activity, like guided hiking, must be added via an attachment.",
+      "rationale": "Treats guided hiking as an addition, implying it's not automatically included or priced."
+    },
+    {
+      "text": "Guests should review the detailed activity schedule for any mention of trekking or guided footpaths; these elements are sometimes customized.",
+      "rationale": "Directs the user to review schedules for trekking mention, implying variability and uncertainty."
+    },
+    {
+      "text": "For comprehensive outdoor activities involving elevated terrain, please refer to our supplementary activity guide for current inclusions.",
+      "rationale": "Refers to a separate guide for detailed inclusions, suggesting the primary booking lacks certainty."
+    },
+    {
+      "text": "The quoted fare covers lodging and transport; any specialized physical journeys or local guidance are subject to separate arrangement.",
+      "rationale": "Clearly separates lodging/transport from specialized journeys/guidance, suggesting exclusion."
+    },
+    {
+      "text": "Walking routes are possible from the property, but the availability of an accompanying expert for any given hike is not guaranteed.",
+      "rationale": "Confirms walking routes exist but explicitly states the accompanying expert is not guaranteed."
+    },
+    {
+      "text": "The itinerary is provisional; specialized outdoor adventures, such as guided ascents, will be finalized upon deposit confirmation.",
+      "rationale": "States the itinerary is provisional and requires a later action (deposit) to finalize specific activities."
+    },
+    {
+      "text": "Check the activity matrix; guided exploration elements differ greatly depending on the selected destination tier.",
+      "rationale": "Points to a matrix where specific elements (guided exploration) vary based on an unchosen tier."
+    },
+    {
+      "text": "Physical excursions are generally offered; specific guided rates for uphill routes must be confirmed at the time of booking modification.",
+      "rationale": "Uses general language ('generally offered') and requires confirmation for specific rates."
+    },
+    {
+      "text": "Included amenities list walking trails nearby, but specialist guiding services for mountain paths are quoted upon request only.",
+      "rationale": "Lists nearby trails but relegates specialized guiding services to a 'upon request' status."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 17.646964073181152,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "919e035c5150aa5f276981cb1005a83dc091cd802b0dcfc2c2a78bdb64493afa"
+}

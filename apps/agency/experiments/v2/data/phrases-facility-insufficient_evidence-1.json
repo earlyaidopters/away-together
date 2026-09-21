@@ -1,0 +1,62 @@
+{
+  "task": "facility",
+  "label": "insufficient_evidence",
+  "batch": 1,
+  "requirement": "Guests can use a swimming pool located at the booked property for no additional charge during the described stay.",
+  "meaning_constraints": "Water image, spa without pool specifications, pool mentioned but location or price unknown, access terms not given, renovations with opening dates unconfirmed. Do not establish all required facts or an explicit violation.",
+  "clauses": [
+    {
+      "text": "Guests staying on-site have access to the recreational water area throughout their visit at no extra cost.",
+      "rationale": "Mentions water access but lacks specifics on pool type, pricing certainty, or definitive operational status."
+    },
+    {
+      "text": "The dedicated spa facilities include relaxation areas, and guests enjoying their stay may utilize the associated water features.",
+      "rationale": "Specifies spa amenities but only generally mentions 'water features' without confirming a dedicated, usable pool for the guest."
+    },
+    {
+      "text": "Pool usage is permitted for registered guests; specific access hours and any associated entry fees are subject to change.",
+      "rationale": "Confirms pool use but leaves location details vague and introduces unknown variables regarding costs/timing."
+    },
+    {
+      "text": "Water leisure facilities are available to guests throughout the duration of the reservation without an additional tariff.",
+      "rationale": "Uses general terms ('water leisure facilities') and lack of concrete location or cost structure details."
+    },
+    {
+      "text": "Enjoy complimentary access to the pool area during your confirmed accommodation dates. Further details regarding pool setup are pending.",
+      "rationale": "Confirms free access but immediately hedges the information with an unresolved status update."
+    },
+    {
+      "text": "The rate includes use of the pool. Please check the property's updated operational status for precise details.",
+      "rationale": "States inclusion but directs the user to an external source for necessary details, implying uncertainty."
+    },
+    {
+      "text": "Pool access is complimentary for all overnight guests. Note that final operational availability is contingent upon renovation schedules.",
+      "rationale": "Confirms the benefit but ties its availability to unconfirmed construction timelines."
+    },
+    {
+      "text": "Guests utilizing the property can make use of the swimming amenities included in the room rate. Specific entry criteria are not detailed here.",
+      "rationale": "Confirms amenity inclusion but explicitly states the lack of necessary operational terms or guidelines."
+    },
+    {
+      "text": "The stay package covers entry to the water recreation zone. Verify the pool's exact location details on the property map upon arrival.",
+      "rationale": "Confirms access but shifts the responsibility of locating the amenity to the arrival phase without providing coordinates."
+    },
+    {
+      "text": "Access to the aquatic leisure amenities is included. Please check the official notice board for current usage guidelines.",
+      "rationale": "Uses a generic term for the facility and defers all necessary rules to an unverified physical location."
+    },
+    {
+      "text": "Water amenities are accessible; this privilege does not guarantee availability or mention specific usage rates for the booking period.",
+      "rationale": "Acknowledges the potential amenity but hedges its availability and avoids defining any aspect of its usage terms."
+    },
+    {
+      "text": "Pool area use is complimentary during your visit. Temporary closures due to planned aesthetic improvements may affect this amenity.",
+      "rationale": "Confirms the cost aspect but limits the guarantee based on unconfirmed future maintenance."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 18.074541091918945,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "e531aa55729c13201f1bbc7a3a5e3ed62d4f136f1bbb2a11fae10461f073685e"
+}

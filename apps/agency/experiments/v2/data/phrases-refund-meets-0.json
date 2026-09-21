@@ -1,0 +1,62 @@
+{
+  "task": "refund",
+  "label": "meets",
+  "batch": 0,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "All money returned to original payment/card/bank method; no fee. Can state a cancellation deadline, but assume guest cancels before it.",
+  "clauses": [
+    {
+      "text": "If plans change and you cancel your stay before the specified date, the full reservation cost will be refunded directly to your original form of payment.",
+      "rationale": "This is phrased as an answer to a frequently asked question regarding refunds."
+    },
+    {
+      "text": "Should you need to alter your booking before the 14-day cutoff, please be aware that a complete reimbursement of all funds will be processed back to the card used for purchase.",
+      "rationale": "This mimics the slightly formal tone expected in communication from a travel agent."
+    },
+    {
+      "text": "Cancellation prior to arrival date entitles the guest to a full refund, credited back to the source of the payment without any deductions whatsoever.",
+      "rationale": "This structure is typical of a small, informational note attached to a rate plan."
+    },
+    {
+      "text": "Your reservation holds a guaranteed refund amount should cancellation occur before the check-in date; funds revert entirely to the initial payment method.",
+      "rationale": "This has the definitive, structured tone of an automatic booking confirmation message."
+    },
+    {
+      "text": "Guests canceling their booking must note that the payment amount will be returned in full to the originating financial account, with zero retention charges applied.",
+      "rationale": "This adopts the objective, formal language typical of a third-party vendor's terms."
+    },
+    {
+      "text": "In the event of an early withdrawal, the total paid amount is refundable; the funds are credited back to the original payment source.",
+      "rationale": "This sounds like very small print found at the bottom of a promotional brochure."
+    },
+    {
+      "text": "Full refund issued if cancelled; funds returned to original payment method.",
+      "rationale": "This is extremely brief and direct, like a quick response in a chat widget."
+    },
+    {
+      "text": "Cancellation before the trip dates means the entirety of the booking cost will be returned to the original payment source, with no penalty applied.",
+      "rationale": "This uses simple, straightforward language aiming for maximum clarity for all readers."
+    },
+    {
+      "text": "Modifications resulting in early departure guarantee the return of all monies paid, credited back to the method originally used for booking.",
+      "rationale": "This resembles official text detailing changes or adjustments to an existing reservation."
+    },
+    {
+      "text": "If cancellation occurs before the scheduled tour start, a complete monetary reimbursement is issued back to the initial payment source.",
+      "rationale": "This has the informative, cautionary style of a specialized activity provider."
+    },
+    {
+      "text": "Refunds for cancellations before departure date: 100% returned to card on file.",
+      "rationale": "This mimics the concise layout often seen in comparison guides or comparison charts."
+    },
+    {
+      "text": "All monies paid are eligible for return to the original card if cancellation is processed prior to arrival.",
+      "rationale": "This is a general statement of policy, suitable for an amenities or service feature list."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 20.982043027877808,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "9f48d212165a7121dd234c3c28567ce84db63b42f0167c9aba04a90a931bf441"
+}

@@ -1,0 +1,62 @@
+{
+  "task": "activity",
+  "label": "meets",
+  "batch": 0,
+  "requirement": "The advertised holiday price includes a hike accompanied by a guide.",
+  "meaning_constraints": "Included guide-led countryside/mountain/trail hike with no separate payment.",
+  "clauses": [
+    {
+      "text": "For all guests choosing the alpine package, a guided trek through the valley floor is included at no extra cost.",
+      "rationale": "Explicitly states an included guide-led countryside hike."
+    },
+    {
+      "text": "Your booking confirmation details a comprehensive countryside experience; this covers the guided uphill walk.",
+      "rationale": "Confirms an included guided countryside hike."
+    },
+    {
+      "text": "The Platinum tier rate comprises all necessary guided traversal across mountain paths.",
+      "rationale": "Indicates the inclusion of a guided mountain hike within a specific rate."
+    },
+    {
+      "text": "The package rate confirms access to the scenic route, inclusive of expert local trekking accompaniment.",
+      "rationale": "Confirms an included guided trail hike."
+    },
+    {
+      "text": "Please note: The advertised base price incorporates a full-day guided excursion traversing local uplands.",
+      "rationale": "States the inclusion of a guided countryside hike as part of the advertised price."
+    },
+    {
+      "text": "Yes, the specified itinerary fee encompasses the guided walk across the highland terrain.",
+      "rationale": "Answers a question confirming an included guided mountain hike."
+    },
+    {
+      "text": "Included amenities cover passage along designated mountain footpaths with a professional escort.",
+      "rationale": "Lists the guided mountain hike as an included amenity."
+    },
+    {
+      "text": "Modification of the excursion details will not alter the inclusion of the guided riverside trail walk.",
+      "rationale": "Confirms the continued inclusion of a guided trail hike despite amendments."
+    },
+    {
+      "text": "All travelers benefit from the bundled rate which features a guided journey through natural woodlands.",
+      "rationale": "Describes the inclusion of a guided countryside hike via a bundle rate."
+    },
+    {
+      "text": "The base fare includes all required guiding services for the designated hillside circuit.",
+      "rationale": "Specifies the inclusion of a guided mountain hike within the base fare."
+    },
+    {
+      "text": "The standard booking tier covers the guided woodland passage; additional fees are not applicable for this segment.",
+      "rationale": "Details the inclusion of a guided countryside hike while clarifying no extra costs."
+    },
+    {
+      "text": "Rate adjustment reflects the mandatory guided descent along the mapped forest route.",
+      "rationale": "Indicates the inclusion of a guided trail hike as part of the rate structure."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 15.004065990447998,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "497e022d298c57868b53ecf536d0c456846e02fa0cfb55e67e87afb9396e10fc"
+}

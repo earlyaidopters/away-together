@@ -1,0 +1,72 @@
+{
+  "source": "phrases-facility-meets-1-repair1.json",
+  "source_sha256": "bf763322072d48df4424e80fce6762b739acc9ceb94e075fc16751b6c677b20a",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "meets",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states the onsite pool is included for everyone on the booking throughout the stay."
+    },
+    {
+      "index": 1,
+      "label": "meets",
+      "reason": "Explicitly states resident guests swim free in the hotel courtyard pool during the booked week."
+    },
+    {
+      "index": 2,
+      "label": "meets",
+      "reason": "Explicitly states the property has a pool open during stay dates and guests pay nothing extra."
+    },
+    {
+      "index": 3,
+      "label": "meets",
+      "reason": "Explicitly states the onsite pool is included for everyone on the booking throughout the stay."
+    },
+    {
+      "index": 4,
+      "label": "meets",
+      "reason": "Explicitly states resident guests swim free in the hotel courtyard pool during the booked week."
+    },
+    {
+      "index": 5,
+      "label": "meets",
+      "reason": "Explicitly states the property has a pool open during stay dates and guests pay nothing extra."
+    },
+    {
+      "index": 6,
+      "label": "meets",
+      "reason": "Explicitly states the onsite pool is included for everyone on the booking throughout the stay."
+    },
+    {
+      "index": 7,
+      "label": "meets",
+      "reason": "Explicitly states resident guests swim free in the hotel courtyard pool during the booked week."
+    },
+    {
+      "index": 8,
+      "label": "meets",
+      "reason": "Explicitly states the property has a pool open during stay dates and guests pay nothing extra."
+    },
+    {
+      "index": 9,
+      "label": "meets",
+      "reason": "Explicitly states the onsite pool is included for everyone on the booking throughout the stay."
+    },
+    {
+      "index": 10,
+      "label": "meets",
+      "reason": "Explicitly states resident guests swim free in the hotel courtyard pool during the booked week."
+    },
+    {
+      "index": 11,
+      "label": "meets",
+      "reason": "Explicitly states the property has a pool open during stay dates and guests pay nothing extra."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 46.991398096084595,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

@@ -1,0 +1,36 @@
+{
+  "seed": 20260920,
+  "provenance": "Synthetic template corpus. Template families disjoint; domain vocabulary shared. Not a human-reviewed real-world test.",
+  "splits": {
+    "train": {
+      "scenarios": 1200,
+      "decisions": 4800,
+      "sha256": "db0eeeff7a1374956a0c1d5c5b5cd2eb6ce1a78b6b60247dac93811a8dbd31c6",
+      "family": 0
+    },
+    "dev": {
+      "scenarios": 200,
+      "decisions": 800,
+      "sha256": "bf4a416c84f7f59f3c239af6b41603dda061fb92482612c894edb0325a92b2d5",
+      "family": 1
+    },
+    "calibration": {
+      "scenarios": 200,
+      "decisions": 800,
+      "sha256": "f94dbc64e014fe332aaa8b2c3743297027e85f7927268c706a880e86fd421ad8",
+      "family": 2
+    },
+    "test": {
+      "scenarios": 300,
+      "decisions": 1200,
+      "sha256": "01299b3af2f4c9697e3d058fac431953a14582b5d9bc842086d7f09b1e194022",
+      "family": 3
+    },
+    "challenge": {
+      "scenarios": 100,
+      "decisions": 400,
+      "sha256": "0a27fc2940dd2a383bbdc49d17cbbca1f83e959af283b20263046c4646507de0",
+      "family": 4
+    }
+  }
+}

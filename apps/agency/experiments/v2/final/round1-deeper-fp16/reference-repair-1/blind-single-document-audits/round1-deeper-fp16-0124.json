@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0124",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is undocumented; arrival rules are not addressed; pool is free; guided hike is included."
+    }
+  ],
+  "documents_sha256": "ab178336644fe7b091451827503568aedc0f87d63966fab4ce0726f54bf6c4c7"
+}

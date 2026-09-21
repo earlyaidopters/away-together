@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0228",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund is a full cash return; arrival after midnight is allowed without contact; pool details are unstated; hike requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0229",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is full monetary return; arrival after midnight is seamless; pool is available without a separate fee; hike incurs an extra charge."
+    },
+    {
+      "id": "round1-deeper-fp16-0230",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund has a mandatory charge; arrival requires prior permission; pool access status is unresolved; hike costs extra."
+    },
+    {
+      "id": "round1-deeper-fp16-0231",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund has a mandatory charge; arrival requires prior permission; pool policies are conflicting/unresolved; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0232",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund method/amount is undocumented; arrival requires prior permission; pool requires an extra fee; hike costs extra."
+    },
+    {
+      "id": "round1-deeper-fp16-0233",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund method/amount is undocumented; arrival requires prior permission; pool is available without extra fee; hike is included."
+    }
+  ],
+  "documents_sha256": "0baaa6e2faef3db177069b092fc121201ecd7be0e45bbb2931b0eb0f0da11d1c"
+}

@@ -1,0 +1,72 @@
+{
+  "source": "phrases-activity-insufficient_evidence-0-repair1.json",
+  "source_sha256": "0e5d58a460990536cbddf5a5658c09745344c5cc2e550ab90312c866bbfd3fa7",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "insufficient_evidence",
+  "answers": [
+    {
+      "index": 0,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states that the listing does not say whether a guided hike is included, so the requirement is neither met nor explicitly violated."
+    },
+    {
+      "index": 1,
+      "label": "insufficient_evidence",
+      "reason": "The text states the package does not specify activities or guide arrangements, meaning there is no evidence to confirm or deny the inclusion."
+    },
+    {
+      "index": 2,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly notes that guided-hike inclusion is not stated, providing insufficient evidence to meet the requirement."
+    },
+    {
+      "index": 3,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states the listing does not say whether a guided hike is included."
+    },
+    {
+      "index": 4,
+      "label": "insufficient_evidence",
+      "reason": "The text states the package does not specify activities or guide arrangements, leaving the inclusion unconfirmed."
+    },
+    {
+      "index": 5,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states that guided-hike inclusion is not stated."
+    },
+    {
+      "index": 6,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states the listing does not say whether a guided hike is included."
+    },
+    {
+      "index": 7,
+      "label": "insufficient_evidence",
+      "reason": "The text states the package does not specify activities or guide arrangements."
+    },
+    {
+      "index": 8,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states that guided-hike inclusion is not stated."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states the listing does not say whether a guided hike is included."
+    },
+    {
+      "index": 10,
+      "label": "insufficient_evidence",
+      "reason": "The text states the package does not specify activities or guide arrangements."
+    },
+    {
+      "index": 11,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states that guided-hike inclusion is not stated."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 51.232917070388794,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

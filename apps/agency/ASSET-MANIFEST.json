@@ -1,0 +1,72 @@
+{
+  "generated_images": [
+    {
+      "path": "app/public/madeira.png",
+      "provider": "built-in image generation",
+      "subject": "Coastal Madeira travel property",
+      "use": "fictional listing image, actual pixel input to local OpenJev when selected",
+      "sha256": "e16997f0ae0383d1340e803e65d6aa77f46a8e0b317341f25a2e1748751ba315"
+    },
+    {
+      "path": "app/public/kyoto.png",
+      "provider": "built-in image generation",
+      "subject": "Kyoto travel property",
+      "use": "fictional listing image, actual pixel input to local OpenJev when selected",
+      "sha256": "847fc8b097fca015d598214d3fe8071005ebfa64b25e191c00c0344f1a1f3629"
+    },
+    {
+      "path": "app/public/iceland.png",
+      "provider": "built-in image generation",
+      "subject": "Iceland travel property",
+      "use": "fictional listing image, actual pixel input to local OpenJev when selected",
+      "sha256": "073978f7d0e27f0ef7d9bdc1dde1546e9b64a1bea4e6213cad5412e332c88259"
+    },
+    {
+      "path": "app/public/photos/madeira-terrace.png",
+      "provider": "built-in image generation",
+      "subject": "madeira-terrace",
+      "use": "fictional listing image and actual vision input",
+      "sha256": "2e88f8419fc8ff4bed979024c805fc7aae76dd1936cec732d3f5462c7505a8eb"
+    },
+    {
+      "path": "app/public/photos/madeira-path.png",
+      "provider": "built-in image generation",
+      "subject": "madeira-path",
+      "use": "fictional listing image and actual vision input",
+      "sha256": "669bfd83e8213a742a07179884f1493afc4948524d4e51f619900206e0e355cc"
+    },
+    {
+      "path": "app/public/photos/kyoto-courtyard.png",
+      "provider": "built-in image generation",
+      "subject": "kyoto-courtyard",
+      "use": "fictional listing image and actual vision input",
+      "sha256": "7e6bfc169a528e3f1463778f7bfb705b70f807930be2826693f067dfab5b6a3c"
+    },
+    {
+      "path": "app/public/photos/kyoto-entrance.png",
+      "provider": "built-in image generation",
+      "subject": "kyoto-entrance",
+      "use": "fictional listing image and actual vision input",
+      "sha256": "6d02c4989e7154b9c9cd3d4248a252bb76407e104da431c5db93d0e206db16cb"
+    },
+    {
+      "path": "app/public/photos/iceland-lounge.png",
+      "provider": "built-in image generation",
+      "subject": "iceland-lounge",
+      "use": "fictional listing image and actual vision input",
+      "sha256": "70c6ddbb1c66af5174c359a331349593b17f73ebc8994943851ef61a64b3ac2d"
+    },
+    {
+      "path": "app/public/photos/iceland-trail.png",
+      "provider": "built-in image generation",
+      "subject": "iceland-trail",
+      "use": "fictional listing image and actual vision input",
+      "sha256": "9a088583b25fc61010698cf38f7392b18f4cb614b58b4a60c3582c953ca75ece"
+    }
+  ],
+  "avatars": "Original CSS pixel illustrations",
+  "icons": "Phosphor React",
+  "font": "Poppins ExtraBold; SIL OFL",
+  "benchmark_charts": "Deterministic matplotlib rendering from saved predictions",
+  "thumbnail": "Native HTML typography with unmodified actual app screenshot, no generated result statistics"
+}

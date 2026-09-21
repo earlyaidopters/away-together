@@ -1,0 +1,113 @@
+{
+  "task": "activity",
+  "label": "insufficient_evidence",
+  "batch": 0,
+  "requirement": "The advertised holiday price includes a hike accompanied by a guide.",
+  "meaning_constraints": "Outdoor experiences mentioned but guided hiking or inclusion not confirmed; walking options exist but guiding/price unclear; itinerary pending. No explicit yes or no.",
+  "clauses": [
+    {
+      "text": "Q: Are there outdoor excursions available? A: While outdoor excursions are mentioned, the listing does not say whether a guided hike is included.",
+      "rationale": "Maintains the mention of excursions and the specific uncertainty regarding guided hikes."
+    },
+    {
+      "text": "Dear client, hiking is possible in the area; however, please note this package does not specify its activities or guide arrangements.",
+      "rationale": "Preserves the possibility of hiking while noting the lack of activity and guide details."
+    },
+    {
+      "text": "*The itinerary will be supplied later; guided-hike inclusion and price are not stated.",
+      "rationale": "Retains the timing of the itinerary and the absence of hike inclusion and pricing information."
+    },
+    {
+      "text": "Your booking is confirmed. Outdoor excursions are mentioned, but the listing does not say whether a guided hike is included.",
+      "rationale": "Keeps the mention of excursions and the specific omission of guided hike details."
+    },
+    {
+      "text": "Hiking is possible in the area, but this package does not specify its activities or guide arrangements.",
+      "rationale": "Directly preserves the possibility of hiking and the lack of specific activity/guide information."
+    },
+    {
+      "text": "Note: The itinerary will be supplied later; guided-hike inclusion and price are not stated.",
+      "rationale": "Maintains the future itinerary delivery and the lack of stated hike inclusion and cost."
+    },
+    {
+      "text": "Regarding your query, outdoor excursions are mentioned, but the listing does not say whether a guided hike is included.",
+      "rationale": "Preserves the mention of excursions and the lack of information regarding guided hikes."
+    },
+    {
+      "text": "Hiking is possible in the area, but this package does not specify its activities or guide arrangements.",
+      "rationale": "Keeps the possibility of hiking and the absence of activity or guide specifications."
+    },
+    {
+      "text": "Itinerary: To be supplied later. Guided-hike inclusion and price are not stated.",
+      "rationale": "Preserves the future itinerary timing and the missing hike inclusion and price details."
+    },
+    {
+      "text": "Please note: Outdoor excursions are mentioned, but the listing does not say whether a guided hike is included.",
+      "rationale": "Maintains the mention of excursions and the specific uncertainty about guided hikes."
+    },
+    {
+      "text": "Hiking is possible in the area, but this package does not specify its activities or guide arrangements.",
+      "rationale": "Preserves the possibility of hiking and the lack of activity or guide details."
+    },
+    {
+      "text": "Itinerary: Supplied later | Guided-hike inclusion: Not stated | Price: Not stated",
+      "rationale": "Maintains the future itinerary, the lack of hike inclusion, and the lack of stated price."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 19.428936004638672,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "ca1a9b2e2062ca6a0d7cb0e045193a29c1a50b0f83e16fe133b7ec5de2abfcc1",
+  "repair_of": "phrases-activity-insufficient_evidence-0.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "Outdoor excursions are mentioned, but the listing does not say whether a guided hike is included."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "Hiking is possible in the area, but this package does not specify its activities or guide arrangements."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "The itinerary will be supplied later; guided-hike inclusion and price are not stated."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "Outdoor excursions are mentioned, but the listing does not say whether a guided hike is included."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "Hiking is possible in the area, but this package does not specify its activities or guide arrangements."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "The itinerary will be supplied later; guided-hike inclusion and price are not stated."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "Outdoor excursions are mentioned, but the listing does not say whether a guided hike is included."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "Hiking is possible in the area, but this package does not specify its activities or guide arrangements."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "The itinerary will be supplied later; guided-hike inclusion and price are not stated."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "Outdoor excursions are mentioned, but the listing does not say whether a guided hike is included."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "Hiking is possible in the area, but this package does not specify its activities or guide arrangements."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "The itinerary will be supplied later; guided-hike inclusion and price are not stated."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "task": "refund",
+  "label": "insufficient_evidence",
+  "batch": 0,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "Do not settle full cash refund: flexible booking slogan, refundable deposit only with balance rules missing, changes permitted, cancellation policy available separately, refund method or retained fee unconfirmed.",
+  "clauses": [
+    {
+      "text": "Full reimbursement is provided if cancellation occurs before the designated cutoff time; no charges will be retained under any circumstances.",
+      "rationale": "Mentions a refund before a deadline but lacks specific details on the refund mechanism or any conditions for the full refund."
+    },
+    {
+      "text": "Should you need to alter your itinerary, we advise reviewing the flexible booking options, as details regarding refunds are outlined elsewhere.",
+      "rationale": "References alternative policies for refunds and doesn't confirm the exact refund process or fees."
+    },
+    {
+      "text": "Deposit covers only the initial booking arrangement; modifications require checking the supplementary terms regarding retained amounts.",
+      "rationale": "Indicates a deposit exists but fails to confirm the refund rules or any associated fees upon cancellation."
+    },
+    {
+      "text": "A complete refund of the original payment amount will be issued if changes are processed within the specified window; please refer to the attached documents.",
+      "rationale": "Suggests a full refund based on a condition but directs the user elsewhere for definitive policy confirmation."
+    },
+    {
+      "text": "Our cancellation stipulations are detailed in the separate terms and conditions document attached to this booking summary.",
+      "rationale": "Explicitly states that refund policies are in a separate document, meaning this text alone is insufficient evidence."
+    },
+    {
+      "text": "Contact support for guidance; policy details regarding cancellation refunds are managed via our dedicated portal.",
+      "rationale": "Directs the user to a third source for the policy, leaving the exact refund rules unconfirmed here."
+    },
+    {
+      "text": "If you cancel prior to the cutoff date, expect the entire sum back. Check the cancellation policy link for specifics.",
+      "rationale": "States a refund condition but immediately defers the full details to an external link, making the text incomplete."
+    },
+    {
+      "text": "Changes are accepted; refunds are subject to the specific refund guidelines provided in the accompanying paperwork.",
+      "rationale": "Acknowledges changes and refunds but bases the refund amount on external paperwork, not stated here."
+    },
+    {
+      "text": "Review the policy section for cancellation; refunds are available, though specific payment processing details must be verified separately.",
+      "rationale": "Confirms refunds exist but qualifies the amount/method by pointing to external verification steps."
+    },
+    {
+      "text": "The booking can be adjusted; policies regarding the refund amount upon early departure are listed under 'Terms of Sale.'",
+      "rationale": "Indicates refund rules exist but directs the user to a different section ('Terms of Sale') for confirmation."
+    },
+    {
+      "text": "Modification is permitted up until the date noted; final refund calculations depend on the specific tier purchased.",
+      "rationale": "Suggests refunds are possible but ties the final amount to a category ('tier purchased') not fully explained here."
+    },
+    {
+      "text": "See the adjacent column for cancellation terms; the reimbursement details are subject to the final confirmation sheet.",
+      "rationale": "Directs the user to another location (adjacent column/sheet) for the definitive refund information."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 15.783055067062378,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "fc985311773c81d78bdcbd5bf4e00e0ae38450600af671a371ba336f54670414"
+}

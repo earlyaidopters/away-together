@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0037",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund violates because a mandatory 27 euro charge is deducted (not a full cash refund); arrival is insufficient because the document states the procedure is undocumented; facility is insufficient because price and access conditions are not stated; activity violates because the hike requires a separate payment."
+    }
+  ],
+  "documents_sha256": "6f8f592af2a103c54d60f0ad8a2350b3efddefd0447b40e5f5686c27496b2870"
+}

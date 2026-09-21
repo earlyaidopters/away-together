@@ -1,0 +1,14 @@
+{
+  "source": "experiments/v2/runs/deeper-precision-benchmark/report.json",
+  "source_sha256": "334651ab46810bd99eb4963fd0037b75b05de88fe4df97d8ba839ea61036e15e",
+  "pooled_median_ms": {
+    "float32": 203.84110400118516,
+    "float16": 101.74114599794848
+  },
+  "pooled_p95_ms": {
+    "float32": 313.1537222507177,
+    "float16": 156.89886844702394
+  },
+  "ratio": 2.0035267147992952,
+  "scope": "Development only"
+}

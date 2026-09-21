@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0180",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document explicitly states that records do not document refund methods, no rules are stated for arrival, swimming area details are unstated, and no confirmation of a guided walk is supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0181",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund info is undocumented; arrival at 01:30 is allowed without contact; the pool requires a 19 euro charge (violating the free requirement); and no statement about a guided walk is supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0182",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Full cash refund is provided; arrival at 01:30 requires prior permission (violating the no-arrangement rule); pool details are unstated under new terms; and a guided walking excursion is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0183",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refunds are undocumented; arrival rules are not addressed; facility info contains unresolved equally authoritative conflicting policies; and no statement about a guided walk is supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0184",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Full refund is provided; no rules address arrival; the pool is available without any separate fee; and no statement about a guided walk is supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0185",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Full refund is provided; 01:30 arrival is automatic; pool details are unstated; and a guided hike requires a separate payment (violating the inclusion requirement)."
+    }
+  ],
+  "documents_sha256": "34e8d0609f00fa642bf874b581c93092fd8572e5d375e37e45f8496925379819"
+}

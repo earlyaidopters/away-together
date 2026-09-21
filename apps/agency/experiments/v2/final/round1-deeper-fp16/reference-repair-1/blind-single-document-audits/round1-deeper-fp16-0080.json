@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0080",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document explicitly confirms automatic check-in after midnight, full cash refunds before the deadline, and free use of the swimming pool, but states no information is supplied regarding the guided hike."
+    }
+  ],
+  "documents_sha256": "c90e19364b0c53330e719f76ff4880589c78f18efb891528cba2ecac5d02ed71"
+}

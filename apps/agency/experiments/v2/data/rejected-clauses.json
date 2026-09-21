@@ -1,0 +1,734 @@
+[
+  {
+    "text": "Hiking is possible in the area, but this package does not specify its activities or guide arrangements.",
+    "source": "phrases-activity-insufficient_evidence-0-repair1.json",
+    "index": 7,
+    "audit": "The text states the package does not specify activities or guide arrangements.",
+    "reason": "normalized duplicate"
+  },
+  {
+    "text": "Hiking is possible in the area, but this package does not specify its activities or guide arrangements.",
+    "source": "phrases-activity-insufficient_evidence-0-repair1.json",
+    "index": 10,
+    "audit": "The text states the package does not specify activities or guide arrangements.",
+    "reason": "normalized duplicate"
+  },
+  {
+    "text": "Please note that optional excursions, including mountain paths, are priced separately and are not bundled into the base rate shown.",
+    "source": "phrases-activity-insufficient_evidence-0.json",
+    "index": 2,
+    "audit": "Explicitly states excursions are priced separately and not bundled into the base rate.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "The package covers accommodation; any specified physical activity, like guided hiking, must be added via an attachment.",
+    "source": "phrases-activity-insufficient_evidence-0.json",
+    "index": 3,
+    "audit": "Explicitly states guided hiking must be added via an attachment, meaning it is not included.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "The quoted fare covers lodging and transport; any specialized physical journeys or local guidance are subject to separate arrangement.",
+    "source": "phrases-activity-insufficient_evidence-0.json",
+    "index": 6,
+    "audit": "Explicitly states local guidance is subject to separate arrangement.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Walking routes are possible from the property, but the availability of an accompanying expert for any given hike is not guaranteed.",
+    "source": "phrases-activity-insufficient_evidence-0.json",
+    "index": 7,
+    "audit": "Explicitly states an accompanying expert is not guaranteed.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Physical excursions are generally offered; specific guided rates for uphill routes must be confirmed at the time of booking modification.",
+    "source": "phrases-activity-insufficient_evidence-0.json",
+    "index": 10,
+    "audit": "Explicitly states specific guided rates must be confirmed at booking modification, implying they are not included initially.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Included amenities list walking trails nearby, but specialist guiding services for mountain paths are quoted upon request only.",
+    "source": "phrases-activity-insufficient_evidence-0.json",
+    "index": 11,
+    "audit": "Explicitly states specialist guiding services are quoted upon request only.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Your reservation includes access to local paths. Specific guided walks should be booked separately through our activity portal.",
+    "source": "phrases-activity-insufficient_evidence-1.json",
+    "index": 3,
+    "audit": "The text explicitly states that specific guided walks must be booked separately, meaning the guide is not included in the advertised price.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "The listed fare covers lodging and ground transfers. Alpine exploration requires review of supplemental guiding service agreements.",
+    "source": "phrases-activity-insufficient_evidence-1.json",
+    "index": 4,
+    "audit": "The text states that alpine exploration requires reviewing supplemental guiding service agreements, implying the guide is an extra cost and not included.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "The basic stay package permits movement across natural terrain. Availability of expert local guidance is at the discretion of the site manager.",
+    "source": "phrases-activity-insufficient_evidence-1.json",
+    "index": 7,
+    "audit": "The text states that expert local guidance is at the discretion of the site manager, implying it is not a guaranteed inclusion in the advertised price.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "If extended trekking is desired, further costing and logistical plans are available for review prior to booking finalization.",
+    "source": "phrases-activity-insufficient_evidence-1.json",
+    "index": 10,
+    "audit": "The text implies that extended trekking requires further costing and logistical plans, suggesting the guide is an additional cost not included in the base price.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Pricing includes one guided excursion; specifically, the established woodland path traverse is covered.",
+    "source": "phrases-activity-meets-1.json",
+    "index": 2,
+    "audit": "Mentions a 'guided excursion' and 'path traverse' but does not explicitly use the term 'hike' or confirm the activity is a hike, though it is strongly implied.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Your itinerary confirms complimentary access to the guided descent on the marked valley route.",
+    "source": "phrases-activity-meets-1.json",
+    "index": 3,
+    "audit": "Mentions a 'guided descent' on a 'valley route' but does not explicitly define the activity as a 'hike'.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Please note that the quoted fare encompasses the supervised journey along the designated mountain track.",
+    "source": "phrases-activity-meets-1.json",
+    "index": 4,
+    "audit": "Mentions a 'supervised journey' on a 'mountain track' but does not explicitly use the term 'hike'.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Excludes specialized gear rentals, but the scheduled guided lowland ramble is within the inclusive price.",
+    "source": "phrases-activity-meets-1.json",
+    "index": 5,
+    "audit": "Mentions a 'guided lowland ramble' but does not explicitly use the term 'hike'.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "The rate covers the local guide for the scenic hillside walk; no extra booking is needed.",
+    "source": "phrases-activity-meets-1.json",
+    "index": 6,
+    "audit": "Mentions a 'scenic hillside walk' with a guide but does not explicitly use the term 'hike'.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "The total cost covers the guided exploration of the rural pathways, simplifying your outdoor adventure.",
+    "source": "phrases-activity-meets-1.json",
+    "index": 7,
+    "audit": "Mentions 'guided exploration' of 'pathways' but does not explicitly use the term 'hike'.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "If amending your booking, remember the guided upland circuit remains part of the base rate.",
+    "source": "phrases-activity-meets-1.json",
+    "index": 9,
+    "audit": "Mentions a 'guided upland circuit' but does not explicitly use the term 'hike'.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Hike Type | Included? | Extra Cost: Local Hill Path | Yes | N/A",
+    "source": "phrases-activity-meets-1.json",
+    "index": 11,
+    "audit": "Lists 'Local Hill Path' as included but does not explicitly state it is a 'hike' or that a 'guide' is provided for it.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Guests arriving after the standard closing time are welcome; please inquire directly with the front desk team upon arrival for current advisories.",
+    "source": "phrases-arrival-insufficient_evidence-0.json",
+    "index": 0,
+    "audit": "The text states guests are welcome to arrive after standard closing time and only asks to inquire upon arrival, implying no prior arrangement is needed.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "For arrivals occurring beyond midnight, direct consultation with our booking specialists is recommended to confirm access procedures.",
+    "source": "phrases-arrival-insufficient_evidence-0.json",
+    "index": 1,
+    "audit": "The text explicitly recommends 'direct consultation... to confirm access procedures' for arrivals beyond midnight, implying a prior arrangement is necessary.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Late arrivals, specifically those past 12:00 AM, require direct confirmation with the property before arrival.",
+    "source": "phrases-arrival-insufficient_evidence-0.json",
+    "index": 2,
+    "audit": "The text explicitly states that arrivals past 12:00 AM 'require direct confirmation with the property before arrival'.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "If your arrival time falls after midnight, we advise contacting the property in advance to outline necessary arrangements.",
+    "source": "phrases-arrival-insufficient_evidence-0.json",
+    "index": 3,
+    "audit": "The text explicitly advises 'contacting the property in advance' for arrivals after midnight.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Midnight arrivals and later are subject to current operational guidelines; please call us for precise instructions.",
+    "source": "phrases-arrival-insufficient_evidence-0.json",
+    "index": 4,
+    "audit": "The text instructs guests to 'call us for precise instructions' regarding midnight arrivals, implying a prior step is required.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Should you arrive after the clock strikes twelve, please check with local staff for the most current procedures available.",
+    "source": "phrases-arrival-insufficient_evidence-0.json",
+    "index": 5,
+    "audit": "The text instructs guests to 'check with local staff' upon arrival, implying no prior arrangement is needed.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Midnight or later check-ins are possible; contacting the establishment prior to arrival for specific protocols is advised.",
+    "source": "phrases-arrival-insufficient_evidence-0.json",
+    "index": 6,
+    "audit": "The text states that contacting the establishment 'prior to arrival' is advised for midnight check-ins.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Arriving after midnight? Please call ahead; operational specifics will be provided to you.",
+    "source": "phrases-arrival-insufficient_evidence-0.json",
+    "index": 7,
+    "audit": "The text explicitly says 'Please call ahead' for arrivals after midnight.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Late arrivals (past 12:00 AM) are accommodated based on availability; please verify details when booking.",
+    "source": "phrases-arrival-insufficient_evidence-0.json",
+    "index": 10,
+    "audit": "The text instructs guests to 'verify details when booking,' which constitutes a prior arrangement.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "The property is convenient for late flights, but check-in rules are unspecified.",
+    "source": "phrases-arrival-insufficient_evidence-1-repair1.json",
+    "index": 10,
+    "audit": "Check-in rules are unspecified, meaning the requirement is neither established nor explicitly failed.",
+    "reason": "normalized duplicate"
+  },
+  {
+    "text": "Guests arriving after the clock strikes twelve are welcome to proceed directly to the lobby.",
+    "source": "phrases-arrival-insufficient_evidence-1.json",
+    "index": 0,
+    "audit": "Explicitly states guests arriving after midnight can 'proceed directly' without mentioning any need for prior arrangement.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Late night arrivals, anytime after the initial hours conclude, require confirmation with the local station.",
+    "source": "phrases-arrival-insufficient_evidence-1.json",
+    "index": 3,
+    "audit": "Explicitly states that arrivals after midnight 'require confirmation,' which contradicts the requirement of no prior arrangement.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "If you expect to arrive after midnight, please be advised that arrangements should be confirmed via the booking portal.",
+    "source": "phrases-arrival-insufficient_evidence-1.json",
+    "index": 5,
+    "audit": "Explicitly states that arrangements 'should be confirmed via the booking portal,' mandating a prior arrangement.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "For departures arriving after the twelve o'clock mark, direct coordination with our service team is necessary.",
+    "source": "phrases-arrival-insufficient_evidence-1.json",
+    "index": 9,
+    "audit": "Explicitly states that 'direct coordination... is necessary,' mandating a prior arrangement.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Guests are welcome to arrive at any time; simply present identification at the reception desk.",
+    "source": "phrases-arrival-violates-0.json",
+    "index": 0,
+    "audit": "The text explicitly states guests can arrive 'at any time' and simply present ID, satisfying the requirement for no prior arrangement.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Frequently Asked Question: Can I check in past midnight? Yes, absolutely; just arrive.",
+    "source": "phrases-arrival-violates-0.json",
+    "index": 6,
+    "audit": "The text explicitly answers 'Yes' to checking in past midnight and instructs to 'just arrive,' confirming no prior arrangement is needed.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Guests arriving after 12:00 AM are welcome to check in directly at the reception desk without pre-booking.",
+    "source": "phrases-arrival-violates-1.json",
+    "index": 0,
+    "audit": "Explicitly states guests arriving after 12:00 AM can check in directly without pre-booking.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Guests are welcome to utilize the main aquatic area amenity throughout their duration with us, at no supplemental fee.",
+    "source": "phrases-facility-insufficient_evidence-0.json",
+    "index": 0,
+    "audit": "Explicitly states guests can use the 'main aquatic area' (swimming pool) 'throughout their duration' (during stay) with 'no supplemental fee' (no additional charge).",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Please note that the water recreation zone at your selected lodging is complimentary for the entire length of your reservation period.",
+    "source": "phrases-facility-insufficient_evidence-0.json",
+    "index": 1,
+    "audit": "Explicitly states the 'water recreation zone' (swimming pool) at the 'selected lodging' is 'complimentary' (no additional charge) for the 'entire length of your reservation period' (during stay).",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "The facility includes access to the refreshing water features for registered guests staying overnight; no extra charges apply.",
+    "source": "phrases-facility-insufficient_evidence-0.json",
+    "index": 2,
+    "audit": "Explicitly grants access to 'water features' (swimming pool) for 'registered guests staying overnight' (during stay) with 'no extra charges' (no additional charge).",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Enjoy the swimming facilities during your visit; utilization of this amenity is included in your room rate structure.",
+    "source": "phrases-facility-insufficient_evidence-0.json",
+    "index": 3,
+    "audit": "Explicitly states 'swimming facilities' are 'included in your room rate' (no additional charge) 'during your visit' (during stay).",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Water recreation is available to all guests staying on site, complimentary of charge for the duration.",
+    "source": "phrases-facility-insufficient_evidence-0.json",
+    "index": 6,
+    "audit": "Explicitly states 'water recreation' is 'complimentary of charge' (no additional charge) for the 'duration' (during stay) for 'all guests staying on site'.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Guests staying on-site have access to the recreational water area throughout their visit at no extra cost.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 0,
+    "audit": "Explicitly states access to the 'recreational water area' (swimming pool) for 'guests staying on-site' (booked property) 'throughout their visit' (described stay) at 'no extra cost'.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Pool usage is permitted for registered guests; specific access hours and any associated entry fees are subject to change.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 2,
+    "audit": "Explicitly states that 'associated entry fees' are subject to change, failing the 'no additional charge' requirement.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Water leisure facilities are available to guests throughout the duration of the reservation without an additional tariff.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 3,
+    "audit": "Explicitly states 'water leisure facilities' (swimming pool) are available 'throughout the duration of the reservation' (described stay) 'without an additional tariff'.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Enjoy complimentary access to the pool area during your confirmed accommodation dates. Further details regarding pool setup are pending.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 4,
+    "audit": "Explicitly grants 'complimentary access' to the 'pool area' during 'confirmed accommodation dates'.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "The rate includes use of the pool. Please check the property's updated operational status for precise details.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 5,
+    "audit": "Explicitly states the 'rate includes use of the pool' for the stay; checking operational status does not negate the inclusion of the fee.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Pool access is complimentary for all overnight guests. Note that final operational availability is contingent upon renovation schedules.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 6,
+    "audit": "Explicitly states access is 'complimentary' for 'overnight guests'; potential closure due to renovation is a condition of availability, not a fee or explicit failure of the policy terms.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Guests utilizing the property can make use of the swimming amenities included in the room rate. Specific entry criteria are not detailed here.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 7,
+    "audit": "Explicitly states 'swimming amenities' are 'included in the room rate' for guests utilizing the property.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "The stay package covers entry to the water recreation zone. Verify the pool's exact location details on the property map upon arrival.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 8,
+    "audit": "Explicitly states the 'stay package covers entry to the water recreation zone' (swimming pool).",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Access to the aquatic leisure amenities is included. Please check the official notice board for current usage guidelines.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 9,
+    "audit": "Explicitly states access to 'aquatic leisure amenities' is 'included'.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Water amenities are accessible; this privilege does not guarantee availability or mention specific usage rates for the booking period.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 10,
+    "audit": "Explicitly states the privilege 'does not guarantee availability' and 'does not mention specific usage rates', failing the requirement to establish the no-charge condition for the stay.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "Pool area use is complimentary during your visit. Temporary closures due to planned aesthetic improvements may affect this amenity.",
+    "source": "phrases-facility-insufficient_evidence-1.json",
+    "index": 11,
+    "audit": "Explicitly states 'pool area use is complimentary' during the visit; potential temporary closures do not negate the policy's explicit inclusion of the fee.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Note: Resident guests swim free in the hotel courtyard pool; it is open for the booked week. Subject to availability.",
+    "source": "phrases-facility-meets-0-repair1.json",
+    "index": 5,
+    "audit": "While it states guests swim free and the pool is open, the clause 'Subject to availability' introduces uncertainty that prevents explicit establishment of guaranteed access.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "If you extend your stay, remember that the swimming pool access remains complimentary for all guests residing at the property.",
+    "source": "phrases-facility-meets-0.json",
+    "index": 7,
+    "audit": "The text only confirms complimentary access if the stay is extended; it does not explicitly establish the policy for the standard booked stay duration.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "For the Silver Tier package, enjoying the property's pool grounds is included. Check the comparison chart for details.",
+    "source": "phrases-facility-meets-1.json",
+    "index": 10,
+    "audit": "Explicitly limits the inclusion to the 'Silver Tier package' only; it does not establish that *all* guests or general bookings meet the requirement.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Guests enjoying this reservation may utilize the on-site aquatic facility without incurring supplemental charges for the duration of their visit.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 0,
+    "audit": "Explicitly states guests can use the on-site aquatic facility without supplemental charges for the duration of the visit.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Please note that pool access is exclusively available at the property; any off-site swimming locations require separate arrangements and costs.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 1,
+    "audit": "Confirms pool access is at the property but does not explicitly state whether it is free or included in the stay.",
+    "intended": "violates",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Confirmation details confirm complimentary use of the swimming pool located at the lodging premises throughout your reserved dates.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 3,
+    "audit": "Explicitly confirms complimentary use of the swimming pool at the lodging premises throughout reserved dates.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Guests benefit from complimentary recreational swimming at the designated pool within the accommodation complex for the entirety of the stay.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 4,
+    "audit": "Explicitly states guests benefit from complimentary recreational swimming at the designated pool within the complex for the entirety of the stay.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Pool access is complimentary for all guests staying in any room type booked at this location; no extra fees apply.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 5,
+    "audit": "Explicitly states pool access is complimentary for all guests with no extra fees applying.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Good news! The pool is available for your use at the hotel; no extra payment is necessary for guests staying here.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 6,
+    "audit": "Explicitly states the pool is available for use with no extra payment necessary for guests staying at the hotel.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "The reservation covers access to the property's recreational pool; please note this access is not bundled with external facility passes.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 7,
+    "audit": "States the reservation covers access but does not explicitly confirm if this access is free or included without extra charge.",
+    "intended": "violates",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Amenities include access to the resort's swimming pool, available complimentary throughout your stay at the property.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 8,
+    "audit": "Explicitly states amenities include access to the swimming pool available complimentary throughout the stay.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "If modifying your stay, be aware that pool privileges are automatically included, so no adjustment to the rate is needed.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 9,
+    "audit": "Explicitly states pool privileges are automatically included with no adjustment to the rate needed.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Our resort package grants complimentary use of the main swimming area located on the premises for your entire vacation duration.",
+    "source": "phrases-facility-violates-0.json",
+    "index": 10,
+    "audit": "Explicitly grants complimentary use of the main swimming area on the premises for the entire vacation duration.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Property Pool Access: Included. (Excludes separate fees or off-site use.)",
+    "source": "phrases-facility-violates-0.json",
+    "index": 11,
+    "audit": "Explicitly states property pool access is included and excludes separate fees.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Onsite Swimming Pool: EUR 12 per use (in addition to the room price).",
+    "source": "phrases-facility-violates-1-repair1.json",
+    "index": 11,
+    "audit": "The text states the pool costs EUR 12 per use in addition to the room price, violating the 'no additional charge' requirement.",
+    "reason": "normalized duplicate"
+  },
+  {
+    "text": "Guests staying on-site have complimentary access to the main aquatic area throughout their entire visit.",
+    "source": "phrases-facility-violates-1.json",
+    "index": 0,
+    "audit": "Explicitly states complimentary access to the aquatic area for the entire visit.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Your reservation confirmation confirms complimentary use of the property's leisure pool for the duration of your stay dates.",
+    "source": "phrases-facility-violates-1.json",
+    "index": 3,
+    "audit": "Explicitly confirms complimentary use of the leisure pool for the duration of the stay.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Guests are advised that the use of the resort's pool area is governed by local operational schedules and may be unavailable.",
+    "source": "phrases-facility-violates-1.json",
+    "index": 4,
+    "audit": "States availability depends on schedules but does not explicitly confirm free access or a fee.",
+    "intended": "violates",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "The aquatic area is accessible for all overnight guests without requiring any further charges or deposits.",
+    "source": "phrases-facility-violates-1.json",
+    "index": 8,
+    "audit": "Explicitly states access is without further charges for overnight guests.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "If the pool is closed for maintenance on any day of your visit, alternative arrangements for recreation will be communicated.",
+    "source": "phrases-facility-violates-1.json",
+    "index": 9,
+    "audit": "Discusses maintenance closures but does not explicitly confirm the pool is free or included.",
+    "intended": "violates",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Full reimbursement is provided if cancellation occurs before the designated cutoff time; no charges will be retained under any circumstances.",
+    "source": "phrases-refund-insufficient_evidence-0.json",
+    "index": 0,
+    "audit": "Explicitly states full reimbursement before the cutoff and that no charges are retained.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "If you cancel prior to the cutoff date, expect the entire sum back. Check the cancellation policy link for specifics.",
+    "source": "phrases-refund-insufficient_evidence-0.json",
+    "index": 6,
+    "audit": "Explicitly states the entire sum is returned if cancelled prior to the cutoff; the link reference does not contradict the explicit statement.",
+    "intended": "insufficient_evidence",
+    "audited": "meets"
+  },
+  {
+    "text": "Modification is permitted up until the date noted; final refund calculations depend on the specific tier purchased.",
+    "source": "phrases-refund-insufficient_evidence-0.json",
+    "index": 10,
+    "audit": "States refund calculations depend on the specific tier purchased, implying the amount may not be the entire sum or may vary, contradicting the requirement for a guaranteed full refund.",
+    "intended": "insufficient_evidence",
+    "audited": "violates"
+  },
+  {
+    "text": "cancellation up to 7 days out: 100% credit issued; funds returned directly to the purchase card.",
+    "source": "phrases-refund-meets-1.json",
+    "index": 2,
+    "audit": "States '100% credit issued' rather than 'money' or 'funds returned' as cash; 'credit' may imply store credit rather than a monetary refund, creating ambiguity against the 'money' requirement.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "Modifications before the deadline result in the full payment amount being returned to the original card. See policy for details.",
+    "source": "phrases-refund-meets-1.json",
+    "index": 9,
+    "audit": "Refers to 'Modifications' rather than 'cancellation' and directs the reader to 'See policy for details' for the actual terms, failing to explicitly establish the refund rule within the provided text.",
+    "intended": "meets",
+    "audited": "insufficient_evidence"
+  },
+  {
+    "text": "If plans change, cancellations made through our portal prior to the seven-day mark receive a full reimbursement of the booking total.",
+    "source": "phrases-refund-violates-0.json",
+    "index": 0,
+    "audit": "Explicitly states cancellations before the seven-day mark receive a 'full reimbursement of the booking total,' satisfying the requirement for a full money refund with no retained fee.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "If cancellation notice precedes the due date, the full payment amount is returned to the original payment method.",
+    "source": "phrases-refund-violates-0.json",
+    "index": 10,
+    "audit": "Explicitly states that if notice precedes the due date, the 'full payment amount is returned to the original payment method,' satisfying all parts of the requirement.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "If you cancel your stay by the specified date, a full monetary reimbursement will be issued to the original payment method.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 0,
+    "audit": "Explicitly states a full monetary reimbursement is issued for cancellations by the specified date, with no mention of retained fees.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Should cancellation occur prior to the stipulated cutoff, guests receive a full cash refund without any associated administrative charges.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 1,
+    "audit": "Explicitly states a full cash refund without any administrative charges for cancellations prior to the cutoff.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Cancellation up to 7 days out qualifies for 100% return of funds paid; otherwise, the remaining balance is subject to forfeiture.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 2,
+    "audit": "Explicitly states 100% return of funds for cancellations up to 7 days out, implying no retained fee for that period.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "For cancellations before the deadline, the payment will be returned entirely as cash, minus zero service fees.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 3,
+    "audit": "Explicitly states the payment is returned entirely as cash minus zero service fees for cancellations before the deadline.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "If notice is provided before the date, the full monetary amount paid will be refunded; otherwise, a voucher will be issued instead.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 4,
+    "audit": "Explicitly states the full monetary amount is refunded for notice before the date, with no mention of retained fees.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Guests cancelling before the cutoff are entitled to a complete cash refund; please note, any amount paid past this date is non-refundable.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 5,
+    "audit": "Explicitly states a complete cash refund for cancellations before the cutoff, with no mention of retained fees.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Cancellation notice received promptly results in the full initial payment being credited back to your account; processing fees are waived.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 6,
+    "audit": "Explicitly states the full initial payment is credited back with processing fees waived for prompt notice.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Cancelling by the deadline ensures all monies paid are returned to you; partial refunds are only issued if the cancellation is extremely late.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 7,
+    "audit": "Explicitly states all monies paid are returned for cancellations by the deadline, with no mention of retained fees.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "If cancellation occurs on time, the entirety of the deposit will be returned in currency form. Late changes result in a non-recoverable charge.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 8,
+    "audit": "Explicitly states the entirety of the deposit is returned in currency form for on-time cancellation, with no mention of retained fees.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Early cancellation guarantees the full sum will be returned as cash; failure to adhere to the timeline means the booking fee is kept.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 9,
+    "audit": "Explicitly states the full sum is returned as cash for early cancellation, with no mention of retained fees.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Cancellation up to 24 hours prior yields a total monetary refund. After that, a portion of the total paid is kept to cover admin costs.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 10,
+    "audit": "Explicitly states a total monetary refund for cancellations up to 24 hours prior, with no mention of retained fees for that period.",
+    "intended": "violates",
+    "audited": "meets"
+  },
+  {
+    "text": "Full reimbursement in funds is provided if cancellation precedes the due date. Otherwise, the advance payment is forfeited outright.",
+    "source": "phrases-refund-violates-1.json",
+    "index": 11,
+    "audit": "Explicitly states full reimbursement in funds is provided if cancellation precedes the due date, with no mention of retained fees.",
+    "intended": "violates",
+    "audited": "meets"
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "task": "arrival",
+  "label": "violates",
+  "batch": 1,
+  "requirement": "A guest can check in after midnight without making any prior arrangement.",
+  "meaning_constraints": "Use varied counterexamples: must request code in advance; check-in closes before midnight; overnight arrivals refused; desk 24h but actual check-in not; late arrival needs prior approval.",
+  "clauses": [
+    {
+      "text": "Q: How do I enter after midnight? A: Guests arriving after midnight must use a specific access code, which must be requested at least one day in advance.",
+      "rationale": "Preserved the midnight timing, the requirement for a code, and the one-day advance request condition."
+    },
+    {
+      "text": "Dear Client, please note that while the desk operates overnight, any arrivals scheduled after midnight will require advance approval to ensure access.",
+      "rationale": "Preserved the overnight desk operation and the requirement for advance approval for arrivals after midnight."
+    },
+    {
+      "text": "*Please note: The property refuses all check-ins between the hours of midnight and 06:00.",
+      "rationale": "Preserved the specific refusal of check-ins and the exact time window of midnight to 06:00."
+    },
+    {
+      "text": "Your check-in period stops at 23:00; please be aware that guests arriving later than this cannot enter the premises until the morning.",
+      "rationale": "Preserved the 23:00 cutoff and the fact that later arrivals cannot enter until morning."
+    },
+    {
+      "text": "Access Policy: For arrivals after midnight, guests are required to use a code that must be requested one day in advance.",
+      "rationale": "Preserved the midnight timing, the necessity of a code, and the one-day advance request requirement."
+    },
+    {
+      "text": "Note: The desk operates overnight; however, all arrivals occurring after midnight require advance approval for entry.",
+      "rationale": "Preserved the overnight desk operation and the necessity of advance approval for arrivals after midnight."
+    },
+    {
+      "text": "We regret to inform you that the property refuses all check-ins between midnight and 06:00.",
+      "rationale": "Preserved the refusal of check-ins and the exact time frame of midnight to 06:00."
+    },
+    {
+      "text": "Check-in stops at 23:00. If you arrive later, you cannot enter until the morning.",
+      "rationale": "Preserved the 23:00 stop time and the restriction on entry until morning for later arrivals."
+    },
+    {
+      "text": "Late Access: After midnight, guests must use a code. This code must be requested a day in advance.",
+      "rationale": "Preserved the midnight timing, the code requirement, and the one-day advance request condition."
+    },
+    {
+      "text": "Amendment: The desk operates overnight, but please be advised that arrivals after midnight require advance approval.",
+      "rationale": "Preserved the overnight desk operation and the requirement for advance approval for arrivals after midnight."
+    },
+    {
+      "text": "Policy Statement: The property refuses all check-ins between midnight and 06:00.",
+      "rationale": "Preserved the refusal of check-ins and the exact time window of midnight to 06:00."
+    },
+    {
+      "text": "Check-in Cutoff: 23:00 (Guests arriving later cannot enter until morning).",
+      "rationale": "Preserved the 23:00 cutoff and the fact that later arrivals cannot enter until morning."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 13.40093183517456,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "3e4adbc3bb6de172e64377d9e54506e585998bffe08fe9ba41c675bc3d8f034b",
+  "repair_of": "phrases-arrival-violates-1.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "After midnight guests must use a code that must be requested a day in advance."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "The desk operates overnight but arrivals after midnight require advance approval."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "The property refuses all check-ins between midnight and 06:00."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "Check-in stops at 23:00, and guests arriving later cannot enter until morning."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "After midnight guests must use a code that must be requested a day in advance."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "The desk operates overnight but arrivals after midnight require advance approval."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "The property refuses all check-ins between midnight and 06:00."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "Check-in stops at 23:00, and guests arriving later cannot enter until morning."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "After midnight guests must use a code that must be requested a day in advance."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "The desk operates overnight but arrivals after midnight require advance approval."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "The property refuses all check-ins between midnight and 06:00."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "Check-in stops at 23:00, and guests arriving later cannot enter until morning."
+    }
+  ]
+}

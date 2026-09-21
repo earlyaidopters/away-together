@@ -1,0 +1,62 @@
+{
+  "task": "arrival",
+  "label": "meets",
+  "batch": 0,
+  "requirement": "A guest can check in after midnight without making any prior arrangement.",
+  "meaning_constraints": "Overnight arrival allowed automatically, staffed or automatic; no advance notice/registration/code request needed.",
+  "clauses": [
+    {
+      "text": "Guests arriving after 12:00 AM are welcome; simply proceed to the lobby, and our team will assist with your check-in process.",
+      "rationale": "Directly states no prior arrangement is needed for late arrivals."
+    },
+    {
+      "text": "Should your arrival time exceed midnight, no special booking or pre-registration is necessary for immediate entry into the premises.",
+      "rationale": "Emphasizes automatic access capability after midnight."
+    },
+    {
+      "text": "Late night arrivals are covered under this rate; no advance notification or key code request is required for room access.",
+      "rationale": "Specifies that the rate itself covers late, no-notice check-in."
+    },
+    {
+      "text": "Arrivals occurring post-midnight require no coordination; just present your identification at any time.",
+      "rationale": "Confirms self-service nature for late arrivals."
+    },
+    {
+      "text": "For those checking in after midnight, walk-ins are fine. Our automated system handles the initial process without exception.",
+      "rationale": "Mentions automated system handles late arrivals without setup."
+    },
+    {
+      "text": "No matter the hour past midnight, entry procedures are streamlined. Simply arrive; we handle everything from there.",
+      "rationale": "Implies seamless, automatic process for late arrivals."
+    },
+    {
+      "text": "If arriving after the clock strikes twelve, you are welcome straight away. Key card access is available without calling ahead.",
+      "rationale": "Focuses on immediate, unarranged physical access."
+    },
+    {
+      "text": "After midnight check-ins are permissible. No pre-booking or special access codes are necessary for room occupancy.",
+      "rationale": "Uses clear, direct language confirming no prior steps are needed."
+    },
+    {
+      "text": "The property accepts guests arriving at any time past midnight. Walk-in registration is fully supported by our onsite staff.",
+      "rationale": "Indicates staff are ready to handle late, spontaneous check-ins."
+    },
+    {
+      "text": "Should your itinerary place you here after 12:00 AM, rest assured that entry is automatic, regardless of advance notice.",
+      "rationale": "Uses broader wording ('itinerary') but confirms automatic entry late at night."
+    },
+    {
+      "text": "Midnight arrivals are accommodated seamlessly. Just approach the main desk; no prior digital check-in is needed for access.",
+      "rationale": "Distinguishes between digital pre-check-in and physical arrival capability."
+    },
+    {
+      "text": "Overnight arrivals are fully supported; no advance coordination with our concierge services is required whatsoever.",
+      "rationale": "Confirms full support for late arrivals without needing specific services."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 16.58572006225586,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "29455750b837b866993c59cd4566fefd06777a52b10e44ea74af899e2e3c1981"
+}

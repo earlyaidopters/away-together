@@ -1,0 +1,40 @@
+[
+  {
+    "id": "round1-deeper-fp16-0140",
+    "expected": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "audit": {
+      "id": "round1-deeper-fp16-0140",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "refund: states entire payment is returned as money with no deduction; arrival: explicitly states check-in after midnight requires prior permission; facility: mentions a swimming area but lacks information on price or access; activity: the note explicitly states the hike requires a separate 38 euro payment, contradicting the main text and superseding it."
+    }
+  },
+  {
+    "id": "round1-deeper-fp16-0235",
+    "expected": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "audit": {
+      "id": "round1-deeper-fp16-0235",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy meets the requirement (entire payment returned as money). Arrival policy is explicitly stated as having no rules (insufficient evidence). Facility policy violates the requirement (charges 19 euros for the pool). Activity policy is insufficient evidence because the agent states the information is missing from the unbooked offer policy, despite the conversational context."
+    }
+  }
+]

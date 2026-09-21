@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0342",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document explicitly states that information regarding the swimming area, guided walk, refund/cancellation, and overnight arrival rules is undefined or not documented."
+    },
+    {
+      "id": "round1-deeper-fp16-0343",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "The document confirms the pool is free, the guided walk is included, and midnight arrival is automatic, but explicitly states there is no documentation regarding refunds."
+    },
+    {
+      "id": "round1-deeper-fp16-0344",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "The document states the pool has a fee (violates), arrival after midnight requires prior permission (violates), the walk is not stated as included (violates), and refund details are undocumented (insufficient_evidence)."
+    },
+    {
+      "id": "round1-deeper-fp16-0345",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "The document states a mandatory fee exists for cancellation (violates refund), mentions a conflict between two authoritative arrival policies (insufficient_evidence), confirms the pool is free (meets), and confirms the walk is included (meets)."
+    },
+    {
+      "id": "round1-deeper-fp16-0346",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "The document confirms the walk is included (meets) and midnight arrival is automatic (meets), but states the pool has a fee (violates) and refund details are undocumented (insufficient_evidence)."
+    },
+    {
+      "id": "round1-deeper-fp16-0347",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "The document states the pool has a fee (violates), the hike requires a separate payment (violates), a cancellation fee is retained (violates refund), and midnight arrival is automatic (meets)."
+    }
+  ],
+  "documents_sha256": "9e46378fcdcd02635a213c6b28b199acc05136e11b712b0e063e471cbd64025f"
+}

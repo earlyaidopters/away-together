@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0258",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates (27 euro charge); arrival meets (automatic at 01:30); facility violates (19 euro fee); activity is insufficient (no statement provided)."
+    },
+    {
+      "id": "round1-deeper-fp16-0259",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund meets (entire payment returned); arrival violates (requires permission); facility meets (no separate fee); activity violates (requires 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0260",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund meets (entire payment returned); arrival is insufficient (no rules address it); facility is insufficient (price/access not stated); activity meets (includes walking excursion)."
+    },
+    {
+      "id": "round1-deeper-fp16-0261",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund meets (entire payment returned); arrival violates (requires permission); facility meets (no separate fee); activity is insufficient (conflicting policies)."
+    },
+    {
+      "id": "round1-deeper-fp16-0262",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund violates (27 euro charge); arrival violates (requires permission); facility is insufficient (price/access not stated); activity violates (requires 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0263",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund meets (entire payment returned); arrival meets (automatic at 01:30); facility violates (19 euro fee); activity meets (includes walking excursion)."
+    }
+  ],
+  "documents_sha256": "583d5deb544d16bdb6b4fafa10547bce4697813573965acca8c1427afe9f2799"
+}

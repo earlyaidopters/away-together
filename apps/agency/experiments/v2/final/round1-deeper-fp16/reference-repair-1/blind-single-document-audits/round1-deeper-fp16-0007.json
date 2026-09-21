@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0007",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund info is missing; arrival rules for the selected Alder offer are not addressed; pool is free; guided hikes require an extra fee."
+    }
+  ],
+  "documents_sha256": "9bad2cd0d267028adc55cceee4c886ef72c983fef0e67f7b9b68eeb4561c5c12"
+}

@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0270",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund and arrival policies are explicitly stated; pool price/access and guided walk inclusion are unknown."
+    },
+    {
+      "id": "round1-deeper-fp16-0271",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund, arrival, and activity requirements are met; the pool requires an extra charge of 19 euros, violating the free facility requirement."
+    },
+    {
+      "id": "round1-deeper-fp16-0272",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund method/amount is unknown; arrival is met; pool requires a fee (violates); activity is met."
+    },
+    {
+      "id": "round1-deeper-fp16-0273",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund and facility requirements are met; arrival has unresolved conflicting policies; activity information is unknown."
+    },
+    {
+      "id": "round1-deeper-fp16-0274",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund and facility details are unknown; arrival and activity requirements are met."
+    },
+    {
+      "id": "round1-deeper-fp16-0275",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund, arrival, and facility details are unknown; activity requirement is met."
+    }
+  ],
+  "documents_sha256": "3b984223e2af0e0dcd57327db617db8dad5be9f3358720c8b2cc7253932f3672"
+}

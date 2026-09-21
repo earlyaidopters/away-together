@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0081",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund, facility, and activity details are missing; arrival policy contains unresolved conflicting information."
+    }
+  ],
+  "documents_sha256": "434eba4a5c8742cf427f9dfaf5d65c63aed0234a6d683737b1580c58f04cbe67"
+}

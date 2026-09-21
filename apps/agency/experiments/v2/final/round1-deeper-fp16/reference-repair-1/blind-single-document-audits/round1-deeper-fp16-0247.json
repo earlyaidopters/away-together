@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0247",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund info is incomplete (neither payment return nor method documented); arrival at 01:30 is automatic for Alder; pool is free; hike requires a separate payment."
+    }
+  ],
+  "documents_sha256": "0720387c8b486df561f7502cdc4db9b7a3dc855aaf6101bd4787b38c9f672aba"
+}

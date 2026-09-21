@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0287",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document states check-in after midnight requires prior permission (violating the arrival requirement); it explicitly states the pool is available without a separate fee (meeting the facility requirement); it states refund and guided activity information is undocumented (insufficient evidence for both)."
+    }
+  ],
+  "documents_sha256": "58e442949ee1d84dece6c0a6d70870a50932ba5e4ead6748a44adf5262ba0cc2"
+}

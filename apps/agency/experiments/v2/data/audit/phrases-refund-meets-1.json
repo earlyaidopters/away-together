@@ -1,0 +1,72 @@
+{
+  "source": "phrases-refund-meets-1.json",
+  "source_sha256": "a1b7118c92c56aa1496eb8c7e1cb54f52d4dbcd53848a3797a0ce187d87de94b",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "meets",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states full reimbursement to the original source without any penalty charges for adjustments prior to the final day."
+    },
+    {
+      "index": 1,
+      "label": "meets",
+      "reason": "Explicitly states a complete refund to the card on file with no service charges deducted before the designated cutoff date."
+    },
+    {
+      "index": 2,
+      "label": "insufficient_evidence",
+      "reason": "States '100% credit issued' rather than 'money' or 'funds returned' as cash; 'credit' may imply store credit rather than a monetary refund, creating ambiguity against the 'money' requirement."
+    },
+    {
+      "index": 3,
+      "label": "meets",
+      "reason": "Explicitly states all monies paid will be refunded in full to the booking method before the departure date."
+    },
+    {
+      "index": 4,
+      "label": "meets",
+      "reason": "Explicitly states full reimbursement to the originating bank account for withdrawals before the specified date."
+    },
+    {
+      "index": 5,
+      "label": "meets",
+      "reason": "Explicitly states the initial cost is returned entirely with no forfeiture prior to the due date."
+    },
+    {
+      "index": 6,
+      "label": "meets",
+      "reason": "Explicitly states the full payment amount returns to the card with no deductions for early cancellation."
+    },
+    {
+      "index": 7,
+      "label": "meets",
+      "reason": "Explicitly states the entire balance returns to the original source with no retention fees for cancellations ahead of time."
+    },
+    {
+      "index": 8,
+      "label": "meets",
+      "reason": "Explicitly states applicable charges are voided and funds credited to the source method before departure."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "Refers to 'Modifications' rather than 'cancellation' and directs the reader to 'See policy for details' for the actual terms, failing to explicitly establish the refund rule within the provided text."
+    },
+    {
+      "index": 10,
+      "label": "meets",
+      "reason": "Explicitly states a full credit (funds) returns to the financial institution from the initial method within the window."
+    },
+    {
+      "index": 11,
+      "label": "meets",
+      "reason": "Explicitly states full money returned to the original method with zero penalty before the cutoff date."
+    }
+  ],
+  "agreement": 10,
+  "n": 12,
+  "seconds": 35.97258687019348,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

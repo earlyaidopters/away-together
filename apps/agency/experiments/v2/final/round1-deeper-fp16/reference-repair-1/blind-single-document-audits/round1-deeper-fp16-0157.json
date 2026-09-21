@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0157",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund violates because a mandatory fee is charged; arrival is insufficient as no rules are addressed; facility is insufficient because location, price, and access conditions are not stated; activity violates because the hike requires a separate payment."
+    }
+  ],
+  "documents_sha256": "b9b0941c31373ba4b6407943ae56a9a9f0fd3c77ca09d88d6bc35319998b7a01"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0265",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "The document states a hike requires a separate payment (violates activity); arrival after midnight is possible without prior contact (meets arrival); refund and swimming pool details are not documented (insufficient_evidence for both)."
+    }
+  ],
+  "documents_sha256": "bfb0b21abd6b91210dd46937de338323591615ca0b98e46343b0f605593acaa1"
+}

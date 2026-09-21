@@ -1,0 +1,62 @@
+{
+  "task": "facility",
+  "label": "insufficient_evidence",
+  "batch": 0,
+  "requirement": "Guests can use a swimming pool located at the booked property for no additional charge during the described stay.",
+  "meaning_constraints": "Water image, spa without pool specifications, pool mentioned but location or price unknown, access terms not given, renovations with opening dates unconfirmed. Do not establish all required facts or an explicit violation.",
+  "clauses": [
+    {
+      "text": "Guests are welcome to utilize the main aquatic area amenity throughout their duration with us, at no supplemental fee.",
+      "rationale": "Mentions a pool area but lacks specific details on availability or confirmation."
+    },
+    {
+      "text": "Please note that the water recreation zone at your selected lodging is complimentary for the entire length of your reservation period.",
+      "rationale": "Refers to a water zone and complimentary use without confirming the pool's precise status."
+    },
+    {
+      "text": "The facility includes access to the refreshing water features for registered guests staying overnight; no extra charges apply.",
+      "rationale": "General mention of water features and cost, but insufficient detail regarding pool access terms."
+    },
+    {
+      "text": "Enjoy the swimming facilities during your visit; utilization of this amenity is included in your room rate structure.",
+      "rationale": "States inclusion but doesn't specify the exact pool or its operational status."
+    },
+    {
+      "text": "Your stay grants access to the designated cooling water space. Further details concerning specific hours of operation are pending.",
+      "rationale": "Uses vague terms ('cooling water space') and notes that operational details are not fully confirmed."
+    },
+    {
+      "text": "We confirm that swimming is permitted guests. For specifics on hours or costs, please check our updated site notices.",
+      "rationale": "Confirms permission but defers specifics on hours or cost to external, unverified sources."
+    },
+    {
+      "text": "Water recreation is available to all guests staying on site, complimentary of charge for the duration.",
+      "rationale": "Uses general terms ('Water recreation') and 'on site' without specific confirmation of the pool structure."
+    },
+    {
+      "text": "Guests benefit from the on-site water amenities during their stay; additional costs are not anticipated.",
+      "rationale": "Vague reference to 'water amenities' and cost certainty without detailing the pool's existence or rules."
+    },
+    {
+      "text": "Access to the aquatic leisure area is included for your booking nights. Subject to final operational review.",
+      "rationale": "Mentions aquatic access but qualifies it with a vague 'final operational review' disclaimer."
+    },
+    {
+      "text": "Complimentary enjoyment of the body of water is a perk of your booking. Verification of current operating status is recommended.",
+      "rationale": "Uses 'body of water' instead of specifying a pool and advises checking status, implying uncertainty."
+    },
+    {
+      "text": "Swimming access is factored into your total price. Please note that usage conditions are subject to change.",
+      "rationale": "Confirms inclusion but uses a general 'usage conditions' caveat, making specifics unknown."
+    },
+    {
+      "text": "Included: Use of the resort's water area for the length of your accommodation. Specific operational timelines are forthcoming.",
+      "rationale": "Lists the amenity generally ('water area') and uses 'forthcoming' for scheduling details."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 18.193539142608643,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "dea96c20f81eb297fd99348619a887e0c08c67362d548ea3758e86bc286c5c04"
+}

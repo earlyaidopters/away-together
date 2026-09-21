@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0358",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document states neither the payment returned nor the method of refund is documented (refund); it confirms arrival at 01:30 is available automatically without contact (arrival); it confirms a swimming pool is available without a separate fee (facility); and it states no statement about a guided walk being included is supplied (activity)."
+    }
+  ],
+  "documents_sha256": "3598588c9cae47bd0c4daaa157040aa745930202029994b9e74e7b6bf24dd47e"
+}

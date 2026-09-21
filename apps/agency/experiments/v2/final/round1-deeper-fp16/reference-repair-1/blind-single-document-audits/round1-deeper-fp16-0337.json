@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0337",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "The document confirms a full cash refund (money, no deduction) and automatic check-in after midnight. However, it fails to state if the swimming area is free of charge and explicitly states the hike requires an extra payment."
+    }
+  ],
+  "documents_sha256": "9ea2be6532ca0774baa6c38ea3d4f4be7bfdaa59893ea4558996fd0ab960b4b8"
+}

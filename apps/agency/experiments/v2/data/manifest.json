@@ -1,0 +1,85 @@
+{
+  "seed": 202609211,
+  "provenance": "Synthetic latent-first prose, written by local Gemma4 latest and, where present, Gemma4 26B factual repairs, audited blind by local Qwen3.5 122B A10B; no human review; no Jev labels. Requested style indices partitioned (actual stylistic adherence not guaranteed) train/dev/calibration. No final set generated.",
+  "rejected_clauses": 92,
+  "splits": {
+    "train": {
+      "scenarios": 2400,
+      "sha256": "d1b9352b1c60ca7c442d7b76714789463d6554b7e5d39ebdefd8c82d24530304",
+      "clause_counts": {
+        "refund": {
+          "meets": 23,
+          "violates": 23,
+          "insufficient_evidence": 22
+        },
+        "arrival": {
+          "meets": 16,
+          "violates": 29,
+          "insufficient_evidence": 21
+        },
+        "facility": {
+          "meets": 30,
+          "violates": 22,
+          "insufficient_evidence": 20
+        },
+        "activity": {
+          "meets": 18,
+          "violates": 16,
+          "insufficient_evidence": 24
+        }
+      }
+    },
+    "dev": {
+      "scenarios": 400,
+      "sha256": "2ca557ad8f667f9f39b6a2f1981b6cc48fab0ce90edd2d191900778555316748",
+      "clause_counts": {
+        "refund": {
+          "meets": 5,
+          "violates": 6,
+          "insufficient_evidence": 6
+        },
+        "arrival": {
+          "meets": 4,
+          "violates": 8,
+          "insufficient_evidence": 7
+        },
+        "facility": {
+          "meets": 8,
+          "violates": 4,
+          "insufficient_evidence": 6
+        },
+        "activity": {
+          "meets": 5,
+          "violates": 4,
+          "insufficient_evidence": 8
+        }
+      }
+    },
+    "calibration": {
+      "scenarios": 400,
+      "sha256": "5e503d16e18195d1389c01194687bcfb3b8a534ae2e69fe170e657625f270263",
+      "clause_counts": {
+        "refund": {
+          "meets": 6,
+          "violates": 5,
+          "insufficient_evidence": 5
+        },
+        "arrival": {
+          "meets": 4,
+          "violates": 8,
+          "insufficient_evidence": 6
+        },
+        "facility": {
+          "meets": 7,
+          "violates": 5,
+          "insufficient_evidence": 6
+        },
+        "activity": {
+          "meets": 5,
+          "violates": 4,
+          "insufficient_evidence": 4
+        }
+      }
+    }
+  }
+}

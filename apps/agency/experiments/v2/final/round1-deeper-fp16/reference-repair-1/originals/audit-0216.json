@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0216",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund and arrival policies are explicitly stated as absent or undefined; the pool is free; the hike requires an additional fee."
+    },
+    {
+      "id": "round1-deeper-fp16-0217",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "A mandatory fee is retained (violates refund); arrival rules are not addressed; the pool requires a fee; the hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0218",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "A mandatory fee is retained (violates refund); midnight arrival is allowed; pool conditions are undefined; the hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0219",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy contains unresolved conflicting policies; midnight arrival is allowed; the pool is free; hike inclusion is unknown."
+    },
+    {
+      "id": "round1-deeper-fp16-0220",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Full refund is available; midnight arrival is allowed; the pool is free; the hike requires an additional fee."
+    },
+    {
+      "id": "round1-deeper-fp16-0221",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Full refund is available; midnight arrival is allowed; the pool requires a fee; the hike is included."
+    }
+  ],
+  "documents_sha256": "95baab83c76e812e40782219684a19643e2a63a717e49ae9ee0cc0093e89b005"
+}

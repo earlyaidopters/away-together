@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0091",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund violates because a mandatory fee is deducted; arrival is insufficient as rules are silent; facility meets as the pool is available without a separate fee; activity violates because the hike requires a separate payment."
+    }
+  ],
+  "documents_sha256": "07a16c5937668f308fd566d459469c35317103d9fdfd29306eda23e2d5949f2f"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0201",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document explicitly confirms the swimming pool is free (facility: meets). It states no information is supplied regarding a guided walk (activity: insufficient_evidence) and no information is documented regarding refund methods (refund: insufficient_evidence). Regarding arrival, two equally authoritative policies conflict regarding midnight check-in (arrival: insufficient_evidence)."
+    }
+  ],
+  "documents_sha256": "9340d7c6a7fec8cc354df8ef3f2ae22f62774eb8ca482a9d4227d622d536b544"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0098",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "The document states the pool is free (meets), requires a separate fee for the hike (violates), requires prior permission for late arrival (violates), and does not state if a refund is provided or the method (insufficient_evidence)."
+    }
+  ],
+  "documents_sha256": "d38af75905034d4f309fd8dcb56718b2b078b47717ce83dfff90211ea1903e38"
+}

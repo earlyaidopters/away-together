@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0348",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund info is undocumented; arrival and pool are free/automatic; hike requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0349",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund has a fee; arrival requires permission; pool has a fee; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0350",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund info is undocumented; arrival requires permission; pool is free; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0351",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is full cash; arrival policy is unaddressed; pool policies conflict; hike info is missing."
+    },
+    {
+      "id": "round1-deeper-fp16-0352",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund has a fee; arrival requires permission; pool has a fee; hike is not included."
+    },
+    {
+      "id": "round1-deeper-fp16-0353",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund info is undocumented; arrival is automatic; pool has a fee; hike is included."
+    }
+  ],
+  "documents_sha256": "f2ae718ed4269e34b97f9fb29a1075a39566d3ef5fe76edd065706a9d3905a2d"
+}

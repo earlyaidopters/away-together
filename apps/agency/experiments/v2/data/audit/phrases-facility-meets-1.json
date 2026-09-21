@@ -1,0 +1,72 @@
+{
+  "source": "phrases-facility-meets-1.json",
+  "source_sha256": "2e53d5fa10f5ac9a47b7caef35b0b5796b54b84e16e7c6ac3581518685071e83",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "meets",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states the on-site pool is available for all registered guests at no extra cost throughout the visit."
+    },
+    {
+      "index": 1,
+      "label": "meets",
+      "reason": "Explicitly confirms complimentary use of the resort's pool throughout the entire reservation period."
+    },
+    {
+      "index": 2,
+      "label": "meets",
+      "reason": "Explicitly states pool access for the duration of stay is complimentary using the property's area."
+    },
+    {
+      "index": 3,
+      "label": "meets",
+      "reason": "Explicitly confirms access to the resort's pool for the entire length of stay at the listed property."
+    },
+    {
+      "index": 4,
+      "label": "meets",
+      "reason": "Explicitly states guests can utilize the property's pool during their stay as a complimentary service."
+    },
+    {
+      "index": 5,
+      "label": "meets",
+      "reason": "Explicitly states on-site pool use is included for overnight guests with no supplementary fees."
+    },
+    {
+      "index": 6,
+      "label": "meets",
+      "reason": "Explicitly states the pool is available during the stay and is part of the standard lodging rate (no extra charge)."
+    },
+    {
+      "index": 7,
+      "label": "meets",
+      "reason": "Explicitly states the rate covers the swimming area with no additional charges for resident guests."
+    },
+    {
+      "index": 8,
+      "label": "meets",
+      "reason": "Explicitly states pool access is covered under the booking and open to all occupants during booked dates."
+    },
+    {
+      "index": 9,
+      "label": "meets",
+      "reason": "Explicitly states the pool remains available at no cost during the stay (context implies current booking)."
+    },
+    {
+      "index": 10,
+      "label": "insufficient_evidence",
+      "reason": "Explicitly limits the inclusion to the 'Silver Tier package' only; it does not establish that *all* guests or general bookings meet the requirement."
+    },
+    {
+      "index": 11,
+      "label": "meets",
+      "reason": "Explicitly states pool access is included and available to all registered guests at no charge."
+    }
+  ],
+  "agreement": 11,
+  "n": 12,
+  "seconds": 24.10516905784607,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

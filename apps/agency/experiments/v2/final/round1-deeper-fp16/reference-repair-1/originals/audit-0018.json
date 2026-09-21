@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0018",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund and arrival policies are not specified; pool is free; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0019",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is full cash; arrival rules are not addressed; pool has an extra charge; hike is not included."
+    },
+    {
+      "id": "round1-deeper-fp16-0020",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund has a fee; arrival requires prior permission; pool is free; hike inclusion is not stated (old policy superseded)."
+    },
+    {
+      "id": "round1-deeper-fp16-0021",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is full cash; arrival requires prior permission; pool details are missing; hike policy is unresolved due to conflicting authoritative terms."
+    },
+    {
+      "id": "round1-deeper-fp16-0022",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund is full cash; arrival is automatic; pool has an extra charge; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0023",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is full cash; arrival is automatic; pool is free; hike inclusion is not stated."
+    }
+  ],
+  "documents_sha256": "dbccffb835142f0b416034b3804aae423e55ae01bef1d267868c649bb3671622"
+}

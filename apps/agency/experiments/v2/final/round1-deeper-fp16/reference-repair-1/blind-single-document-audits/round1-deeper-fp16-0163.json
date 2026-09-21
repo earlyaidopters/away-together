@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0163",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy meets the requirement (entire payment returned as money). Arrival policy violates the requirement (permission required for check-in after midnight). Facility information is insufficient (swimming area mentioned but price/access unknown). Activity information is insufficient (the guided walk mentioned applies only to the unselected Birch offer, not the selected Alder package)."
+    }
+  ],
+  "documents_sha256": "be0f3bc72d9f85dcabd5d43e789da306b9daaa29e73f0f1262917d46bd824231"
+}

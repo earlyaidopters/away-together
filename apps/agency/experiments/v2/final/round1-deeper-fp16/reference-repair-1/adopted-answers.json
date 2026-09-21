@@ -1,0 +1,3602 @@
+{
+  "round1-deeper-fp16-0000": {
+    "id": "round1-deeper-fp16-0000",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is a full cash return; arrival requires prior permission (violates); pool is free; guided walk info is missing."
+  },
+  "round1-deeper-fp16-0001": {
+    "id": "round1-deeper-fp16-0001",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund has a mandatory charge (violates); arrival after midnight is automatic (meets); pool price/access is unknown; guided hike is included."
+  },
+  "round1-deeper-fp16-0002": {
+    "id": "round1-deeper-fp16-0002",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is full cash return; arrival rules are not addressed; pool is free; guided hike requires extra payment (violates)."
+  },
+  "round1-deeper-fp16-0003": {
+    "id": "round1-deeper-fp16-0003",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policies are conflicting/unresolved; arrival requires prior permission (violates); pool has a fee (violates); guided walk info is missing."
+  },
+  "round1-deeper-fp16-0004": {
+    "id": "round1-deeper-fp16-0004",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund is full cash return; arrival requires prior permission (violates); pool price/access is unknown; guided hike is included."
+  },
+  "round1-deeper-fp16-0005": {
+    "id": "round1-deeper-fp16-0005",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is undocumented; arrival rules are not addressed; pool is free; guided hike requires extra payment (violates)."
+  },
+  "round1-deeper-fp16-0006": {
+    "id": "round1-deeper-fp16-0006",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund info is explicitly unrecorded; arrival at 01:30 is automatic; pool is free; hike requires extra payment."
+  },
+  "round1-deeper-fp16-0007": {
+    "id": "round1-deeper-fp16-0007",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund info is missing; arrival rules for the selected Alder offer are not addressed; pool is free; guided hikes require an extra fee."
+  },
+  "round1-deeper-fp16-0008": {
+    "id": "round1-deeper-fp16-0008",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates because a 27 euro charge is mandatory (not a full cash refund); arrival is insufficient because the text states no rules address overnight registration; facility meets because the pool is available without a separate fee; activity is insufficient because no information is supplied regarding a guided hike."
+  },
+  "round1-deeper-fp16-0009": {
+    "id": "round1-deeper-fp16-0009",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Full cash refund is stated; arrival policy is unresolved due to conflicting rules; pool details (price/location) are not stated; hike is included."
+  },
+  "round1-deeper-fp16-0010": {
+    "id": "round1-deeper-fp16-0010",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Full cash refund is stated; 01:30 arrival requires permission; pool costs 19 euros; hike is included."
+  },
+  "round1-deeper-fp16-0011": {
+    "id": "round1-deeper-fp16-0011",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Full cash refund is stated; 01:30 arrival requires permission; pool costs 19 euros; hike is included."
+  },
+  "round1-deeper-fp16-0012": {
+    "id": "round1-deeper-fp16-0012",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund and arrival policies are undocumented/vague; pool requires a 19 euro fee (violates facility); hike requires a separate 38 euro payment (violates activity)."
+  },
+  "round1-deeper-fp16-0013": {
+    "id": "round1-deeper-fp16-0013",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is undocumented; check-in after midnight requires prior permission (violates arrival); pool price/conditions are not stated; hike requires a separate 38 euro payment (violates activity)."
+  },
+  "round1-deeper-fp16-0014": {
+    "id": "round1-deeper-fp16-0014",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Cancellation requires a 27 euro charge (violates refund); arrival rules are not addressed; pool fee is undefined in active terms; hike requires a separate 38 euro payment (violates activity)."
+  },
+  "round1-deeper-fp16-0015": {
+    "id": "round1-deeper-fp16-0015",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is undocumented; check-in after midnight requires prior permission (violates arrival); pool policies are conflicting/unresolved; hike requires a separate 38 euro payment (violates activity)."
+  },
+  "round1-deeper-fp16-0016": {
+    "id": "round1-deeper-fp16-0016",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: violates (mandatory administration charge applies); arrival: violates (permission required for check-in after midnight); facility: violates (19 euro fee for pool); activity: insufficient_evidence (no information provided regarding a guided hike)."
+  },
+  "round1-deeper-fp16-0017": {
+    "id": "round1-deeper-fp16-0017",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document explicitly confirms a full cash refund, automatic check-in after midnight, and a free swimming pool, but states that no information regarding a guided hike is supplied."
+  },
+  "round1-deeper-fp16-0018": {
+    "id": "round1-deeper-fp16-0018",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund and arrival policies are not specified; pool is free; hike is included."
+  },
+  "round1-deeper-fp16-0019": {
+    "id": "round1-deeper-fp16-0019",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is full cash; arrival rules are not addressed; pool has an extra charge; hike is not included."
+  },
+  "round1-deeper-fp16-0020": {
+    "id": "round1-deeper-fp16-0020",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a fee; arrival requires prior permission; pool is free; hike inclusion is not stated (old policy superseded)."
+  },
+  "round1-deeper-fp16-0021": {
+    "id": "round1-deeper-fp16-0021",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is full cash; arrival requires prior permission; pool details are missing; hike policy is unresolved due to conflicting authoritative terms."
+  },
+  "round1-deeper-fp16-0022": {
+    "id": "round1-deeper-fp16-0022",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund is full cash; arrival is automatic; pool has an extra charge; hike is included."
+  },
+  "round1-deeper-fp16-0023": {
+    "id": "round1-deeper-fp16-0023",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is full cash; arrival is automatic; pool is free; hike inclusion is not stated."
+  },
+  "round1-deeper-fp16-0024": {
+    "id": "round1-deeper-fp16-0024",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (27 euro charge); arrival violates (requires permission); facility is insufficient (location/price/access unknown); activity violates (requires separate payment)."
+  },
+  "round1-deeper-fp16-0025": {
+    "id": "round1-deeper-fp16-0025",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is insufficient (conflicting info/missing documentation); arrival is insufficient (no rules addressing it); facility meets (operational pool, no fee); activity violates (requires separate payment)."
+  },
+  "round1-deeper-fp16-0026": {
+    "id": "round1-deeper-fp16-0026",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates (27 euro charge); arrival is insufficient (no rules); facility is insufficient (location/price/access unknown); activity is insufficient (no statement supplied)."
+  },
+  "round1-deeper-fp16-0027": {
+    "id": "round1-deeper-fp16-0027",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is insufficient (two equally authoritative conflicting policies); arrival violates (requires permission); facility meets (operational pool, no fee); activity is insufficient (no statement supplied)."
+  },
+  "round1-deeper-fp16-0028": {
+    "id": "round1-deeper-fp16-0028",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund meets (entire payment returned); arrival meets (available automatically); facility is insufficient (location/price/access unknown); activity is insufficient (no statement supplied)."
+  },
+  "round1-deeper-fp16-0029": {
+    "id": "round1-deeper-fp16-0029",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates (27 euro charge); arrival violates (requires permission); facility is insufficient (location/price/access unknown); activity is insufficient (no statement supplied)."
+  },
+  "round1-deeper-fp16-0030": {
+    "id": "round1-deeper-fp16-0030",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (retains 27 euro charge); Arrival violates (requires permission for 01:30); Facility meets (no separate fee); Activity meets (includes guided walking excursion)."
+  },
+  "round1-deeper-fp16-0031": {
+    "id": "round1-deeper-fp16-0031",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policy explicitly states full money return before cutoff; arrival at 01:30 is available automatically; swimming area details (price/access) are missing; activity/guided hike details are missing."
+  },
+  "round1-deeper-fp16-0032": {
+    "id": "round1-deeper-fp16-0032",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund is insufficient_evidence (not documented); Arrival meets (automatic at 01:30); Facility is insufficient_evidence (price/access not stated); Activity meets (includes guided walking excursion)."
+  },
+  "round1-deeper-fp16-0033": {
+    "id": "round1-deeper-fp16-0033",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is insufficient_evidence (not documented); Arrival is insufficient_evidence (two equally authoritative conflicting policies); Facility violates (charges 19 euros); Activity is insufficient_evidence (details missing)."
+  },
+  "round1-deeper-fp16-0034": {
+    "id": "round1-deeper-fp16-0034",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is insufficient_evidence (not documented); Arrival meets (automatic at 01:30); Facility meets (no separate fee); Activity violates (requires separate 38 euro payment)."
+  },
+  "round1-deeper-fp16-0035": {
+    "id": "round1-deeper-fp16-0035",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund meets (entire payment returned); Arrival violates (requires permission for 01:30); Facility meets (no separate fee); Activity violates (requires separate 38 euro payment)."
+  },
+  "round1-deeper-fp16-0036": {
+    "id": "round1-deeper-fp16-0036",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (mandatory 27 euro charge); arrival meets (automatic at 01:30); facility is insufficient (location/price/access not stated); activity violates (requires separate 38 euro payment)."
+  },
+  "round1-deeper-fp16-0037": {
+    "id": "round1-deeper-fp16-0037",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates because a mandatory 27 euro charge is deducted (not a full cash refund); arrival is insufficient because the document states the procedure is undocumented; facility is insufficient because price and access conditions are not stated; activity violates because the hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0038": {
+    "id": "round1-deeper-fp16-0038",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (mandatory 27 euro charge); arrival is insufficient (no rules address overnight registration); facility violates (19 euro fee applies); activity meets (included with nothing further to pay)."
+  },
+  "round1-deeper-fp16-0039": {
+    "id": "round1-deeper-fp16-0039",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund meets (entire payment returned with no deduction); arrival violates (cannot check in without permission); facility is insufficient (conflicting authoritative policies on fee); activity violates (requires separate 38 euro payment)."
+  },
+  "round1-deeper-fp16-0040": {
+    "id": "round1-deeper-fp16-0040",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is insufficient (neither payment nor method documented); arrival violates (requires prior permission); facility violates (19 euro charge stands); activity violates (requires separate 38 euro payment)."
+  },
+  "round1-deeper-fp16-0041": {
+    "id": "round1-deeper-fp16-0041",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is insufficient (neither payment nor method documented); arrival meets (automatic without contact); facility violates (19 euro fee applies); activity is insufficient (no statement supplied regarding inclusion)."
+  },
+  "round1-deeper-fp16-0042": {
+    "id": "round1-deeper-fp16-0042",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "The document explicitly confirms a full monetary refund, automatic check-in after midnight without contact, free pool access, and an included guided hike."
+  },
+  "round1-deeper-fp16-0043": {
+    "id": "round1-deeper-fp16-0043",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund and pool policies are met; arrival violates the requirement because permission is needed; activity is insufficient because the text states no statement confirms the hike is included."
+  },
+  "round1-deeper-fp16-0044": {
+    "id": "round1-deeper-fp16-0044",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund and pool policies are met; arrival is insufficient as rules are undefined; activity violates because the hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0045": {
+    "id": "round1-deeper-fp16-0045",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund and arrival are insufficient due to lack of documentation; pool is met; activity is insufficient due to two equally authoritative conflicting policies."
+  },
+  "round1-deeper-fp16-0046": {
+    "id": "round1-deeper-fp16-0046",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates due to the mandatory charge; arrival is insufficient as no rules address it; pool is met; activity is insufficient as no statement is supplied for the selected dates."
+  },
+  "round1-deeper-fp16-0047": {
+    "id": "round1-deeper-fp16-0047",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund violates due to the mandatory charge; arrival is insufficient as rules are silent; pool and activity are explicitly met."
+  },
+  "round1-deeper-fp16-0048": {
+    "id": "round1-deeper-fp16-0048",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "The document explicitly states a guided hike requires a separate payment, violating the requirement that the price includes it."
+  },
+  "round1-deeper-fp16-0049": {
+    "id": "round1-deeper-fp16-0049",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund violates due to a mandatory charge; arrival is unknown; activity violates due to separate payment."
+  },
+  "round1-deeper-fp16-0050": {
+    "id": "round1-deeper-fp16-0050",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "The document explicitly states a mandatory administration charge for cancellations (violating the full refund requirement), confirms automatic check-in after midnight (meeting arrival), fails to state the price or access conditions for the swimming area (insufficient evidence for facility), and confirms a guided walking excursion is included with no further payment (meeting activity)."
+  },
+  "round1-deeper-fp16-0051": {
+    "id": "round1-deeper-fp16-0051",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is unresolved due to conflicting policies; facility and activity violate due to extra charges."
+  },
+  "round1-deeper-fp16-0052": {
+    "id": "round1-deeper-fp16-0052",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund and arrival are unknown; facility and activity violate due to extra charges."
+  },
+  "round1-deeper-fp16-0053": {
+    "id": "round1-deeper-fp16-0053",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Arrival and facility are unknown; refund and activity meet requirements."
+  },
+  "round1-deeper-fp16-0054": {
+    "id": "round1-deeper-fp16-0054",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund info is undocumented; arrival at 01:30 is automatic; pool requires a 19 euro fee; guided walk inclusion is not stated."
+  },
+  "round1-deeper-fp16-0055": {
+    "id": "round1-deeper-fp16-0055",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Full cash refund is provided; arrival at 01:30 requires prior permission; pool is free; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0056": {
+    "id": "round1-deeper-fp16-0056",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund is not full due to a 27 euro charge; arrival at 01:30 requires prior permission; pool is free; guided walk is fully included."
+  },
+  "round1-deeper-fp16-0057": {
+    "id": "round1-deeper-fp16-0057",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is not full due to a 27 euro charge; arrival policy is explicitly stated as unresolved/conflicting; pool is free; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0058": {
+    "id": "round1-deeper-fp16-0058",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Full cash refund is provided; arrival rules are not addressed; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0059": {
+    "id": "round1-deeper-fp16-0059",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Full cash refund is provided; arrival rules are not addressed; pool requires a 19 euro fee; guided walk inclusion is not stated."
+  },
+  "round1-deeper-fp16-0060": {
+    "id": "round1-deeper-fp16-0060",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is a full cash return; arrival after midnight is automatic; swimming area details (price/access) are unstated; hiking requires extra payment."
+  },
+  "round1-deeper-fp16-0061": {
+    "id": "round1-deeper-fp16-0061",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund policy matches (full money returned); arrival policy is explicitly unaddressed; pool is free for the selected accommodation; guided hikes are explicitly excluded (require separate payment)."
+  },
+  "round1-deeper-fp16-0062": {
+    "id": "round1-deeper-fp16-0062",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund is full cash; arrival after midnight is automatic; pool requires a 19 euro fee; hiking is included with nothing further to pay."
+  },
+  "round1-deeper-fp16-0063": {
+    "id": "round1-deeper-fp16-0063",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund policy is silent; arrival after midnight is automatic; pool policy contains unresolved conflicting information; hiking is included."
+  },
+  "round1-deeper-fp16-0064": {
+    "id": "round1-deeper-fp16-0064",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policy is not documented; arrival after midnight is automatic; pool is free; no information provided regarding the guided hike."
+  },
+  "round1-deeper-fp16-0065": {
+    "id": "round1-deeper-fp16-0065",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a mandatory deduction; arrival after midnight requires prior permission; pool requires a 19 euro fee; no information provided regarding the guided hike."
+  },
+  "round1-deeper-fp16-0066": {
+    "id": "round1-deeper-fp16-0066",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund info is undocumented; arrival requires prior permission; pool has an extra charge; hike is included."
+  },
+  "round1-deeper-fp16-0067": {
+    "id": "round1-deeper-fp16-0067",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "The document states records do not document refund methods (insufficient); no rules address overnight registration (insufficient); it explicitly confirms a free swimming pool (meets); and confirms the Alder offer includes a guided walking excursion with no extra charge (meets)."
+  },
+  "round1-deeper-fp16-0068": {
+    "id": "round1-deeper-fp16-0068",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Full cash refund is provided; arrival requires prior permission; pool is free; hike requires separate payment."
+  },
+  "round1-deeper-fp16-0069": {
+    "id": "round1-deeper-fp16-0069",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a mandatory charge; arrival requires prior permission; pool is free; activity policies are equally authoritative and conflicting."
+  },
+  "round1-deeper-fp16-0070": {
+    "id": "round1-deeper-fp16-0070",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund info is undocumented; arrival is automatic; pool has an extra charge; hike requires separate payment."
+  },
+  "round1-deeper-fp16-0071": {
+    "id": "round1-deeper-fp16-0071",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Full cash refund is provided; arrival rules are not addressed; pool has an extra charge; hike requires separate payment."
+  },
+  "round1-deeper-fp16-0072": {
+    "id": "round1-deeper-fp16-0072",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund and arrival policies are explicitly stated as undocumented/unaddressed; pool is free; activity details are missing."
+  },
+  "round1-deeper-fp16-0073": {
+    "id": "round1-deeper-fp16-0073",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund is not full due to a 27 euro charge; arrival allows midnight check-in without contact; pool requires a 19 euro fee; activity includes a guided hike."
+  },
+  "round1-deeper-fp16-0074": {
+    "id": "round1-deeper-fp16-0074",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund is full with no deduction; arrival allows midnight check-in without contact; pool requires a 19 euro fee; activity includes a guided hike."
+  },
+  "round1-deeper-fp16-0075": {
+    "id": "round1-deeper-fp16-0075",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund policy contains unresolved conflicting terms; arrival requires prior permission; pool details are unknown; activity includes a guided hike."
+  },
+  "round1-deeper-fp16-0076": {
+    "id": "round1-deeper-fp16-0076",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund is not full due to a 27 euro charge; arrival rules are unaddressed; pool details are unknown; activity includes a guided hike."
+  },
+  "round1-deeper-fp16-0077": {
+    "id": "round1-deeper-fp16-0077",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund policy is undocumented; arrival allows midnight check-in without contact; pool is free; activity includes a guided hike."
+  },
+  "round1-deeper-fp16-0078": {
+    "id": "round1-deeper-fp16-0078",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document explicitly confirms a full cash refund for cancellations before the cutoff and a free swimming pool. However, it explicitly states it has not provided information regarding the guided walk (activity) or the rules for midnight arrival (arrival)."
+  },
+  "round1-deeper-fp16-0079": {
+    "id": "round1-deeper-fp16-0079",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund and arrival requirements are met; facility requires an extra fee; activity requires a separate payment."
+  },
+  "round1-deeper-fp16-0080": {
+    "id": "round1-deeper-fp16-0080",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document explicitly confirms automatic check-in after midnight, full cash refunds before the deadline, and free use of the swimming pool, but states no information is supplied regarding the guided hike."
+  },
+  "round1-deeper-fp16-0081": {
+    "id": "round1-deeper-fp16-0081",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund, facility, and activity details are missing; arrival policy contains unresolved conflicting information."
+  },
+  "round1-deeper-fp16-0082": {
+    "id": "round1-deeper-fp16-0082",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund info is missing; arrival requires prior permission; facility requires an extra fee; activity requires a separate payment."
+  },
+  "round1-deeper-fp16-0083": {
+    "id": "round1-deeper-fp16-0083",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund, arrival, and facility requirements are met; activity explicitly excludes the guided hike."
+  },
+  "round1-deeper-fp16-0084": {
+    "id": "round1-deeper-fp16-0084",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "The agent confirms full refund with no deduction, automatic check-in after midnight without contact, free pool access, and a guided hike included in the price."
+  },
+  "round1-deeper-fp16-0085": {
+    "id": "round1-deeper-fp16-0085",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "The document states refund details are not documented; it explicitly forbids check-in after midnight without prior permission; it mentions a swimming area but lacks details on price/access (the pool mention is for an unselected offer); and it explicitly includes a guided walking excursion."
+  },
+  "round1-deeper-fp16-0086": {
+    "id": "round1-deeper-fp16-0086",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund info is undocumented; arrival rules are not addressed; pool is free per current terms; hike requires a separate payment (violates)."
+  },
+  "round1-deeper-fp16-0087": {
+    "id": "round1-deeper-fp16-0087",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a mandatory charge (violates); arrival rules are not addressed; pool policies are conflicting/unresolved; hike info is not supplied."
+  },
+  "round1-deeper-fp16-0088": {
+    "id": "round1-deeper-fp16-0088",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund has a mandatory charge (violates); arrival rules are not addressed; pool price/conditions are not stated; hike is included."
+  },
+  "round1-deeper-fp16-0089": {
+    "id": "round1-deeper-fp16-0089",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a mandatory charge (violates); arrival rules are not addressed; pool price/conditions are not stated; hike info is not supplied."
+  },
+  "round1-deeper-fp16-0090": {
+    "id": "round1-deeper-fp16-0090",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (admin charge retained); arrival violates (permission required for 01:30); facility is insufficient (location/price/access unknown); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0091": {
+    "id": "round1-deeper-fp16-0091",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund violates because a mandatory fee is deducted; arrival is insufficient as rules are silent; facility meets as the pool is available without a separate fee; activity violates because the hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0092": {
+    "id": "round1-deeper-fp16-0092",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund meets (entire payment returned); arrival meets (automatic without contact); facility violates (19 euro charge); activity meets (includes excursion with no further pay)."
+  },
+  "round1-deeper-fp16-0093": {
+    "id": "round1-deeper-fp16-0093",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is insufficient (missing details); arrival is insufficient (unclear); facility meets (no separate fee); activity is insufficient (two equally authoritative conflicting policies)."
+  },
+  "round1-deeper-fp16-0094": {
+    "id": "round1-deeper-fp16-0094",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund is insufficient (not documented); arrival meets (automatic without contact); facility meets (no separate fee); activity meets (conflicting policy is superseded/not applicable)."
+  },
+  "round1-deeper-fp16-0095": {
+    "id": "round1-deeper-fp16-0095",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund meets (entire payment returned); arrival is insufficient (no rules address it); facility violates (19 euro charge); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0096": {
+    "id": "round1-deeper-fp16-0096",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund policy is undocumented; arrival allows 01:30 check-in without prior contact; pool is free; hike is included."
+  },
+  "round1-deeper-fp16-0097": {
+    "id": "round1-deeper-fp16-0097",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "The document explicitly states a full cash refund is available before the cutoff, arrival after midnight (01:30) requires prior permission (violating the requirement), the swimming pool has no extra charge, and the price includes a guided walking excursion."
+  },
+  "round1-deeper-fp16-0098": {
+    "id": "round1-deeper-fp16-0098",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "The document states the pool is free (meets), requires a separate fee for the hike (violates), requires prior permission for late arrival (violates), and does not state if a refund is provided or the method (insufficient_evidence)."
+  },
+  "round1-deeper-fp16-0099": {
+    "id": "round1-deeper-fp16-0099",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund policy contains two equally authoritative conflicting policies; arrival rules do not address overnight registration; pool is free; hike is included."
+  },
+  "round1-deeper-fp16-0100": {
+    "id": "round1-deeper-fp16-0100",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "The document states the walking excursion with a guide is included (activity: meets), but it explicitly states the swimming area's price and conditions are unknown (facility: insufficient_evidence), that there are no rules regarding arrival/registration (arrival: insufficient_evidence), and that refund terms for the selected stay are undocumented (refund: insufficient_evidence)."
+  },
+  "round1-deeper-fp16-0101": {
+    "id": "round1-deeper-fp16-0101",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund is not 'full cash' due to a 27 euro charge; arrival requires permission; pool is free; hike is included."
+  },
+  "round1-deeper-fp16-0102": {
+    "id": "round1-deeper-fp16-0102",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund and facility details are undocumented/unstated; arrival requires prior permission (violates); activity inclusion is not supplied."
+  },
+  "round1-deeper-fp16-0103": {
+    "id": "round1-deeper-fp16-0103",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund has a mandatory charge (violates); arrival requires permission (violates); pool costs 19 euros (violates); hike requires separate payment (violates)."
+  },
+  "round1-deeper-fp16-0104": {
+    "id": "round1-deeper-fp16-0104",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "The document states the refund method/amount is not documented (insufficient_evidence); it states no rules address overnight registration (insufficient_evidence); it explicitly states there is a 19 euro charge for the pool (violates); and it confirms the price includes a guided walking excursion (meets)."
+  },
+  "round1-deeper-fp16-0105": {
+    "id": "round1-deeper-fp16-0105",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is undocumented; arrival policies are conflicting/unresolved; pool costs 19 euros (violates); activity inclusion is not supplied."
+  },
+  "round1-deeper-fp16-0106": {
+    "id": "round1-deeper-fp16-0106",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund policy matches the requirement; arrival policy for May is explicitly stated as undocumented; swimming pool is free; hike requires an extra fee, violating the inclusion requirement."
+  },
+  "round1-deeper-fp16-0107": {
+    "id": "round1-deeper-fp16-0107",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund is undocumented; arrival requires permission (violates); pool details are unstated; hike is included (meets)."
+  },
+  "round1-deeper-fp16-0108": {
+    "id": "round1-deeper-fp16-0108",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund is full cash; arrival requires prior permission (violates); pool has an extra charge (violates); activity includes a guided hike."
+  },
+  "round1-deeper-fp16-0109": {
+    "id": "round1-deeper-fp16-0109",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund details are undocumented; arrival is automatic; pool has an extra charge; activity details are not supplied."
+  },
+  "round1-deeper-fp16-0110": {
+    "id": "round1-deeper-fp16-0110",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is full cash; arrival is automatic; pool is free; activity details are not supplied."
+  },
+  "round1-deeper-fp16-0111": {
+    "id": "round1-deeper-fp16-0111",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is full cash; arrival requires permission; pool policy is unresolved between two authoritative sources; activity details are not supplied."
+  },
+  "round1-deeper-fp16-0112": {
+    "id": "round1-deeper-fp16-0112",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a mandatory charge; arrival rules are not addressed; pool details are not stated; activity details are not supplied."
+  },
+  "round1-deeper-fp16-0113": {
+    "id": "round1-deeper-fp16-0113",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is full cash; arrival requires permission; pool has an extra charge; activity details are not supplied."
+  },
+  "round1-deeper-fp16-0114": {
+    "id": "round1-deeper-fp16-0114",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policy matches (full money returned); arrival policy matches (01:30 allowed without contact); facility policy violates (19 euro charge for pool); activity policy is insufficient (document states no statement about a guided walk is supplied, leaving the inclusion status unknown)."
+  },
+  "round1-deeper-fp16-0115": {
+    "id": "round1-deeper-fp16-0115",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund method/amount is undocumented; arrival at 01:30 is automatic; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0116": {
+    "id": "round1-deeper-fp16-0116",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Full refund is provided; arrival at 01:30 requires prior permission; pool is available without extra fee; hike is included in the amount."
+  },
+  "round1-deeper-fp16-0117": {
+    "id": "round1-deeper-fp16-0117",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is undocumented; arrival at 01:30 requires permission; pool requires a 19 euro fee; hiking policy contains two equally authoritative conflicting statements."
+  },
+  "round1-deeper-fp16-0118": {
+    "id": "round1-deeper-fp16-0118",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "refund: no information on refund availability or method; arrival: explicitly requires prior permission for 01:30 check-in; facility: swimming area is mentioned but price and access conditions are unknown; activity: hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0119": {
+    "id": "round1-deeper-fp16-0119",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Full refund is provided; arrival rules are not addressed; pool details are not stated; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0120": {
+    "id": "round1-deeper-fp16-0120",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund and arrival rules are vague/undocumented; pool is free; activity is unspecified."
+  },
+  "round1-deeper-fp16-0121": {
+    "id": "round1-deeper-fp16-0121",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund has a fee; arrival requires prior permission; pool has an extra charge; activity is included."
+  },
+  "round1-deeper-fp16-0122": {
+    "id": "round1-deeper-fp16-0122",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "The document states neither the refund amount nor the method is documented under current terms (insufficient_evidence); no rules address late arrivals (insufficient_evidence); the pool is available without a separate fee (meets); and the price includes a guided walking excursion (meets)."
+  },
+  "round1-deeper-fp16-0123": {
+    "id": "round1-deeper-fp16-0123",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Conflicting refund policies exist; arrival requires permission; pool has a fee; activity is included."
+  },
+  "round1-deeper-fp16-0124": {
+    "id": "round1-deeper-fp16-0124",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund is undocumented; arrival rules are not addressed; pool is free; guided hike is included."
+  },
+  "round1-deeper-fp16-0125": {
+    "id": "round1-deeper-fp16-0125",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Full cash refund is confirmed; arrival requires permission; pool has a fee; activity is included."
+  },
+  "round1-deeper-fp16-0126": {
+    "id": "round1-deeper-fp16-0126",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund is full with no deduction; arrival requires prior permission (violates); pool is free; hike is included."
+  },
+  "round1-deeper-fp16-0127": {
+    "id": "round1-deeper-fp16-0127",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund has a 27 euro charge; arrival requires prior permission; pool is free; hike requires extra payment."
+  },
+  "round1-deeper-fp16-0128": {
+    "id": "round1-deeper-fp16-0128",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund is full; arrival policy is unaddressed/unknown; pool price and access are not stated; hike is included."
+  },
+  "round1-deeper-fp16-0129": {
+    "id": "round1-deeper-fp16-0129",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a 27 euro charge; arrival policies are conflicting/unresolved; pool costs 19 euros; hike information is not supplied."
+  },
+  "round1-deeper-fp16-0130": {
+    "id": "round1-deeper-fp16-0130",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is full; arrival at 01:30 is automatic; pool costs 19 euros; hike requires extra payment."
+  },
+  "round1-deeper-fp16-0131": {
+    "id": "round1-deeper-fp16-0131",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund has a 27 euro charge; arrival is automatic; pool price/access not stated; hike is included."
+  },
+  "round1-deeper-fp16-0132": {
+    "id": "round1-deeper-fp16-0132",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is full with no deduction; arrival rules are not addressed; pool is free; hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0133": {
+    "id": "round1-deeper-fp16-0133",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a mandatory charge; arrival requires prior permission; pool details are not stated; hike inclusion is not mentioned."
+  },
+  "round1-deeper-fp16-0134": {
+    "id": "round1-deeper-fp16-0134",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a mandatory charge; arrival rules are not addressed; pool is free; hike inclusion is not mentioned."
+  },
+  "round1-deeper-fp16-0135": {
+    "id": "round1-deeper-fp16-0135",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a mandatory charge; arrival rules are not addressed; pool policies are conflicting/unresolved; hike inclusion is not mentioned."
+  },
+  "round1-deeper-fp16-0136": {
+    "id": "round1-deeper-fp16-0136",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is full with no deduction; arrival rules are not addressed; pool is free; hike inclusion is not mentioned."
+  },
+  "round1-deeper-fp16-0137": {
+    "id": "round1-deeper-fp16-0137",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is full with no deduction; arrival at 01:30 is automatic; pool has a 19 euro charge; hike inclusion is not mentioned."
+  },
+  "round1-deeper-fp16-0138": {
+    "id": "round1-deeper-fp16-0138",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund violates due to mandatory 27 euro charge; arrival violates because permission is required for late check-in; facility and activity meet requirements."
+  },
+  "round1-deeper-fp16-0139": {
+    "id": "round1-deeper-fp16-0139",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "The document is silent on refund details (insufficient_evidence); it explicitly states check-in after midnight requires prior permission, contradicting the requirement (violates); it mentions a swimming area but lacks price and access details (insufficient_evidence); and it confirms a guided walking excursion is included in the price (meets)."
+  },
+  "round1-deeper-fp16-0140": {
+    "id": "round1-deeper-fp16-0140",
+    "labels": {
+      "activity": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "refund": "meets"
+    },
+    "reason": "Refund: The text explicitly states the entire payment is returned as money if cancelled before the cutoff, meeting the requirement. Arrival: The text explicitly forbids check-in at 01:30 without prior permission, violating the requirement for midnight check-in without arrangement. Facility: The text mentions a swimming area but explicitly states location, price, and access conditions are unknown, leaving the 'no extra charge' requirement unverified. Activity: Although a footnote suggests a separate fee, the text immediately clarifies that 'Current selected terms completely replace this old policy' and the main body states the quoted amount covers the guided hike with 'nothing further to pay,' thus meeting the requirement."
+  },
+  "round1-deeper-fp16-0141": {
+    "id": "round1-deeper-fp16-0141",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund meets; arrival is insufficient (no rules addressing it); facility violates (19 euro charge); activity is insufficient due to two equally authoritative conflicting policies."
+  },
+  "round1-deeper-fp16-0142": {
+    "id": "round1-deeper-fp16-0142",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund and arrival are insufficient (no documentation/rules); facility meets; activity violates because the included hike policy only applies to December, not the selected May stay."
+  },
+  "round1-deeper-fp16-0143": {
+    "id": "round1-deeper-fp16-0143",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (27 euro charge); arrival violates (permission required); facility meets; activity violates (requires separate 38 euro payment)."
+  },
+  "round1-deeper-fp16-0144": {
+    "id": "round1-deeper-fp16-0144",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policy explicitly states full money return with no deduction. Arrival and facility details are explicitly stated as not addressed or not stated. Activity is explicitly stated as not supplied."
+  },
+  "round1-deeper-fp16-0145": {
+    "id": "round1-deeper-fp16-0145",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates because of a mandatory charge. Arrival violates because permission is required for late check-in. Facility meets as it is available without a separate fee. Activity is explicitly stated as not supplied."
+  },
+  "round1-deeper-fp16-0146": {
+    "id": "round1-deeper-fp16-0146",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is unknown (not documented). Arrival is explicitly stated as not addressed. Facility meets as it is available without a separate fee. Activity is explicitly stated as not supplied."
+  },
+  "round1-deeper-fp16-0147": {
+    "id": "round1-deeper-fp16-0147",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund is insufficient due to two equally authoritative conflicting policies. Arrival violates because permission is required. Facility meets as it is available without a separate fee. Activity meets as the amount quoted includes a guided walk."
+  },
+  "round1-deeper-fp16-0148": {
+    "id": "round1-deeper-fp16-0148",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is unknown (not documented). Arrival meets as it is available automatically without contact. Facility violates because there is an extra charge. Activity violates because it requires a separate payment."
+  },
+  "round1-deeper-fp16-0149": {
+    "id": "round1-deeper-fp16-0149",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund meets as the entire payment is returned with no deduction. Arrival, facility, and activity are all explicitly stated as not addressed, not stated, or not supplied."
+  },
+  "round1-deeper-fp16-0150": {
+    "id": "round1-deeper-fp16-0150",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund and arrival policies are not documented; the pool requires a 19 euro fee (violates facility); the hike requires a separate 38 euro payment (violates activity)."
+  },
+  "round1-deeper-fp16-0151": {
+    "id": "round1-deeper-fp16-0151",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates because a mandatory 27 euro charge is deducted (not a full cash refund); arrival meets because 01:30 registration is automatic without contact; facility meets because the pool is available without a separate fee; activity is insufficient_evidence because the document states no statement about a guided walk is supplied."
+  },
+  "round1-deeper-fp16-0152": {
+    "id": "round1-deeper-fp16-0152",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Full payment is returned with no deduction (meets refund); 01:30 arrival requires prior permission (violates arrival); the pool costs 19 euros (violates facility); the walking excursion is included with nothing further to pay (meets activity)."
+  },
+  "round1-deeper-fp16-0153": {
+    "id": "round1-deeper-fp16-0153",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "A 27 euro charge applies (violates refund); two authoritative policies regarding arrival disagree (insufficient arrival); the pool is free (meets facility); no statement about the guided walk is supplied (insufficient activity)."
+  },
+  "round1-deeper-fp16-0154": {
+    "id": "round1-deeper-fp16-0154",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund documentation is missing (insufficient refund); arrival is automatic at 01:30 (meets arrival); the pool costs 19 euros (violates facility); the hike is included with nothing further to pay (meets activity)."
+  },
+  "round1-deeper-fp16-0155": {
+    "id": "round1-deeper-fp16-0155",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund terms are unclear (insufficient refund); arrival is automatic at 01:30 (meets arrival); the pool is free (meets facility); the hike requires a separate 38 euro payment (violates activity)."
+  },
+  "round1-deeper-fp16-0156": {
+    "id": "round1-deeper-fp16-0156",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund info is undocumented; arrival at 01:30 is automatic; pool requires 19 euros; hike requires separate payment."
+  },
+  "round1-deeper-fp16-0157": {
+    "id": "round1-deeper-fp16-0157",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates because a mandatory fee is charged; arrival is insufficient as no rules are addressed; facility is insufficient because location, price, and access conditions are not stated; activity violates because the hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0158": {
+    "id": "round1-deeper-fp16-0158",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "The text explicitly states that refund and arrival policies are not documented; the pool policy is part of a voided old policy that has been replaced; the hike is explicitly described as a walking excursion with a guide included in the price."
+  },
+  "round1-deeper-fp16-0159": {
+    "id": "round1-deeper-fp16-0159",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund info is undocumented; arrival at 01:30 is automatic; two authoritative policies conflict regarding pool price; hike is included."
+  },
+  "round1-deeper-fp16-0160": {
+    "id": "round1-deeper-fp16-0160",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Entire payment is returned as money; arrival at 01:30 is automatic; pool is free; hike is included."
+  },
+  "round1-deeper-fp16-0161": {
+    "id": "round1-deeper-fp16-0161",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund has a mandatory charge; arrival at 01:30 requires prior permission; pool details are not stated; hike is included."
+  },
+  "round1-deeper-fp16-0162": {
+    "id": "round1-deeper-fp16-0162",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund information is explicitly stated as not documented; arrival, facility, and activity requirements are met."
+  },
+  "round1-deeper-fp16-0163": {
+    "id": "round1-deeper-fp16-0163",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policy meets the requirement (entire payment returned as money). Arrival policy violates the requirement (permission required for check-in after midnight). Facility information is insufficient (swimming area mentioned but price/access unknown). Activity information is insufficient (the guided walk mentioned applies only to the unselected Birch offer, not the selected Alder package)."
+  },
+  "round1-deeper-fp16-0164": {
+    "id": "round1-deeper-fp16-0164",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is not full due to a fee; arrival info is missing; pool requires an extra charge; activity info is missing."
+  },
+  "round1-deeper-fp16-0165": {
+    "id": "round1-deeper-fp16-0165",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund, arrival, and facility requirements are met; activity has unresolved conflicting policies."
+  },
+  "round1-deeper-fp16-0166": {
+    "id": "round1-deeper-fp16-0166",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund is not full due to a fee; arrival info is missing; facility is free; activity is included for the selected dates."
+  },
+  "round1-deeper-fp16-0167": {
+    "id": "round1-deeper-fp16-0167",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund, arrival, and facility information are all missing or undocumented; activity is met."
+  },
+  "round1-deeper-fp16-0168": {
+    "id": "round1-deeper-fp16-0168",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "refund: no refund protocol is listed; arrival: 01:30 registration is automatic without contact; facility: pool requires a 19 euro charge; activity: includes a walking excursion with a guide with nothing further to pay."
+  },
+  "round1-deeper-fp16-0169": {
+    "id": "round1-deeper-fp16-0169",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: no documentation regarding refund; arrival: rules are silent; facility: pool requires a 19 euro charge; activity: no statement about a guided walk being included."
+  },
+  "round1-deeper-fp16-0170": {
+    "id": "round1-deeper-fp16-0170",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: The text states the current refund amount and method remain undocumented; arrival: The text explicitly states guests cannot check in at 01:30 without prior permission; facility: The text states there is a 19 euro charge for the pool; activity: The text states no statement about a guided walk being included is supplied."
+  },
+  "round1-deeper-fp16-0171": {
+    "id": "round1-deeper-fp16-0171",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: two equally authoritative policies conflict; arrival: 01:30 registration is automatic without contact; facility: pool is available without any separate fee; activity: no statement about a guided walk being included."
+  },
+  "round1-deeper-fp16-0172": {
+    "id": "round1-deeper-fp16-0172",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: a mandatory 27 euro fee is retained; arrival: no rules address overnight registration; facility: price and access conditions are not stated; activity: no statement about a guided walk being included."
+  },
+  "round1-deeper-fp16-0173": {
+    "id": "round1-deeper-fp16-0173",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "refund: entire payment is returned as money with no deduction; arrival: 01:30 registration is automatic without contact; facility: pool is available without any separate fee; activity: hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0174": {
+    "id": "round1-deeper-fp16-0174",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund method/amount is not specified; arrival requires prior permission (violates); pool requires a 19 euro fee (violates); hike requires an additional 38 euro payment (violates)."
+  },
+  "round1-deeper-fp16-0175": {
+    "id": "round1-deeper-fp16-0175",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "A 27 euro charge is retained (violates); arrival requires prior permission (violates); pool costs 19 euros (violates); hike requires a separate 38 euro payment (violates)."
+  },
+  "round1-deeper-fp16-0176": {
+    "id": "round1-deeper-fp16-0176",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "The document states check-in after midnight requires prior permission (violating the arrival requirement), confirms the hike includes a guide at no extra cost (meeting the activity requirement), but fails to mention refund methods/amounts and provides no details on pool pricing or access (insufficient evidence for refund and facility)."
+  },
+  "round1-deeper-fp16-0177": {
+    "id": "round1-deeper-fp16-0177",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "A 27 euro charge is retained (violates); arrival policies are contradictory/unresolved (insufficient); pool details are not stated (insufficient); hike requires a separate 38 euro payment (violates)."
+  },
+  "round1-deeper-fp16-0178": {
+    "id": "round1-deeper-fp16-0178",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "refund: The agent explicitly states the refund policy is not documented; arrival: The agent states check-in at 01:30 requires prior permission for May stays; facility: The agent confirms a pool is available without a separate fee; activity: The agent states the hike requires a separate payment and is not included in the quoted amount."
+  },
+  "round1-deeper-fp16-0179": {
+    "id": "round1-deeper-fp16-0179",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Entire payment is returned as money (meets); no rules address overnight registration (insufficient); pool details are not stated (insufficient); hike is included (meets)."
+  },
+  "round1-deeper-fp16-0180": {
+    "id": "round1-deeper-fp16-0180",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document explicitly states that records do not document refund methods, no rules are stated for arrival, swimming area details are unstated, and no confirmation of a guided walk is supplied."
+  },
+  "round1-deeper-fp16-0181": {
+    "id": "round1-deeper-fp16-0181",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund info is undocumented; arrival at 01:30 is allowed without contact; the pool requires a 19 euro charge (violating the free requirement); and no statement about a guided walk is supplied."
+  },
+  "round1-deeper-fp16-0182": {
+    "id": "round1-deeper-fp16-0182",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Full cash refund is provided; arrival at 01:30 requires prior permission (violating the no-arrangement rule); pool details are unstated under new terms; and a guided walking excursion is included."
+  },
+  "round1-deeper-fp16-0183": {
+    "id": "round1-deeper-fp16-0183",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refunds are undocumented; arrival rules are not addressed; facility info contains unresolved equally authoritative conflicting policies; and no statement about a guided walk is supplied."
+  },
+  "round1-deeper-fp16-0184": {
+    "id": "round1-deeper-fp16-0184",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Full refund is provided; no rules address arrival; the pool is available without any separate fee; and no statement about a guided walk is supplied."
+  },
+  "round1-deeper-fp16-0185": {
+    "id": "round1-deeper-fp16-0185",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Full refund is provided; 01:30 arrival is automatic; pool details are unstated; and a guided hike requires a separate payment (violating the inclusion requirement)."
+  },
+  "round1-deeper-fp16-0186": {
+    "id": "round1-deeper-fp16-0186",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (admin charge applies); arrival is insufficient (no rules address it); facility violates (19 euro charge); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0187": {
+    "id": "round1-deeper-fp16-0187",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (admin charge applies); arrival violates (permission required); facility is insufficient (price/conditions not stated); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0188": {
+    "id": "round1-deeper-fp16-0188",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates (admin charge applies); arrival is insufficient (no rules address it); facility violates (19 euro charge); activity is insufficient (no statement supplied)."
+  },
+  "round1-deeper-fp16-0189": {
+    "id": "round1-deeper-fp16-0189",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates (admin charge applies); arrival meets (available automatically); facility violates (19 euro charge); activity is insufficient (conflicting authoritative policies)."
+  },
+  "round1-deeper-fp16-0190": {
+    "id": "round1-deeper-fp16-0190",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (admin charge applies); arrival violates (permission required); facility is insufficient (price/conditions not stated); activity meets (included in amount quoted)."
+  },
+  "round1-deeper-fp16-0191": {
+    "id": "round1-deeper-fp16-0191",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is insufficient (method/amount not documented); arrival is insufficient (no rules address it); facility is insufficient (price/conditions not stated); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0192": {
+    "id": "round1-deeper-fp16-0192",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is a full cash return; arrival at 01:30 is automatic; pool has a 19 euro charge (violates); activity info is not supplied (insufficient)."
+  },
+  "round1-deeper-fp16-0193": {
+    "id": "round1-deeper-fp16-0193",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund has a 27 euro charge (violates); arrival requires prior permission (violates); pool is free (meets); hike requires separate payment (violates)."
+  },
+  "round1-deeper-fp16-0194": {
+    "id": "round1-deeper-fp16-0194",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a 27 euro charge (violates); arrival is automatic (meets); pool is free (meets); activity info is not supplied (insufficient)."
+  },
+  "round1-deeper-fp16-0195": {
+    "id": "round1-deeper-fp16-0195",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policies are unresolved/conflicting (insufficient); arrival requires permission (violates); pool is free (meets); activity info is not supplied (insufficient)."
+  },
+  "round1-deeper-fp16-0196": {
+    "id": "round1-deeper-fp16-0196",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund method/amount is not documented (insufficient); arrival is automatic (meets); pool is free (meets); guided walk is included (meets)."
+  },
+  "round1-deeper-fp16-0197": {
+    "id": "round1-deeper-fp16-0197",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is not documented (insufficient); arrival is automatic (meets); pool price/conditions are not stated (insufficient); hike requires separate payment (violates)."
+  },
+  "round1-deeper-fp16-0198": {
+    "id": "round1-deeper-fp16-0198",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund and arrival policies are undocumented; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0199": {
+    "id": "round1-deeper-fp16-0199",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is undocumented; arrival at 01:30 is automatic; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0200": {
+    "id": "round1-deeper-fp16-0200",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is undocumented; arrival at 01:30 requires prior permission; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0201": {
+    "id": "round1-deeper-fp16-0201",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document explicitly confirms the swimming pool is free (facility: meets). It states no information is supplied regarding a guided walk (activity: insufficient_evidence) and no information is documented regarding refund methods (refund: insufficient_evidence). Regarding arrival, two equally authoritative policies conflict regarding midnight check-in (arrival: insufficient_evidence)."
+  },
+  "round1-deeper-fp16-0202": {
+    "id": "round1-deeper-fp16-0202",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Cancellation incurs a 27 euro charge; arrival rules are not addressed; pool details (price/access) are not stated; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0203": {
+    "id": "round1-deeper-fp16-0203",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Full cash refund is provided; arrival at 01:30 is automatic; pool location/price/access are not stated; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0204": {
+    "id": "round1-deeper-fp16-0204",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund violates because a 27 euro charge is retained; arrival meets (01:30 automatic); facility meets (no separate fee); activity violates (requires 38 euro payment)."
+  },
+  "round1-deeper-fp16-0205": {
+    "id": "round1-deeper-fp16-0205",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund, arrival, and facility are unknown/undocumented; activity violates because a separate 38 euro payment is required."
+  },
+  "round1-deeper-fp16-0206": {
+    "id": "round1-deeper-fp16-0206",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund and arrival are undocumented; facility meets (no separate fee); activity is unknown as no statement is supplied."
+  },
+  "round1-deeper-fp16-0207": {
+    "id": "round1-deeper-fp16-0207",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund meets (entire payment returned); arrival is unknown; facility is insufficient due to conflicting authoritative policies; activity meets (nothing further to pay)."
+  },
+  "round1-deeper-fp16-0208": {
+    "id": "round1-deeper-fp16-0208",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates (27 euro charge); arrival meets (01:30 automatic); facility violates (19 euro charge); activity is unknown as no statement is supplied."
+  },
+  "round1-deeper-fp16-0209": {
+    "id": "round1-deeper-fp16-0209",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund and arrival are undocumented; facility meets (no separate fee); activity meets (nothing further to pay)."
+  },
+  "round1-deeper-fp16-0210": {
+    "id": "round1-deeper-fp16-0210",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund info is undocumented; arrival requires prior permission; pool incurs an extra charge; hike requires separate payment."
+  },
+  "round1-deeper-fp16-0211": {
+    "id": "round1-deeper-fp16-0211",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: The document states a 27 euro charge is retained, violating the 'full cash refund' requirement. arrival: Explicitly allows arrival at 01:30 without prior contact. facility: Explicitly states the pool is available without a separate fee. activity: The text states no statement about a guided walk being included is supplied, leaving the information unknown."
+  },
+  "round1-deeper-fp16-0212": {
+    "id": "round1-deeper-fp16-0212",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund is not full (retains 27 euros); arrival rules are not addressed; pool price/access is not stated; hike is included with nothing further to pay."
+  },
+  "round1-deeper-fp16-0213": {
+    "id": "round1-deeper-fp16-0213",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund info is undocumented; arrival requires prior permission; pool incurs an extra charge; hike policy contains unresolved conflicting information."
+  },
+  "round1-deeper-fp16-0214": {
+    "id": "round1-deeper-fp16-0214",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is not full (retains 27 euros); arrival requires prior permission; pool is free; hike is not included for the selected May stay."
+  },
+  "round1-deeper-fp16-0215": {
+    "id": "round1-deeper-fp16-0215",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is full; arrival requires prior permission; pool incurs an extra charge; hike requires separate payment."
+  },
+  "round1-deeper-fp16-0216": {
+    "id": "round1-deeper-fp16-0216",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund and arrival policies are explicitly stated as absent or undefined; the pool is free; the hike requires an additional fee."
+  },
+  "round1-deeper-fp16-0217": {
+    "id": "round1-deeper-fp16-0217",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "A mandatory fee is retained (violates refund); arrival rules are not addressed; the pool requires a fee; the hike is included."
+  },
+  "round1-deeper-fp16-0218": {
+    "id": "round1-deeper-fp16-0218",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "A mandatory fee is retained (violates refund); midnight arrival is allowed; pool conditions are undefined; the hike is included."
+  },
+  "round1-deeper-fp16-0219": {
+    "id": "round1-deeper-fp16-0219",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policy contains unresolved conflicting policies; midnight arrival is allowed; the pool is free; hike inclusion is unknown."
+  },
+  "round1-deeper-fp16-0220": {
+    "id": "round1-deeper-fp16-0220",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Full refund is available; midnight arrival is allowed; the pool is free; the hike requires an additional fee."
+  },
+  "round1-deeper-fp16-0221": {
+    "id": "round1-deeper-fp16-0221",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Full refund is available; midnight arrival is allowed; the pool requires a fee; the hike is included."
+  },
+  "round1-deeper-fp16-0222": {
+    "id": "round1-deeper-fp16-0222",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policy meets the requirement (full money returned with no deduction). Arrival, facility (price/access unstated), and activity (no statement on guided walk) lack sufficient information."
+  },
+  "round1-deeper-fp16-0223": {
+    "id": "round1-deeper-fp16-0223",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund method/amount is undocumented (insufficient). Arrival (automatic at 01:30) and facility (pool with no separate fee) meet requirements. Activity (no statement on guided walk) is insufficient."
+  },
+  "round1-deeper-fp16-0224": {
+    "id": "round1-deeper-fp16-0224",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (mandatory 27 euro charge). Arrival is insufficient (no rules address it). Facility (pool with no separate fee) and activity (walking excursion with guide included) meet requirements."
+  },
+  "round1-deeper-fp16-0225": {
+    "id": "round1-deeper-fp16-0225",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund meets (full money, no deduction). Arrival is insufficient due to conflicting authoritative policies. Facility is insufficient (price/access unstated). Activity violates (requires separate payment)."
+  },
+  "round1-deeper-fp16-0226": {
+    "id": "round1-deeper-fp16-0226",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates (mandatory 27 euro charge). Arrival is insufficient (no rules address it). Facility meets (pool with no separate fee). Activity is insufficient (no statement on guided walk)."
+  },
+  "round1-deeper-fp16-0227": {
+    "id": "round1-deeper-fp16-0227",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund meets (entire payment returned). Arrival is insufficient (no rules address it). Facility violates (19 euro charge). Activity violates (requires separate payment)."
+  },
+  "round1-deeper-fp16-0228": {
+    "id": "round1-deeper-fp16-0228",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is a full cash return; arrival after midnight is allowed without contact; pool details are unstated; hike requires extra payment."
+  },
+  "round1-deeper-fp16-0229": {
+    "id": "round1-deeper-fp16-0229",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is full monetary return; arrival after midnight is seamless; pool is available without a separate fee; hike incurs an extra charge."
+  },
+  "round1-deeper-fp16-0230": {
+    "id": "round1-deeper-fp16-0230",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund has a mandatory charge; arrival requires prior permission; pool access status is unresolved; hike costs extra."
+  },
+  "round1-deeper-fp16-0231": {
+    "id": "round1-deeper-fp16-0231",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund has a mandatory charge; arrival requires prior permission; pool policies are conflicting/unresolved; hike is included."
+  },
+  "round1-deeper-fp16-0232": {
+    "id": "round1-deeper-fp16-0232",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund method/amount is undocumented; arrival requires prior permission; pool requires an extra fee; hike costs extra."
+  },
+  "round1-deeper-fp16-0233": {
+    "id": "round1-deeper-fp16-0233",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund method/amount is undocumented; arrival requires prior permission; pool is available without extra fee; hike is included."
+  },
+  "round1-deeper-fp16-0234": {
+    "id": "round1-deeper-fp16-0234",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (27 euro charge); arrival meets (automatic at 01:30); facility is insufficient (location/price/access unstated); activity violates (separate 38 euro payment required)."
+  },
+  "round1-deeper-fp16-0235": {
+    "id": "round1-deeper-fp16-0235",
+    "labels": {
+      "activity": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "refund": "meets"
+    },
+    "reason": "Refund: The text explicitly states 'the entire payment is returned as money' before the cutoff, meeting the requirement. Arrival: The text explicitly states 'no rules address overnight registration', leaving the policy unknown. Facility: The text states guests are 'charges booked guests 19 euros' for the pool, violating the 'no extra charge' requirement. Activity: The text explicitly states the quoted amount 'pays for a walking excursion... accompanied by a human guide, with nothing further to pay', meeting the requirement; the mention of missing info applies only to the unselected offer."
+  },
+  "round1-deeper-fp16-0236": {
+    "id": "round1-deeper-fp16-0236",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is insufficient (not documented); arrival violates (requires permission); facility is insufficient (details unstated); activity is insufficient (no statement supplied under current rules)."
+  },
+  "round1-deeper-fp16-0237": {
+    "id": "round1-deeper-fp16-0237",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund meets (no deduction); arrival meets (automatic); facility violates (19 euro charge); activity is insufficient (two equally authoritative conflicting policies)."
+  },
+  "round1-deeper-fp16-0238": {
+    "id": "round1-deeper-fp16-0238",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (27 euro charge); arrival meets (automatic); facility violates (19 euro charge); activity meets (included in quoted amount)."
+  },
+  "round1-deeper-fp16-0239": {
+    "id": "round1-deeper-fp16-0239",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is insufficient (not documented); arrival is insufficient (silent); facility is insufficient (details unstated); activity violates (requires separate 38 euro payment)."
+  },
+  "round1-deeper-fp16-0240": {
+    "id": "round1-deeper-fp16-0240",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund requires a fee; arrival requires prior permission; pool costs 19 euros; hike requires separate payment."
+  },
+  "round1-deeper-fp16-0241": {
+    "id": "round1-deeper-fp16-0241",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund details are undocumented for the selected offer; arrival is automatic; pool details (price/access) are missing; activity inclusion is not stated."
+  },
+  "round1-deeper-fp16-0242": {
+    "id": "round1-deeper-fp16-0242",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Full refund provided; automatic arrival; pool costs 19 euros; hike is included with nothing further to pay."
+  },
+  "round1-deeper-fp16-0243": {
+    "id": "round1-deeper-fp16-0243",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund policies are in unresolved conflict; arrival rules are silent; pool is free; hike requires separate payment."
+  },
+  "round1-deeper-fp16-0244": {
+    "id": "round1-deeper-fp16-0244",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Full refund provided; automatic arrival; pool price/access unknown; activity inclusion not stated."
+  },
+  "round1-deeper-fp16-0245": {
+    "id": "round1-deeper-fp16-0245",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Full refund provided; arrival requires prior permission; pool is free; activity inclusion not stated."
+  },
+  "round1-deeper-fp16-0246": {
+    "id": "round1-deeper-fp16-0246",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund violates due to mandatory fee; arrival violates because permission is required; facility and activity meet requirements."
+  },
+  "round1-deeper-fp16-0247": {
+    "id": "round1-deeper-fp16-0247",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund info is incomplete (neither payment return nor method documented); arrival at 01:30 is automatic for Alder; pool is free; hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0248": {
+    "id": "round1-deeper-fp16-0248",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund, arrival, and facility are all insufficient due to lack of documentation/details; activity violates (requires extra payment)."
+  },
+  "round1-deeper-fp16-0249": {
+    "id": "round1-deeper-fp16-0249",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (admin charge applies); arrival is insufficient (conflicting policies); facility violates (extra charge applies); activity violates (extra charge applies)."
+  },
+  "round1-deeper-fp16-0250": {
+    "id": "round1-deeper-fp16-0250",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates (admin charge applies); arrival is insufficient (no rules address it); facility meets; activity is insufficient (no statement supplied)."
+  },
+  "round1-deeper-fp16-0251": {
+    "id": "round1-deeper-fp16-0251",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund meets (full money returned); arrival violates (permission required); facility violates (extra charge applies); activity is insufficient (no statement supplied)."
+  },
+  "round1-deeper-fp16-0252": {
+    "id": "round1-deeper-fp16-0252",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund and facility details are unknown; arrival and activity requirements are explicitly met."
+  },
+  "round1-deeper-fp16-0253": {
+    "id": "round1-deeper-fp16-0253",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is not full (has a charge); facility has a fee; arrival is met; activity info is missing."
+  },
+  "round1-deeper-fp16-0254": {
+    "id": "round1-deeper-fp16-0254",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: violates (mandatory 27 euro charge prevents a full cash refund); arrival: meets (01:30 arrival is allowed without prior contact); facility: insufficient_evidence (the pool policy is explicitly stated as void/superseded); activity: insufficient_evidence (no information provided regarding a guided hike)."
+  },
+  "round1-deeper-fp16-0255": {
+    "id": "round1-deeper-fp16-0255",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is unknown; arrival is met; facility has conflicting policies; activity requires extra payment."
+  },
+  "round1-deeper-fp16-0256": {
+    "id": "round1-deeper-fp16-0256",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund, arrival, and facility are met; activity requires extra payment."
+  },
+  "round1-deeper-fp16-0257": {
+    "id": "round1-deeper-fp16-0257",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund and facility are unknown; arrival requires permission; activity requires extra payment."
+  },
+  "round1-deeper-fp16-0258": {
+    "id": "round1-deeper-fp16-0258",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates (27 euro charge); arrival meets (automatic at 01:30); facility violates (19 euro fee); activity is insufficient (no statement provided)."
+  },
+  "round1-deeper-fp16-0259": {
+    "id": "round1-deeper-fp16-0259",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund meets (entire payment returned); arrival violates (requires permission); facility meets (no separate fee); activity violates (requires 38 euro payment)."
+  },
+  "round1-deeper-fp16-0260": {
+    "id": "round1-deeper-fp16-0260",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund meets (entire payment returned); arrival is insufficient (no rules address it); facility is insufficient (price/access not stated); activity meets (includes walking excursion)."
+  },
+  "round1-deeper-fp16-0261": {
+    "id": "round1-deeper-fp16-0261",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund meets (entire payment returned); arrival violates (requires permission); facility meets (no separate fee); activity is insufficient (conflicting policies)."
+  },
+  "round1-deeper-fp16-0262": {
+    "id": "round1-deeper-fp16-0262",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (27 euro charge); arrival violates (requires permission); facility is insufficient (price/access not stated); activity violates (requires 38 euro payment)."
+  },
+  "round1-deeper-fp16-0263": {
+    "id": "round1-deeper-fp16-0263",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund meets (entire payment returned); arrival meets (automatic at 01:30); facility violates (19 euro fee); activity meets (includes walking excursion)."
+  },
+  "round1-deeper-fp16-0264": {
+    "id": "round1-deeper-fp16-0264",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document explicitly states a full cash refund is available before the cutoff, explicitly forbids check-in after midnight without prior permission (violating the requirement), explicitly confirms a free swimming pool, and states it has not provided information regarding a guided walk (insufficient evidence)."
+  },
+  "round1-deeper-fp16-0265": {
+    "id": "round1-deeper-fp16-0265",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "The document states a hike requires a separate payment (violates activity); arrival after midnight is possible without prior contact (meets arrival); refund and swimming pool details are not documented (insufficient_evidence for both)."
+  },
+  "round1-deeper-fp16-0266": {
+    "id": "round1-deeper-fp16-0266",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document states the current terms do not document the refund method or amount (insufficient_evidence); it explicitly states check-in after midnight requires prior permission, contradicting the requirement (violates); it confirms a swimming pool is available without a separate fee (meets); and it states no information is supplied regarding a guided walk being included (insufficient_evidence)."
+  },
+  "round1-deeper-fp16-0267": {
+    "id": "round1-deeper-fp16-0267",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The refund policy is unresolved due to two conflicting authoritative policies (Policy A vs Policy B). Arrival violates the requirement because check-in after midnight requires prior permission. The facility violates the requirement because there is an extra charge for the pool. The activity is insufficient because no information is supplied regarding a guided hike."
+  },
+  "round1-deeper-fp16-0268": {
+    "id": "round1-deeper-fp16-0268",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "The document states the walking excursion with a guide is included (activity: meets); it explicitly states check-in after midnight requires prior permission, contradicting the requirement (arrival: violates); it mentions a swimming area but omits price and access details (facility: insufficient_evidence); and the refund policy mentioned applies only to December, leaving the May refund policy unknown (refund: insufficient_evidence)."
+  },
+  "round1-deeper-fp16-0269": {
+    "id": "round1-deeper-fp16-0269",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund has a mandatory charge; arrival requires prior permission; pool is free; guided hike requires extra payment."
+  },
+  "round1-deeper-fp16-0270": {
+    "id": "round1-deeper-fp16-0270",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund and arrival policies are explicitly stated; pool price/access and guided walk inclusion are unknown."
+  },
+  "round1-deeper-fp16-0271": {
+    "id": "round1-deeper-fp16-0271",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund policy matches the requirement; arrival policy for the selected Alder offer is not addressed (Birch is unselected); facility requires an extra charge of 19 euros which violates the 'no extra charge' rule; activity matches the requirement for a guided hike."
+  },
+  "round1-deeper-fp16-0272": {
+    "id": "round1-deeper-fp16-0272",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund method/amount is unknown; arrival is met; pool requires a fee (violates); activity is met."
+  },
+  "round1-deeper-fp16-0273": {
+    "id": "round1-deeper-fp16-0273",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund and facility requirements are met; arrival has unresolved conflicting policies; activity information is unknown."
+  },
+  "round1-deeper-fp16-0274": {
+    "id": "round1-deeper-fp16-0274",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund and facility details are unknown; arrival and activity requirements are met."
+  },
+  "round1-deeper-fp16-0275": {
+    "id": "round1-deeper-fp16-0275",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund, arrival, and facility details are unknown; activity requirement is met."
+  },
+  "round1-deeper-fp16-0276": {
+    "id": "round1-deeper-fp16-0276",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund and arrival policies are undocumented/vague; pool requires a 19 euro fee; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0277": {
+    "id": "round1-deeper-fp16-0277",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is a full cash return; arrival rules are missing; pool requires a 19 euro fee despite contradictory text; no info on guided hike inclusion."
+  },
+  "round1-deeper-fp16-0278": {
+    "id": "round1-deeper-fp16-0278",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a 27 euro charge; arrival rules are missing; pool requires a 19 euro fee; no info on guided hike inclusion."
+  },
+  "round1-deeper-fp16-0279": {
+    "id": "round1-deeper-fp16-0279",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund is undocumented; arrival requires prior permission; pool policy is unresolved/conflicting; hike is included."
+  },
+  "round1-deeper-fp16-0280": {
+    "id": "round1-deeper-fp16-0280",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund has a 27 euro charge; arrival requires prior permission; pool price/conditions are not stated; hike is included."
+  },
+  "round1-deeper-fp16-0281": {
+    "id": "round1-deeper-fp16-0281",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund has a 27 euro charge; arrival requires prior permission; pool is free; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0282": {
+    "id": "round1-deeper-fp16-0282",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund is full cash; arrival requires prior permission (violates); pool requires an extra fee (violates); activity includes a guided walk (meets)."
+  },
+  "round1-deeper-fp16-0283": {
+    "id": "round1-deeper-fp16-0283",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is full cash; arrival is automatic (meets); pool is no extra cost (meets); activity inclusion is not specified/confirmed (insufficient)."
+  },
+  "round1-deeper-fp16-0284": {
+    "id": "round1-deeper-fp16-0284",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund amount/method undocumented (insufficient); arrival is automatic (meets); pool price/access unstated (insufficient); hike requires separate payment (violates)."
+  },
+  "round1-deeper-fp16-0285": {
+    "id": "round1-deeper-fp16-0285",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund has a mandatory charge (violates); arrival rules are silent (insufficient); pool details missing (insufficient); conflicting authoritative policies on activity (insufficient)."
+  },
+  "round1-deeper-fp16-0286": {
+    "id": "round1-deeper-fp16-0286",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is full cash (meets); arrival is automatic (meets); pool is free (meets); hike requires separate payment (violates)."
+  },
+  "round1-deeper-fp16-0287": {
+    "id": "round1-deeper-fp16-0287",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document states check-in after midnight requires prior permission (violating the arrival requirement); it explicitly states the pool is available without a separate fee (meeting the facility requirement); it states refund and guided activity information is undocumented (insufficient evidence for both)."
+  },
+  "round1-deeper-fp16-0288": {
+    "id": "round1-deeper-fp16-0288",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "refund: method/amount not documented; arrival: 01:30 automatic arrival meets requirement; facility: location/price/access unknown; activity: hike requires separate payment."
+  },
+  "round1-deeper-fp16-0289": {
+    "id": "round1-deeper-fp16-0289",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "refund: mandatory 27 euro charge violates full refund; arrival: no rules address overnight registration; facility: pool available without separate fee; activity: hike requires separate payment."
+  },
+  "round1-deeper-fp16-0290": {
+    "id": "round1-deeper-fp16-0290",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "refund: entire payment returned as money meets requirement; arrival: rules are silent; facility: 19 euro charge violates no extra charge; activity: walking excursion with guide included meets requirement."
+  },
+  "round1-deeper-fp16-0291": {
+    "id": "round1-deeper-fp16-0291",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "refund: two equally authoritative conflicting policies create unresolved terms; arrival: 01:30 automatic arrival meets requirement; facility: pool available without separate fee; activity: walking excursion with guide included meets requirement."
+  },
+  "round1-deeper-fp16-0292": {
+    "id": "round1-deeper-fp16-0292",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: neither payment returned nor method documented; arrival: 01:30 automatic arrival meets requirement; facility: location/price/access unknown; activity: no statement about guided walk provided."
+  },
+  "round1-deeper-fp16-0293": {
+    "id": "round1-deeper-fp16-0293",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: neither payment returned nor method documented; arrival: 01:30 automatic arrival meets requirement; facility: 19 euro charge violates no extra charge; activity: no statement about guided walk provided."
+  },
+  "round1-deeper-fp16-0294": {
+    "id": "round1-deeper-fp16-0294",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (27 euro charge); arrival violates (permission required); facility is insufficient (location/price/access undefined); activity meets (walking excursion with guide included)."
+  },
+  "round1-deeper-fp16-0295": {
+    "id": "round1-deeper-fp16-0295",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "refund: The text states the refund method and return of payment are not documented; arrival: For the selected Alder, check-in after midnight requires prior permission, violating the 'without arranging it beforehand' rule; facility: The pool requires a 19 euro charge, violating the 'no extra charge' rule; activity: The hike requires a separate payment, violating the 'price includes' rule."
+  },
+  "round1-deeper-fp16-0296": {
+    "id": "round1-deeper-fp16-0296",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund meets (entire payment returned); arrival meets (automatic); facility meets (no separate fee); activity is insufficient (no statement about guided walk included)."
+  },
+  "round1-deeper-fp16-0297": {
+    "id": "round1-deeper-fp16-0297",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (27 euro charge); arrival is insufficient (conflicting policies); facility violates (19 euro charge); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0298": {
+    "id": "round1-deeper-fp16-0298",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is insufficient (not documented); arrival meets (automatic); facility violates (19 euro charge); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0299": {
+    "id": "round1-deeper-fp16-0299",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is insufficient (not documented); arrival is insufficient (no rules address it); facility meets (no separate fee); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0300": {
+    "id": "round1-deeper-fp16-0300",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (27 euro charge); arrival violates (permission required); facility is insufficient (location/price/access unknown); activity violates (requires 38 euro payment)."
+  },
+  "round1-deeper-fp16-0301": {
+    "id": "round1-deeper-fp16-0301",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates because a mandatory fee is charged; Arrival violates because permission is required for late check-in; Facility is insufficient because the swimming area's cost and access are not stated; Activity violates because the hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0302": {
+    "id": "round1-deeper-fp16-0302",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund is insufficient (not documented); arrival violates (permission required); facility violates (19 euro charge); activity meets (nothing further to pay)."
+  },
+  "round1-deeper-fp16-0303": {
+    "id": "round1-deeper-fp16-0303",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is insufficient (not documented); arrival violates (permission required); facility is insufficient (conflicting policies); activity is insufficient (not supplied)."
+  },
+  "round1-deeper-fp16-0304": {
+    "id": "round1-deeper-fp16-0304",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (27 euro charge); arrival is insufficient (no rules address it); facility violates (19 euro charge); activity meets (nothing further to pay)."
+  },
+  "round1-deeper-fp16-0305": {
+    "id": "round1-deeper-fp16-0305",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund meets (entire payment returned); arrival violates (permission required); facility is insufficient (location/price/access unknown); activity violates (requires 38 euro payment)."
+  },
+  "round1-deeper-fp16-0306": {
+    "id": "round1-deeper-fp16-0306",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund is full with zero deductions; arrival at 01:30 is automatic; pool requires an additional 19 euros; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0307": {
+    "id": "round1-deeper-fp16-0307",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Arrival and pool policies are explicitly stated; refund and activity policies are explicitly noted as not being documented or supplied for the selected Alder offer."
+  },
+  "round1-deeper-fp16-0308": {
+    "id": "round1-deeper-fp16-0308",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is not full (27 euro charge); arrival rules are not addressed; pool price/access is not stated; hike inclusion is not stated."
+  },
+  "round1-deeper-fp16-0309": {
+    "id": "round1-deeper-fp16-0309",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is not full (27 euro charge); arrival requires prior permission; pool price/access is not stated; hike policy contains unresolved conflicting information."
+  },
+  "round1-deeper-fp16-0310": {
+    "id": "round1-deeper-fp16-0310",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is not full (27 euro charge); arrival at 01:30 is automatic; pool price/access is not stated; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0311": {
+    "id": "round1-deeper-fp16-0311",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund method/amount is not documented; arrival at 01:30 is automatic; pool price/access is not stated; hike requires a separate 38 euro payment."
+  },
+  "round1-deeper-fp16-0312": {
+    "id": "round1-deeper-fp16-0312",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates because a 27 euro charge is retained (not a full refund). Arrival, facility, and activity lack sufficient information."
+  },
+  "round1-deeper-fp16-0313": {
+    "id": "round1-deeper-fp16-0313",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is unknown (method/amount not documented). Arrival and facility meet requirements. Activity violates because the hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0314": {
+    "id": "round1-deeper-fp16-0314",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund meets because the entire payment is returned with no deduction. Arrival meets. Facility and activity lack sufficient information."
+  },
+  "round1-deeper-fp16-0315": {
+    "id": "round1-deeper-fp16-0315",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is insufficient due to two equally authoritative conflicting policies. Arrival lacks information. Facility violates because there is a 19 euro charge. Activity lacks information."
+  },
+  "round1-deeper-fp16-0316": {
+    "id": "round1-deeper-fp16-0316",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund violates because a 27 euro charge is deducted; arrival is insufficient because no mention of midnight check-in is made; facility meets because the pool is available without a separate fee; activity violates because the hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0317": {
+    "id": "round1-deeper-fp16-0317",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund and arrival lack information. Facility violates due to a 19 euro charge. Activity violates because the hike requires a separate payment."
+  },
+  "round1-deeper-fp16-0318": {
+    "id": "round1-deeper-fp16-0318",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund is a full cash return; arrival rules are unaddressed; pool is free; hike requires extra payment."
+  },
+  "round1-deeper-fp16-0319": {
+    "id": "round1-deeper-fp16-0319",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "The document explicitly confirms a full cash refund for cancellations before the cutoff, a guided walking excursion included in the price, and free swimming pool access. However, it explicitly states that no rules address overnight registration, leaving the arrival policy unknown."
+  },
+  "round1-deeper-fp16-0320": {
+    "id": "round1-deeper-fp16-0320",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document states refund and arrival policies are not documented or addressed in current records; it explicitly states the pool requires an extra charge of 19 euros; and it states no information is supplied regarding the guided walk."
+  },
+  "round1-deeper-fp16-0321": {
+    "id": "round1-deeper-fp16-0321",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is a full cash return; arrival policies are conflicting/unresolved; pool is free; activity info is not supplied."
+  },
+  "round1-deeper-fp16-0322": {
+    "id": "round1-deeper-fp16-0322",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund info is not documented; arrival after midnight is automatic; pool details are not stated; hike requires extra payment."
+  },
+  "round1-deeper-fp16-0323": {
+    "id": "round1-deeper-fp16-0323",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund is a full cash return; arrival after midnight requires permission; pool details are not stated; hike requires extra payment."
+  },
+  "round1-deeper-fp16-0324": {
+    "id": "round1-deeper-fp16-0324",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund is a full cash return; arrival requires prior permission (violates); swimming area details are unstated (insufficient); activity includes a guided walk with no extra charge (meets)."
+  },
+  "round1-deeper-fp16-0325": {
+    "id": "round1-deeper-fp16-0325",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund policy explicitly states the entire payment is returned as money before the cutoff. Arrival policy states no rules address overnight registration or prior contact. Facility information is insufficient as location, price, and access conditions are not stated. Activity policy explicitly states the price includes a guided walking excursion with nothing further to pay."
+  },
+  "round1-deeper-fp16-0326": {
+    "id": "round1-deeper-fp16-0326",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is a full cash return; arrival is automatic without contact (meets); pool requires a 19 euro charge (violates); activity info is not supplied (insufficient)."
+  },
+  "round1-deeper-fp16-0327": {
+    "id": "round1-deeper-fp16-0327",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund is a full cash return; arrival rules are not addressed (insufficient); two authoritative policies on pool fees conflict (insufficient); activity includes a guided walk with no extra charge (meets)."
+  },
+  "round1-deeper-fp16-0328": {
+    "id": "round1-deeper-fp16-0328",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is a full cash return; arrival rules are not addressed (insufficient); the applicable policy for May requires a 19 euro pool charge (violates); activity info is not supplied (insufficient)."
+  },
+  "round1-deeper-fp16-0329": {
+    "id": "round1-deeper-fp16-0329",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is a full cash return; arrival requires prior permission (violates); swimming area details are unstated (insufficient); activity info is not supplied (insufficient)."
+  },
+  "round1-deeper-fp16-0330": {
+    "id": "round1-deeper-fp16-0330",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund violates because a 27 euro charge is deducted, preventing a full refund; arrival, facility, and activity meet all criteria."
+  },
+  "round1-deeper-fp16-0331": {
+    "id": "round1-deeper-fp16-0331",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund policy matches (full money returned); arrival policy violates (requires permission for check-in after midnight); facility matches (pool available without extra fee); activity is unknown (no statement provided for the selected Alder offer)."
+  },
+  "round1-deeper-fp16-0332": {
+    "id": "round1-deeper-fp16-0332",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (27 euro charge); arrival violates (requires permission); facility meets; activity meets."
+  },
+  "round1-deeper-fp16-0333": {
+    "id": "round1-deeper-fp16-0333",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is unknown; arrival violates (requires permission); facility violates (19 euro fee); activity is unresolved due to conflicting policies."
+  },
+  "round1-deeper-fp16-0334": {
+    "id": "round1-deeper-fp16-0334",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (27 euro charge); arrival meets; facility is unknown (price/access not stated); activity violates (requires separate 38 euro payment)."
+  },
+  "round1-deeper-fp16-0335": {
+    "id": "round1-deeper-fp16-0335",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (27 euro charge); arrival, facility, and activity meet all criteria."
+  },
+  "round1-deeper-fp16-0336": {
+    "id": "round1-deeper-fp16-0336",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (27 euro charge); arrival is unknown (no rules address it); facility violates (19 euro charge); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0337": {
+    "id": "round1-deeper-fp16-0337",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "The document confirms a full cash refund (money, no deduction) and automatic check-in after midnight. However, it fails to state if the swimming area is free of charge and explicitly states the hike requires an extra payment."
+  },
+  "round1-deeper-fp16-0338": {
+    "id": "round1-deeper-fp16-0338",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "Refund violates (27 euro charge); arrival meets (automatic at 01:30); facility violates (19 euro charge); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0339": {
+    "id": "round1-deeper-fp16-0339",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is insufficient (two equally authoritative conflicting policies); arrival violates (permission required); facility violates (19 euro charge); activity is insufficient (no statement supplied)."
+  },
+  "round1-deeper-fp16-0340": {
+    "id": "round1-deeper-fp16-0340",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (27 euro charge); arrival is insufficient (no rules address it); facility is insufficient (price/access not stated); activity meets (included with nothing further to pay)."
+  },
+  "round1-deeper-fp16-0341": {
+    "id": "round1-deeper-fp16-0341",
+    "labels": {
+      "refund": "meets",
+      "arrival": "violates",
+      "facility": "insufficient_evidence",
+      "activity": "violates"
+    },
+    "reason": "Refund meets (no deduction); arrival violates (permission required); facility is insufficient (price/access not stated); activity violates (separate payment required)."
+  },
+  "round1-deeper-fp16-0342": {
+    "id": "round1-deeper-fp16-0342",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document explicitly states that information regarding the swimming area, guided walk, refund/cancellation, and overnight arrival rules is undefined or not documented."
+  },
+  "round1-deeper-fp16-0343": {
+    "id": "round1-deeper-fp16-0343",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "The document explicitly confirms the swimming pool and guided hike for the selected Alder offer. However, it states no rules address overnight registration (arrival) for Alder, and it does not document any refund method (refund)."
+  },
+  "round1-deeper-fp16-0344": {
+    "id": "round1-deeper-fp16-0344",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The agent states the pool has an extra charge (violates facility); check-in after midnight requires prior permission (violates arrival); the agent states the system does not document refund details (insufficient_evidence refund); and the agent states the quote does not state if a guided walk is included (insufficient_evidence activity)."
+  },
+  "round1-deeper-fp16-0345": {
+    "id": "round1-deeper-fp16-0345",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "The document states a mandatory fee exists for cancellation (violates refund), mentions a conflict between two authoritative arrival policies (insufficient_evidence), confirms the pool is free (meets), and confirms the walk is included (meets)."
+  },
+  "round1-deeper-fp16-0346": {
+    "id": "round1-deeper-fp16-0346",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "refund: violates because a 27 euro administration charge is deducted, meaning it is not a full cash refund; arrival: meets because 01:30 registration is available automatically without prior contact; facility: violates because there is a 19 euro charge for the pool; activity: meets because the price includes a walking excursion with a guide."
+  },
+  "round1-deeper-fp16-0347": {
+    "id": "round1-deeper-fp16-0347",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "violates"
+    },
+    "reason": "The document states the pool has a fee (violates), the hike requires a separate payment (violates), a cancellation fee is retained (violates refund), and midnight arrival is automatic (meets)."
+  },
+  "round1-deeper-fp16-0348": {
+    "id": "round1-deeper-fp16-0348",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "violates"
+    },
+    "reason": "Refund info is undocumented; arrival and pool are free/automatic; hike requires extra payment."
+  },
+  "round1-deeper-fp16-0349": {
+    "id": "round1-deeper-fp16-0349",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund has a fee; arrival requires permission; pool has a fee; hike is included."
+  },
+  "round1-deeper-fp16-0350": {
+    "id": "round1-deeper-fp16-0350",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "violates",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund info is undocumented; arrival requires permission; pool is free; hike is included."
+  },
+  "round1-deeper-fp16-0351": {
+    "id": "round1-deeper-fp16-0351",
+    "labels": {
+      "refund": "meets",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund is full cash; arrival policy is unaddressed; pool policies conflict; hike info is missing."
+  },
+  "round1-deeper-fp16-0352": {
+    "id": "round1-deeper-fp16-0352",
+    "labels": {
+      "refund": "violates",
+      "arrival": "violates",
+      "facility": "violates",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "refund: violates because a 27 euro administration charge is retained; arrival: violates because check-in after midnight requires prior permission; facility: violates because for the selected dates, guests must pay 19 euros to enter the pool; activity: insufficient_evidence because the document states no information is supplied regarding a guided walk."
+  },
+  "round1-deeper-fp16-0353": {
+    "id": "round1-deeper-fp16-0353",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "violates",
+      "activity": "meets"
+    },
+    "reason": "Refund info is undocumented; arrival is automatic; pool has a fee; hike is included."
+  },
+  "round1-deeper-fp16-0354": {
+    "id": "round1-deeper-fp16-0354",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates because a 27 euro charge is retained (not a full refund); arrival meets (01:30 automatic); facility meets (no separate fee); activity is insufficient because the text states no statement about a guided walk is supplied."
+  },
+  "round1-deeper-fp16-0355": {
+    "id": "round1-deeper-fp16-0355",
+    "labels": {
+      "refund": "violates",
+      "arrival": "insufficient_evidence",
+      "facility": "meets",
+      "activity": "meets"
+    },
+    "reason": "Refund violates (27 euro charge retained); arrival is insufficient (no rules address overnight registration); facility meets (no separate fee); activity meets (walking excursion with human guide included)."
+  },
+  "round1-deeper-fp16-0356": {
+    "id": "round1-deeper-fp16-0356",
+    "labels": {
+      "refund": "violates",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund violates because a 27 euro charge is mandatory (not a full cash refund); Arrival meets as 01:30 is allowed without contact; Facility meets as the pool is available without a separate fee; Activity is insufficient_evidence because the text states no itinerary or statement about a guided walk is supplied."
+  },
+  "round1-deeper-fp16-0357": {
+    "id": "round1-deeper-fp16-0357",
+    "labels": {
+      "refund": "meets",
+      "arrival": "meets",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "Refund meets (entire payment returned as money); arrival meets (01:30 automatic); facility is insufficient (location, price, and access not stated); activity is insufficient (two equally authoritative conflicting policies)."
+  },
+  "round1-deeper-fp16-0358": {
+    "id": "round1-deeper-fp16-0358",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "meets",
+      "facility": "meets",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "The document states neither the payment returned nor the method of refund is documented (refund); it confirms arrival at 01:30 is available automatically without contact (arrival); it confirms a swimming pool is available without a separate fee (facility); and it states no statement about a guided walk being included is supplied (activity)."
+  },
+  "round1-deeper-fp16-0359": {
+    "id": "round1-deeper-fp16-0359",
+    "labels": {
+      "refund": "insufficient_evidence",
+      "arrival": "insufficient_evidence",
+      "facility": "insufficient_evidence",
+      "activity": "insufficient_evidence"
+    },
+    "reason": "All categories are insufficient_evidence as the text explicitly states no rules address arrival, no details are provided for the swimming area, no refund info is documented, and no statement about the guided walk is supplied."
+  }
+}

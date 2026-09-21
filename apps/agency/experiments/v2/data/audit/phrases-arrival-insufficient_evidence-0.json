@@ -1,0 +1,72 @@
+{
+  "source": "phrases-arrival-insufficient_evidence-0.json",
+  "source_sha256": "ff83bfb77eb926f98f3d279bdbd5ce6ebfc307386f2493ed11efb4cfda654595",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "insufficient_evidence",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "The text states guests are welcome to arrive after standard closing time and only asks to inquire upon arrival, implying no prior arrangement is needed."
+    },
+    {
+      "index": 1,
+      "label": "violates",
+      "reason": "The text explicitly recommends 'direct consultation... to confirm access procedures' for arrivals beyond midnight, implying a prior arrangement is necessary."
+    },
+    {
+      "index": 2,
+      "label": "violates",
+      "reason": "The text explicitly states that arrivals past 12:00 AM 'require direct confirmation with the property before arrival'."
+    },
+    {
+      "index": 3,
+      "label": "violates",
+      "reason": "The text explicitly advises 'contacting the property in advance' for arrivals after midnight."
+    },
+    {
+      "index": 4,
+      "label": "violates",
+      "reason": "The text instructs guests to 'call us for precise instructions' regarding midnight arrivals, implying a prior step is required."
+    },
+    {
+      "index": 5,
+      "label": "meets",
+      "reason": "The text instructs guests to 'check with local staff' upon arrival, implying no prior arrangement is needed."
+    },
+    {
+      "index": 6,
+      "label": "violates",
+      "reason": "The text states that contacting the establishment 'prior to arrival' is advised for midnight check-ins."
+    },
+    {
+      "index": 7,
+      "label": "violates",
+      "reason": "The text explicitly says 'Please call ahead' for arrivals after midnight."
+    },
+    {
+      "index": 8,
+      "label": "insufficient_evidence",
+      "reason": "The text discusses 'departures' past midnight, not arrivals, so it does not provide evidence regarding the check-in requirement."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "The text states confirmation is 'best obtained' directly from personnel but does not explicitly state if prior arrangement is forbidden or mandatory, leaving the 'without prior arrangement' condition ambiguous."
+    },
+    {
+      "index": 10,
+      "label": "violates",
+      "reason": "The text instructs guests to 'verify details when booking,' which constitutes a prior arrangement."
+    },
+    {
+      "index": 11,
+      "label": "insufficient_evidence",
+      "reason": "The text offers an option to 'inquire upon arrival' OR 'contact us beforehand,' but does not explicitly establish that prior contact is unnecessary, as the 'or' implies both might be valid paths without clarifying if the 'beforehand' path is mandatory for success."
+    }
+  ],
+  "agreement": 3,
+  "n": 12,
+  "seconds": 35.38094520568848,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

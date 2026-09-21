@@ -1,0 +1,113 @@
+{
+  "task": "refund",
+  "label": "insufficient_evidence",
+  "batch": 0,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "Do not settle full cash refund: flexible booking slogan, refundable deposit only with balance rules missing, changes permitted, cancellation policy available separately, refund method or retained fee unconfirmed.",
+  "clauses": [
+    {
+      "text": "Can I cancel my reservation? Yes, the booking can be cancelled. However, please note that whether money is returned and how much is returned are not stated in our current documentation.",
+      "rationale": "Preserved the possibility of cancellation and the specific lack of information regarding refund eligibility and amount."
+    },
+    {
+      "text": "Dear Client, please note the listing calls the rate flexible. However, we must inform you that the specific refund terms are not provided in the current listing details.",
+      "rationale": "Maintained the 'flexible' label and the fact that refund terms are missing."
+    },
+    {
+      "text": "*Please note: Refund conditions appear in a separate document that is not included here.",
+      "rationale": "Kept the exact location of the conditions and the fact that the document is missing from the current view."
+    },
+    {
+      "text": "Your booking is confirmed and can be cancelled. Please be advised that whether money is returned and how much is returned are not stated in this confirmation.",
+      "rationale": "Preserved the cancellation possibility and the absence of refund details and amounts."
+    },
+    {
+      "text": "Our supplier listing calls the rate flexible; however, please be aware that the specific refund terms are not provided at this time.",
+      "rationale": "Preserved the 'flexible' descriptor and the omission of refund terms."
+    },
+    {
+      "text": "Note: Refund conditions appear in a separate document that is not included here. Please refer to the full contract for those specific details.",
+      "rationale": "Preserved the fact that conditions are in a separate, currently unincluded document."
+    },
+    {
+      "text": "Regarding your inquiry, the booking can be cancelled. However, we cannot confirm whether money is returned and how much is returned, as these are not stated.",
+      "rationale": "Preserved the cancellation right and the specific lack of information on refund status and amount."
+    },
+    {
+      "text": "This rate is called flexible. However, the refund terms are not provided.",
+      "rationale": "Maintained the 'flexible' designation and the absence of refund terms."
+    },
+    {
+      "text": "Refund conditions appear in a separate document that is not included here. Please check your full agreement for more information.",
+      "rationale": "Preserved the location of the conditions and their absence from the current text."
+    },
+    {
+      "text": "Please be aware that the booking can be cancelled. Note that whether money is returned and how much is returned are not stated in this notice.",
+      "rationale": "Preserved the cancellation option and the missing information regarding refund type and amount."
+    },
+    {
+      "text": "The operator listing calls the rate flexible, but please note that the refund terms are not provided in the current description.",
+      "rationale": "Preserved the 'flexible' label and the fact that refund terms are missing."
+    },
+    {
+      "text": "Refund conditions: Appear in a separate document that is not included here.",
+      "rationale": "Preserved the specific location of the conditions and the fact that the document is not included."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 13.3805570602417,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "95bb257e8944fb8d4a13e87845314d81eeea911ebb76843f33f648cd7170a823",
+  "repair_of": "phrases-refund-insufficient_evidence-0.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "The booking can be cancelled, but whether money is returned and how much are not stated."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "The listing calls the rate flexible; the refund terms are not provided."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "Refund conditions appear in a separate document that is not included here."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "The booking can be cancelled, but whether money is returned and how much are not stated."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "The listing calls the rate flexible; the refund terms are not provided."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "Refund conditions appear in a separate document that is not included here."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "The booking can be cancelled, but whether money is returned and how much are not stated."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "The listing calls the rate flexible; the refund terms are not provided."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "Refund conditions appear in a separate document that is not included here."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "The booking can be cancelled, but whether money is returned and how much are not stated."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "The listing calls the rate flexible; the refund terms are not provided."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "Refund conditions appear in a separate document that is not included here."
+    }
+  ]
+}

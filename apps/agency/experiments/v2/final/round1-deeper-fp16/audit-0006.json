@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0006",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund info is explicitly unrecorded; arrival at 01:30 is automatic; pool is free; hike requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0007",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund details are missing; arrival at 01:30 is automatic; pool is free; hike requires extra payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0008",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Cancellation has a mandatory fee; 01:30 arrival requires prior permission; pool is free; hike info is not supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0009",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Full cash refund is stated; arrival policy is unresolved due to conflicting rules; pool details (price/location) are not stated; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0010",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Full cash refund is stated; 01:30 arrival requires permission; pool costs 19 euros; hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0011",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Full cash refund is stated; 01:30 arrival requires permission; pool costs 19 euros; hike is included."
+    }
+  ],
+  "documents_sha256": "da03c4dbb64cbd3590c234ec568dda61fe355bfe93ae442c97952230728824cd"
+}

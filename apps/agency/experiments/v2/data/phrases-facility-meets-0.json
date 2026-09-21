@@ -1,0 +1,62 @@
+{
+  "task": "facility",
+  "label": "meets",
+  "batch": 0,
+  "requirement": "Guests can use a swimming pool located at the booked property for no additional charge during the described stay.",
+  "meaning_constraints": "Own onsite swimming pool open during stay, included/free for all resident guests.",
+  "clauses": [
+    {
+      "text": "Do staying guests have access to swimming facilities? Yes, the on-site pool is complimentary for the duration of your reservation.",
+      "rationale": "Directly answers a question about pool access and states it is free for the stay."
+    },
+    {
+      "text": "Dear traveler, please note that access to the property's refreshing water feature is included in your accommodation package and requires no extra payment.",
+      "rationale": "Informal written communication confirming that the pool is accessible and costs nothing."
+    },
+    {
+      "text": "Pool use is complimentary for all registered occupants throughout the length of the booked dates.",
+      "rationale": "A concise, formal disclaimer attached to the booking rate detailing the inclusive nature of pool access."
+    },
+    {
+      "text": "Your stay package includes access to the resort's central aquatic area at no supplementary charge whatsoever.",
+      "rationale": "Confirming the benefit within a formal booking summary."
+    },
+    {
+      "text": "Guests are pleased to know that utilizing the property's swimming pool amenity falls within the scope of your booking and requires no additional fee.",
+      "rationale": "Marketing language that clarifies inclusion without using exclamation points or excessive flair."
+    },
+    {
+      "text": "The resort pool is available to all registered guests for use throughout their visit, at no extra cost.",
+      "rationale": "Simple, straightforward language explaining the included service."
+    },
+    {
+      "text": "Water recreation facilities, such as the main pool, are provided for the convenience of all overnight guests and are free to use.",
+      "rationale": "A clear listing of available features, noting the cost structure."
+    },
+    {
+      "text": "If you extend your stay, remember that the swimming pool access remains complimentary for all guests residing at the property.",
+      "rationale": "Addressing a change or modification to the original booking while keeping the benefit intact."
+    },
+    {
+      "text": "The stay rate covers access to the property's main swimming area for all registered members of the party.",
+      "rationale": "Written notice from a third-party vendor outlining what the booking encompasses."
+    },
+    {
+      "text": "Pool use: Included for all occupants staying on-site. No additional charges apply.",
+      "rationale": "Structured information presented in a comparative or summary format."
+    },
+    {
+      "text": "For your convenience, the on-property pool area is available to all guests throughout your scheduled time here, complimentary.",
+      "rationale": "A brief, conversational response from a support channel."
+    },
+    {
+      "text": "Enjoy our onsite swimming pool; its use is covered by your reservation and incurs no supplementary costs for any resident guest.",
+      "rationale": "Emphasizing the benefit within a standard descriptive paragraph."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 16.680020809173584,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "fa9cb380e2cd75eeb2b6c6ad2c4f9ee6a5160b237db7704d3dcac4e4ab585c8c"
+}

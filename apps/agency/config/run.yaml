@@ -1,0 +1,9 @@
+seed: 20260920
+max_hours: 10
+training_hours: 3
+max_model_download_gb: 12
+jev_estimated_budget_usd: 10
+local_port: 8765
+max_length: 512
+batch_questions: 8
+epochs: 3

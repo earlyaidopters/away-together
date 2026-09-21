@@ -1,0 +1,72 @@
+{
+  "source": "phrases-activity-meets-0.json",
+  "source_sha256": "483fd91adcaaeee1d53aaecaf239d44184290e272e95e17c1c322f1a3b5ddbe4",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "meets",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states a 'guided trek' (hike with guide) is 'included at no extra cost'."
+    },
+    {
+      "index": 1,
+      "label": "meets",
+      "reason": "Explicitly states the 'guided uphill walk' (hike with guide) is 'covered' by the booking details."
+    },
+    {
+      "index": 2,
+      "label": "meets",
+      "reason": "Explicitly states the rate 'comprises' (includes) 'guided traversal' (hike with guide)."
+    },
+    {
+      "index": 3,
+      "label": "meets",
+      "reason": "Explicitly states the rate is 'inclusive of expert local trekking accompaniment' (hike with guide)."
+    },
+    {
+      "index": 4,
+      "label": "meets",
+      "reason": "Explicitly states the 'advertised base price' (holiday price) 'incorporates' (includes) a 'guided excursion' (hike with guide)."
+    },
+    {
+      "index": 5,
+      "label": "meets",
+      "reason": "Explicitly states the 'itinerary fee' (price) 'encompasses' (includes) the 'guided walk' (hike with guide)."
+    },
+    {
+      "index": 6,
+      "label": "meets",
+      "reason": "Explicitly states amenities 'cover' (include) passage with a 'professional escort' (guide) on footpaths."
+    },
+    {
+      "index": 7,
+      "label": "meets",
+      "reason": "Explicitly confirms the 'inclusion' of a 'guided... walk' (hike with guide)."
+    },
+    {
+      "index": 8,
+      "label": "meets",
+      "reason": "Explicitly states the 'bundled rate' (price) 'features' (includes) a 'guided journey' (hike with guide)."
+    },
+    {
+      "index": 9,
+      "label": "meets",
+      "reason": "Explicitly states the 'base fare' (price) 'includes' 'guiding services' (guide) for the circuit."
+    },
+    {
+      "index": 10,
+      "label": "meets",
+      "reason": "Explicitly states the tier 'covers' (includes) the 'guided... passage' and confirms no additional fees."
+    },
+    {
+      "index": 11,
+      "label": "meets",
+      "reason": "Explicitly states the rate reflects the 'mandatory guided descent' (hike with guide), implying inclusion in the rate."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 35.451059103012085,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

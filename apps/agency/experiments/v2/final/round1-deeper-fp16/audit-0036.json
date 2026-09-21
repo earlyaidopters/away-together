@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0036",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund violates (mandatory 27 euro charge); arrival meets (automatic at 01:30); facility is insufficient (location/price/access not stated); activity violates (requires separate 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0037",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund violates (mandatory 27 euro charge); arrival is insufficient (no rules address overnight registration); facility violates (19 euro fee applies); activity violates (requires separate 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0038",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund violates (mandatory 27 euro charge); arrival is insufficient (no rules address overnight registration); facility violates (19 euro fee applies); activity meets (included with nothing further to pay)."
+    },
+    {
+      "id": "round1-deeper-fp16-0039",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund meets (entire payment returned with no deduction); arrival violates (cannot check in without permission); facility is insufficient (conflicting authoritative policies on fee); activity violates (requires separate 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0040",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is insufficient (neither payment nor method documented); arrival violates (requires prior permission); facility violates (19 euro charge stands); activity violates (requires separate 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0041",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is insufficient (neither payment nor method documented); arrival meets (automatic without contact); facility violates (19 euro fee applies); activity is insufficient (no statement supplied regarding inclusion)."
+    }
+  ],
+  "documents_sha256": "429835d19040eb6ba1a97d0d5937fcd2e06c3e64dc1dcd4f9586818150b6a1fb"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0122",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "The document states neither the refund amount nor the method is documented under current terms (insufficient_evidence); no rules address late arrivals (insufficient_evidence); the pool is available without a separate fee (meets); and the price includes a guided walking excursion (meets)."
+    }
+  ],
+  "documents_sha256": "8e1ce4ddb524551f2ef26ef4779bca2b781cc8338598a3908f1f0394aea05ec5"
+}

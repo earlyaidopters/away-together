@@ -1,0 +1,28 @@
+# OpenJev: vLLM (DiffusionGemma, PR #57250) and the Jev-compatible API on :8080,
+# in one container.
+services:
+  openjev:
+    build: {context: ., dockerfile: docker/Dockerfile}
+    image: razorback16/openjev:0.3.0
+    environment:
+      OPENJEV_CANVAS: "64"
+      OPENJEV_MAX_NUM_SEQS: ${OPENJEV_MAX_NUM_SEQS:-64}
+      OPENJEV_MAX_MODEL_LEN: ${OPENJEV_MAX_MODEL_LEN:-65536}
+      OPENJEV_GPU_UTIL: ${OPENJEV_GPU_UTIL:-0.9}
+      OPENJEV_API_KEY: ${OPENJEV_API_KEY:-}
+      OPENJEV_ORIGIN_SECRET: ${OPENJEV_ORIGIN_SECRET:-}
+      HF_TOKEN: ${HF_TOKEN:-}
+    volumes:
+      - ${HF_HOME:-~/.cache/huggingface}:/root/.cache/huggingface
+      - vllm-cache:/root/.cache/vllm
+    ports:
+      - "${OPENJEV_BIND:-127.0.0.1}:8080:8080"
+    ipc: host
+    deploy:
+      resources:
+        reservations:
+          devices: [{driver: nvidia, count: all, capabilities: [gpu]}]
+    restart: unless-stopped
+
+volumes:
+  vllm-cache:

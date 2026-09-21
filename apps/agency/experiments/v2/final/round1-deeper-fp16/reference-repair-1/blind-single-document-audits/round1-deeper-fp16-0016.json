@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0016",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: violates (mandatory administration charge applies); arrival: violates (permission required for check-in after midnight); facility: violates (19 euro fee for pool); activity: insufficient_evidence (no information provided regarding a guided hike)."
+    }
+  ],
+  "documents_sha256": "93b8ba4147a52b2a1e6ba7740ab61e06df44e5262990429546e4184074a43d3f"
+}

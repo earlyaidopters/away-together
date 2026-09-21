@@ -1,0 +1,53 @@
+{
+  "Madeira, Portugal": [
+    {
+      "id": "madeira-overview",
+      "url": "/madeira.png",
+      "label": "Overview"
+    },
+    {
+      "id": "madeira-terrace",
+      "url": "/photos/madeira-terrace.png",
+      "label": "Terrace"
+    },
+    {
+      "id": "madeira-path",
+      "url": "/photos/madeira-path.png",
+      "label": "Approach"
+    }
+  ],
+  "Kyoto, Japan": [
+    {
+      "id": "kyoto-overview",
+      "url": "/kyoto.png",
+      "label": "Overview"
+    },
+    {
+      "id": "kyoto-courtyard",
+      "url": "/photos/kyoto-courtyard.png",
+      "label": "Courtyard"
+    },
+    {
+      "id": "kyoto-entrance",
+      "url": "/photos/kyoto-entrance.png",
+      "label": "Entrance"
+    }
+  ],
+  "Reykjavik, Iceland": [
+    {
+      "id": "iceland-overview",
+      "url": "/iceland.png",
+      "label": "Overview"
+    },
+    {
+      "id": "iceland-lounge",
+      "url": "/photos/iceland-lounge.png",
+      "label": "Inside"
+    },
+    {
+      "id": "iceland-trail",
+      "url": "/photos/iceland-trail.png",
+      "label": "Surroundings"
+    }
+  ]
+}

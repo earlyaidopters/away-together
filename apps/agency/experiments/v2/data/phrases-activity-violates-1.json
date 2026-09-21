@@ -1,0 +1,62 @@
+{
+  "task": "activity",
+  "label": "violates",
+  "batch": 1,
+  "requirement": "The advertised holiday price includes a hike accompanied by a guide.",
+  "meaning_constraints": "Use varied counterexamples: self-guided maps only, guided hike separate charge, guided tour is bus not hike, optional extra not included, guide hire separate, no guided walking excursions.",
+  "clauses": [
+    {
+      "text": "Regarding the mountain trek, please note that the quoted rate covers accommodation only; the specialized ascent requires booking the guide independently.",
+      "rationale": "Explicitly separates the guide cost from the package price."
+    },
+    {
+      "text": "Dear Traveler, just a heads-up that while the package includes lodging, the guided trek component is an add-on and must be arranged separately upon arrival.",
+      "rationale": "Uses phrasing indicating the guided element is optional or separate from the base booking."
+    },
+    {
+      "text": "The base package price excludes any specialized outdoor activities; guides for the specified upland route are available for separate remittance.",
+      "rationale": "Uses formal footnote language to specify the guide cost is separate."
+    },
+    {
+      "text": "Confirmation notice: The included rate accounts for lodging and entry; the professional escort for the hillside traverse is listed under optional services.",
+      "rationale": "Treats the guide as an optional enhancement listed post-booking."
+    },
+    {
+      "text": "Our vendor agreement stipulates that the listed price covers lodging and access; an accompanying expert for the hiking portion is quoted at an additional fee.",
+      "rationale": "Uses supplier language to justify the separate charging mechanism for the guide."
+    },
+    {
+      "text": "Kindly review: The advertised cost covers the stay and general area access; any managed uphill walk requires a supplementary fee for professional accompaniment.",
+      "rationale": "Employs detailed fine print style to qualify the inclusion of the guide."
+    },
+    {
+      "text": "For the trek, the rate shown does not include the local expert; self-navigation with printed maps is advised if the guide is not secured.",
+      "rationale": "Suggests an alternative, non-guided option (maps) when the paid guide is omitted."
+    },
+    {
+      "text": "The trek element is not covered; clients should arrange for guide services separately, as they are not bundled into the room rate.",
+      "rationale": "Uses direct, plain language to state the exclusion of the guide service."
+    },
+    {
+      "text": "Includes: Overnight stay, local transit. Excludes: Guided ascent excursions or any supplemental outdoor direction.",
+      "rationale": "Lists inclusions and uses exclusionary phrasing for the guided hike."
+    },
+    {
+      "text": "If opting for the upland journey, remember the guide fee is separate from the base package cost; independent map use is possible.",
+      "rationale": "Uses comparative structure to contrast the guide cost with the base rate."
+    },
+    {
+      "text": "Tours listed only include vehicle transfers; any guided interpretation for outdoor paths must be pre-purchased separately.",
+      "rationale": "Uses a highly specific context (Tours) to contrast bus-based travel with guided hiking."
+    },
+    {
+      "text": "Peak Excursion: Price excludes mandatory guiding services; alternatively, downloadable, unmarked topographical maps are provided upon request.",
+      "rationale": "Presents a direct comparison between the paid guide and a self-sufficient alternative (maps)."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 18.333051204681396,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "82f2fc47f6f4d1cc2e79fc223f7079f39aa2af7c5223c4f6a26dfcc24dc7fc7d"
+}

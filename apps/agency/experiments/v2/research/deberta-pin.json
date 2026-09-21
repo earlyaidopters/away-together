@@ -1,0 +1,6 @@
+{
+  "id": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "revision": "b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7",
+  "role": "3-way NLI candidate",
+  "source": "first-party Hugging Face model card"
+}

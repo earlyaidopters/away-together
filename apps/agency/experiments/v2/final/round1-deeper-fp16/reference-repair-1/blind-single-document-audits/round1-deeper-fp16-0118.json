@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0118",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "refund: no information on refund availability or method; arrival: explicitly requires prior permission for 01:30 check-in; facility: swimming area is mentioned but price and access conditions are unknown; activity: hike requires a separate payment."
+    }
+  ],
+  "documents_sha256": "4bd3124cf8f50d10cbea534fc477328e5d5dfed5cb7e06cb022e081d62ae525d"
+}

@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0300",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund violates (27 euro charge); arrival violates (permission required); facility is insufficient (location/price/access unknown); activity violates (requires 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0301",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund violates (27 euro charge); arrival violates (permission required); facility meets (available without separate fee); activity violates (requires 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0302",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund is insufficient (not documented); arrival violates (permission required); facility violates (19 euro charge); activity meets (nothing further to pay)."
+    },
+    {
+      "id": "round1-deeper-fp16-0303",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is insufficient (not documented); arrival violates (permission required); facility is insufficient (conflicting policies); activity is insufficient (not supplied)."
+    },
+    {
+      "id": "round1-deeper-fp16-0304",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund violates (27 euro charge); arrival is insufficient (no rules address it); facility violates (19 euro charge); activity meets (nothing further to pay)."
+    },
+    {
+      "id": "round1-deeper-fp16-0305",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund meets (entire payment returned); arrival violates (permission required); facility is insufficient (location/price/access unknown); activity violates (requires 38 euro payment)."
+    }
+  ],
+  "documents_sha256": "c9153b0ee0d02fd82c3064ca407e83fdf5ba9e847f4460789bc610e76da0d315"
+}

@@ -1,0 +1,113 @@
+{
+  "task": "refund",
+  "label": "violates",
+  "batch": 0,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "Use varied explicit counterexamples: voucher only; retained handling fee; only partial refund; deposit forfeited; non-refundable advance purchase; money never returned even before the cutoff.",
+  "clauses": [
+    {
+      "text": "Q: Will I receive a full refund if I cancel before the deadline? A: No. Even before the deadline, a EUR 30 administration fee is deducted from the refund amount.",
+      "rationale": "Preserved the deadline condition, the specific EUR 30 fee, and the deduction fact."
+    },
+    {
+      "text": "Dear Customer, please note that cancellation gives a travel voucher only; no cash or card reimbursement is offered for this booking. We apologize for any inconvenience this may cause.",
+      "rationale": "Preserved the voucher-only restriction and the explicit negation of cash or card reimbursements."
+    },
+    {
+      "text": "* The prepaid rate is non-refundable even if cancellation is early. Please review your booking details carefully before finalizing your purchase.",
+      "rationale": "Preserved the prepaid status, the non-refundable condition, and the early cancellation qualification."
+    },
+    {
+      "text": "Your booking is confirmed. Please be aware that on cancellation, the deposit is retained and only the balance is returned to your original payment method.",
+      "rationale": "Preserved the retention of the deposit and the specific return of only the balance."
+    },
+    {
+      "text": "Supplier Policy: Even before the deadline, a EUR 30 administration fee is deducted from the refund. This policy applies to all processed cancellations.",
+      "rationale": "Preserved the timing (before deadline), the EUR 30 amount, and the deduction mechanism."
+    },
+    {
+      "text": "Terms and Conditions: Cancellation gives a travel voucher only; no cash or card reimbursement is offered under any circumstances regarding this specific rate.",
+      "rationale": "Preserved the voucher-only outcome and the negation of cash/card reimbursement."
+    },
+    {
+      "text": "I understand your concern; however, the prepaid rate is non-refundable even if cancellation is early. We are unable to waive this specific policy.",
+      "rationale": "Preserved the prepaid nature, the non-refundable status, and the early cancellation condition."
+    },
+    {
+      "text": "If you cancel, we keep the deposit. Only the remaining balance is returned to you.",
+      "rationale": "Preserved the retention of the deposit and the return of only the balance."
+    },
+    {
+      "text": "Please note: Even before the deadline, a EUR 30 administration fee is deducted from the refund. This fee is non-negotiable for all guests.",
+      "rationale": "Preserved the deadline timing, the EUR 30 fee, and the deduction fact."
+    },
+    {
+      "text": "Amendment Notice: Any cancellation gives a travel voucher only; no cash or card reimbursement is offered. Please plan your travel dates accordingly.",
+      "rationale": "Preserved the voucher-only restriction and the negation of cash or card reimbursements."
+    },
+    {
+      "text": "Operator Statement: The prepaid rate is non-refundable even if cancellation is early. This policy is strictly enforced by all our service providers.",
+      "rationale": "Preserved the prepaid status, the non-refundable condition, and the early cancellation qualification."
+    },
+    {
+      "text": "Cancellation Policy: Deposit is retained; only balance is returned.",
+      "rationale": "Preserved the retention of the deposit and the specific return of only the balance."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 14.940572261810303,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "7fc1d0bbd5989aa1c8e868d012ed06ae595dc0c40628382f6114f4eb26332f65",
+  "repair_of": "phrases-refund-violates-0.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "Even before the deadline a EUR 30 administration fee is deducted from the refund."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "Cancellation gives a travel voucher only; no cash or card reimbursement is offered."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "The prepaid rate is non-refundable even if cancellation is early."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "On cancellation, the deposit is retained and only the balance is returned."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "Even before the deadline a EUR 30 administration fee is deducted from the refund."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "Cancellation gives a travel voucher only; no cash or card reimbursement is offered."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "The prepaid rate is non-refundable even if cancellation is early."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "On cancellation, the deposit is retained and only the balance is returned."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "Even before the deadline a EUR 30 administration fee is deducted from the refund."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "Cancellation gives a travel voucher only; no cash or card reimbursement is offered."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "The prepaid rate is non-refundable even if cancellation is early."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "On cancellation, the deposit is retained and only the balance is returned."
+    }
+  ]
+}

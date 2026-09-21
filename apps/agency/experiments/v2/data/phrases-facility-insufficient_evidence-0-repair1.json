@@ -1,0 +1,113 @@
+{
+  "task": "facility",
+  "label": "insufficient_evidence",
+  "batch": 0,
+  "requirement": "Guests can use a swimming pool located at the booked property for no additional charge during the described stay.",
+  "meaning_constraints": "Water image, spa without pool specifications, pool mentioned but location or price unknown, access terms not given, renovations with opening dates unconfirmed. Do not establish all required facts or an explicit violation.",
+  "clauses": [
+    {
+      "text": "Q: Is there a pool at the property? A: The property mentions a pool; however, we have no information regarding specific fees or if it is included in your room rate.",
+      "rationale": "Preserved the mention of a pool and the lack of information regarding fees or inclusion."
+    },
+    {
+      "text": "Dear Client, please note that while the amenities list a spa, the description does not state whether this facility includes a swimming pool.",
+      "rationale": "Preserved the mention of a spa and the uncertainty regarding the inclusion of a swimming pool."
+    },
+    {
+      "text": "*Please note: A pool is shown in the brochure, but its specific location and the conditions for guest access are not provided.",
+      "rationale": "Preserved the brochure mention and the missing details regarding location and access conditions."
+    },
+    {
+      "text": "Your booking includes a property that mentions a pool. Please be advised that no details are provided regarding fees or inclusion in the room rate.",
+      "rationale": "Preserved the mention of a pool and the absence of fee or inclusion details."
+    },
+    {
+      "text": "Supplier Policy: The listed amenities describe a spa, but the documentation does not specify whether a swimming pool is included within that spa.",
+      "rationale": "Preserved the spa description and the lack of information about a swimming pool."
+    },
+    {
+      "text": "Disclaimer: Although a pool is shown in the brochure, the exact location and specific guest access conditions are not given.",
+      "rationale": "Preserved the brochure mention and the lack of location and access condition details."
+    },
+    {
+      "text": "Regarding your inquiry, the property mentions a pool, but our records say nothing about applicable fees or its inclusion in the room rate.",
+      "rationale": "Preserved the mention of a pool and the lack of info on fees or inclusion."
+    },
+    {
+      "text": "The amenities include a spa. However, it is not stated whether the spa includes a swimming pool.",
+      "rationale": "Preserved the spa mention and the lack of information regarding a swimming pool."
+    },
+    {
+      "text": "Amenities: A pool is shown in the brochure; however, its location and guest access conditions are not given.",
+      "rationale": "Preserved the brochure mention and the missing location and access information."
+    },
+    {
+      "text": "Notice: The property mentions a pool, but we must clarify that nothing is said about fees or inclusion in the room rate.",
+      "rationale": "Preserved the mention of a pool and the lack of fee or inclusion details."
+    },
+    {
+      "text": "Operator Statement: The amenities describe a spa, but they do not say whether it includes a swimming pool.",
+      "rationale": "Preserved the spa description and the uncertainty regarding a swimming pool."
+    },
+    {
+      "text": "Pool: Shown in brochure (Location and guest access conditions not given).",
+      "rationale": "Preserved the brochure mention and the missing location and access details."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 13.066866874694824,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "668cf9eafb7d78b66f5888d8188139c89ff4ab657a1c9bb89b47f6f45c74f8e4",
+  "repair_of": "phrases-facility-insufficient_evidence-0.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "The property mentions a pool, but says nothing about fees or inclusion in the room rate."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "The amenities describe a spa but do not say whether it includes a swimming pool."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "A pool is shown in the brochure; its location and guest access conditions are not given."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "The property mentions a pool, but says nothing about fees or inclusion in the room rate."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "The amenities describe a spa but do not say whether it includes a swimming pool."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "A pool is shown in the brochure; its location and guest access conditions are not given."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "The property mentions a pool, but says nothing about fees or inclusion in the room rate."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "The amenities describe a spa but do not say whether it includes a swimming pool."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "A pool is shown in the brochure; its location and guest access conditions are not given."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "The property mentions a pool, but says nothing about fees or inclusion in the room rate."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "The amenities describe a spa but do not say whether it includes a swimming pool."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "A pool is shown in the brochure; its location and guest access conditions are not given."
+    }
+  ]
+}

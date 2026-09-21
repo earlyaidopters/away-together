@@ -1,0 +1,72 @@
+{
+  "source": "phrases-facility-violates-1-repair1.json",
+  "source_sha256": "0b5c38092d5fac91672ae5667409f8ccf708ed452d7128510bc59200c2532816",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "violates",
+  "answers": [
+    {
+      "index": 0,
+      "label": "violates",
+      "reason": "The text explicitly states the accommodation has no pool, failing the requirement that a pool be located at the booked property."
+    },
+    {
+      "index": 1,
+      "label": "violates",
+      "reason": "The text states the hotel pool is closed for the entire stay, meaning guests cannot use it during the described stay."
+    },
+    {
+      "index": 2,
+      "label": "violates",
+      "reason": "The text explicitly states the pool is excluded from the rate and requires a paid upgrade, violating the 'no additional charge' requirement."
+    },
+    {
+      "index": 3,
+      "label": "violates",
+      "reason": "The text states the pool costs EUR 12 per use in addition to the room price, violating the 'no additional charge' requirement."
+    },
+    {
+      "index": 4,
+      "label": "violates",
+      "reason": "The text explicitly states the accommodation has no pool, failing the requirement that a pool be located at the booked property."
+    },
+    {
+      "index": 5,
+      "label": "violates",
+      "reason": "The text states the hotel pool is closed for the entire stay with no exceptions, meaning guests cannot use it during the described stay."
+    },
+    {
+      "index": 6,
+      "label": "violates",
+      "reason": "The text explicitly states the pool is excluded from the rate and requires a paid upgrade, violating the 'no additional charge' requirement."
+    },
+    {
+      "index": 7,
+      "label": "violates",
+      "reason": "The text states the pool costs EUR 12 per use in addition to the room price, violating the 'no additional charge' requirement."
+    },
+    {
+      "index": 8,
+      "label": "violates",
+      "reason": "The text explicitly states there is no pool on-site, failing the requirement that a pool be located at the booked property."
+    },
+    {
+      "index": 9,
+      "label": "violates",
+      "reason": "The text states the hotel pool is closed for the entire stay, meaning guests cannot use it during the described stay."
+    },
+    {
+      "index": 10,
+      "label": "violates",
+      "reason": "The text explicitly states the pool is excluded from the rate and requires a paid upgrade, violating the 'no additional charge' requirement."
+    },
+    {
+      "index": 11,
+      "label": "violates",
+      "reason": "The text states the pool costs EUR 12 per use in addition to the room price, violating the 'no additional charge' requirement."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 55.59128284454346,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

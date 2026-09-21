@@ -1,0 +1,17 @@
+.venv/
+vllm/
+logs/
+dl.log
+__pycache__/
+*.egg-info/
+.env
+
+# agent skills and local agent config, not part of the server
+.agents/
+.claude/
+
+# agent skill pins, not part of the server
+skills-lock.json
+
+# a library does not pin a resolved environment
+uv.lock

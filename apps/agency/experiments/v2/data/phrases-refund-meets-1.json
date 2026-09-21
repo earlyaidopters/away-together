@@ -1,0 +1,62 @@
+{
+  "task": "refund",
+  "label": "meets",
+  "batch": 1,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "All money returned to original payment/card/bank method; no fee. Can state a cancellation deadline, but assume guest cancels before it.",
+  "clauses": [
+    {
+      "text": "If you need to adjust your stay dates prior to the final day, a full reimbursement will be issued directly to the original payment source without any penalty charges.",
+      "rationale": "Explicitly states full refund to original payment method with no fee, suitable for an FAQ format."
+    },
+    {
+      "text": "Should your travel plans change before the designated cutoff date, please be advised that we facilitate a complete refund back to your card on file, with no service charges deducted.",
+      "rationale": "Written in the persuasive, advisory tone of a travel agent email, confirming a full refund process."
+    },
+    {
+      "text": "cancellation up to 7 days out: 100% credit issued; funds returned directly to the purchase card.",
+      "rationale": "Concise, structured language typical of rate plan footnotes, specifying no charge."
+    },
+    {
+      "text": "For cancellations made before the departure date, all monies paid will be refunded in full to the method used for booking.",
+      "rationale": "Formal, confirmation-style language used to reiterate terms upon booking completion."
+    },
+    {
+      "text": "Guests who withdraw their booking before the specified date are entitled to a full reimbursement processed back to the originating bank account.",
+      "rationale": "Adopting the formal, comprehensive tone of a supplier's general terms and conditions."
+    },
+    {
+      "text": "Should cancellation occur prior to the due date, the initial booking cost is returned entirely to the payer's account. No forfeiture applies.",
+      "rationale": "Mimics the small print found in brochures, using somewhat dense, legally-tinged phrasing."
+    },
+    {
+      "text": "If you cancel early, the full payment amount comes back to your card\u2014no deductions made.",
+      "rationale": "Very direct, informal, and reassuring tone suitable for a quick digital support response."
+    },
+    {
+      "text": "If you cancel ahead of time, the entire balance will be returned to the original payment source. There are no retention fees.",
+      "rationale": "Simple, clear phrasing intended for a general audience reading plain language summaries."
+    },
+    {
+      "text": "Any applicable charges are voided if notification of cancellation is received before departure, with funds credited to the source method.",
+      "rationale": "Presented within a list of available inclusions or features, treating refunds as a positive benefit."
+    },
+    {
+      "text": "Modifications before the deadline result in the full payment amount being returned to the original card. See policy for details.",
+      "rationale": "Language used when amending or adjusting existing bookings, focusing on the reimbursement trigger."
+    },
+    {
+      "text": "Cancellation within the window: Receive a full credit directly back to your financial institution from the initial payment method.",
+      "rationale": "Notice from a specialized service provider, emphasizing the mechanism of the return to the bank."
+    },
+    {
+      "text": "Cancellation before the cutoff date: Full money returned to original payment method; zero penalty.",
+      "rationale": "Short, highly summarized format suitable for comparison against other options in a table."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 17.984015941619873,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "4efae97708854662682bf786cbe4da323928c52c28423ab28c4c28f48e018858"
+}

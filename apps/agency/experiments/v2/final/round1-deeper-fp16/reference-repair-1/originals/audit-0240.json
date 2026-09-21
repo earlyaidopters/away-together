@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0240",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund requires a fee; arrival requires prior permission; pool costs 19 euros; hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0241",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund details are undocumented for the selected offer; arrival is automatic; pool details (price/access) are missing; activity inclusion is not stated."
+    },
+    {
+      "id": "round1-deeper-fp16-0242",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Full refund provided; automatic arrival; pool costs 19 euros; hike is included with nothing further to pay."
+    },
+    {
+      "id": "round1-deeper-fp16-0243",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund policies are in unresolved conflict; arrival rules are silent; pool is free; hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0244",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Full refund provided; automatic arrival; pool price/access unknown; activity inclusion not stated."
+    },
+    {
+      "id": "round1-deeper-fp16-0245",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Full refund provided; arrival requires prior permission; pool is free; activity inclusion not stated."
+    }
+  ],
+  "documents_sha256": "5dc7620d8216321fc914ccc38312433714a7dfe1cbf63f00cd445d83495915ec"
+}

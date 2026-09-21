@@ -1,0 +1,62 @@
+{
+  "task": "arrival",
+  "label": "violates",
+  "batch": 0,
+  "requirement": "A guest can check in after midnight without making any prior arrangement.",
+  "meaning_constraints": "Use varied counterexamples: must request code in advance; check-in closes before midnight; overnight arrivals refused; desk 24h but actual check-in not; late arrival needs prior approval.",
+  "clauses": [
+    {
+      "text": "Guests are welcome to arrive at any time; simply present identification at the reception desk.",
+      "rationale": "States a clear allowance for check-in after midnight without prior arrangement."
+    },
+    {
+      "text": "For arrivals after 1:00 AM, a specific advance booking code must be provided to guarantee room availability.",
+      "rationale": "Requests advance arrangement (code) for late arrivals."
+    },
+    {
+      "text": "Please note, the main check-in counter closes precisely at 11:59 PM; subsequent arrivals require an exception.",
+      "rationale": "Indicates check-in closes before midnight."
+    },
+    {
+      "text": "Any party arriving following midnight must contact the concierge directly, as standard check-in services are suspended.",
+      "rationale": "Refuses overnight arrivals without special arrangements."
+    },
+    {
+      "text": "While the lobby desk operates twenty-four hours, the formal key issuance process concludes at the stroke of twelve.",
+      "rationale": "Describes a situation where the physical location is open, but the check-in service is not."
+    },
+    {
+      "text": "Late arrivals are subject to a departmental review and require explicit authorization prior to travel commencement.",
+      "rationale": "Requires prior approval for late arrivals."
+    },
+    {
+      "text": "Frequently Asked Question: Can I check in past midnight? Yes, absolutely; just arrive.",
+      "rationale": "States a clear allowance for check-in after midnight without prior arrangement."
+    },
+    {
+      "text": "Travelers expecting to arrive after midnight must furnish a reservation confirmation number at least four hours ahead of time.",
+      "rationale": "Requests advance arrangement (confirmation number) for late arrivals."
+    },
+    {
+      "text": "Our standard registration window concludes at 11:30 PM, so late entries must be scheduled beforehand.",
+      "rationale": "Indicates check-in closes before midnight."
+    },
+    {
+      "text": "Overnight arrivals are not possible without securing special accommodations arrangements through our dedicated portal.",
+      "rationale": "Refuses overnight arrivals without special arrangements."
+    },
+    {
+      "text": "Reception is staffed round the clock, yet room keys are only processed up to twelve o'clock midnight.",
+      "rationale": "Describes a situation where the physical location is open, but the check-in service is not."
+    },
+    {
+      "text": "Guests intending to arrive late must obtain a pre-approval voucher from the concierge service.",
+      "rationale": "Requires prior approval for late arrivals."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 15.75546908378601,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "6d20e2a1c54c99cc5d50ebc0e355434f98c22d067a24ac1818394e3497231e48"
+}

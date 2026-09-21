@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-09-21T17:21:36.366292+00:00",
+  "owner": "fresh continuation task 01a0c4f6-35aa-7703-99a4-dd8b2f8eba4c",
+  "recovered_draft_count": 72,
+  "original_drafts": {
+    "drafts-0000.json": "cc6b1bcdaea2bd8c781ec72254ff86170e380d557a707449e65e4f0e331fb76d",
+    "drafts-0006.json": "32f85757f63608ae8a9010fa062bfc7376af50a1e6bd638a1657de132a9f4fc2",
+    "drafts-0012.json": "e8223d8ffd9c629b4552034890f1851381af32725b7d29d4e7721373498c70f3",
+    "drafts-0018.json": "9ac852ab8082c51012eeb215fb2442846aaaed5fb93b1f2d6df733b5643ca49c",
+    "drafts-0024.json": "b08aad82b08907170316b959b34e1f68682bae65009fbbe5ab1018531286a978",
+    "drafts-0030.json": "8fbc09473477f15315c61972f6055c80bf1f67563ca3b7e6022e0e808c172033",
+    "drafts-0036.json": "7a5e96ac911ebf9f82c125cad168f09a1568d808a34c3ee8565b2d8ed37f4f5b",
+    "drafts-0042.json": "c254e4cdf21c0bc430b5eb6e263dd5b0896cb7eaf7fe560365b4b25e1d057424",
+    "drafts-0048.json": "8aefd36f6e435231bd0738c3e652ac608182aa3acd00020d8bc025861313d80f",
+    "drafts-0054.json": "6b5b4b580c696f4e96f1d0b78d35ac5e4a185468d2b91e98f71998984624dcfc",
+    "drafts-0060.json": "86cde77f515cc6506b36dff392dc249bdad1333cce591e07234f93ae780faaaf",
+    "drafts-0066.json": "9efa1263157c5792663251364f6ed5fc11bbb3cdadeb7ecd0c02a9fe59eb97aa"
+  },
+  "generation_config_sha256": "84f5ef34fb804b4c6dac2928d3e29ee60c393dcaaa9ecbb19c4e45c127578139",
+  "generator_sha256": "b8284ff70860525f840018bcbfa645dab8108d60da691706eae103ef00988c88",
+  "reference_specs_sha256": "44b92e27dc215c1c600e4a70b99d99ea6dfb12ad98fe3399d3d8898e2cac7ff4",
+  "freeze_sha256": "ee824b7cd33b083e48b043e7cd5d88f913ca7c9c59b9c2bbf44db4290d250ca4",
+  "original_failure_log_sha256": "e6d556a7d18d91dcb5375336bf30eefb4a87369de00b6543b832d2f7ae47d379",
+  "resumed_generator_pid": 68587,
+  "controller_pid": 69273,
+  "models_at_resume": [
+    {
+      "name": "gemma4:26b",
+      "digest": "08ae7ec1744bd7f451c4a530afb39d2673ad9d07a8369b8a33a3613b41212a68",
+      "size": 18604148513,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "25.2B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 2816
+      }
+    },
+    {
+      "name": "qwen3.5-122b-a10b:latest",
+      "digest": "a7dd40702061e5f573e28af44872ea136d39bb1d15fe900630edc3368d393e4b",
+      "size": 75120503613,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35moe",
+        "families": [
+          "qwen35moe"
+        ],
+        "parameter_size": "122.1B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 3072
+      }
+    }
+  ],
+  "note": "Model digests captured during resumed generation; no claim that these retroactively authenticate the original 72 draft calls. No inference candidate or generator protocol changed."
+}

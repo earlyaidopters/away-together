@@ -1,0 +1,62 @@
+{
+  "task": "activity",
+  "label": "violates",
+  "batch": 0,
+  "requirement": "The advertised holiday price includes a hike accompanied by a guide.",
+  "meaning_constraints": "Use varied counterexamples: self-guided maps only, guided hike separate charge, guided tour is bus not hike, optional extra not included, guide hire separate, no guided walking excursions.",
+  "clauses": [
+    {
+      "text": "For the elevated trail experience, the quoted price covers lodging and entry; the specialized trek requiring a local expert escort is billed separately.",
+      "rationale": "Indicates the guide service is an additional, separate cost."
+    },
+    {
+      "text": "Kindly note that while our standard package includes mountain access, the supervised uphill walk requires pre-booking and an additional consultancy fee.",
+      "rationale": "Specifies the guided hike aspect is optional or costs extra."
+    },
+    {
+      "text": "The advertised rate assumes self-navigation; any professionally led ascent or guided pathfinding must be arranged and paid for at the time of service.",
+      "rationale": "Excludes guide service by emphasizing self-sufficiency."
+    },
+    {
+      "text": "Please review the itinerary: the scenic overlook access is included, but any facilitated ascent with an accompanying guide has an extra tariff.",
+      "rationale": "Uses the term 'extra tariff' for the guide service."
+    },
+    {
+      "text": "While many itineraries feature trekking, remember that all structured, supervised uphill journeys are quoted outside of this base package rate.",
+      "rationale": "Indicates the structure/guidance of the hike is separate from the base rate."
+    },
+    {
+      "text": "Bookings include passage to the trailhead point; remember that any guided trek exceeding the basic map reading capability incurs an additional charge.",
+      "rationale": "Contrasts basic mapping with the need for a guide."
+    },
+    {
+      "text": "The package rate covers transport to the gorge; however, the specialized, led hiking portion must be purchased independently of the accommodation booking.",
+      "rationale": "Treats the guide service as a purchasable, separate item."
+    },
+    {
+      "text": "This rate applies to self-paced exploration only. Any guided walking excursions are not part of the quoted sum.",
+      "rationale": "Explicitly states that guided walking is not covered."
+    },
+    {
+      "text": "The cost displayed covers ground transportation and lodging; specialized, mentored hikes are supplementary services billed separately.",
+      "rationale": "Uses 'supplementary services' to denote extra charges for the guide."
+    },
+    {
+      "text": "Reviewing the inclusions, the main trail pass is covered. Guidance for the summit climb is an optional add-on, payable on site.",
+      "rationale": "Labels the guide service as an 'optional add-on'."
+    },
+    {
+      "text": "The rate covers basic ground access; any scheduled, professionally guided ascent is subject to a separate service fee.",
+      "rationale": "Uses 'subject to a separate service fee' for the guide."
+    },
+    {
+      "text": "The total package price does not encompass private guide fees; those specialized treks are quoted at the point of confirmation.",
+      "rationale": "Explicitly excludes guide fees from the total price."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 17.558485984802246,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "c6d6757b67e21cd122f1e99945d0c7a54ef2bf2d8f05929e7d7719f714037a64"
+}

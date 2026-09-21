@@ -1,0 +1,62 @@
+{
+  "task": "activity",
+  "label": "insufficient_evidence",
+  "batch": 1,
+  "requirement": "The advertised holiday price includes a hike accompanied by a guide.",
+  "meaning_constraints": "Outdoor experiences mentioned but guided hiking or inclusion not confirmed; walking options exist but guiding/price unclear; itinerary pending. No explicit yes or no.",
+  "clauses": [
+    {
+      "text": "Regarding excursions, some routes involve significant foot travel; details on guided support are subject to final itinerary confirmation.",
+      "rationale": "Mentions foot travel but lacks confirmation of guided support or included pricing."
+    },
+    {
+      "text": "For trekkers, the standard package covers transport to the trailhead, though trekking support levels vary by seasonal package tier.",
+      "rationale": "Covers transport to a trail but is vague about the mandatory inclusion of guiding services."
+    },
+    {
+      "text": "Note: Any elevated activity component necessitates checking the specific activity add-on package details before arrival.",
+      "rationale": "Refers to an activity component requiring checking details, implying inclusion is not guaranteed."
+    },
+    {
+      "text": "Your reservation includes access to local paths. Specific guided walks should be booked separately through our activity portal.",
+      "rationale": "Acknowledges paths but directs the user to book guiding separately, suggesting it's not included in the base rate."
+    },
+    {
+      "text": "The listed fare covers lodging and ground transfers. Alpine exploration requires review of supplemental guiding service agreements.",
+      "rationale": "Separates lodging/transfers from alpine exploration, making guiding an add-on consideration."
+    },
+    {
+      "text": "Walkability assessment suggests various trails are accessible. Confirmation of guided accompaniment is pending regional operational advisories.",
+      "rationale": "Notes accessible trails but states guiding accompaniment is pending advisories, meaning it's not confirmed."
+    },
+    {
+      "text": "Day trips may include unpaved paths. Please verify the scope of physical guidance required for your chosen route.",
+      "rationale": "Mentions paths and requires the user to verify the scope of guidance, indicating uncertainty."
+    },
+    {
+      "text": "The basic stay package permits movement across natural terrain. Availability of expert local guidance is at the discretion of the site manager.",
+      "rationale": "Allows movement across terrain but specifies guidance is at the site manager's discretion, not guaranteed."
+    },
+    {
+      "text": "Our package rates cover movement between listed points of interest. Extended hiking adventures are subject to preliminary route assessment.",
+      "rationale": "Covers movement between points but makes hiking adventures subject to a preliminary assessment, leaving inclusion unclear."
+    },
+    {
+      "text": "Physical exploration options are noted in the itinerary overview. Confirming mandatory guide staffing levels requires a follow-up questionnaire.",
+      "rationale": "Notes options but requires a follow-up questionnaire to confirm mandatory guide staffing, meaning it's not confirmed."
+    },
+    {
+      "text": "If extended trekking is desired, further costing and logistical plans are available for review prior to booking finalization.",
+      "rationale": "Suggests extra costing and plans for trekking are available for review, implying they are not part of the current booking."
+    },
+    {
+      "text": "Daytime movement is encouraged over varied terrain. Confirmation regarding accompanying expert facilitation is pending final ground survey.",
+      "rationale": "Encourages movement over terrain but explicitly states confirmation regarding expert facilitation is pending the survey."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 18.430033922195435,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "71d79cb9fba29df6fdc0dbb92e24d3bd57b61cbf93a46157d4c10a0a89babdd6"
+}

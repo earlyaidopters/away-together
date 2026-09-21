@@ -1,0 +1,3251 @@
+{
+  "created_utc": "2026-09-21T18:05:53.523515+00:00",
+  "scope": "Input-length inspection only; no contestant inference, exclusions, truncation or repairs",
+  "draft_receipt_sha256": "04ba80b07e0dcf735eadea4ce460e5c55cb9b94184b218bf250121e1206ff262",
+  "scenarios": 360,
+  "policy_pairs": 1440,
+  "max_tokens": 216,
+  "overlong_pairs": 0,
+  "rows": [
+    {
+      "id": "round1-deeper-fp16-0000",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0001",
+      "tokens": {
+        "refund": 170,
+        "arrival": 170,
+        "facility": 172,
+        "activity": 168
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0002",
+      "tokens": {
+        "refund": 129,
+        "arrival": 129,
+        "facility": 131,
+        "activity": 127
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0003",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0004",
+      "tokens": {
+        "refund": 139,
+        "arrival": 139,
+        "facility": 141,
+        "activity": 137
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0005",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0006",
+      "tokens": {
+        "refund": 149,
+        "arrival": 149,
+        "facility": 151,
+        "activity": 147
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0007",
+      "tokens": {
+        "refund": 180,
+        "arrival": 180,
+        "facility": 182,
+        "activity": 178
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0008",
+      "tokens": {
+        "refund": 127,
+        "arrival": 127,
+        "facility": 129,
+        "activity": 125
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0009",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0010",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0011",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0012",
+      "tokens": {
+        "refund": 149,
+        "arrival": 149,
+        "facility": 151,
+        "activity": 147
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0013",
+      "tokens": {
+        "refund": 172,
+        "arrival": 172,
+        "facility": 174,
+        "activity": 170
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0014",
+      "tokens": {
+        "refund": 171,
+        "arrival": 171,
+        "facility": 173,
+        "activity": 169
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0015",
+      "tokens": {
+        "refund": 187,
+        "arrival": 187,
+        "facility": 189,
+        "activity": 185
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0016",
+      "tokens": {
+        "refund": 164,
+        "arrival": 164,
+        "facility": 166,
+        "activity": 162
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0017",
+      "tokens": {
+        "refund": 169,
+        "arrival": 169,
+        "facility": 171,
+        "activity": 167
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0018",
+      "tokens": {
+        "refund": 125,
+        "arrival": 125,
+        "facility": 127,
+        "activity": 123
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0019",
+      "tokens": {
+        "refund": 165,
+        "arrival": 165,
+        "facility": 167,
+        "activity": 163
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0020",
+      "tokens": {
+        "refund": 138,
+        "arrival": 138,
+        "facility": 140,
+        "activity": 136
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0021",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0022",
+      "tokens": {
+        "refund": 165,
+        "arrival": 165,
+        "facility": 167,
+        "activity": 163
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0023",
+      "tokens": {
+        "refund": 153,
+        "arrival": 153,
+        "facility": 155,
+        "activity": 151
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0024",
+      "tokens": {
+        "refund": 133,
+        "arrival": 133,
+        "facility": 135,
+        "activity": 131
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0025",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0026",
+      "tokens": {
+        "refund": 129,
+        "arrival": 129,
+        "facility": 131,
+        "activity": 127
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0027",
+      "tokens": {
+        "refund": 178,
+        "arrival": 178,
+        "facility": 180,
+        "activity": 176
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0028",
+      "tokens": {
+        "refund": 141,
+        "arrival": 141,
+        "facility": 143,
+        "activity": 139
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0029",
+      "tokens": {
+        "refund": 135,
+        "arrival": 135,
+        "facility": 137,
+        "activity": 133
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0030",
+      "tokens": {
+        "refund": 160,
+        "arrival": 160,
+        "facility": 162,
+        "activity": 158
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0031",
+      "tokens": {
+        "refund": 151,
+        "arrival": 151,
+        "facility": 153,
+        "activity": 149
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0032",
+      "tokens": {
+        "refund": 154,
+        "arrival": 154,
+        "facility": 156,
+        "activity": 152
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0033",
+      "tokens": {
+        "refund": 153,
+        "arrival": 153,
+        "facility": 155,
+        "activity": 151
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0034",
+      "tokens": {
+        "refund": 156,
+        "arrival": 156,
+        "facility": 158,
+        "activity": 154
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0035",
+      "tokens": {
+        "refund": 151,
+        "arrival": 151,
+        "facility": 153,
+        "activity": 149
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0036",
+      "tokens": {
+        "refund": 189,
+        "arrival": 189,
+        "facility": 191,
+        "activity": 187
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0037",
+      "tokens": {
+        "refund": 194,
+        "arrival": 194,
+        "facility": 196,
+        "activity": 192
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0038",
+      "tokens": {
+        "refund": 191,
+        "arrival": 191,
+        "facility": 193,
+        "activity": 189
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0039",
+      "tokens": {
+        "refund": 193,
+        "arrival": 193,
+        "facility": 195,
+        "activity": 191
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0040",
+      "tokens": {
+        "refund": 200,
+        "arrival": 200,
+        "facility": 202,
+        "activity": 198
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0041",
+      "tokens": {
+        "refund": 204,
+        "arrival": 204,
+        "facility": 206,
+        "activity": 202
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0042",
+      "tokens": {
+        "refund": 149,
+        "arrival": 149,
+        "facility": 151,
+        "activity": 147
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0043",
+      "tokens": {
+        "refund": 135,
+        "arrival": 135,
+        "facility": 137,
+        "activity": 133
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0044",
+      "tokens": {
+        "refund": 151,
+        "arrival": 151,
+        "facility": 153,
+        "activity": 149
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0045",
+      "tokens": {
+        "refund": 164,
+        "arrival": 164,
+        "facility": 166,
+        "activity": 162
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0046",
+      "tokens": {
+        "refund": 178,
+        "arrival": 178,
+        "facility": 180,
+        "activity": 176
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0047",
+      "tokens": {
+        "refund": 142,
+        "arrival": 142,
+        "facility": 144,
+        "activity": 140
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0048",
+      "tokens": {
+        "refund": 113,
+        "arrival": 113,
+        "facility": 115,
+        "activity": 111
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0049",
+      "tokens": {
+        "refund": 146,
+        "arrival": 146,
+        "facility": 148,
+        "activity": 144
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0050",
+      "tokens": {
+        "refund": 122,
+        "arrival": 122,
+        "facility": 124,
+        "activity": 120
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0051",
+      "tokens": {
+        "refund": 165,
+        "arrival": 165,
+        "facility": 167,
+        "activity": 163
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0052",
+      "tokens": {
+        "refund": 147,
+        "arrival": 147,
+        "facility": 149,
+        "activity": 145
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0053",
+      "tokens": {
+        "refund": 133,
+        "arrival": 133,
+        "facility": 135,
+        "activity": 131
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0054",
+      "tokens": {
+        "refund": 151,
+        "arrival": 151,
+        "facility": 153,
+        "activity": 149
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0055",
+      "tokens": {
+        "refund": 145,
+        "arrival": 145,
+        "facility": 147,
+        "activity": 143
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0056",
+      "tokens": {
+        "refund": 169,
+        "arrival": 169,
+        "facility": 171,
+        "activity": 167
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0057",
+      "tokens": {
+        "refund": 194,
+        "arrival": 194,
+        "facility": 196,
+        "activity": 192
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0058",
+      "tokens": {
+        "refund": 136,
+        "arrival": 136,
+        "facility": 138,
+        "activity": 134
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0059",
+      "tokens": {
+        "refund": 159,
+        "arrival": 159,
+        "facility": 161,
+        "activity": 157
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0060",
+      "tokens": {
+        "refund": 143,
+        "arrival": 143,
+        "facility": 145,
+        "activity": 141
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0061",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0062",
+      "tokens": {
+        "refund": 137,
+        "arrival": 137,
+        "facility": 139,
+        "activity": 135
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0063",
+      "tokens": {
+        "refund": 121,
+        "arrival": 121,
+        "facility": 123,
+        "activity": 119
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0064",
+      "tokens": {
+        "refund": 138,
+        "arrival": 138,
+        "facility": 140,
+        "activity": 136
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0065",
+      "tokens": {
+        "refund": 127,
+        "arrival": 127,
+        "facility": 129,
+        "activity": 125
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0066",
+      "tokens": {
+        "refund": 134,
+        "arrival": 134,
+        "facility": 136,
+        "activity": 132
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0067",
+      "tokens": {
+        "refund": 143,
+        "arrival": 143,
+        "facility": 145,
+        "activity": 141
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0068",
+      "tokens": {
+        "refund": 173,
+        "arrival": 173,
+        "facility": 175,
+        "activity": 171
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0069",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0070",
+      "tokens": {
+        "refund": 155,
+        "arrival": 155,
+        "facility": 157,
+        "activity": 153
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0071",
+      "tokens": {
+        "refund": 151,
+        "arrival": 151,
+        "facility": 153,
+        "activity": 149
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0072",
+      "tokens": {
+        "refund": 142,
+        "arrival": 142,
+        "facility": 144,
+        "activity": 140
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0073",
+      "tokens": {
+        "refund": 158,
+        "arrival": 158,
+        "facility": 160,
+        "activity": 156
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0074",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0075",
+      "tokens": {
+        "refund": 171,
+        "arrival": 171,
+        "facility": 173,
+        "activity": 169
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0076",
+      "tokens": {
+        "refund": 158,
+        "arrival": 158,
+        "facility": 160,
+        "activity": 156
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0077",
+      "tokens": {
+        "refund": 183,
+        "arrival": 183,
+        "facility": 185,
+        "activity": 181
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0078",
+      "tokens": {
+        "refund": 122,
+        "arrival": 122,
+        "facility": 124,
+        "activity": 120
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0079",
+      "tokens": {
+        "refund": 134,
+        "arrival": 134,
+        "facility": 136,
+        "activity": 132
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0080",
+      "tokens": {
+        "refund": 137,
+        "arrival": 137,
+        "facility": 139,
+        "activity": 135
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0081",
+      "tokens": {
+        "refund": 142,
+        "arrival": 142,
+        "facility": 144,
+        "activity": 140
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0082",
+      "tokens": {
+        "refund": 130,
+        "arrival": 130,
+        "facility": 132,
+        "activity": 128
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0083",
+      "tokens": {
+        "refund": 147,
+        "arrival": 147,
+        "facility": 149,
+        "activity": 145
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0084",
+      "tokens": {
+        "refund": 177,
+        "arrival": 177,
+        "facility": 179,
+        "activity": 175
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0085",
+      "tokens": {
+        "refund": 170,
+        "arrival": 170,
+        "facility": 172,
+        "activity": 168
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0086",
+      "tokens": {
+        "refund": 132,
+        "arrival": 132,
+        "facility": 134,
+        "activity": 130
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0087",
+      "tokens": {
+        "refund": 104,
+        "arrival": 104,
+        "facility": 106,
+        "activity": 102
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0088",
+      "tokens": {
+        "refund": 131,
+        "arrival": 131,
+        "facility": 133,
+        "activity": 129
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0089",
+      "tokens": {
+        "refund": 162,
+        "arrival": 162,
+        "facility": 164,
+        "activity": 160
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0090",
+      "tokens": {
+        "refund": 127,
+        "arrival": 127,
+        "facility": 129,
+        "activity": 125
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0091",
+      "tokens": {
+        "refund": 132,
+        "arrival": 132,
+        "facility": 134,
+        "activity": 130
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0092",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0093",
+      "tokens": {
+        "refund": 148,
+        "arrival": 148,
+        "facility": 150,
+        "activity": 146
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0094",
+      "tokens": {
+        "refund": 153,
+        "arrival": 153,
+        "facility": 155,
+        "activity": 151
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0095",
+      "tokens": {
+        "refund": 145,
+        "arrival": 145,
+        "facility": 147,
+        "activity": 143
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0096",
+      "tokens": {
+        "refund": 141,
+        "arrival": 141,
+        "facility": 143,
+        "activity": 139
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0097",
+      "tokens": {
+        "refund": 140,
+        "arrival": 140,
+        "facility": 142,
+        "activity": 138
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0098",
+      "tokens": {
+        "refund": 143,
+        "arrival": 143,
+        "facility": 145,
+        "activity": 141
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0099",
+      "tokens": {
+        "refund": 128,
+        "arrival": 128,
+        "facility": 130,
+        "activity": 126
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0100",
+      "tokens": {
+        "refund": 153,
+        "arrival": 153,
+        "facility": 155,
+        "activity": 151
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0101",
+      "tokens": {
+        "refund": 180,
+        "arrival": 180,
+        "facility": 182,
+        "activity": 178
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0102",
+      "tokens": {
+        "refund": 159,
+        "arrival": 159,
+        "facility": 161,
+        "activity": 157
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0103",
+      "tokens": {
+        "refund": 189,
+        "arrival": 189,
+        "facility": 191,
+        "activity": 187
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0104",
+      "tokens": {
+        "refund": 179,
+        "arrival": 179,
+        "facility": 181,
+        "activity": 177
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0105",
+      "tokens": {
+        "refund": 180,
+        "arrival": 180,
+        "facility": 182,
+        "activity": 178
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0106",
+      "tokens": {
+        "refund": 177,
+        "arrival": 177,
+        "facility": 179,
+        "activity": 175
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0107",
+      "tokens": {
+        "refund": 145,
+        "arrival": 145,
+        "facility": 147,
+        "activity": 143
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0108",
+      "tokens": {
+        "refund": 142,
+        "arrival": 142,
+        "facility": 144,
+        "activity": 140
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0109",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0110",
+      "tokens": {
+        "refund": 133,
+        "arrival": 133,
+        "facility": 135,
+        "activity": 131
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0111",
+      "tokens": {
+        "refund": 131,
+        "arrival": 131,
+        "facility": 133,
+        "activity": 129
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0112",
+      "tokens": {
+        "refund": 131,
+        "arrival": 131,
+        "facility": 133,
+        "activity": 129
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0113",
+      "tokens": {
+        "refund": 139,
+        "arrival": 139,
+        "facility": 141,
+        "activity": 137
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0114",
+      "tokens": {
+        "refund": 118,
+        "arrival": 118,
+        "facility": 120,
+        "activity": 116
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0115",
+      "tokens": {
+        "refund": 170,
+        "arrival": 170,
+        "facility": 172,
+        "activity": 168
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0116",
+      "tokens": {
+        "refund": 154,
+        "arrival": 154,
+        "facility": 156,
+        "activity": 152
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0117",
+      "tokens": {
+        "refund": 158,
+        "arrival": 158,
+        "facility": 160,
+        "activity": 156
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0118",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0119",
+      "tokens": {
+        "refund": 128,
+        "arrival": 128,
+        "facility": 130,
+        "activity": 126
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0120",
+      "tokens": {
+        "refund": 120,
+        "arrival": 120,
+        "facility": 122,
+        "activity": 118
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0121",
+      "tokens": {
+        "refund": 124,
+        "arrival": 124,
+        "facility": 126,
+        "activity": 122
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0122",
+      "tokens": {
+        "refund": 128,
+        "arrival": 128,
+        "facility": 130,
+        "activity": 126
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0123",
+      "tokens": {
+        "refund": 129,
+        "arrival": 129,
+        "facility": 131,
+        "activity": 127
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0124",
+      "tokens": {
+        "refund": 113,
+        "arrival": 113,
+        "facility": 115,
+        "activity": 111
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0125",
+      "tokens": {
+        "refund": 128,
+        "arrival": 128,
+        "facility": 130,
+        "activity": 126
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0126",
+      "tokens": {
+        "refund": 139,
+        "arrival": 139,
+        "facility": 141,
+        "activity": 137
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0127",
+      "tokens": {
+        "refund": 132,
+        "arrival": 132,
+        "facility": 134,
+        "activity": 130
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0128",
+      "tokens": {
+        "refund": 126,
+        "arrival": 126,
+        "facility": 128,
+        "activity": 124
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0129",
+      "tokens": {
+        "refund": 175,
+        "arrival": 175,
+        "facility": 177,
+        "activity": 173
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0130",
+      "tokens": {
+        "refund": 132,
+        "arrival": 132,
+        "facility": 134,
+        "activity": 130
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0131",
+      "tokens": {
+        "refund": 117,
+        "arrival": 117,
+        "facility": 119,
+        "activity": 115
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0132",
+      "tokens": {
+        "refund": 119,
+        "arrival": 119,
+        "facility": 121,
+        "activity": 117
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0133",
+      "tokens": {
+        "refund": 125,
+        "arrival": 125,
+        "facility": 127,
+        "activity": 123
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0134",
+      "tokens": {
+        "refund": 120,
+        "arrival": 120,
+        "facility": 122,
+        "activity": 118
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0135",
+      "tokens": {
+        "refund": 123,
+        "arrival": 123,
+        "facility": 125,
+        "activity": 121
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0136",
+      "tokens": {
+        "refund": 125,
+        "arrival": 125,
+        "facility": 127,
+        "activity": 123
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0137",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0138",
+      "tokens": {
+        "refund": 123,
+        "arrival": 123,
+        "facility": 125,
+        "activity": 121
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0139",
+      "tokens": {
+        "refund": 145,
+        "arrival": 145,
+        "facility": 147,
+        "activity": 143
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0140",
+      "tokens": {
+        "refund": 137,
+        "arrival": 137,
+        "facility": 139,
+        "activity": 135
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0141",
+      "tokens": {
+        "refund": 157,
+        "arrival": 157,
+        "facility": 159,
+        "activity": 155
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0142",
+      "tokens": {
+        "refund": 145,
+        "arrival": 145,
+        "facility": 147,
+        "activity": 143
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0143",
+      "tokens": {
+        "refund": 129,
+        "arrival": 129,
+        "facility": 131,
+        "activity": 127
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0144",
+      "tokens": {
+        "refund": 174,
+        "arrival": 174,
+        "facility": 176,
+        "activity": 172
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0145",
+      "tokens": {
+        "refund": 177,
+        "arrival": 177,
+        "facility": 179,
+        "activity": 175
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0146",
+      "tokens": {
+        "refund": 174,
+        "arrival": 174,
+        "facility": 176,
+        "activity": 172
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0147",
+      "tokens": {
+        "refund": 202,
+        "arrival": 202,
+        "facility": 204,
+        "activity": 200
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0148",
+      "tokens": {
+        "refund": 204,
+        "arrival": 204,
+        "facility": 206,
+        "activity": 202
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0149",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0150",
+      "tokens": {
+        "refund": 140,
+        "arrival": 140,
+        "facility": 142,
+        "activity": 138
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0151",
+      "tokens": {
+        "refund": 159,
+        "arrival": 159,
+        "facility": 161,
+        "activity": 157
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0152",
+      "tokens": {
+        "refund": 162,
+        "arrival": 162,
+        "facility": 164,
+        "activity": 160
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0153",
+      "tokens": {
+        "refund": 162,
+        "arrival": 162,
+        "facility": 164,
+        "activity": 160
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0154",
+      "tokens": {
+        "refund": 147,
+        "arrival": 147,
+        "facility": 149,
+        "activity": 145
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0155",
+      "tokens": {
+        "refund": 153,
+        "arrival": 153,
+        "facility": 155,
+        "activity": 151
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0156",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0157",
+      "tokens": {
+        "refund": 148,
+        "arrival": 148,
+        "facility": 150,
+        "activity": 146
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0158",
+      "tokens": {
+        "refund": 158,
+        "arrival": 158,
+        "facility": 160,
+        "activity": 156
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0159",
+      "tokens": {
+        "refund": 162,
+        "arrival": 162,
+        "facility": 164,
+        "activity": 160
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0160",
+      "tokens": {
+        "refund": 157,
+        "arrival": 157,
+        "facility": 159,
+        "activity": 155
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0161",
+      "tokens": {
+        "refund": 139,
+        "arrival": 139,
+        "facility": 141,
+        "activity": 137
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0162",
+      "tokens": {
+        "refund": 135,
+        "arrival": 135,
+        "facility": 137,
+        "activity": 133
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0163",
+      "tokens": {
+        "refund": 153,
+        "arrival": 153,
+        "facility": 155,
+        "activity": 151
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0164",
+      "tokens": {
+        "refund": 143,
+        "arrival": 143,
+        "facility": 145,
+        "activity": 141
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0165",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0166",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0167",
+      "tokens": {
+        "refund": 138,
+        "arrival": 138,
+        "facility": 140,
+        "activity": 136
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0168",
+      "tokens": {
+        "refund": 155,
+        "arrival": 155,
+        "facility": 157,
+        "activity": 153
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0169",
+      "tokens": {
+        "refund": 154,
+        "arrival": 154,
+        "facility": 156,
+        "activity": 152
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0170",
+      "tokens": {
+        "refund": 158,
+        "arrival": 158,
+        "facility": 160,
+        "activity": 156
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0171",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0172",
+      "tokens": {
+        "refund": 145,
+        "arrival": 145,
+        "facility": 147,
+        "activity": 143
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0173",
+      "tokens": {
+        "refund": 161,
+        "arrival": 161,
+        "facility": 163,
+        "activity": 159
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0174",
+      "tokens": {
+        "refund": 171,
+        "arrival": 171,
+        "facility": 173,
+        "activity": 169
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0175",
+      "tokens": {
+        "refund": 181,
+        "arrival": 181,
+        "facility": 183,
+        "activity": 179
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0176",
+      "tokens": {
+        "refund": 159,
+        "arrival": 159,
+        "facility": 161,
+        "activity": 157
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0177",
+      "tokens": {
+        "refund": 186,
+        "arrival": 186,
+        "facility": 188,
+        "activity": 184
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0178",
+      "tokens": {
+        "refund": 184,
+        "arrival": 184,
+        "facility": 186,
+        "activity": 182
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0179",
+      "tokens": {
+        "refund": 155,
+        "arrival": 155,
+        "facility": 157,
+        "activity": 153
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0180",
+      "tokens": {
+        "refund": 168,
+        "arrival": 168,
+        "facility": 170,
+        "activity": 166
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0181",
+      "tokens": {
+        "refund": 196,
+        "arrival": 196,
+        "facility": 198,
+        "activity": 194
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0182",
+      "tokens": {
+        "refund": 195,
+        "arrival": 195,
+        "facility": 197,
+        "activity": 193
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0183",
+      "tokens": {
+        "refund": 207,
+        "arrival": 207,
+        "facility": 209,
+        "activity": 205
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0184",
+      "tokens": {
+        "refund": 185,
+        "arrival": 185,
+        "facility": 187,
+        "activity": 183
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0185",
+      "tokens": {
+        "refund": 178,
+        "arrival": 178,
+        "facility": 180,
+        "activity": 176
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0186",
+      "tokens": {
+        "refund": 108,
+        "arrival": 108,
+        "facility": 110,
+        "activity": 106
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0187",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0188",
+      "tokens": {
+        "refund": 134,
+        "arrival": 134,
+        "facility": 136,
+        "activity": 132
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0189",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0190",
+      "tokens": {
+        "refund": 151,
+        "arrival": 151,
+        "facility": 153,
+        "activity": 149
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0191",
+      "tokens": {
+        "refund": 154,
+        "arrival": 154,
+        "facility": 156,
+        "activity": 152
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0192",
+      "tokens": {
+        "refund": 162,
+        "arrival": 162,
+        "facility": 164,
+        "activity": 160
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0193",
+      "tokens": {
+        "refund": 188,
+        "arrival": 188,
+        "facility": 190,
+        "activity": 186
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0194",
+      "tokens": {
+        "refund": 197,
+        "arrival": 197,
+        "facility": 199,
+        "activity": 195
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0195",
+      "tokens": {
+        "refund": 167,
+        "arrival": 167,
+        "facility": 169,
+        "activity": 165
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0196",
+      "tokens": {
+        "refund": 164,
+        "arrival": 164,
+        "facility": 166,
+        "activity": 162
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0197",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0198",
+      "tokens": {
+        "refund": 119,
+        "arrival": 119,
+        "facility": 121,
+        "activity": 117
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0199",
+      "tokens": {
+        "refund": 118,
+        "arrival": 118,
+        "facility": 120,
+        "activity": 116
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0200",
+      "tokens": {
+        "refund": 128,
+        "arrival": 128,
+        "facility": 130,
+        "activity": 126
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0201",
+      "tokens": {
+        "refund": 159,
+        "arrival": 159,
+        "facility": 161,
+        "activity": 157
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0202",
+      "tokens": {
+        "refund": 117,
+        "arrival": 117,
+        "facility": 119,
+        "activity": 115
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0203",
+      "tokens": {
+        "refund": 125,
+        "arrival": 125,
+        "facility": 127,
+        "activity": 123
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0204",
+      "tokens": {
+        "refund": 138,
+        "arrival": 138,
+        "facility": 140,
+        "activity": 136
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0205",
+      "tokens": {
+        "refund": 147,
+        "arrival": 147,
+        "facility": 149,
+        "activity": 145
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0206",
+      "tokens": {
+        "refund": 135,
+        "arrival": 135,
+        "facility": 137,
+        "activity": 133
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0207",
+      "tokens": {
+        "refund": 129,
+        "arrival": 129,
+        "facility": 131,
+        "activity": 127
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0208",
+      "tokens": {
+        "refund": 133,
+        "arrival": 133,
+        "facility": 135,
+        "activity": 131
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0209",
+      "tokens": {
+        "refund": 139,
+        "arrival": 139,
+        "facility": 141,
+        "activity": 137
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0210",
+      "tokens": {
+        "refund": 138,
+        "arrival": 138,
+        "facility": 140,
+        "activity": 136
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0211",
+      "tokens": {
+        "refund": 174,
+        "arrival": 174,
+        "facility": 176,
+        "activity": 172
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0212",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0213",
+      "tokens": {
+        "refund": 180,
+        "arrival": 180,
+        "facility": 182,
+        "activity": 178
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0214",
+      "tokens": {
+        "refund": 162,
+        "arrival": 162,
+        "facility": 164,
+        "activity": 160
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0215",
+      "tokens": {
+        "refund": 130,
+        "arrival": 130,
+        "facility": 132,
+        "activity": 128
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0216",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0217",
+      "tokens": {
+        "refund": 171,
+        "arrival": 171,
+        "facility": 173,
+        "activity": 169
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0218",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0219",
+      "tokens": {
+        "refund": 188,
+        "arrival": 188,
+        "facility": 190,
+        "activity": 186
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0220",
+      "tokens": {
+        "refund": 157,
+        "arrival": 157,
+        "facility": 159,
+        "activity": 155
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0221",
+      "tokens": {
+        "refund": 178,
+        "arrival": 178,
+        "facility": 180,
+        "activity": 176
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0222",
+      "tokens": {
+        "refund": 132,
+        "arrival": 132,
+        "facility": 134,
+        "activity": 130
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0223",
+      "tokens": {
+        "refund": 146,
+        "arrival": 146,
+        "facility": 148,
+        "activity": 144
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0224",
+      "tokens": {
+        "refund": 141,
+        "arrival": 141,
+        "facility": 143,
+        "activity": 139
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0225",
+      "tokens": {
+        "refund": 147,
+        "arrival": 147,
+        "facility": 149,
+        "activity": 145
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0226",
+      "tokens": {
+        "refund": 172,
+        "arrival": 172,
+        "facility": 174,
+        "activity": 170
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0227",
+      "tokens": {
+        "refund": 165,
+        "arrival": 165,
+        "facility": 167,
+        "activity": 163
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0228",
+      "tokens": {
+        "refund": 135,
+        "arrival": 135,
+        "facility": 137,
+        "activity": 133
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0229",
+      "tokens": {
+        "refund": 125,
+        "arrival": 125,
+        "facility": 127,
+        "activity": 123
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0230",
+      "tokens": {
+        "refund": 123,
+        "arrival": 123,
+        "facility": 125,
+        "activity": 121
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0231",
+      "tokens": {
+        "refund": 123,
+        "arrival": 123,
+        "facility": 125,
+        "activity": 121
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0232",
+      "tokens": {
+        "refund": 141,
+        "arrival": 141,
+        "facility": 143,
+        "activity": 139
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0233",
+      "tokens": {
+        "refund": 126,
+        "arrival": 126,
+        "facility": 128,
+        "activity": 124
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0234",
+      "tokens": {
+        "refund": 137,
+        "arrival": 137,
+        "facility": 139,
+        "activity": 135
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0235",
+      "tokens": {
+        "refund": 181,
+        "arrival": 181,
+        "facility": 183,
+        "activity": 179
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0236",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0237",
+      "tokens": {
+        "refund": 192,
+        "arrival": 192,
+        "facility": 194,
+        "activity": 190
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0238",
+      "tokens": {
+        "refund": 192,
+        "arrival": 192,
+        "facility": 194,
+        "activity": 190
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0239",
+      "tokens": {
+        "refund": 154,
+        "arrival": 154,
+        "facility": 156,
+        "activity": 152
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0240",
+      "tokens": {
+        "refund": 124,
+        "arrival": 124,
+        "facility": 126,
+        "activity": 122
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0241",
+      "tokens": {
+        "refund": 155,
+        "arrival": 155,
+        "facility": 157,
+        "activity": 153
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0242",
+      "tokens": {
+        "refund": 148,
+        "arrival": 148,
+        "facility": 150,
+        "activity": 146
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0243",
+      "tokens": {
+        "refund": 146,
+        "arrival": 146,
+        "facility": 148,
+        "activity": 144
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0244",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0245",
+      "tokens": {
+        "refund": 142,
+        "arrival": 142,
+        "facility": 144,
+        "activity": 140
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0246",
+      "tokens": {
+        "refund": 137,
+        "arrival": 137,
+        "facility": 139,
+        "activity": 135
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0247",
+      "tokens": {
+        "refund": 132,
+        "arrival": 132,
+        "facility": 134,
+        "activity": 130
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0248",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0249",
+      "tokens": {
+        "refund": 140,
+        "arrival": 140,
+        "facility": 142,
+        "activity": 138
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0250",
+      "tokens": {
+        "refund": 137,
+        "arrival": 137,
+        "facility": 139,
+        "activity": 135
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0251",
+      "tokens": {
+        "refund": 140,
+        "arrival": 140,
+        "facility": 142,
+        "activity": 138
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0252",
+      "tokens": {
+        "refund": 195,
+        "arrival": 195,
+        "facility": 197,
+        "activity": 193
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0253",
+      "tokens": {
+        "refund": 189,
+        "arrival": 189,
+        "facility": 191,
+        "activity": 187
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0254",
+      "tokens": {
+        "refund": 175,
+        "arrival": 175,
+        "facility": 177,
+        "activity": 173
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0255",
+      "tokens": {
+        "refund": 172,
+        "arrival": 172,
+        "facility": 174,
+        "activity": 170
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0256",
+      "tokens": {
+        "refund": 213,
+        "arrival": 213,
+        "facility": 215,
+        "activity": 211
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0257",
+      "tokens": {
+        "refund": 180,
+        "arrival": 180,
+        "facility": 182,
+        "activity": 178
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0258",
+      "tokens": {
+        "refund": 138,
+        "arrival": 138,
+        "facility": 140,
+        "activity": 136
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0259",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0260",
+      "tokens": {
+        "refund": 148,
+        "arrival": 148,
+        "facility": 150,
+        "activity": 146
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0261",
+      "tokens": {
+        "refund": 214,
+        "arrival": 214,
+        "facility": 216,
+        "activity": 212
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0262",
+      "tokens": {
+        "refund": 142,
+        "arrival": 142,
+        "facility": 144,
+        "activity": 140
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0263",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0264",
+      "tokens": {
+        "refund": 138,
+        "arrival": 138,
+        "facility": 140,
+        "activity": 136
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0265",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0266",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0267",
+      "tokens": {
+        "refund": 156,
+        "arrival": 156,
+        "facility": 158,
+        "activity": 154
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0268",
+      "tokens": {
+        "refund": 161,
+        "arrival": 161,
+        "facility": 163,
+        "activity": 159
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0269",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0270",
+      "tokens": {
+        "refund": 136,
+        "arrival": 136,
+        "facility": 138,
+        "activity": 134
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0271",
+      "tokens": {
+        "refund": 128,
+        "arrival": 128,
+        "facility": 130,
+        "activity": 126
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0272",
+      "tokens": {
+        "refund": 164,
+        "arrival": 164,
+        "facility": 166,
+        "activity": 162
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0273",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0274",
+      "tokens": {
+        "refund": 156,
+        "arrival": 156,
+        "facility": 158,
+        "activity": 154
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0275",
+      "tokens": {
+        "refund": 160,
+        "arrival": 160,
+        "facility": 162,
+        "activity": 158
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0276",
+      "tokens": {
+        "refund": 120,
+        "arrival": 120,
+        "facility": 122,
+        "activity": 118
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0277",
+      "tokens": {
+        "refund": 137,
+        "arrival": 137,
+        "facility": 139,
+        "activity": 135
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0278",
+      "tokens": {
+        "refund": 128,
+        "arrival": 128,
+        "facility": 130,
+        "activity": 126
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0279",
+      "tokens": {
+        "refund": 141,
+        "arrival": 141,
+        "facility": 143,
+        "activity": 139
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0280",
+      "tokens": {
+        "refund": 147,
+        "arrival": 147,
+        "facility": 149,
+        "activity": 145
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0281",
+      "tokens": {
+        "refund": 141,
+        "arrival": 141,
+        "facility": 143,
+        "activity": 139
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0282",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0283",
+      "tokens": {
+        "refund": 132,
+        "arrival": 132,
+        "facility": 134,
+        "activity": 130
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0284",
+      "tokens": {
+        "refund": 123,
+        "arrival": 123,
+        "facility": 125,
+        "activity": 121
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0285",
+      "tokens": {
+        "refund": 125,
+        "arrival": 125,
+        "facility": 127,
+        "activity": 123
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0286",
+      "tokens": {
+        "refund": 147,
+        "arrival": 147,
+        "facility": 149,
+        "activity": 145
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0287",
+      "tokens": {
+        "refund": 162,
+        "arrival": 162,
+        "facility": 164,
+        "activity": 160
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0288",
+      "tokens": {
+        "refund": 135,
+        "arrival": 135,
+        "facility": 137,
+        "activity": 133
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0289",
+      "tokens": {
+        "refund": 143,
+        "arrival": 143,
+        "facility": 145,
+        "activity": 141
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0290",
+      "tokens": {
+        "refund": 143,
+        "arrival": 143,
+        "facility": 145,
+        "activity": 141
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0291",
+      "tokens": {
+        "refund": 147,
+        "arrival": 147,
+        "facility": 149,
+        "activity": 145
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0292",
+      "tokens": {
+        "refund": 147,
+        "arrival": 147,
+        "facility": 149,
+        "activity": 145
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0293",
+      "tokens": {
+        "refund": 129,
+        "arrival": 129,
+        "facility": 131,
+        "activity": 127
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0294",
+      "tokens": {
+        "refund": 148,
+        "arrival": 148,
+        "facility": 150,
+        "activity": 146
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0295",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0296",
+      "tokens": {
+        "refund": 135,
+        "arrival": 135,
+        "facility": 137,
+        "activity": 133
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0297",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0298",
+      "tokens": {
+        "refund": 142,
+        "arrival": 142,
+        "facility": 144,
+        "activity": 140
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0299",
+      "tokens": {
+        "refund": 109,
+        "arrival": 109,
+        "facility": 111,
+        "activity": 107
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0300",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0301",
+      "tokens": {
+        "refund": 158,
+        "arrival": 158,
+        "facility": 160,
+        "activity": 156
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0302",
+      "tokens": {
+        "refund": 135,
+        "arrival": 135,
+        "facility": 137,
+        "activity": 133
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0303",
+      "tokens": {
+        "refund": 167,
+        "arrival": 167,
+        "facility": 169,
+        "activity": 165
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0304",
+      "tokens": {
+        "refund": 185,
+        "arrival": 185,
+        "facility": 187,
+        "activity": 183
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0305",
+      "tokens": {
+        "refund": 157,
+        "arrival": 157,
+        "facility": 159,
+        "activity": 155
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0306",
+      "tokens": {
+        "refund": 110,
+        "arrival": 110,
+        "facility": 112,
+        "activity": 108
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0307",
+      "tokens": {
+        "refund": 110,
+        "arrival": 110,
+        "facility": 112,
+        "activity": 108
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0308",
+      "tokens": {
+        "refund": 145,
+        "arrival": 145,
+        "facility": 147,
+        "activity": 143
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0309",
+      "tokens": {
+        "refund": 157,
+        "arrival": 157,
+        "facility": 159,
+        "activity": 155
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0310",
+      "tokens": {
+        "refund": 145,
+        "arrival": 145,
+        "facility": 147,
+        "activity": 143
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0311",
+      "tokens": {
+        "refund": 123,
+        "arrival": 123,
+        "facility": 125,
+        "activity": 121
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0312",
+      "tokens": {
+        "refund": 128,
+        "arrival": 128,
+        "facility": 130,
+        "activity": 126
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0313",
+      "tokens": {
+        "refund": 151,
+        "arrival": 151,
+        "facility": 153,
+        "activity": 149
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0314",
+      "tokens": {
+        "refund": 143,
+        "arrival": 143,
+        "facility": 145,
+        "activity": 141
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0315",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0316",
+      "tokens": {
+        "refund": 146,
+        "arrival": 146,
+        "facility": 148,
+        "activity": 144
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0317",
+      "tokens": {
+        "refund": 139,
+        "arrival": 139,
+        "facility": 141,
+        "activity": 137
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0318",
+      "tokens": {
+        "refund": 133,
+        "arrival": 133,
+        "facility": 135,
+        "activity": 131
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0319",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0320",
+      "tokens": {
+        "refund": 139,
+        "arrival": 139,
+        "facility": 141,
+        "activity": 137
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0321",
+      "tokens": {
+        "refund": 168,
+        "arrival": 168,
+        "facility": 170,
+        "activity": 166
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0322",
+      "tokens": {
+        "refund": 151,
+        "arrival": 151,
+        "facility": 153,
+        "activity": 149
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0323",
+      "tokens": {
+        "refund": 155,
+        "arrival": 155,
+        "facility": 157,
+        "activity": 153
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0324",
+      "tokens": {
+        "refund": 129,
+        "arrival": 129,
+        "facility": 131,
+        "activity": 127
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0325",
+      "tokens": {
+        "refund": 157,
+        "arrival": 157,
+        "facility": 159,
+        "activity": 155
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0326",
+      "tokens": {
+        "refund": 146,
+        "arrival": 146,
+        "facility": 148,
+        "activity": 144
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0327",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0328",
+      "tokens": {
+        "refund": 151,
+        "arrival": 151,
+        "facility": 153,
+        "activity": 149
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0329",
+      "tokens": {
+        "refund": 136,
+        "arrival": 136,
+        "facility": 138,
+        "activity": 134
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0330",
+      "tokens": {
+        "refund": 194,
+        "arrival": 194,
+        "facility": 196,
+        "activity": 192
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0331",
+      "tokens": {
+        "refund": 169,
+        "arrival": 169,
+        "facility": 171,
+        "activity": 167
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0332",
+      "tokens": {
+        "refund": 187,
+        "arrival": 187,
+        "facility": 189,
+        "activity": 185
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0333",
+      "tokens": {
+        "refund": 202,
+        "arrival": 202,
+        "facility": 204,
+        "activity": 200
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0334",
+      "tokens": {
+        "refund": 199,
+        "arrival": 199,
+        "facility": 201,
+        "activity": 197
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0335",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0336",
+      "tokens": {
+        "refund": 131,
+        "arrival": 131,
+        "facility": 133,
+        "activity": 129
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0337",
+      "tokens": {
+        "refund": 144,
+        "arrival": 144,
+        "facility": 146,
+        "activity": 142
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0338",
+      "tokens": {
+        "refund": 152,
+        "arrival": 152,
+        "facility": 154,
+        "activity": 150
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0339",
+      "tokens": {
+        "refund": 157,
+        "arrival": 157,
+        "facility": 159,
+        "activity": 155
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0340",
+      "tokens": {
+        "refund": 146,
+        "arrival": 146,
+        "facility": 148,
+        "activity": 144
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0341",
+      "tokens": {
+        "refund": 165,
+        "arrival": 165,
+        "facility": 167,
+        "activity": 163
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0342",
+      "tokens": {
+        "refund": 163,
+        "arrival": 163,
+        "facility": 165,
+        "activity": 161
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0343",
+      "tokens": {
+        "refund": 141,
+        "arrival": 141,
+        "facility": 143,
+        "activity": 139
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0344",
+      "tokens": {
+        "refund": 184,
+        "arrival": 184,
+        "facility": 186,
+        "activity": 182
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0345",
+      "tokens": {
+        "refund": 192,
+        "arrival": 192,
+        "facility": 194,
+        "activity": 190
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0346",
+      "tokens": {
+        "refund": 153,
+        "arrival": 153,
+        "facility": 155,
+        "activity": 151
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0347",
+      "tokens": {
+        "refund": 191,
+        "arrival": 191,
+        "facility": 193,
+        "activity": 189
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0348",
+      "tokens": {
+        "refund": 112,
+        "arrival": 112,
+        "facility": 114,
+        "activity": 110
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0349",
+      "tokens": {
+        "refund": 156,
+        "arrival": 156,
+        "facility": 158,
+        "activity": 154
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0350",
+      "tokens": {
+        "refund": 130,
+        "arrival": 130,
+        "facility": 132,
+        "activity": 128
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0351",
+      "tokens": {
+        "refund": 150,
+        "arrival": 150,
+        "facility": 152,
+        "activity": 148
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0352",
+      "tokens": {
+        "refund": 154,
+        "arrival": 154,
+        "facility": 156,
+        "activity": 152
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0353",
+      "tokens": {
+        "refund": 133,
+        "arrival": 133,
+        "facility": 135,
+        "activity": 131
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0354",
+      "tokens": {
+        "refund": 112,
+        "arrival": 112,
+        "facility": 114,
+        "activity": 110
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0355",
+      "tokens": {
+        "refund": 141,
+        "arrival": 141,
+        "facility": 143,
+        "activity": 139
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0356",
+      "tokens": {
+        "refund": 135,
+        "arrival": 135,
+        "facility": 137,
+        "activity": 133
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0357",
+      "tokens": {
+        "refund": 146,
+        "arrival": 146,
+        "facility": 148,
+        "activity": 144
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0358",
+      "tokens": {
+        "refund": 138,
+        "arrival": 138,
+        "facility": 140,
+        "activity": 136
+      }
+    },
+    {
+      "id": "round1-deeper-fp16-0359",
+      "tokens": {
+        "refund": 115,
+        "arrival": 115,
+        "facility": 117,
+        "activity": 113
+      }
+    }
+  ]
+}

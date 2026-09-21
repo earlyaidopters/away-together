@@ -1,0 +1,72 @@
+{
+  "source": "phrases-arrival-insufficient_evidence-0-repair1.json",
+  "source_sha256": "1a597ae2bc3a825fff5748cff73698f82f7a08ed9ff941aa42dd4221aa90e3d0",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "insufficient_evidence",
+  "answers": [
+    {
+      "index": 0,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states that arrival hours and advance arrangement requirements are not specified, so it neither establishes nor forbids the ability to check in after midnight without prior arrangement."
+    },
+    {
+      "index": 1,
+      "label": "insufficient_evidence",
+      "reason": "The text states arrival instructions are not provided, meaning there is no evidence to confirm or deny the specific requirement."
+    },
+    {
+      "index": 2,
+      "label": "insufficient_evidence",
+      "reason": "While the property is noted as convenient for late flights, the text explicitly states check-in rules are unspecified, failing to establish the specific condition."
+    },
+    {
+      "index": 3,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly notes that specific hours and advance-arrangement requirements are not given, leaving the requirement unestablished."
+    },
+    {
+      "index": 4,
+      "label": "insufficient_evidence",
+      "reason": "The text states arrival instructions are not provided, offering no evidence to support the requirement."
+    },
+    {
+      "index": 5,
+      "label": "insufficient_evidence",
+      "reason": "The text mentions convenience for late flights but explicitly states check-in rules are unspecified, failing to establish the rule."
+    },
+    {
+      "index": 6,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states that neither hours nor advance-arrangement requirements are given, so the requirement is not established."
+    },
+    {
+      "index": 7,
+      "label": "insufficient_evidence",
+      "reason": "The text states arrival instructions are not provided, providing no evidence for the requirement."
+    },
+    {
+      "index": 8,
+      "label": "insufficient_evidence",
+      "reason": "The text states check-in rules are unspecified, meaning the specific condition is not established."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states that hours and advance-arrangement requirements are not given in the documentation."
+    },
+    {
+      "index": 10,
+      "label": "insufficient_evidence",
+      "reason": "The text states arrival instructions are not provided, offering no evidence to confirm the requirement."
+    },
+    {
+      "index": 11,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly labels check-in rules as unspecified, failing to establish the specific condition."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 31.406755208969116,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

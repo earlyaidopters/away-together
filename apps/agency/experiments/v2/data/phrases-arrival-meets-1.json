@@ -1,0 +1,62 @@
+{
+  "task": "arrival",
+  "label": "meets",
+  "batch": 1,
+  "requirement": "A guest can check in after midnight without making any prior arrangement.",
+  "meaning_constraints": "Overnight arrival allowed automatically, staffed or automatic; no advance notice/registration/code request needed.",
+  "clauses": [
+    {
+      "text": "Guests arriving after 12:00 AM are welcome to check in directly; no prior arrangements are necessary for late arrivals.",
+      "rationale": "Directly states late arrival acceptance without prior booking."
+    },
+    {
+      "text": "For spontaneous visits, guests arriving past midnight can proceed to reception without having pre-booked a late check-in slot.",
+      "rationale": "Uses 'spontaneous visits' and 'without having pre-booked' for automatic late check-in."
+    },
+    {
+      "text": "Midnight arrivals are accommodated without requiring a special request or confirmation of advance notice.",
+      "rationale": "Focuses on accommodation without special notice or request for late arrivals."
+    },
+    {
+      "text": "The property allows walk-in check-in anytime, even if it is past midnight; simply report to the front desk.",
+      "rationale": "Uses 'walk-in check-in' and 'anytime' for immediate, no-notice access."
+    },
+    {
+      "text": "Should your journey conclude after the clock strikes twelve, no specific code or prior notification is required for room access.",
+      "rationale": "Addresses post-midnight arrival requiring no specific code or notification."
+    },
+    {
+      "text": "Overnight check-ins are seamless; simply arrive after midnight and proceed to the lobby area.",
+      "rationale": "Uses 'seamless' and 'simply arrive' to imply automatic, unscripted late entry."
+    },
+    {
+      "text": "After midnight arrivals are permitted right away; no advance registration or special arrangements need to be made.",
+      "rationale": "Directly states permission for immediate, no-arrangement late check-in."
+    },
+    {
+      "text": "Guests arriving after the customary closing time find check-in available automatically at the desk.",
+      "rationale": "Uses 'customary closing time' and 'automatically' for late, unarranged access."
+    },
+    {
+      "text": "Late-night arrivals (past midnight) are fine; just present ID, no need to have secured a slot ahead of time.",
+      "rationale": "Casual tone confirming late arrival is okay without needing a booked slot."
+    },
+    {
+      "text": "Arrivals at any hour after midnight are processed; no pre-authorization or system code is needed.",
+      "rationale": "Formal language confirming processing capability for late arrivals without advance codes."
+    },
+    {
+      "text": "Midnight to dawn check-ins are fully supported; simply check in upon arrival time.",
+      "rationale": "Time-frame description implies no booking needed for arrivals spanning the midnight hour."
+    },
+    {
+      "text": "No matter the time past midnight, stepping into the building guarantees immediate registration capability.",
+      "rationale": "Focuses on the guaranteed capability to register immediately, regardless of the time past midnight."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 16.783754348754883,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "95b89be08ae93d2bcf1b5b36d361d384e61c4b2d4fb368b496ece5d0f9664db3"
+}

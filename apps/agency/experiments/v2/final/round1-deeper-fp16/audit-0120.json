@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0120",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund and arrival rules are vague/undocumented; pool is free; activity is unspecified."
+    },
+    {
+      "id": "round1-deeper-fp16-0121",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund has a fee; arrival requires prior permission; pool has an extra charge; activity is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0122",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Full cash refund is confirmed; arrival rules are missing; pool is free; activity is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0123",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Conflicting refund policies exist; arrival requires permission; pool has a fee; activity is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0124",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is undocumented; arrival requires permission; pool is free; activity is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0125",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Full cash refund is confirmed; arrival requires permission; pool has a fee; activity is included."
+    }
+  ],
+  "documents_sha256": "6ab68073e0fd6e2ccc03bc84ee3867d1ef88f4b56b1c368e4418081458340994"
+}

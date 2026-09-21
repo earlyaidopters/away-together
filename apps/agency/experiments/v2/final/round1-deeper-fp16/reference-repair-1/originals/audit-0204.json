@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0204",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund violates because a 27 euro charge is retained; arrival meets (01:30 automatic); facility meets (no separate fee); activity violates (requires 38 euro payment)."
+    },
+    {
+      "id": "round1-deeper-fp16-0205",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund, arrival, and facility are unknown/undocumented; activity violates because a separate 38 euro payment is required."
+    },
+    {
+      "id": "round1-deeper-fp16-0206",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund and arrival are undocumented; facility meets (no separate fee); activity is unknown as no statement is supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0207",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund meets (entire payment returned); arrival is unknown; facility is insufficient due to conflicting authoritative policies; activity meets (nothing further to pay)."
+    },
+    {
+      "id": "round1-deeper-fp16-0208",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates (27 euro charge); arrival meets (01:30 automatic); facility violates (19 euro charge); activity is unknown as no statement is supplied."
+    },
+    {
+      "id": "round1-deeper-fp16-0209",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund and arrival are undocumented; facility meets (no separate fee); activity meets (nothing further to pay)."
+    }
+  ],
+  "documents_sha256": "af3bd12f44f30cf9c64bc03c793fa1f842ed199aab43fae0a70fc94fac9eee19"
+}

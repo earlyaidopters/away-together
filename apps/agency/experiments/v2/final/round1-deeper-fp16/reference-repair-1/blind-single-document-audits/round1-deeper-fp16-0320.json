@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0320",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document states refund and arrival policies are not documented or addressed in current records; it explicitly states the pool requires an extra charge of 19 euros; and it states no information is supplied regarding the guided walk."
+    }
+  ],
+  "documents_sha256": "a1d4514c7f68ceee86888c5200516a95e0b21908125c9b60d4377e9bc599b972"
+}

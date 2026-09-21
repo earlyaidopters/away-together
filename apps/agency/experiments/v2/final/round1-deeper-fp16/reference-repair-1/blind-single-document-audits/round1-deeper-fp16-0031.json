@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0031",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policy explicitly states full money return before cutoff; arrival at 01:30 is available automatically; swimming area details (price/access) are missing; activity/guided hike details are missing."
+    }
+  ],
+  "documents_sha256": "c66d93ee44a2749b7fab0fbe6becd8ae285f9840a4efc51ae91242789c1486ae"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0268",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "The document states the walking excursion with a guide is included (activity: meets); it explicitly states check-in after midnight requires prior permission, contradicting the requirement (arrival: violates); it mentions a swimming area but omits price and access details (facility: insufficient_evidence); and the refund policy mentioned applies only to December, leaving the May refund policy unknown (refund: insufficient_evidence)."
+    }
+  ],
+  "documents_sha256": "8af11e6e896092eefc486865e70fe7e3e812a3201a6f5500d1c4949b16b47033"
+}

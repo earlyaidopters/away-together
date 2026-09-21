@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0316",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund violates because a 27 euro charge is deducted; arrival is insufficient because no mention of midnight check-in is made; facility meets because the pool is available without a separate fee; activity violates because the hike requires a separate payment."
+    }
+  ],
+  "documents_sha256": "a3ac5655052dad4e0eac3040db588724825fa4e8a1dda6d837366511d17ee933"
+}

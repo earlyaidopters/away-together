@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0072",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund and arrival policies are explicitly stated as undocumented/unaddressed; pool is free; activity details are missing."
+    },
+    {
+      "id": "round1-deeper-fp16-0073",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund is not full due to a 27 euro charge; arrival allows midnight check-in without contact; pool requires a 19 euro fee; activity includes a guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0074",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund is full with no deduction; arrival allows midnight check-in without contact; pool requires a 19 euro fee; activity includes a guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0075",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund policy contains unresolved conflicting terms; arrival requires prior permission; pool details are unknown; activity includes a guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0076",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund is not full due to a 27 euro charge; arrival rules are unaddressed; pool details are unknown; activity includes a guided hike."
+    },
+    {
+      "id": "round1-deeper-fp16-0077",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund policy is undocumented; arrival allows midnight check-in without contact; pool is free; activity includes a guided hike."
+    }
+  ],
+  "documents_sha256": "e453535f790b85c8a738b3ec5000cabf2890267d4d0517073c55b0d3e76bbc76"
+}

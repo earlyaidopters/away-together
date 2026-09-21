@@ -1,0 +1,62 @@
+{
+  "task": "arrival",
+  "label": "insufficient_evidence",
+  "batch": 0,
+  "requirement": "A guest can check in after midnight without making any prior arrangement.",
+  "meaning_constraints": "Opening hours/procedure absent, late arrival mentioned without defining hours or prior-arrangement rules, operator says ask for instructions. Do not explicitly permit or forbid unarranged after-midnight check-in.",
+  "clauses": [
+    {
+      "text": "Guests arriving after the standard closing time are welcome; please inquire directly with the front desk team upon arrival for current advisories.",
+      "rationale": "Mentions late arrival without specifying check-in procedure or time constraints."
+    },
+    {
+      "text": "For arrivals occurring beyond midnight, direct consultation with our booking specialists is recommended to confirm access procedures.",
+      "rationale": "Addresses post-midnight arrival but directs the user to ask for instructions instead of stating a rule."
+    },
+    {
+      "text": "Late arrivals, specifically those past 12:00 AM, require direct confirmation with the property before arrival.",
+      "rationale": "Notes the late arrival timeframe but the language implies a need to ask for clarification rather than stating a procedure."
+    },
+    {
+      "text": "If your arrival time falls after midnight, we advise contacting the property in advance to outline necessary arrangements.",
+      "rationale": "Indicates a late arrival time frame but requires the user to take an action (contacting) rather than stating a right."
+    },
+    {
+      "text": "Midnight arrivals and later are subject to current operational guidelines; please call us for precise instructions.",
+      "rationale": "Refers to the time frame but immediately defers the answer to an external inquiry."
+    },
+    {
+      "text": "Should you arrive after the clock strikes twelve, please check with local staff for the most current procedures available.",
+      "rationale": "Addresses the time period but mandates asking local staff, lacking definitive policy statement."
+    },
+    {
+      "text": "Midnight or later check-ins are possible; contacting the establishment prior to arrival for specific protocols is advised.",
+      "rationale": "Acknowledges the time but frames the process as requiring prior communication rather than stating a clear right."
+    },
+    {
+      "text": "Arriving after midnight? Please call ahead; operational specifics will be provided to you.",
+      "rationale": "Short, conversational text mentioning the time but making the confirmation dependent on a call."
+    },
+    {
+      "text": "For departures past midnight, check with reception for the applicable guidelines; no guarantee is made.",
+      "rationale": "Discusses the time frame without setting a rule and points to a source of unknown information."
+    },
+    {
+      "text": "Overnight arrivals: Procedures are variable; confirmation of access is best obtained directly from site personnel.",
+      "rationale": "Uses vague language about variability concerning late arrivals and directs the user to ask."
+    },
+    {
+      "text": "Late arrivals (past 12:00 AM) are accommodated based on availability; please verify details when booking.",
+      "rationale": "Mentions the time but makes accommodation conditional on verifying details, implying no guarantee."
+    },
+    {
+      "text": "Midnight to dawn arrivals: Operational status changes; inquire upon arrival or contact us beforehand for details.",
+      "rationale": "Specifies the time window but gives multiple options to inquire, none of which confirm the procedure."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 17.595460176467896,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "9e3bf070491c06cfc7b3c235e21364ba47e2ab0bcbc6964a595e946f6d4e8982"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0050",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "The document explicitly states a mandatory administration charge for cancellations (violating the full refund requirement), confirms automatic check-in after midnight (meeting arrival), fails to state the price or access conditions for the swimming area (insufficient evidence for facility), and confirms a guided walking excursion is included with no further payment (meeting activity)."
+    }
+  ],
+  "documents_sha256": "b6b88e05dfa4b998fa756340311f9f7aa9b84dfef1a65e9dc8d74a197a7ca5b5"
+}

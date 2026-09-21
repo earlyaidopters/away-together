@@ -1,0 +1,72 @@
+{
+  "source": "phrases-facility-insufficient_evidence-1-repair1.json",
+  "source_sha256": "d17a4a666a4d2dcf39831e89a424c755c2bb19c7d5a2a5260f04f783f65363b6",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "insufficient_evidence",
+  "answers": [
+    {
+      "index": 0,
+      "label": "insufficient_evidence",
+      "reason": "The text states the document does not specify if a pool is included, failing to establish the requirement."
+    },
+    {
+      "index": 1,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states that guest access conditions are not provided, so it cannot be confirmed the pool is free."
+    },
+    {
+      "index": 2,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states there is no information regarding fees or inclusion, failing to establish the requirement."
+    },
+    {
+      "index": 3,
+      "label": "insufficient_evidence",
+      "reason": "The text states the description does not say if a pool is part of the offering, failing to establish the requirement."
+    },
+    {
+      "index": 4,
+      "label": "insufficient_evidence",
+      "reason": "The text states details regarding guest access conditions are not provided, so free access cannot be confirmed."
+    },
+    {
+      "index": 5,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states no mention is made regarding fees or inclusion, failing to establish the requirement."
+    },
+    {
+      "index": 6,
+      "label": "insufficient_evidence",
+      "reason": "The text states the amenities do not say whether a pool is included, failing to establish the requirement."
+    },
+    {
+      "index": 7,
+      "label": "insufficient_evidence",
+      "reason": "The text states there is no information on guest access conditions, so free access cannot be confirmed."
+    },
+    {
+      "index": 8,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states no details are provided regarding fees or inclusion, failing to establish the requirement."
+    },
+    {
+      "index": 9,
+      "label": "insufficient_evidence",
+      "reason": "The text states the documentation does not say whether a pool is included, failing to establish the requirement."
+    },
+    {
+      "index": 10,
+      "label": "insufficient_evidence",
+      "reason": "The text states the operator cannot confirm guest access conditions, so free access cannot be established."
+    },
+    {
+      "index": 11,
+      "label": "insufficient_evidence",
+      "reason": "The text explicitly states the property says nothing about fees or inclusion, failing to establish the requirement."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 33.21280121803284,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

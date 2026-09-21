@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0048",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "The document explicitly states a guided hike requires a separate payment, violating the requirement that the price includes it."
+    },
+    {
+      "id": "round1-deeper-fp16-0049",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund violates due to a mandatory charge; arrival is unknown; activity violates due to separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0050",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund and facility details are undocumented/unstated; arrival and activity meet requirements."
+    },
+    {
+      "id": "round1-deeper-fp16-0051",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is unresolved due to conflicting policies; facility and activity violate due to extra charges."
+    },
+    {
+      "id": "round1-deeper-fp16-0052",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund and arrival are unknown; facility and activity violate due to extra charges."
+    },
+    {
+      "id": "round1-deeper-fp16-0053",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Arrival and facility are unknown; refund and activity meet requirements."
+    }
+  ],
+  "documents_sha256": "be33521bacc56810d2496e7386dd87bd4783b632073c58fd48747e783acaacf8"
+}

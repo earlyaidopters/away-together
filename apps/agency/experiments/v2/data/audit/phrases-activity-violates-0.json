@@ -1,0 +1,72 @@
+{
+  "source": "phrases-activity-violates-0.json",
+  "source_sha256": "394ba4e104b2ea23dddb469bfc9456960c14ed1633cc5129e60f7ac677c3c38f",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "violates",
+  "answers": [
+    {
+      "index": 0,
+      "label": "violates",
+      "reason": "The text explicitly states the specialized trek with a local expert escort is billed separately, failing the 'included' requirement."
+    },
+    {
+      "index": 1,
+      "label": "violates",
+      "reason": "The text explicitly requires an additional consultancy fee for the supervised uphill walk, failing the 'included' requirement."
+    },
+    {
+      "index": 2,
+      "label": "violates",
+      "reason": "The text states the rate assumes self-navigation and that a professionally led ascent must be paid for separately."
+    },
+    {
+      "index": 3,
+      "label": "violates",
+      "reason": "The text explicitly assigns an extra tariff to any facilitated ascent with an accompanying guide."
+    },
+    {
+      "index": 4,
+      "label": "violates",
+      "reason": "The text explicitly quotes structured, supervised uphill journeys outside of the base package rate."
+    },
+    {
+      "index": 5,
+      "label": "violates",
+      "reason": "The text states that any guided trek incurs an additional charge, failing the 'included' requirement."
+    },
+    {
+      "index": 6,
+      "label": "violates",
+      "reason": "The text explicitly states the specialized, led hiking portion must be purchased independently of the booking."
+    },
+    {
+      "index": 7,
+      "label": "violates",
+      "reason": "The text explicitly states guided walking excursions are not part of the quoted sum."
+    },
+    {
+      "index": 8,
+      "label": "violates",
+      "reason": "The text explicitly states specialized, mentored hikes are supplementary services billed separately."
+    },
+    {
+      "index": 9,
+      "label": "violates",
+      "reason": "The text explicitly defines guidance for the summit climb as an optional add-on payable on site."
+    },
+    {
+      "index": 10,
+      "label": "violates",
+      "reason": "The text explicitly states any scheduled, professionally guided ascent is subject to a separate service fee."
+    },
+    {
+      "index": 11,
+      "label": "violates",
+      "reason": "The text explicitly states the total package price does not encompass private guide fees."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 31.30436682701111,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

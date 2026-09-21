@@ -1,0 +1,113 @@
+{
+  "task": "refund",
+  "label": "violates",
+  "batch": 1,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "Use varied explicit counterexamples: voucher only; retained handling fee; only partial refund; deposit forfeited; non-refundable advance purchase; money never returned even before the cutoff.",
+  "clauses": [
+    {
+      "text": "Q: What happens if I cancel my booking? A: Cancellation results in a travel voucher only; please note that no cash or card reimbursement is offered under any circumstances.",
+      "rationale": "Preserved the voucher-only outcome and the specific negation of cash/card reimbursement."
+    },
+    {
+      "text": "Dear Valued Client, please be advised that the prepaid rate is non-refundable, even if your cancellation is made early in the booking period.",
+      "rationale": "Maintained the non-refundable status and the condition regarding early cancellation."
+    },
+    {
+      "text": "*On cancellation, the deposit is retained by the property and only the remaining balance is returned to the guest.",
+      "rationale": "Kept the retention of the deposit and the specific return of only the balance."
+    },
+    {
+      "text": "Please note that even before the deadline, a EUR 30 administration fee is deducted from your total refund amount.",
+      "rationale": "Preserved the EUR 30 amount, the administration fee type, and the timing before the deadline."
+    },
+    {
+      "text": "In the event of cancellation, guests receive a travel voucher only; no cash or card reimbursement is offered by the supplier.",
+      "rationale": "Retained the voucher-only policy and the explicit exclusion of cash or card refunds."
+    },
+    {
+      "text": "Terms: The prepaid rate is non-refundable. This policy applies even if cancellation is early.",
+      "rationale": "Preserved the non-refundable nature of the prepaid rate and the early cancellation clause."
+    },
+    {
+      "text": "I understand your request; however, on cancellation, the deposit is retained and only the balance is returned to your account.",
+      "rationale": "Maintained the retention of the deposit and the fact that only the balance is returned."
+    },
+    {
+      "text": "If you cancel, even before the deadline, a EUR 30 administration fee is deducted from the refund.",
+      "rationale": "Preserved the EUR 30 fee, the administration purpose, and the timing relative to the deadline."
+    },
+    {
+      "text": "Cancellation Policy: Cancellation gives a travel voucher only; no cash or card reimbursement is offered for this booking.",
+      "rationale": "Preserved the voucher-only provision and the negation of cash/card reimbursements."
+    },
+    {
+      "text": "Notice: The prepaid rate is non-refundable, even if cancellation is early. Please plan your travel accordingly.",
+      "rationale": "Maintained the non-refundable status and the specific condition regarding early cancellation."
+    },
+    {
+      "text": "Our policy states that on cancellation, the deposit is retained and only the balance is returned to the customer.",
+      "rationale": "Preserved the retention of the deposit and the return of only the balance."
+    },
+    {
+      "text": "Refund Policy: Even before the deadline, a EUR 30 administration fee is deducted from the refund.",
+      "rationale": "Preserved the EUR 30 fee, the administration type, and the timing before the deadline."
+    }
+  ],
+  "writer": "gemma4:26b",
+  "writer_model": "gemma4:26b",
+  "seconds": 14.275816917419434,
+  "status": "unverified stronger-writer repair; fresh blind audit required",
+  "prompt_sha256": "eb2336e38a9ba075f791099d9e4003fe8eca28417c001a77bc82423998fdacc5",
+  "repair_of": "phrases-refund-violates-1.json",
+  "fact_blueprints": [
+    {
+      "style": "hotel FAQ",
+      "facts_to_preserve_exactly": "Cancellation gives a travel voucher only; no cash or card reimbursement is offered."
+    },
+    {
+      "style": "agent email",
+      "facts_to_preserve_exactly": "The prepaid rate is non-refundable even if cancellation is early."
+    },
+    {
+      "style": "rate footnote",
+      "facts_to_preserve_exactly": "On cancellation, the deposit is retained and only the balance is returned."
+    },
+    {
+      "style": "confirmation",
+      "facts_to_preserve_exactly": "Even before the deadline a EUR 30 administration fee is deducted from the refund."
+    },
+    {
+      "style": "supplier policy",
+      "facts_to_preserve_exactly": "Cancellation gives a travel voucher only; no cash or card reimbursement is offered."
+    },
+    {
+      "style": "fine print",
+      "facts_to_preserve_exactly": "The prepaid rate is non-refundable even if cancellation is early."
+    },
+    {
+      "style": "support response",
+      "facts_to_preserve_exactly": "On cancellation, the deposit is retained and only the balance is returned."
+    },
+    {
+      "style": "simple terms",
+      "facts_to_preserve_exactly": "Even before the deadline a EUR 30 administration fee is deducted from the refund."
+    },
+    {
+      "style": "amenities entry",
+      "facts_to_preserve_exactly": "Cancellation gives a travel voucher only; no cash or card reimbursement is offered."
+    },
+    {
+      "style": "amendment notice",
+      "facts_to_preserve_exactly": "The prepaid rate is non-refundable even if cancellation is early."
+    },
+    {
+      "style": "operator statement",
+      "facts_to_preserve_exactly": "On cancellation, the deposit is retained and only the balance is returned."
+    },
+    {
+      "style": "comparison table",
+      "facts_to_preserve_exactly": "Even before the deadline a EUR 30 administration fee is deducted from the refund."
+    }
+  ]
+}

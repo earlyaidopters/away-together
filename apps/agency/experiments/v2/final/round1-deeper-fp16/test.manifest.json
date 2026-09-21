@@ -1,0 +1,25 @@
+{
+  "purpose": "fresh-final-evaluation",
+  "created_utc": "2026-09-21T18:34:25.952027+00:00",
+  "sha256": "c1e833db6c3168195966779705684ad3bfbba0d795acd46229d67a015b7a8167",
+  "scenarios": 360,
+  "generation": {
+    "freeze_sha256": "ee824b7cd33b083e48b043e7cd5d88f913ca7c9c59b9c2bbf44db4290d250ca4",
+    "seed": 2026092101,
+    "n": 360,
+    "writer": "qwen3.5-122b-a10b:latest",
+    "auditor": "gemma4:26b",
+    "generator_sha256": "b8284ff70860525f840018bcbfa645dab8108d60da691706eae103ef00988c88"
+  },
+  "reference_provenance": "Synthetic fact-first references with agent factual repairs, blind Gemma audits and two openly recorded writer-assisted adjudications. No human validation. All prespecified cases retained; no classifier-based selection.",
+  "families": [
+    "different_dates",
+    "different_offer",
+    "ordinary",
+    "quoted_instruction",
+    "superseded",
+    "unresolved"
+  ],
+  "freeze_sha256": "ee824b7cd33b083e48b043e7cd5d88f913ca7c9c59b9c2bbf44db4290d250ca4",
+  "reference_resolution_sha256": "867578e3c4ea23fc0bffe3371c98871f437cd1ee1b9f06fedf6f23b1448e8af8"
+}

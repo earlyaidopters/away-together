@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0352",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: violates because a 27 euro administration charge is retained; arrival: violates because check-in after midnight requires prior permission; facility: violates because for the selected dates, guests must pay 19 euros to enter the pool; activity: insufficient_evidence because the document states no information is supplied regarding a guided walk."
+    }
+  ],
+  "documents_sha256": "b1d058aa91db9ad71eb1acbb93a9c0f53894847831227f9a182c69f5d2e69e2a"
+}

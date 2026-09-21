@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0162",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund information is explicitly stated as not documented; arrival, facility, and activity requirements are met."
+    },
+    {
+      "id": "round1-deeper-fp16-0163",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund is a full cash return; arrival requires prior permission (violates); swimming pool details are missing; activity is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0164",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is not full due to a fee; arrival info is missing; pool requires an extra charge; activity info is missing."
+    },
+    {
+      "id": "round1-deeper-fp16-0165",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund, arrival, and facility requirements are met; activity has unresolved conflicting policies."
+    },
+    {
+      "id": "round1-deeper-fp16-0166",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "Refund is not full due to a fee; arrival info is missing; facility is free; activity is included for the selected dates."
+    },
+    {
+      "id": "round1-deeper-fp16-0167",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund, arrival, and facility information are all missing or undocumented; activity is met."
+    }
+  ],
+  "documents_sha256": "566600ef818b717ee3115e4a0656894deb7b8a770604cd7e17ed202a749f6efe"
+}

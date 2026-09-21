@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0312",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund violates because a 27 euro charge is retained (not a full refund). Arrival, facility, and activity lack sufficient information."
+    },
+    {
+      "id": "round1-deeper-fp16-0313",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is unknown (method/amount not documented). Arrival and facility meet requirements. Activity violates because the hike requires a separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0314",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund meets because the entire payment is returned with no deduction. Arrival meets. Facility and activity lack sufficient information."
+    },
+    {
+      "id": "round1-deeper-fp16-0315",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is insufficient due to two equally authoritative conflicting policies. Arrival lacks information. Facility violates because there is a 19 euro charge. Activity lacks information."
+    },
+    {
+      "id": "round1-deeper-fp16-0316",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund violates because a 27 euro charge is retained. Arrival and facility meet requirements. Activity violates because the hike requires a separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0317",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund and arrival lack information. Facility violates due to a 19 euro charge. Activity violates because the hike requires a separate payment."
+    }
+  ],
+  "documents_sha256": "af061b9188c0b6dbd091c7db6ffc9af537545df0bab4756a7a109811c0d404d3"
+}

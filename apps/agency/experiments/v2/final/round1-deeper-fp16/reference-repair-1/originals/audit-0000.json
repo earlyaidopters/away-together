@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0000",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is a full cash return; arrival requires prior permission (violates); pool is free; guided walk info is missing."
+    },
+    {
+      "id": "round1-deeper-fp16-0001",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund has a mandatory charge (violates); arrival after midnight is automatic (meets); pool price/access is unknown; guided hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0002",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is full cash return; arrival rules are not addressed; pool is free; guided hike requires extra payment (violates)."
+    },
+    {
+      "id": "round1-deeper-fp16-0003",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund policies are conflicting/unresolved; arrival requires prior permission (violates); pool has a fee (violates); guided walk info is missing."
+    },
+    {
+      "id": "round1-deeper-fp16-0004",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund is full cash return; arrival requires prior permission (violates); pool price/access is unknown; guided hike is included."
+    },
+    {
+      "id": "round1-deeper-fp16-0005",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is undocumented; arrival rules are not addressed; pool is free; guided hike requires extra payment (violates)."
+    }
+  ],
+  "documents_sha256": "41cb3993f473232d06ac8cc6052e60c6c9cd1de7ee7feb1b715aa5a10c30026e"
+}

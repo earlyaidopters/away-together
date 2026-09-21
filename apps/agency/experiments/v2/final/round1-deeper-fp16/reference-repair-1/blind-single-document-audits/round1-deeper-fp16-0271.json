@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0271",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund policy matches the requirement; arrival policy for the selected Alder offer is not addressed (Birch is unselected); facility requires an extra charge of 19 euros which violates the 'no extra charge' rule; activity matches the requirement for a guided hike."
+    }
+  ],
+  "documents_sha256": "d8299f9c7ea8d7d139544f397b705cf965e591600bf88581281735d437045205"
+}

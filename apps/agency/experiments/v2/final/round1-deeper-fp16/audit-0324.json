@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0324",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund is a full cash return; arrival requires prior permission (violates); swimming area details are unstated (insufficient); activity includes a guided walk with no extra charge (meets)."
+    },
+    {
+      "id": "round1-deeper-fp16-0325",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "Refund is a full cash return; arrival rules are not addressed (insufficient); pool requires a 19 euro charge (violates); activity includes a guided walk with no extra charge (meets)."
+    },
+    {
+      "id": "round1-deeper-fp16-0326",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is a full cash return; arrival is automatic without contact (meets); pool requires a 19 euro charge (violates); activity info is not supplied (insufficient)."
+    },
+    {
+      "id": "round1-deeper-fp16-0327",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund is a full cash return; arrival rules are not addressed (insufficient); two authoritative policies on pool fees conflict (insufficient); activity includes a guided walk with no extra charge (meets)."
+    },
+    {
+      "id": "round1-deeper-fp16-0328",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is a full cash return; arrival rules are not addressed (insufficient); the applicable policy for May requires a 19 euro pool charge (violates); activity info is not supplied (insufficient)."
+    },
+    {
+      "id": "round1-deeper-fp16-0329",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund is a full cash return; arrival requires prior permission (violates); swimming area details are unstated (insufficient); activity info is not supplied (insufficient)."
+    }
+  ],
+  "documents_sha256": "990096368795a47636a28c4850bdaef74004fba9b42276159a38a398394ed659"
+}

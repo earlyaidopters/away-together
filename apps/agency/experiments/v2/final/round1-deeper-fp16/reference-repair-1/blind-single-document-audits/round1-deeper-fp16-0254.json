@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0254",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: violates (mandatory 27 euro charge prevents a full cash refund); arrival: meets (01:30 arrival is allowed without prior contact); facility: insufficient_evidence (the pool policy is explicitly stated as void/superseded); activity: insufficient_evidence (no information provided regarding a guided hike)."
+    }
+  ],
+  "documents_sha256": "72e18a3adc9bfc9f3c6cd4e23cb72b89ac1aaa3d02684d09a94c04ea297bd813"
+}

@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/razorback16/openjev",
+  "commit": "e04794ab36e4f7e6040c2547baecdb2737ce2e79",
+  "model": "mlx-community/diffusiongemma-26B-A4B-it-4bit",
+  "model_revision": "a7a81407613811e8ba63af92ac0d852b809e191f",
+  "backend": "mlx",
+  "runtime": "mlx-vlm==0.6.15"
+}

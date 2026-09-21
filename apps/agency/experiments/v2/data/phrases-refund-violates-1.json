@@ -1,0 +1,62 @@
+{
+  "task": "refund",
+  "label": "violates",
+  "batch": 1,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "Use varied explicit counterexamples: voucher only; retained handling fee; only partial refund; deposit forfeited; non-refundable advance purchase; money never returned even before the cutoff.",
+  "clauses": [
+    {
+      "text": "If you cancel your stay by the specified date, a full monetary reimbursement will be issued to the original payment method.",
+      "rationale": "The text explicitly guarantees a full cash refund upon timely cancellation."
+    },
+    {
+      "text": "Should cancellation occur prior to the stipulated cutoff, guests receive a full cash refund without any associated administrative charges.",
+      "rationale": "This confirms the refund will be in money and no fees are deducted for early cancellation."
+    },
+    {
+      "text": "Cancellation up to 7 days out qualifies for 100% return of funds paid; otherwise, the remaining balance is subject to forfeiture.",
+      "rationale": "The text specifies a condition (before 7 days) for receiving a full cash return."
+    },
+    {
+      "text": "For cancellations before the deadline, the payment will be returned entirely as cash, minus zero service fees.",
+      "rationale": "It clearly states the return is in money and eliminates any deduction."
+    },
+    {
+      "text": "If notice is provided before the date, the full monetary amount paid will be refunded; otherwise, a voucher will be issued instead.",
+      "rationale": "The text introduces a non-cash form of compensation (voucher) if the cancellation is too late."
+    },
+    {
+      "text": "Guests cancelling before the cutoff are entitled to a complete cash refund; please note, any amount paid past this date is non-refundable.",
+      "rationale": "It contrasts the full cash refund eligibility with the forfeiture of later payments."
+    },
+    {
+      "text": "Cancellation notice received promptly results in the full initial payment being credited back to your account; processing fees are waived.",
+      "rationale": "The refund is described as a full credit to the original source, implying no fees."
+    },
+    {
+      "text": "Cancelling by the deadline ensures all monies paid are returned to you; partial refunds are only issued if the cancellation is extremely late.",
+      "rationale": "The text establishes the full cash return as the norm, differentiating it from partial refunds."
+    },
+    {
+      "text": "If cancellation occurs on time, the entirety of the deposit will be returned in currency form. Late changes result in a non-recoverable charge.",
+      "rationale": "It contrasts the full cash return with a specified loss of funds for late changes."
+    },
+    {
+      "text": "Early cancellation guarantees the full sum will be returned as cash; failure to adhere to the timeline means the booking fee is kept.",
+      "rationale": "It explicitly states the cash refund entitlement and the retention of fees otherwise."
+    },
+    {
+      "text": "Cancellation up to 24 hours prior yields a total monetary refund. After that, a portion of the total paid is kept to cover admin costs.",
+      "rationale": "This describes a scenario where the refund is only a partial amount, not the full original payment."
+    },
+    {
+      "text": "Full reimbursement in funds is provided if cancellation precedes the due date. Otherwise, the advance payment is forfeited outright.",
+      "rationale": "It establishes the full cash refund condition and the complete loss of funds otherwise."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 18.23074507713318,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "173258512ed66a9ec8a41212308ad5b062eb20d86e4031ab0e29ad66bae52ffa"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0264",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document explicitly states a full cash refund is available before the cutoff, explicitly forbids check-in after midnight without prior permission (violating the requirement), explicitly confirms a free swimming pool, and states it has not provided information regarding a guided walk (insufficient evidence)."
+    }
+  ],
+  "documents_sha256": "acbcce66c9759223f5539c5c6331129115df0e892f37eb5b8b527147627a0039"
+}

@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0266",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "The document states the current terms do not document the refund method or amount (insufficient_evidence); it explicitly states check-in after midnight requires prior permission, contradicting the requirement (violates); it confirms a swimming pool is available without a separate fee (meets); and it states no information is supplied regarding a guided walk being included (insufficient_evidence)."
+    }
+  ],
+  "documents_sha256": "276e918ce774d518d15c3f01644ae0f9172ad851f6f6e609a0d33647fcf9d6ae"
+}

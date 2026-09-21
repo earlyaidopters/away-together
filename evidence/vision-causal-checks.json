@@ -1,0 +1,2958 @@
+[
+  {
+    "case": "all-photos",
+    "receipt": {
+      "engine": "travel-nli",
+      "elapsed_ms": 10165.188124999986,
+      "model_sha256": "570136bd194dd2fa51aa29dca2d86bde0151db0c791e21aad71f7d6f612ed152",
+      "answers": [
+        {
+          "id": "refund",
+          "choice": 0,
+          "probabilities": [
+            0.7074533104896545,
+            0.00865870714187622,
+            0.28388798236846924
+          ]
+        },
+        {
+          "id": "arrival",
+          "choice": 0,
+          "probabilities": [
+            0.9996039271354675,
+            7.18108713044785e-05,
+            0.0003242307575419545
+          ]
+        },
+        {
+          "id": "facility",
+          "choice": 0,
+          "probabilities": [
+            0.9996931552886963,
+            1.2670315300056245e-05,
+            0.0002942767459899187
+          ]
+        },
+        {
+          "id": "activity",
+          "choice": 1,
+          "probabilities": [
+            0.005901182536035776,
+            0.7279535531997681,
+            0.2661451995372772
+          ]
+        }
+      ],
+      "usage": {
+        "candidate_encodings": 12,
+        "local_model_calls": 2
+      },
+      "text_elapsed_ms": 208.01850000134436,
+      "run_id": "0c6e5e83-f7b9-41d4-923c-0c570c297b62",
+      "offer_id": "o0",
+      "utc": "2026-09-21T20:35:44.181642+00:00",
+      "mode": "live",
+      "profiles": {
+        "p0": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,600 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "visual_avoid_steps",
+              "status": "decline",
+              "text": "Entrance stairs were detected in the selected photos.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [
+                "madeira-path"
+              ],
+              "photo_urls": [
+                "/photos/madeira-path.png"
+              ]
+            }
+          ]
+        },
+        "p1": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,700 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p2": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,450 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "visual_pool",
+              "status": "match",
+              "text": "The selected photos show: a swimming pool.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [
+                "madeira-overview",
+                "madeira-terrace"
+              ],
+              "photo_urls": [
+                "/madeira.png",
+                "/photos/madeira-terrace.png"
+              ]
+            }
+          ]
+        },
+        "p3": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "visual_mountains",
+              "status": "match",
+              "text": "The selected photos show: mountains.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [
+                "madeira-overview",
+                "madeira-terrace",
+                "madeira-path"
+              ],
+              "photo_urls": [
+                "/madeira.png",
+                "/photos/madeira-terrace.png",
+                "/photos/madeira-path.png"
+              ]
+            }
+          ]
+        },
+        "p4": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,900 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p5": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p6": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,100 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p7": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "decline",
+              "text": "\u20ac1,290 exceeds the \u20ac1,000 budget.",
+              "source": "arithmetic"
+            }
+          ]
+        },
+        "p8": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,400 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p9": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,350 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "visual_garden",
+              "status": "match",
+              "text": "The selected photos show: a garden.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [
+                "madeira-overview",
+                "madeira-terrace",
+                "madeira-path"
+              ],
+              "photo_urls": [
+                "/madeira.png",
+                "/photos/madeira-terrace.png",
+                "/photos/madeira-path.png"
+              ]
+            }
+          ]
+        },
+        "p10": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,750 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p11": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,550 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        }
+      },
+      "text_profiles": {
+        "p0": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,600 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p1": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,700 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p2": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,450 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p3": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p4": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,900 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p5": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p6": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,100 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p7": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "decline",
+              "text": "\u20ac1,290 exceeds the \u20ac1,000 budget.",
+              "source": "arithmetic"
+            }
+          ]
+        },
+        "p8": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,400 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p9": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,350 budget.",
+              "source": "arithmetic"
+            }
+          ]
+        },
+        "p10": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,750 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p11": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,550 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        }
+      },
+      "vision": {
+        "status": "completed",
+        "engine": "OpenJev / DiffusionGemma / MLX",
+        "pin": {
+          "repository": "https://github.com/razorback16/openjev",
+          "commit": "e04794ab36e4f7e6040c2547baecdb2737ce2e79",
+          "model": "mlx-community/diffusiongemma-26B-A4B-it-4bit",
+          "model_revision": "a7a81407613811e8ba63af92ac0d852b809e191f",
+          "backend": "mlx",
+          "runtime": "mlx-vlm==0.6.15"
+        },
+        "elapsed_ms": 861.1923750067945,
+        "photos": [
+          {
+            "photo_id": "madeira-overview",
+            "url": "/madeira.png",
+            "sha256": "e16997f0ae0383d1340e803e65d6aa77f46a8e0b317341f25a2e1748751ba315",
+            "elapsed_ms": 210.7558749994496,
+            "answers": {
+              "pool": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9994957948882388,
+                  "not_visible": 0.0004984636435362918,
+                  "unclear": 5.741468224896672e-06
+                }
+              },
+              "ocean": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9990206356057477,
+                  "not_visible": 0.0009618143850963185,
+                  "unclear": 1.7550009155873508e-05
+                }
+              },
+              "mountains": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9998020777171884,
+                  "not_visible": 0.0001920288915495416,
+                  "unclear": 5.893391262046507e-06
+                }
+              },
+              "garden": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9963505969866429,
+                  "not_visible": 0.0035629491365026258,
+                  "unclear": 8.645387685444048e-05
+                }
+              },
+              "steps": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 4.519342305430362e-05,
+                  "not_visible": 0.9997897876190285,
+                  "unclear": 0.00016501895791726942
+                }
+              },
+              "ramp": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 0.0004352526491929992,
+                  "not_visible": 0.9971374363583969,
+                  "unclear": 0.0024273109924100233
+                }
+              }
+            },
+            "raw": {
+              "model": "openjev-0.1",
+              "answers": {
+                "pool": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9994957948882388,
+                    "not_visible": 0.0004984636435362918,
+                    "unclear": 5.741468224896672e-06
+                  },
+                  "confidence": 0.9960280142351038
+                },
+                "ocean": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9990206356057477,
+                    "not_visible": 0.0009618143850963185,
+                    "unclear": 1.7550009155873508e-05
+                  },
+                  "confidence": 0.9928523548981832
+                },
+                "mountains": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9998020777171884,
+                    "not_visible": 0.0001920288915495416,
+                    "unclear": 5.893391262046507e-06
+                  },
+                  "confidence": 0.9982594166144986
+                },
+                "garden": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9963505969866429,
+                    "not_visible": 0.0035629491365026258,
+                    "unclear": 8.645387685444048e-05
+                  },
+                  "confidence": 0.977665889982188
+                },
+                "steps": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 4.519342305430362e-05,
+                    "not_visible": 0.9997897876190285,
+                    "unclear": 0.00016501895791726942
+                  },
+                  "confidence": 0.9980889027290033
+                },
+                "ramp": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 0.0004352526491929992,
+                    "not_visible": 0.9971374363583969,
+                    "unclear": 0.0024273109924100233
+                  },
+                  "confidence": 0.9810288790404517
+                }
+              },
+              "usage": {
+                "input_tokens": 715,
+                "output_tokens": 0
+              }
+            }
+          },
+          {
+            "photo_id": "madeira-terrace",
+            "url": "/photos/madeira-terrace.png",
+            "sha256": "2e88f8419fc8ff4bed979024c805fc7aae76dd1936cec732d3f5462c7505a8eb",
+            "elapsed_ms": 365.5074170019361,
+            "answers": {
+              "pool": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9995463520501499,
+                  "not_visible": 0.00045314574415524053,
+                  "unclear": 5.022056949020484e-07
+                }
+              },
+              "ocean": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9997099511184997,
+                  "not_visible": 0.00028889792739459404,
+                  "unclear": 1.1509541057625227e-06
+                }
+              },
+              "mountains": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9996726764269013,
+                  "not_visible": 0.00032624315380139955,
+                  "unclear": 1.0804192973341548e-06
+                }
+              },
+              "garden": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9907178712371053,
+                  "not_visible": 0.009269985146928473,
+                  "unclear": 1.2143615966154509e-05
+                }
+              },
+              "steps": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 5.618852103780004e-05,
+                  "not_visible": 0.9999279265988679,
+                  "unclear": 1.5884880094276966e-05
+                }
+              },
+              "ramp": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 0.0005345182543623313,
+                  "not_visible": 0.9992246891789668,
+                  "unclear": 0.00024079256667086608
+                }
+              }
+            },
+            "raw": {
+              "model": "openjev-0.1",
+              "answers": {
+                "pool": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9995463520501499,
+                    "not_visible": 0.00045314574415524053,
+                    "unclear": 5.022056949020484e-07
+                  },
+                  "confidence": 0.9964047983501687
+                },
+                "ocean": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9997099511184997,
+                    "not_visible": 0.00028889792739459404,
+                    "unclear": 1.1509541057625227e-06
+                  },
+                  "confidence": 0.9975786712564989
+                },
+                "mountains": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9996726764269013,
+                    "not_visible": 0.00032624315380139955,
+                    "unclear": 1.0804192973341548e-06
+                  },
+                  "confidence": 0.9973046452866062
+                },
+                "garden": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9907178712371053,
+                    "not_visible": 0.009269985146928473,
+                    "unclear": 1.2143615966154509e-05
+                  },
+                  "confidence": 0.9519676583776681
+                },
+                "steps": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 5.618852103780004e-05,
+                    "not_visible": 0.9999279265988679,
+                    "unclear": 1.5884880094276966e-05
+                  },
+                  "confidence": 0.9992740781115468
+                },
+                "ramp": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 0.0005345182543623313,
+                    "not_visible": 0.9992246891789668,
+                    "unclear": 0.00024079256667086608
+                  },
+                  "confidence": 0.993802791594228
+                }
+              },
+              "usage": {
+                "input_tokens": 719,
+                "output_tokens": 0
+              }
+            }
+          },
+          {
+            "photo_id": "madeira-path",
+            "url": "/photos/madeira-path.png",
+            "sha256": "669bfd83e8213a742a07179884f1493afc4948524d4e51f619900206e0e355cc",
+            "elapsed_ms": 255.34674999653362,
+            "answers": {
+              "pool": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 0.00039336817829898685,
+                  "not_visible": 0.9996018985880865,
+                  "unclear": 4.733233614547461e-06
+                }
+              },
+              "ocean": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9999240967287555,
+                  "not_visible": 7.19792493394117e-05,
+                  "unclear": 3.924021905155915e-06
+                }
+              },
+              "mountains": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9997921465898402,
+                  "not_visible": 0.00018019251866695658,
+                  "unclear": 2.7660891492900564e-05
+                }
+              },
+              "garden": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9992188518413548,
+                  "not_visible": 0.0007648591662834568,
+                  "unclear": 1.6288992361680247e-05
+                }
+              },
+              "steps": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9999825347937593,
+                  "not_visible": 1.5448458677673878e-05,
+                  "unclear": 2.016747562992603e-06
+                }
+              },
+              "ramp": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 0.0005841329092602336,
+                  "not_visible": 0.999230782371718,
+                  "unclear": 0.00018508471902172198
+                }
+              }
+            },
+            "raw": {
+              "model": "openjev-0.1",
+              "answers": {
+                "pool": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 0.00039336817829898685,
+                    "not_visible": 0.9996018985880865,
+                    "unclear": 4.733233614547461e-06
+                  },
+                  "confidence": 0.9967774225957394
+                },
+                "ocean": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9999240967287555,
+                    "not_visible": 7.19792493394117e-05,
+                    "unclear": 3.924021905155915e-06
+                  },
+                  "confidence": 0.9992614612294464
+                },
+                "mountains": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9997921465898402,
+                    "not_visible": 0.00018019251866695658,
+                    "unclear": 2.7660891492900564e-05
+                  },
+                  "confidence": 0.9981324863063096
+                },
+                "garden": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9992188518413548,
+                    "not_visible": 0.0007648591662834568,
+                    "unclear": 1.6288992361680247e-05
+                  },
+                  "confidence": 0.9941299397925638
+                },
+                "steps": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9999825347937593,
+                    "not_visible": 1.5448458677673878e-05,
+                    "unclear": 2.016747562992603e-06
+                  },
+                  "confidence": 0.999804252347746
+                },
+                "ramp": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 0.0005841329092602336,
+                    "not_visible": 0.999230782371718,
+                    "unclear": 0.00018508471902172198
+                  },
+                  "confidence": 0.9938934221909409
+                }
+              },
+              "usage": {
+                "input_tokens": 715,
+                "output_tokens": 0
+              }
+            }
+          }
+        ],
+        "mode": "live",
+        "scope": "Observations of fictional listing images, not verified property facts. Probabilities are uncalibrated."
+      },
+      "selected_photo_ids": [
+        "madeira-overview",
+        "madeira-terrace",
+        "madeira-path"
+      ],
+      "accept_threshold": 0.5700000000000001,
+      "request_profiles": [
+        {
+          "id": "p0",
+          "budget": 1600.0,
+          "requirements": [
+            "refund"
+          ],
+          "visual_requirements": [
+            "avoid_steps"
+          ]
+        },
+        {
+          "id": "p1",
+          "budget": 1700.0,
+          "requirements": [
+            "arrival"
+          ]
+        },
+        {
+          "id": "p2",
+          "budget": 1450.0,
+          "requirements": [
+            "facility"
+          ],
+          "visual_requirements": [
+            "pool"
+          ]
+        },
+        {
+          "id": "p3",
+          "budget": 1800.0,
+          "requirements": [
+            "activity"
+          ],
+          "visual_requirements": [
+            "mountains"
+          ]
+        },
+        {
+          "id": "p4",
+          "budget": 1900.0,
+          "requirements": [
+            "facility",
+            "refund"
+          ]
+        },
+        {
+          "id": "p5",
+          "budget": 1800.0,
+          "requirements": [
+            "arrival",
+            "facility"
+          ]
+        },
+        {
+          "id": "p6",
+          "budget": 2100.0,
+          "requirements": [
+            "activity",
+            "refund"
+          ]
+        },
+        {
+          "id": "p7",
+          "budget": 1000.0,
+          "requirements": []
+        },
+        {
+          "id": "p8",
+          "budget": 2400.0,
+          "requirements": [
+            "refund",
+            "arrival",
+            "facility",
+            "activity"
+          ]
+        },
+        {
+          "id": "p9",
+          "budget": 1350.0,
+          "requirements": [],
+          "visual_requirements": [
+            "garden"
+          ]
+        },
+        {
+          "id": "p10",
+          "budget": 1750.0,
+          "requirements": [
+            "arrival",
+            "activity"
+          ]
+        },
+        {
+          "id": "p11",
+          "budget": 1550.0,
+          "requirements": [
+            "facility",
+            "activity"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "stairs-removed",
+    "receipt": {
+      "engine": "travel-nli",
+      "elapsed_ms": 783.1148340046639,
+      "model_sha256": "570136bd194dd2fa51aa29dca2d86bde0151db0c791e21aad71f7d6f612ed152",
+      "answers": [
+        {
+          "id": "refund",
+          "choice": 0,
+          "probabilities": [
+            0.7074533104896545,
+            0.00865870714187622,
+            0.28388798236846924
+          ]
+        },
+        {
+          "id": "arrival",
+          "choice": 0,
+          "probabilities": [
+            0.9996039271354675,
+            7.18108713044785e-05,
+            0.0003242307575419545
+          ]
+        },
+        {
+          "id": "facility",
+          "choice": 0,
+          "probabilities": [
+            0.9996931552886963,
+            1.2670315300056245e-05,
+            0.0002942767459899187
+          ]
+        },
+        {
+          "id": "activity",
+          "choice": 1,
+          "probabilities": [
+            0.005901182536035776,
+            0.7279535531997681,
+            0.2661451995372772
+          ]
+        }
+      ],
+      "usage": {
+        "candidate_encodings": 12,
+        "local_model_calls": 2
+      },
+      "text_elapsed_ms": 99.13104199949885,
+      "run_id": "4e76b626-8403-4f49-a575-46153fd59cee",
+      "offer_id": "o0",
+      "utc": "2026-09-21T20:35:44.971980+00:00",
+      "mode": "live",
+      "profiles": {
+        "p0": {
+          "status": "review",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,600 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "visual_avoid_steps",
+              "status": "review",
+              "text": "Photos cannot establish a step-free route.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [],
+              "photo_urls": []
+            }
+          ]
+        },
+        "p1": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,700 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p2": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,450 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "visual_pool",
+              "status": "match",
+              "text": "The selected photos show: a swimming pool.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [
+                "madeira-overview",
+                "madeira-terrace"
+              ],
+              "photo_urls": [
+                "/madeira.png",
+                "/photos/madeira-terrace.png"
+              ]
+            }
+          ]
+        },
+        "p3": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "visual_mountains",
+              "status": "match",
+              "text": "The selected photos show: mountains.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [
+                "madeira-overview",
+                "madeira-terrace"
+              ],
+              "photo_urls": [
+                "/madeira.png",
+                "/photos/madeira-terrace.png"
+              ]
+            }
+          ]
+        },
+        "p4": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,900 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p5": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p6": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,100 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p7": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "decline",
+              "text": "\u20ac1,290 exceeds the \u20ac1,000 budget.",
+              "source": "arithmetic"
+            }
+          ]
+        },
+        "p8": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,400 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p9": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,350 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "visual_garden",
+              "status": "match",
+              "text": "The selected photos show: a garden.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [
+                "madeira-overview",
+                "madeira-terrace"
+              ],
+              "photo_urls": [
+                "/madeira.png",
+                "/photos/madeira-terrace.png"
+              ]
+            }
+          ]
+        },
+        "p10": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,750 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p11": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,550 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        }
+      },
+      "text_profiles": {
+        "p0": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,600 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p1": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,700 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p2": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,450 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p3": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p4": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,900 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p5": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p6": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,100 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p7": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "decline",
+              "text": "\u20ac1,290 exceeds the \u20ac1,000 budget.",
+              "source": "arithmetic"
+            }
+          ]
+        },
+        "p8": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,400 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p9": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,350 budget.",
+              "source": "arithmetic"
+            }
+          ]
+        },
+        "p10": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,750 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p11": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,550 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        }
+      },
+      "vision": {
+        "status": "completed",
+        "engine": "OpenJev / DiffusionGemma / MLX",
+        "pin": {
+          "repository": "https://github.com/razorback16/openjev",
+          "commit": "e04794ab36e4f7e6040c2547baecdb2737ce2e79",
+          "model": "mlx-community/diffusiongemma-26B-A4B-it-4bit",
+          "model_revision": "a7a81407613811e8ba63af92ac0d852b809e191f",
+          "backend": "mlx",
+          "runtime": "mlx-vlm==0.6.15"
+        },
+        "elapsed_ms": 683.2263329997659,
+        "photos": [
+          {
+            "photo_id": "madeira-overview",
+            "url": "/madeira.png",
+            "sha256": "e16997f0ae0383d1340e803e65d6aa77f46a8e0b317341f25a2e1748751ba315",
+            "elapsed_ms": 285.36241599795176,
+            "answers": {
+              "pool": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9994957948882388,
+                  "not_visible": 0.0004984636435362918,
+                  "unclear": 5.741468224896672e-06
+                }
+              },
+              "ocean": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9990206356057477,
+                  "not_visible": 0.0009618143850963185,
+                  "unclear": 1.7550009155873508e-05
+                }
+              },
+              "mountains": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9998020777171884,
+                  "not_visible": 0.0001920288915495416,
+                  "unclear": 5.893391262046507e-06
+                }
+              },
+              "garden": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9963505969866429,
+                  "not_visible": 0.0035629491365026258,
+                  "unclear": 8.645387685444048e-05
+                }
+              },
+              "steps": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 4.519342305430362e-05,
+                  "not_visible": 0.9997897876190285,
+                  "unclear": 0.00016501895791726942
+                }
+              },
+              "ramp": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 0.0004352526491929992,
+                  "not_visible": 0.9971374363583969,
+                  "unclear": 0.0024273109924100233
+                }
+              }
+            },
+            "raw": {
+              "model": "openjev-0.1",
+              "answers": {
+                "pool": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9994957948882388,
+                    "not_visible": 0.0004984636435362918,
+                    "unclear": 5.741468224896672e-06
+                  },
+                  "confidence": 0.9960280142351038
+                },
+                "ocean": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9990206356057477,
+                    "not_visible": 0.0009618143850963185,
+                    "unclear": 1.7550009155873508e-05
+                  },
+                  "confidence": 0.9928523548981832
+                },
+                "mountains": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9998020777171884,
+                    "not_visible": 0.0001920288915495416,
+                    "unclear": 5.893391262046507e-06
+                  },
+                  "confidence": 0.9982594166144986
+                },
+                "garden": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9963505969866429,
+                    "not_visible": 0.0035629491365026258,
+                    "unclear": 8.645387685444048e-05
+                  },
+                  "confidence": 0.977665889982188
+                },
+                "steps": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 4.519342305430362e-05,
+                    "not_visible": 0.9997897876190285,
+                    "unclear": 0.00016501895791726942
+                  },
+                  "confidence": 0.9980889027290033
+                },
+                "ramp": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 0.0004352526491929992,
+                    "not_visible": 0.9971374363583969,
+                    "unclear": 0.0024273109924100233
+                  },
+                  "confidence": 0.9810288790404517
+                }
+              },
+              "usage": {
+                "input_tokens": 715,
+                "output_tokens": 0
+              }
+            }
+          },
+          {
+            "photo_id": "madeira-terrace",
+            "url": "/photos/madeira-terrace.png",
+            "sha256": "2e88f8419fc8ff4bed979024c805fc7aae76dd1936cec732d3f5462c7505a8eb",
+            "elapsed_ms": 323.9574580002227,
+            "answers": {
+              "pool": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9995463520501499,
+                  "not_visible": 0.00045314574415524053,
+                  "unclear": 5.022056949020484e-07
+                }
+              },
+              "ocean": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9997099511184997,
+                  "not_visible": 0.00028889792739459404,
+                  "unclear": 1.1509541057625227e-06
+                }
+              },
+              "mountains": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9996726764269013,
+                  "not_visible": 0.00032624315380139955,
+                  "unclear": 1.0804192973341548e-06
+                }
+              },
+              "garden": {
+                "choice": "visible",
+                "probabilities": {
+                  "visible": 0.9907178712371053,
+                  "not_visible": 0.009269985146928473,
+                  "unclear": 1.2143615966154509e-05
+                }
+              },
+              "steps": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 5.618852103780004e-05,
+                  "not_visible": 0.9999279265988679,
+                  "unclear": 1.5884880094276966e-05
+                }
+              },
+              "ramp": {
+                "choice": "not_visible",
+                "probabilities": {
+                  "visible": 0.0005345182543623313,
+                  "not_visible": 0.9992246891789668,
+                  "unclear": 0.00024079256667086608
+                }
+              }
+            },
+            "raw": {
+              "model": "openjev-0.1",
+              "answers": {
+                "pool": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9995463520501499,
+                    "not_visible": 0.00045314574415524053,
+                    "unclear": 5.022056949020484e-07
+                  },
+                  "confidence": 0.9964047983501687
+                },
+                "ocean": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9997099511184997,
+                    "not_visible": 0.00028889792739459404,
+                    "unclear": 1.1509541057625227e-06
+                  },
+                  "confidence": 0.9975786712564989
+                },
+                "mountains": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9996726764269013,
+                    "not_visible": 0.00032624315380139955,
+                    "unclear": 1.0804192973341548e-06
+                  },
+                  "confidence": 0.9973046452866062
+                },
+                "garden": {
+                  "type": "choice",
+                  "choice": "visible",
+                  "probabilities": {
+                    "visible": 0.9907178712371053,
+                    "not_visible": 0.009269985146928473,
+                    "unclear": 1.2143615966154509e-05
+                  },
+                  "confidence": 0.9519676583776681
+                },
+                "steps": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 5.618852103780004e-05,
+                    "not_visible": 0.9999279265988679,
+                    "unclear": 1.5884880094276966e-05
+                  },
+                  "confidence": 0.9992740781115468
+                },
+                "ramp": {
+                  "type": "choice",
+                  "choice": "not_visible",
+                  "probabilities": {
+                    "visible": 0.0005345182543623313,
+                    "not_visible": 0.9992246891789668,
+                    "unclear": 0.00024079256667086608
+                  },
+                  "confidence": 0.993802791594228
+                }
+              },
+              "usage": {
+                "input_tokens": 719,
+                "output_tokens": 0
+              }
+            }
+          }
+        ],
+        "mode": "live",
+        "scope": "Observations of fictional listing images, not verified property facts. Probabilities are uncalibrated."
+      },
+      "selected_photo_ids": [
+        "madeira-overview",
+        "madeira-terrace"
+      ],
+      "accept_threshold": 0.5700000000000001,
+      "request_profiles": [
+        {
+          "id": "p0",
+          "budget": 1600.0,
+          "requirements": [
+            "refund"
+          ],
+          "visual_requirements": [
+            "avoid_steps"
+          ]
+        },
+        {
+          "id": "p1",
+          "budget": 1700.0,
+          "requirements": [
+            "arrival"
+          ]
+        },
+        {
+          "id": "p2",
+          "budget": 1450.0,
+          "requirements": [
+            "facility"
+          ],
+          "visual_requirements": [
+            "pool"
+          ]
+        },
+        {
+          "id": "p3",
+          "budget": 1800.0,
+          "requirements": [
+            "activity"
+          ],
+          "visual_requirements": [
+            "mountains"
+          ]
+        },
+        {
+          "id": "p4",
+          "budget": 1900.0,
+          "requirements": [
+            "facility",
+            "refund"
+          ]
+        },
+        {
+          "id": "p5",
+          "budget": 1800.0,
+          "requirements": [
+            "arrival",
+            "facility"
+          ]
+        },
+        {
+          "id": "p6",
+          "budget": 2100.0,
+          "requirements": [
+            "activity",
+            "refund"
+          ]
+        },
+        {
+          "id": "p7",
+          "budget": 1000.0,
+          "requirements": []
+        },
+        {
+          "id": "p8",
+          "budget": 2400.0,
+          "requirements": [
+            "refund",
+            "arrival",
+            "facility",
+            "activity"
+          ]
+        },
+        {
+          "id": "p9",
+          "budget": 1350.0,
+          "requirements": [],
+          "visual_requirements": [
+            "garden"
+          ]
+        },
+        {
+          "id": "p10",
+          "budget": 1750.0,
+          "requirements": [
+            "arrival",
+            "activity"
+          ]
+        },
+        {
+          "id": "p11",
+          "budget": 1550.0,
+          "requirements": [
+            "facility",
+            "activity"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "photos-off",
+    "receipt": {
+      "engine": "travel-nli",
+      "elapsed_ms": 110.23270900477655,
+      "model_sha256": "570136bd194dd2fa51aa29dca2d86bde0151db0c791e21aad71f7d6f612ed152",
+      "answers": [
+        {
+          "id": "refund",
+          "choice": 0,
+          "probabilities": [
+            0.7074533104896545,
+            0.00865870714187622,
+            0.28388798236846924
+          ]
+        },
+        {
+          "id": "arrival",
+          "choice": 0,
+          "probabilities": [
+            0.9996039271354675,
+            7.18108713044785e-05,
+            0.0003242307575419545
+          ]
+        },
+        {
+          "id": "facility",
+          "choice": 0,
+          "probabilities": [
+            0.9996931552886963,
+            1.2670315300056245e-05,
+            0.0002942767459899187
+          ]
+        },
+        {
+          "id": "activity",
+          "choice": 1,
+          "probabilities": [
+            0.005901182536035776,
+            0.7279535531997681,
+            0.2661451995372772
+          ]
+        }
+      ],
+      "usage": {
+        "candidate_encodings": 12,
+        "local_model_calls": 2
+      },
+      "text_elapsed_ms": 109.47562500223285,
+      "run_id": "f4ddd382-bd03-4611-acde-70ca0f32d781",
+      "offer_id": "o0",
+      "utc": "2026-09-21T20:35:45.090614+00:00",
+      "mode": "live",
+      "profiles": {
+        "p0": {
+          "status": "review",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,600 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "visual_avoid_steps",
+              "status": "review",
+              "text": "Photos cannot establish a step-free route.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [],
+              "photo_urls": []
+            }
+          ]
+        },
+        "p1": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,700 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p2": {
+          "status": "review",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,450 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "visual_pool",
+              "status": "review",
+              "text": "The selected photos do not clearly establish this preference.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [],
+              "photo_urls": []
+            }
+          ]
+        },
+        "p3": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "visual_mountains",
+              "status": "review",
+              "text": "The selected photos do not clearly establish this preference.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [],
+              "photo_urls": []
+            }
+          ]
+        },
+        "p4": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,900 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p5": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p6": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,100 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p7": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "decline",
+              "text": "\u20ac1,290 exceeds the \u20ac1,000 budget.",
+              "source": "arithmetic"
+            }
+          ]
+        },
+        "p8": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,400 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p9": {
+          "status": "review",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,350 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "visual_garden",
+              "status": "review",
+              "text": "The selected photos do not clearly establish this preference.",
+              "source": "live image model observation; not booking policy",
+              "photo_ids": [],
+              "photo_urls": []
+            }
+          ]
+        },
+        "p10": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,750 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p11": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,550 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        }
+      },
+      "text_profiles": {
+        "p0": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,600 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p1": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,700 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p2": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,450 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p3": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p4": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,900 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p5": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,800 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p6": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,100 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p7": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "decline",
+              "text": "\u20ac1,290 exceeds the \u20ac1,000 budget.",
+              "source": "arithmetic"
+            }
+          ]
+        },
+        "p8": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac2,400 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "refund",
+              "status": "match",
+              "text": "A cancellation before the deadline returns the entire payment to the original card.",
+              "clause_id": "C1",
+              "confidence": 0.7074533104896545,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p9": {
+          "status": "match",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,350 budget.",
+              "source": "arithmetic"
+            }
+          ]
+        },
+        "p10": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,750 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "arrival",
+              "status": "match",
+              "text": "Reception operates around the clock; arrivals after midnight need no advance notice.",
+              "clause_id": "C2",
+              "confidence": 0.9996039271354675,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        },
+        "p11": {
+          "status": "decline",
+          "reasons": [
+            {
+              "task": "budget",
+              "status": "match",
+              "text": "\u20ac1,290 fits the \u20ac1,550 budget.",
+              "source": "arithmetic"
+            },
+            {
+              "task": "facility",
+              "status": "match",
+              "text": "An on-site swimming pool is available to every guest at no extra charge.",
+              "clause_id": "C3",
+              "confidence": 0.9996931552886963,
+              "source": "model decision; source field retrieved from structured offer"
+            },
+            {
+              "task": "activity",
+              "status": "decline",
+              "text": "Hiking trips can be purchased separately; none are included.",
+              "clause_id": "C4",
+              "confidence": 0.7279535531997681,
+              "source": "model decision; source field retrieved from structured offer"
+            }
+          ]
+        }
+      },
+      "vision": {
+        "status": "disabled",
+        "photos": [],
+        "elapsed_ms": 0
+      },
+      "selected_photo_ids": [],
+      "accept_threshold": 0.5700000000000001,
+      "request_profiles": [
+        {
+          "id": "p0",
+          "budget": 1600.0,
+          "requirements": [
+            "refund"
+          ],
+          "visual_requirements": [
+            "avoid_steps"
+          ]
+        },
+        {
+          "id": "p1",
+          "budget": 1700.0,
+          "requirements": [
+            "arrival"
+          ]
+        },
+        {
+          "id": "p2",
+          "budget": 1450.0,
+          "requirements": [
+            "facility"
+          ],
+          "visual_requirements": [
+            "pool"
+          ]
+        },
+        {
+          "id": "p3",
+          "budget": 1800.0,
+          "requirements": [
+            "activity"
+          ],
+          "visual_requirements": [
+            "mountains"
+          ]
+        },
+        {
+          "id": "p4",
+          "budget": 1900.0,
+          "requirements": [
+            "facility",
+            "refund"
+          ]
+        },
+        {
+          "id": "p5",
+          "budget": 1800.0,
+          "requirements": [
+            "arrival",
+            "facility"
+          ]
+        },
+        {
+          "id": "p6",
+          "budget": 2100.0,
+          "requirements": [
+            "activity",
+            "refund"
+          ]
+        },
+        {
+          "id": "p7",
+          "budget": 1000.0,
+          "requirements": []
+        },
+        {
+          "id": "p8",
+          "budget": 2400.0,
+          "requirements": [
+            "refund",
+            "arrival",
+            "facility",
+            "activity"
+          ]
+        },
+        {
+          "id": "p9",
+          "budget": 1350.0,
+          "requirements": [],
+          "visual_requirements": [
+            "garden"
+          ]
+        },
+        {
+          "id": "p10",
+          "budget": 1750.0,
+          "requirements": [
+            "arrival",
+            "activity"
+          ]
+        },
+        {
+          "id": "p11",
+          "budget": 1550.0,
+          "requirements": [
+            "facility",
+            "activity"
+          ]
+        }
+      ]
+    }
+  }
+]

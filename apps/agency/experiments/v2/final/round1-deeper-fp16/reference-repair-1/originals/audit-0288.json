@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0288",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "refund: method/amount not documented; arrival: 01:30 automatic arrival meets requirement; facility: location/price/access unknown; activity: hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0289",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "refund: mandatory 27 euro charge violates full refund; arrival: no rules address overnight registration; facility: pool available without separate fee; activity: hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0290",
+      "labels": {
+        "refund": "meets",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "refund: entire payment returned as money meets requirement; arrival: rules are silent; facility: 19 euro charge violates no extra charge; activity: walking excursion with guide included meets requirement."
+    },
+    {
+      "id": "round1-deeper-fp16-0291",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "meets"
+      },
+      "reason": "refund: two equally authoritative conflicting policies create unresolved terms; arrival: 01:30 automatic arrival meets requirement; facility: pool available without separate fee; activity: walking excursion with guide included meets requirement."
+    },
+    {
+      "id": "round1-deeper-fp16-0292",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: neither payment returned nor method documented; arrival: 01:30 automatic arrival meets requirement; facility: location/price/access unknown; activity: no statement about guided walk provided."
+    },
+    {
+      "id": "round1-deeper-fp16-0293",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: neither payment returned nor method documented; arrival: 01:30 automatic arrival meets requirement; facility: 19 euro charge violates no extra charge; activity: no statement about guided walk provided."
+    }
+  ],
+  "documents_sha256": "9eaa6419a6a2266225dcff23b87fbf80cf5cd972fb2ac79900653d2822e74980"
+}

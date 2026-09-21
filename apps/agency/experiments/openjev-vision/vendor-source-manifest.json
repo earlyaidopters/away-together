@@ -1,0 +1,21 @@
+{
+  ".dockerignore": "617a1ffe4ae84283a383cca742d41f9d0d7fce76eeeebf0d04a1be356adb9004",
+  ".gitignore": "2fdadeb7437f40806e79c9451ab9189960eb2211a8fd1a84c133d0165eb3705e",
+  "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "README.md": "a34cea7671279ba1fd60d27bdbb0f630b5df5cb424491ddfe3c76d6d32701f53",
+  "docker-compose.yml": "c602bd12122e2749fbc27725efec42ee53bfddfb9d769d4fdcdfba1bb1472f13",
+  "docker/Dockerfile": "91dfde233ce1596ddf1437aa66f974cbdf75f2d5369382daca1e5d173bedf505",
+  "docker/entrypoint.sh": "fedab79336940e565011f57f63ce5916053dd5586caf5e7cc92023a6c9795f4c",
+  "openjev/__init__.py": "8b8c10e73f66e18e2f730231c3d75e39799212152d6dc8145434ef08f6de03ad",
+  "openjev/__main__.py": "e055ef7f71104532d3aa3be3dfd5e0a945be49617f0ff1828e76b7accfadc636",
+  "openjev/api.py": "28c5c29264d830c80f71568208ec584cc640bce6551741b49b4845e92601e35a",
+  "openjev/chat.py": "5f0a532e8d7e485c25a09049b70f047403537456156e98795c3b037fef51f384",
+  "openjev/config.py": "26224de1e3c7659465ef6021cb60fd5989d8ea5561a8c384f83c2f44116c3d54",
+  "openjev/engine.py": "4615880c869dc549fd27f57d1eecc20d2637f538b5337bfc61c620764fb5ed83",
+  "openjev/mlx_backend.py": "8ba4e9617f86d4eb9570121fcbee6fc9a878058fba2f41bb5d61e1c47c114fab",
+  "openjev/warmup.py": "d00685eb3dc29f5f4923403d5d4a06fbb34907c9dc77fb06caab5dc71f5ff123",
+  "pyproject.toml": "cc9441530d471fbb684b2df5730700905dbe301b04ec4cd979d5e615fd2be331",
+  "tests/test_api.py": "a39d3bff6e81632036dad0afb9280e10e2fd2ee6bfc1988e7089595466e28376",
+  "tests/test_mlx_backend.py": "21a2bdf61c26593a3956113f4b5952261ece6a79dbe4f9f9bf6dd82ee4fe965c",
+  "tests/test_mlx_model.py": "605b4ef39c0b2c6c30343f7429cbfd58d99c045f4e906d0e4faaef73ccf5b52a"
+}

@@ -1,0 +1,72 @@
+{
+  "source": "phrases-facility-meets-0.json",
+  "source_sha256": "71a5d76334736178e69d4968ce2c8fa144b8a0411c68148bf12837691941ed16",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "meets",
+  "answers": [
+    {
+      "index": 0,
+      "label": "meets",
+      "reason": "Explicitly states the on-site pool is complimentary for the duration of the reservation."
+    },
+    {
+      "index": 1,
+      "label": "meets",
+      "reason": "Explicitly states the water feature (pool) is included in the package with no extra payment."
+    },
+    {
+      "index": 2,
+      "label": "meets",
+      "reason": "Explicitly states pool use is complimentary for registered occupants throughout the booked dates."
+    },
+    {
+      "index": 3,
+      "label": "meets",
+      "reason": "Explicitly states access to the aquatic area is included in the stay package at no supplementary charge."
+    },
+    {
+      "index": 4,
+      "label": "meets",
+      "reason": "Explicitly states utilizing the swimming pool falls within the booking scope with no additional fee."
+    },
+    {
+      "index": 5,
+      "label": "meets",
+      "reason": "Explicitly states the resort pool is available to registered guests throughout their visit at no extra cost."
+    },
+    {
+      "index": 6,
+      "label": "meets",
+      "reason": "Explicitly states the main pool is provided for overnight guests and is free to use."
+    },
+    {
+      "index": 7,
+      "label": "insufficient_evidence",
+      "reason": "The text only confirms complimentary access if the stay is extended; it does not explicitly establish the policy for the standard booked stay duration."
+    },
+    {
+      "index": 8,
+      "label": "meets",
+      "reason": "Explicitly states the stay rate covers access to the main swimming area for all registered party members."
+    },
+    {
+      "index": 9,
+      "label": "meets",
+      "reason": "Explicitly states pool use is included for all on-site occupants with no additional charges."
+    },
+    {
+      "index": 10,
+      "label": "meets",
+      "reason": "Explicitly states the on-property pool is available to all guests throughout the scheduled time, complimentary."
+    },
+    {
+      "index": 11,
+      "label": "meets",
+      "reason": "Explicitly states the onsite swimming pool use is covered by the reservation with no supplementary costs."
+    }
+  ],
+  "agreement": 11,
+  "n": 12,
+  "seconds": 30.826082944869995,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

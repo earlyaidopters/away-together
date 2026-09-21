@@ -1,0 +1,807 @@
+{
+  "status": "passed",
+  "scope": "40 live integration requests with three fictional photos each, not a general accuracy test. OpenJev may reuse prompt prefills; each request executes decision inference.",
+  "client_wall_seconds": 40.71680974999617,
+  "rows": [
+    {
+      "offer_id": "o0",
+      "run_id": "3ba6383e-958c-4363-8eef-57620ca9b7cd",
+      "elapsed_ms": 999.7252920002211,
+      "vision_ms": 931.4877079959842,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "decline",
+        "p4": "match",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o1",
+      "run_id": "73639dd6-5e67-4783-b47b-634ac8060612",
+      "elapsed_ms": 1193.4166669961996,
+      "vision_ms": 932.5642090043402,
+      "statuses": {
+        "p0": "review",
+        "p1": "decline",
+        "p2": "review",
+        "p3": "review",
+        "p4": "match",
+        "p5": "decline",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o2",
+      "run_id": "306196e9-a78b-4ea2-944b-51ed475d4732",
+      "elapsed_ms": 1120.5566249991534,
+      "vision_ms": 1012.5566669958062,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "review",
+        "p4": "decline",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "match",
+        "p8": "decline",
+        "p9": "review",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o3",
+      "run_id": "4bd49dfa-f25e-4403-a058-1c035f08382e",
+      "elapsed_ms": 1012.384708999889,
+      "vision_ms": 848.4006669968949,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "review",
+        "p4": "decline",
+        "p5": "decline",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o4",
+      "run_id": "83e91a4d-2282-442f-a7c1-573786ba5174",
+      "elapsed_ms": 888.3347079972737,
+      "vision_ms": 780.1990840016515,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "review",
+        "p3": "match",
+        "p4": "decline",
+        "p5": "review",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "match",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o5",
+      "run_id": "1ed4fd47-a6c8-44ac-8dff-a0e60eb4de4f",
+      "elapsed_ms": 902.1159580006497,
+      "vision_ms": 813.6856659984915,
+      "statuses": {
+        "p0": "decline",
+        "p1": "review",
+        "p2": "review",
+        "p3": "review",
+        "p4": "review",
+        "p5": "review",
+        "p6": "review",
+        "p7": "match",
+        "p8": "review",
+        "p9": "review",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o6",
+      "run_id": "cfe90fcd-ae1a-4a45-bb0d-b3307e1d1a92",
+      "elapsed_ms": 1047.1715420062537,
+      "vision_ms": 944.5862080028746,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "match",
+        "p4": "decline",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "match",
+        "p11": "match"
+      }
+    },
+    {
+      "offer_id": "o7",
+      "run_id": "da54a6b5-4d6b-4253-9f37-0ad0b205b443",
+      "elapsed_ms": 1021.8582919987966,
+      "vision_ms": 887.1320409962209,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "decline",
+        "p4": "match",
+        "p5": "decline",
+        "p6": "match",
+        "p7": "decline",
+        "p8": "match",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o8",
+      "run_id": "855e5782-9233-40ff-9bb2-8fc3899487eb",
+      "elapsed_ms": 1032.242084002064,
+      "vision_ms": 910.3924169976381,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "decline",
+        "p4": "review",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "review",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o9",
+      "run_id": "fc679e14-6a0b-44bf-b73b-d60c59a47152",
+      "elapsed_ms": 986.174249999749,
+      "vision_ms": 886.134291999042,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "match",
+        "p4": "review",
+        "p5": "decline",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "match"
+      }
+    },
+    {
+      "offer_id": "o10",
+      "run_id": "0313c5e0-25b5-4e5a-8444-9367d93a9140",
+      "elapsed_ms": 1102.5226659985492,
+      "vision_ms": 992.1835420027492,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "review",
+        "p3": "review",
+        "p4": "decline",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o11",
+      "run_id": "1e1a5818-2b68-4284-ad40-7e9bb69e52e2",
+      "elapsed_ms": 1045.913499998278,
+      "vision_ms": 934.9889590012026,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "review",
+        "p3": "match",
+        "p4": "review",
+        "p5": "decline",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "review",
+        "p10": "decline",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o12",
+      "run_id": "04365525-be24-4e00-babf-8f8051bd1390",
+      "elapsed_ms": 957.9438340006163,
+      "vision_ms": 848.8375410015578,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "review",
+        "p3": "match",
+        "p4": "review",
+        "p5": "review",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "review",
+        "p9": "match",
+        "p10": "match",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o13",
+      "run_id": "dc698810-acab-43fa-ae05-4f715cb8416c",
+      "elapsed_ms": 910.3927079995628,
+      "vision_ms": 834.7757500014268,
+      "statuses": {
+        "p0": "review",
+        "p1": "review",
+        "p2": "review",
+        "p3": "review",
+        "p4": "review",
+        "p5": "review",
+        "p6": "review",
+        "p7": "match",
+        "p8": "review",
+        "p9": "match",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o14",
+      "run_id": "bc3e4908-dd42-4334-9a31-0dbfdef2ef36",
+      "elapsed_ms": 842.2342090052553,
+      "vision_ms": 737.860166002065,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "match",
+        "p4": "review",
+        "p5": "match",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "review",
+        "p9": "review",
+        "p10": "match",
+        "p11": "match"
+      }
+    },
+    {
+      "offer_id": "o15",
+      "run_id": "1457a886-fef0-4fd2-a9ef-8872c174ca02",
+      "elapsed_ms": 924.2822090018308,
+      "vision_ms": 829.1324579986394,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "decline",
+        "p4": "decline",
+        "p5": "decline",
+        "p6": "match",
+        "p7": "decline",
+        "p8": "match",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o16",
+      "run_id": "284dfec0-eceb-450e-999b-02ef05804db4",
+      "elapsed_ms": 1322.2133340022992,
+      "vision_ms": 1136.9226250026259,
+      "statuses": {
+        "p0": "review",
+        "p1": "match",
+        "p2": "review",
+        "p3": "decline",
+        "p4": "match",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o17",
+      "run_id": "3e55fe87-b012-46fa-9abe-55a50b509b73",
+      "elapsed_ms": 920.6573339979514,
+      "vision_ms": 805.2973329977249,
+      "statuses": {
+        "p0": "decline",
+        "p1": "review",
+        "p2": "decline",
+        "p3": "match",
+        "p4": "match",
+        "p5": "review",
+        "p6": "match",
+        "p7": "decline",
+        "p8": "review",
+        "p9": "decline",
+        "p10": "review",
+        "p11": "match"
+      }
+    },
+    {
+      "offer_id": "o18",
+      "run_id": "836eb23e-c59f-4314-9296-e3c96543801c",
+      "elapsed_ms": 1215.4457500000717,
+      "vision_ms": 1093.9851250004722,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "review",
+        "p4": "match",
+        "p5": "match",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "review",
+        "p9": "match",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o19",
+      "run_id": "4b97f899-128e-4dd7-9f62-f8623bf8ca2c",
+      "elapsed_ms": 1209.5333750039572,
+      "vision_ms": 1041.4974590021302,
+      "statuses": {
+        "p0": "review",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "match",
+        "p4": "decline",
+        "p5": "decline",
+        "p6": "match",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o20",
+      "run_id": "3afc1fad-7409-4f1d-a0b0-226a8ef66b0a",
+      "elapsed_ms": 1130.3437910028151,
+      "vision_ms": 967.1486250008456,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "review",
+        "p3": "match",
+        "p4": "review",
+        "p5": "review",
+        "p6": "match",
+        "p7": "decline",
+        "p8": "review",
+        "p9": "review",
+        "p10": "match",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o21",
+      "run_id": "f08fae9d-83e4-45f0-9b35-a68ad1b00047",
+      "elapsed_ms": 1007.475083002646,
+      "vision_ms": 924.9226249958156,
+      "statuses": {
+        "p0": "decline",
+        "p1": "review",
+        "p2": "review",
+        "p3": "review",
+        "p4": "review",
+        "p5": "review",
+        "p6": "review",
+        "p7": "match",
+        "p8": "review",
+        "p9": "match",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o22",
+      "run_id": "a964434c-8e01-4037-8f97-faeefcc8850b",
+      "elapsed_ms": 962.1370829991065,
+      "vision_ms": 831.4727090037195,
+      "statuses": {
+        "p0": "review",
+        "p1": "match",
+        "p2": "review",
+        "p3": "match",
+        "p4": "match",
+        "p5": "match",
+        "p6": "match",
+        "p7": "decline",
+        "p8": "match",
+        "p9": "match",
+        "p10": "match",
+        "p11": "match"
+      }
+    },
+    {
+      "offer_id": "o23",
+      "run_id": "d3a6df8d-1cca-4afe-a5e0-cf60e68c8836",
+      "elapsed_ms": 875.7941669973661,
+      "vision_ms": 770.3086249966873,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "decline",
+        "p4": "decline",
+        "p5": "decline",
+        "p6": "match",
+        "p7": "decline",
+        "p8": "match",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o24",
+      "run_id": "12d19513-9d81-407a-b54d-5edb9cd87054",
+      "elapsed_ms": 964.6515829954296,
+      "vision_ms": 879.8101250067702,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "decline",
+        "p4": "match",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o25",
+      "run_id": "89e55737-4ffc-4fdd-b7b5-4bc4d496b5f3",
+      "elapsed_ms": 988.662875002774,
+      "vision_ms": 813.926167000318,
+      "statuses": {
+        "p0": "review",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "review",
+        "p4": "match",
+        "p5": "decline",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o26",
+      "run_id": "93541e46-0962-47b4-89aa-4a9ce028f5a2",
+      "elapsed_ms": 1018.9944579979056,
+      "vision_ms": 897.5446249969536,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "review",
+        "p4": "decline",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "review",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o27",
+      "run_id": "703eaa10-67bb-4ea8-8073-2ce5fbfa2068",
+      "elapsed_ms": 1019.5863749977434,
+      "vision_ms": 911.5165410039481,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "review",
+        "p4": "decline",
+        "p5": "decline",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o28",
+      "run_id": "9e680de7-8f67-4b1c-b69a-e5b03fd41c80",
+      "elapsed_ms": 1096.3736249977956,
+      "vision_ms": 982.2985840000911,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "review",
+        "p3": "match",
+        "p4": "decline",
+        "p5": "review",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "match",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o29",
+      "run_id": "3b6e61d8-07fc-4835-8148-625efbe2b344",
+      "elapsed_ms": 981.7002499985392,
+      "vision_ms": 834.4514999989769,
+      "statuses": {
+        "p0": "decline",
+        "p1": "review",
+        "p2": "review",
+        "p3": "review",
+        "p4": "review",
+        "p5": "review",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "review",
+        "p9": "review",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o30",
+      "run_id": "eac0091c-5997-4db6-bcec-2da6068b97e7",
+      "elapsed_ms": 1000.5818329955218,
+      "vision_ms": 874.6639160017367,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "match",
+        "p4": "decline",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "match",
+        "p11": "match"
+      }
+    },
+    {
+      "offer_id": "o31",
+      "run_id": "57f10c01-54eb-4326-87d3-2b7a0175e99c",
+      "elapsed_ms": 943.0378329998348,
+      "vision_ms": 851.2526249978691,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "decline",
+        "p4": "decline",
+        "p5": "decline",
+        "p6": "match",
+        "p7": "decline",
+        "p8": "match",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o32",
+      "run_id": "51d11fd7-38a2-419f-ae28-077d6c73f037",
+      "elapsed_ms": 943.8410000002477,
+      "vision_ms": 847.5502919973223,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "decline",
+        "p3": "decline",
+        "p4": "review",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o33",
+      "run_id": "16eb8326-29e7-4e6b-acca-9640768232cb",
+      "elapsed_ms": 1036.0024999972666,
+      "vision_ms": 925.4663749961765,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "match",
+        "p4": "review",
+        "p5": "decline",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    },
+    {
+      "offer_id": "o34",
+      "run_id": "034e2904-6910-4600-9638-d3f03a37c718",
+      "elapsed_ms": 1009.0757500001928,
+      "vision_ms": 867.0828329995857,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "review",
+        "p3": "review",
+        "p4": "decline",
+        "p5": "match",
+        "p6": "decline",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "match",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o35",
+      "run_id": "8ebd892b-0351-472a-9da3-97b109d271b6",
+      "elapsed_ms": 957.4467909988016,
+      "vision_ms": 815.1597079995554,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "review",
+        "p3": "match",
+        "p4": "review",
+        "p5": "decline",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "decline",
+        "p9": "review",
+        "p10": "decline",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o36",
+      "run_id": "172eae67-6a1d-4c14-a3e4-fe61c471952e",
+      "elapsed_ms": 970.6852919989615,
+      "vision_ms": 856.5364999958547,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "review",
+        "p3": "match",
+        "p4": "review",
+        "p5": "review",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "review",
+        "p9": "decline",
+        "p10": "match",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o37",
+      "run_id": "ec39c47f-3551-427c-b679-3b041ca1b4bd",
+      "elapsed_ms": 940.3092499997001,
+      "vision_ms": 820.062083999801,
+      "statuses": {
+        "p0": "review",
+        "p1": "review",
+        "p2": "review",
+        "p3": "review",
+        "p4": "review",
+        "p5": "review",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "review",
+        "p9": "match",
+        "p10": "review",
+        "p11": "review"
+      }
+    },
+    {
+      "offer_id": "o38",
+      "run_id": "013b01e9-47ca-4796-903c-f6b01b82f753",
+      "elapsed_ms": 933.0151249960181,
+      "vision_ms": 818.3325829959358,
+      "statuses": {
+        "p0": "decline",
+        "p1": "match",
+        "p2": "match",
+        "p3": "match",
+        "p4": "review",
+        "p5": "match",
+        "p6": "review",
+        "p7": "decline",
+        "p8": "review",
+        "p9": "review",
+        "p10": "match",
+        "p11": "match"
+      }
+    },
+    {
+      "offer_id": "o39",
+      "run_id": "3a1de7fb-194f-4e0c-af5a-47284341183e",
+      "elapsed_ms": 910.8544580012676,
+      "vision_ms": 825.9930420026649,
+      "statuses": {
+        "p0": "decline",
+        "p1": "decline",
+        "p2": "decline",
+        "p3": "decline",
+        "p4": "decline",
+        "p5": "decline",
+        "p6": "match",
+        "p7": "decline",
+        "p8": "match",
+        "p9": "decline",
+        "p10": "decline",
+        "p11": "decline"
+      }
+    }
+  ]
+}

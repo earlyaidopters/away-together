@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0210",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund info is undocumented; arrival requires prior permission; pool incurs an extra charge; hike requires separate payment."
+    },
+    {
+      "id": "round1-deeper-fp16-0211",
+      "labels": {
+        "refund": "violates",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is not full (retains 27 euros); arrival at 01:30 is automatic; pool is free; hike is not included (requires 38 euros)."
+    },
+    {
+      "id": "round1-deeper-fp16-0212",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund is not full (retains 27 euros); arrival rules are not addressed; pool price/access is not stated; hike is included with nothing further to pay."
+    },
+    {
+      "id": "round1-deeper-fp16-0213",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund info is undocumented; arrival requires prior permission; pool incurs an extra charge; hike policy contains unresolved conflicting information."
+    },
+    {
+      "id": "round1-deeper-fp16-0214",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is not full (retains 27 euros); arrival requires prior permission; pool is free; hike is not included for the selected May stay."
+    },
+    {
+      "id": "round1-deeper-fp16-0215",
+      "labels": {
+        "refund": "meets",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is full; arrival requires prior permission; pool incurs an extra charge; hike requires separate payment."
+    }
+  ],
+  "documents_sha256": "738f8359da5ce4db0b864e4a664a67bdcc93e97431854ad7cd5a0deaeb71d013"
+}

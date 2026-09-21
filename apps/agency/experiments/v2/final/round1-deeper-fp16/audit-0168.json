@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0168",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "meets"
+      },
+      "reason": "refund: no refund protocol is listed; arrival: 01:30 registration is automatic without contact; facility: pool requires a 19 euro charge; activity: includes a walking excursion with a guide with nothing further to pay."
+    },
+    {
+      "id": "round1-deeper-fp16-0169",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: no documentation regarding refund; arrival: rules are silent; facility: pool requires a 19 euro charge; activity: no statement about a guided walk being included."
+    },
+    {
+      "id": "round1-deeper-fp16-0170",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "violates",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: a mandatory 27 euro fee is retained (not a full refund); arrival: permission is required for 01:30 check-in; facility: pool requires a 19 euro charge; activity: no statement about a guided walk being included."
+    },
+    {
+      "id": "round1-deeper-fp16-0171",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: two equally authoritative policies conflict; arrival: 01:30 registration is automatic without contact; facility: pool is available without any separate fee; activity: no statement about a guided walk being included."
+    },
+    {
+      "id": "round1-deeper-fp16-0172",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "insufficient_evidence",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "refund: a mandatory 27 euro fee is retained; arrival: no rules address overnight registration; facility: price and access conditions are not stated; activity: no statement about a guided walk being included."
+    },
+    {
+      "id": "round1-deeper-fp16-0173",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "refund: entire payment is returned as money with no deduction; arrival: 01:30 registration is automatic without contact; facility: pool is available without any separate fee; activity: hike requires a separate 38 euro payment."
+    }
+  ],
+  "documents_sha256": "74a842772962ef958f6cae063b37b51667d92a1cace79744fbcfd882733571e5"
+}

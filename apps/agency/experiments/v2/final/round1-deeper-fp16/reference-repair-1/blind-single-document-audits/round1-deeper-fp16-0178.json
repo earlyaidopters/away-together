@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0178",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "refund: The agent explicitly states the refund policy is not documented; arrival: The agent states check-in at 01:30 requires prior permission for May stays; facility: The agent confirms a pool is available without a separate fee; activity: The agent states the hike requires a separate payment and is not included in the quoted amount."
+    }
+  ],
+  "documents_sha256": "cff31a24f9d6f39af5c0663efb35b6f129a92e5c2a50fc17ff3174da04ab59d1"
+}

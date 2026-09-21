@@ -1,0 +1,72 @@
+{
+  "source": "phrases-arrival-violates-0-repair1.json",
+  "source_sha256": "629405d9ef64956913f92927cfabb99ae028950cda556ebe59d1b1c8f41fdc0c",
+  "auditor": "qwen3.5-122b-a10b:latest",
+  "reference_label": "violates",
+  "answers": [
+    {
+      "index": 0,
+      "label": "violates",
+      "reason": "Explicitly states check-in stops at 23:00 and guests arriving later cannot enter until the following morning, forbidding midnight check-in without arrangement."
+    },
+    {
+      "index": 1,
+      "label": "violates",
+      "reason": "Explicitly requires a code to be requested at least one day in advance for arrivals after midnight, failing the 'no prior arrangement' condition."
+    },
+    {
+      "index": 2,
+      "label": "violates",
+      "reason": "Explicitly states that arrivals after midnight require advance approval, failing the 'no prior arrangement' condition."
+    },
+    {
+      "index": 3,
+      "label": "violates",
+      "reason": "Explicitly refuses all check-ins between midnight and 06:00, forbidding the action entirely."
+    },
+    {
+      "index": 4,
+      "label": "violates",
+      "reason": "Explicitly states check-in stops at 23:00 and guests arriving later cannot enter until morning, forbidding midnight check-in."
+    },
+    {
+      "index": 5,
+      "label": "violates",
+      "reason": "Explicitly requires a code to be requested a day in advance for arrivals after midnight, failing the 'no prior arrangement' condition."
+    },
+    {
+      "index": 6,
+      "label": "violates",
+      "reason": "Explicitly states that arrivals after midnight require advance approval, failing the 'no prior arrangement' condition."
+    },
+    {
+      "index": 7,
+      "label": "violates",
+      "reason": "Explicitly refuses all check-ins between midnight and 06:00, forbidding the action entirely."
+    },
+    {
+      "index": 8,
+      "label": "violates",
+      "reason": "Explicitly states check-in stops at 23:00 and guests arriving later cannot enter until morning, forbidding midnight check-in."
+    },
+    {
+      "index": 9,
+      "label": "violates",
+      "reason": "Explicitly requires a code to be requested a day in advance for arrivals after midnight, failing the 'no prior arrangement' condition."
+    },
+    {
+      "index": 10,
+      "label": "violates",
+      "reason": "Explicitly states that arrivals after midnight require advance approval, failing the 'no prior arrangement' condition."
+    },
+    {
+      "index": 11,
+      "label": "violates",
+      "reason": "Explicitly refuses all check-ins between midnight and 06:00, forbidding the action entirely."
+    }
+  ],
+  "agreement": 12,
+  "n": 12,
+  "seconds": 32.773380756378174,
+  "independence": "Different local model family, blinded to intended labels and writer rationales; not human review"
+}

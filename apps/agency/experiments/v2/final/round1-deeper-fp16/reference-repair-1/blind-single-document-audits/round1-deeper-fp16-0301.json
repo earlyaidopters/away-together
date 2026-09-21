@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0301",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "violates"
+      },
+      "reason": "Refund violates because a mandatory fee is charged; Arrival violates because permission is required for late check-in; Facility is insufficient because the swimming area's cost and access are not stated; Activity violates because the hike requires a separate payment."
+    }
+  ],
+  "documents_sha256": "85207d4a39850f8051347f6010387893b49019f37a3ea802f5e2eae37fc1bd24"
+}

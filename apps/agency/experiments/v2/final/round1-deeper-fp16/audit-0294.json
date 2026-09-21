@@ -1,0 +1,65 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0294",
+      "labels": {
+        "refund": "violates",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "Refund violates (27 euro charge); arrival violates (permission required); facility is insufficient (location/price/access undefined); activity meets (walking excursion with guide included)."
+    },
+    {
+      "id": "round1-deeper-fp16-0295",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is insufficient (not documented); arrival meets (automatic); facility violates (19 euro charge); activity violates (separate payment required)."
+    },
+    {
+      "id": "round1-deeper-fp16-0296",
+      "labels": {
+        "refund": "meets",
+        "arrival": "meets",
+        "facility": "meets",
+        "activity": "insufficient_evidence"
+      },
+      "reason": "Refund meets (entire payment returned); arrival meets (automatic); facility meets (no separate fee); activity is insufficient (no statement about guided walk included)."
+    },
+    {
+      "id": "round1-deeper-fp16-0297",
+      "labels": {
+        "refund": "violates",
+        "arrival": "insufficient_evidence",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund violates (27 euro charge); arrival is insufficient (conflicting policies); facility violates (19 euro charge); activity violates (separate payment required)."
+    },
+    {
+      "id": "round1-deeper-fp16-0298",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "meets",
+        "facility": "violates",
+        "activity": "violates"
+      },
+      "reason": "Refund is insufficient (not documented); arrival meets (automatic); facility violates (19 euro charge); activity violates (separate payment required)."
+    },
+    {
+      "id": "round1-deeper-fp16-0299",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "insufficient_evidence",
+        "facility": "meets",
+        "activity": "violates"
+      },
+      "reason": "Refund is insufficient (not documented); arrival is insufficient (no rules address it); facility meets (no separate fee); activity violates (separate payment required)."
+    }
+  ],
+  "documents_sha256": "f702ac3a3264dafc2da977817615835c730e008f813648c30af7a74b0e6bf8f0"
+}

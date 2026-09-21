@@ -1,0 +1,15 @@
+{
+  "answers": [
+    {
+      "id": "round1-deeper-fp16-0085",
+      "labels": {
+        "refund": "insufficient_evidence",
+        "arrival": "violates",
+        "facility": "insufficient_evidence",
+        "activity": "meets"
+      },
+      "reason": "The document states refund details are not documented; it explicitly forbids check-in after midnight without prior permission; it mentions a swimming area but lacks details on price/access (the pool mention is for an unselected offer); and it explicitly includes a guided walking excursion."
+    }
+  ],
+  "documents_sha256": "910aacd737f64d53f250368dbaad9198f87145ab2dac5f4beb3f7eaaf9754f17"
+}

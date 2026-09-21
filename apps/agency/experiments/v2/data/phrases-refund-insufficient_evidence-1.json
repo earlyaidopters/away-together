@@ -1,0 +1,62 @@
+{
+  "task": "refund",
+  "label": "insufficient_evidence",
+  "batch": 1,
+  "requirement": "A guest cancelling before the stated deadline gets the entire amount paid back as money, with no retained fee.",
+  "meaning_constraints": "Do not settle full cash refund: flexible booking slogan, refundable deposit only with balance rules missing, changes permitted, cancellation policy available separately, refund method or retained fee unconfirmed.",
+  "clauses": [
+    {
+      "text": "If you need to adjust your stay dates, please check our flexible booking options; we advise reviewing the full terms for details on any potential reimbursement.",
+      "rationale": "Mentions flexible booking but lacks specific refund details or conditions."
+    },
+    {
+      "text": "Should you need to alter your reservation, note that the deposit is refundable, contingent upon the balance payment rules outlined on our dedicated cancellation page.",
+      "rationale": "Indicates deposit refundability but refers to missing balance rules."
+    },
+    {
+      "text": "Changes are generally allowed up to 48 hours prior to arrival; specific reimbursement details are governed by the chosen package rate's guidelines.",
+      "rationale": "States changes are permitted but leaves the refund mechanism unconfirmed."
+    },
+    {
+      "text": "For full specifics regarding cancellations, kindly consult the comprehensive policy document available on the main booking portal.",
+      "rationale": "Directs the user elsewhere for policy details, making the current text insufficient."
+    },
+    {
+      "text": "Cancellation guidelines are detailed separately; please review the terms associated with your chosen accommodation tier for full clarity.",
+      "rationale": "Refers to a separate policy document without confirming any refund mechanism."
+    },
+    {
+      "text": "Need to depart early? Please see the dedicated 'Changes' section for the most current information regarding your payment.",
+      "rationale": "Is vague and points to a section without confirming refund amounts or methods."
+    },
+    {
+      "text": "Modifications to your booking are possible; please review the fine print attached to your initial booking confirmation for financial outcomes.",
+      "rationale": "Suggests modifications are possible but directs to unconfirmed fine print for financial outcomes."
+    },
+    {
+      "text": "We offer flexibility; policy details regarding changes can be found by clicking the 'Policy Guide' link near the booking button.",
+      "rationale": "Uses vague language ('flexibility') and points to an external, unread guide for policy specifics."
+    },
+    {
+      "text": "Your booking is subject to itinerary adjustments; please note that refunds depend entirely on the terms stipulated within the booking agreement addendum.",
+      "rationale": "Confirms the dependence on an external, unseen addendum for refund details."
+    },
+    {
+      "text": "Travelers can modify plans; the refund structure varies significantly based on the specific inclusions selected at the time of purchase.",
+      "rationale": "Indicates variability of refund structure without specifying the actual rule."
+    },
+    {
+      "text": "Booking adjustments are possible under certain conditions; for refund processing, please reference the accompanying documentation provided at checkout.",
+      "rationale": "Vague reference to 'conditions' and 'accompanying documentation' without clear rules."
+    },
+    {
+      "text": "Policy on cancellations: Changes are permitted, but the exact reimbursement processing method is not confirmed in this notice.",
+      "rationale": "Explicitly states the refund processing method is unconfirmed."
+    }
+  ],
+  "writer": "gemma4:latest",
+  "writer_model": "gemma4:latest",
+  "seconds": 17.635823011398315,
+  "status": "unverified synthetic prose; semantic audit required",
+  "prompt_sha256": "00927ff8b3807d8400fde1670a91bbed759f13d43081c371d669699e736c541b"
+}
