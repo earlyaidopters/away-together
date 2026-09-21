@@ -22,3 +22,14 @@ apps/agency/production/
 apps/agency/research/
 apps/agency/experiments/*/runs/
 apps/agency/experiments/*/checkpoints/
+# Files restored from the versioned companion release.
+apps/agency/AGENTS.md
+apps/agency/Dockerfile
+apps/agency/RESOURCE-CHECKPOINTS.json
+apps/agency/experiments/laya/
+apps/agency/experiments/openjev-vision/image-generation.json
+apps/agency/experiments/openjev-vision/real-image-observations.json
+apps/agency/experiments/v2/freezes/
+apps/agency/experiments/v2/models/
+apps/agency/explainer/
+apps/agency/models/travel-nli/

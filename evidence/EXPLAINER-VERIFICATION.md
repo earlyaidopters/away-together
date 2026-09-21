@@ -11,3 +11,5 @@
 - Repository requires companion restore before agency tests/runtime; model assets and reports are intentionally outside Git. See final completion receipt for restoration and release results.
 
 No travel-superiority, general visual accuracy, or fixed fraction-of-LLM-cost claim. V1 live app, V2 frozen experiment, and pretrained photo model remain explicitly separate.
+
+Companion restoration completed:908 missing files restored, existing source unchanged. After restoration, the repository agency suite passed62 tests plus4 subtests using the already-installed project Python environment. This does not establish clean-machine dependency installation.
