@@ -1,6 +1,6 @@
 # Audience-gap closure checklist
 
-Status: 26 of 27 checks meet the defined 10/10 acceptance rubric. Q23 remains 6/10. Goal remains active.
+Status: 26 of 27 checks meet the defined 10/10 acceptance rubric. Q23 remains 6/10. Public delivery remains a launch-stage check.
 
 A 10 means the scoped question is clearly answered in the correct scene, supported by an appropriate visual/resource, accurate to the evidence, and verified. Each dimension scores 0–2. It does not mean perfect model accuracy, guaranteed audience understanding, or every feature requested in unrelated videos has been built. Answering “not tested” can close a compatibility question; it does not establish compatibility.
 
@@ -32,9 +32,9 @@ Basis: 405 retrieved comments from the latest ten regular videos; 35 replies wer
 | Q22 | What happens after sleep or a failure? | 10/10 | Yes | first-run | Live status checker verified; restart instructions and no fake answer on outage regression test. |
 | Q23 | Can I download, modify or sell this? | 6/10 | No | take-it | Private source kit and release prepared. This same repository becomes public at video go-live. Public download verification and final reuse terms are launch-stage checks. |
 | Q24 | How do I connect the decision to another app? | 10/10 | Yes | rules | Actual API example executed successfully: match plus budget/policy reasons. Support adapter limits explicit. |
-| Q25 | Keep the explanation concrete and conversational | 10/10 | Yes | all | Published-transcript voice fingerprint; no-ai-slop pass; 1,512 spoken words with concrete travel nouns and short conclusions. |
-| Q26 | Preserve persona look and readable filming surfaces | 10/10 | Yes | demo | Pixel Maya, sage/forest palette and rounded cards retained. All 18 scenes captured at 1440×900, 1920×1080, 1366×768 and 390×844; no horizontal overflow. |
-| Q27 | Keep guide, diagrams and narration synchronized | 10/10 | Yes | all | 20-page PDF rendered and visually inspected. 18 scenes / 1,512 words / 12:10. Production check: 16 pass, 0 warning, 0 error. |
+| Q25 | Keep the explanation concrete and conversational | 10/10 | Yes | all | Latest three published caption tracks, instructional analysis and voice fingerprint; no-ai-slop pass; 1,151 spoken words with concrete travel nouns and short conclusions. |
+| Q26 | Preserve persona look and readable filming surfaces | 10/10 | Yes | demo | Pixel Maya, sage/forest palette and rounded cards retained. Original 18-scene capture retained; revised opening rechecked at all four sizes. All 18 scenes captured at 1440×900, 1920×1080, 1366×768 and 390×844; no horizontal overflow. |
+| Q27 | Keep guide, diagrams and narration synchronized | 10/10 | Yes | all | 20-page PDF rendered and visually inspected. 18 scenes / 1,151 words / 9:45. Production check: 16 pass, 0 warning, 0 error. |
 
 ## Remaining requirement
 

@@ -1,14 +1,14 @@
 # Build your own decision system
 
-Canonical audience-gap revision. Eighteen filming surfaces. Exact Say blocks; companion holds deeper setup and troubleshooting. No TTS requested.
+Transcript-informed 5–10 minute revision. Eighteen filming surfaces. Exact Say blocks; companion holds deeper setup and troubleshooting. No TTS requested.
 
 ## Watch the photo change it (0:00-0:50)
 
 **Picture:**
-Scene `#demo` at localhost:8770. Run Maya with the stairs photo. Remove it and run again. Open the full agency’s persona grid briefly.
+Scene `#demo` at localhost:8770. Start with the live persona demo already visible. Deliver the Jev/local/images claim over the app. Run Maya with the stairs photo by 0:10; remove it and run again. Point at review by 0:25. Briefly show the full agency grid. If either request stalls, preserve real elapsed time and cut the wait transparently.
 
 **Say:**
-Watch Maya. She wants her money back if she cancels, and she doesn't want entrance stairs. The written terms work for her. Add this photo and her card turns red. Take it away and run it again. Now it asks us to check. The stairs haven't disappeared. We have less evidence. This runs on my computer. I used Astra to help build a Jev-like system that reads words and pictures. I'll show you the pieces, how to run my example, and what you'd change for your own job.
+I took the idea behind Jev and built a local version for this travel job. And I added image understanding. Watch Maya. The terms fit what she wants, but this photo shows entrance stairs. Her card turns red. Remove the photo, check again, and it asks us to review. It knows less. This runs on my computer. Mine checks holidays. Yours could check a job you repeat every day. I'll show you how the pieces work and how to run my example, even if you've never trained a model.
 
 **On-screen copy:**
 Watch the photo change it.
@@ -22,13 +22,13 @@ Fresh /api/decide receipts; active V1 plus pretrained vision. Fictional travelle
 **Re-hook:**
 
 
-## Give one job a home (0:50-1:30)
+## Give one job a home (0:50-1:20)
 
 **Picture:**
 Scene `#why` at localhost:8770. Follow holiday input → a small decision → a person checking the reason. Point at the review branch.
 
 **Say:**
-You might already use a big AI model to check the same thing over and over. Does this policy fit what my customer asked for? Here, we turn that question into a small part of an app. It chooses an answer, and the app knows what to do next. That can be useful. But training and setup take work. Start by testing ordinary rules and an existing model. Build the specialist when your own results give you a reason. I haven't proved this beats every alternative.
+Say you keep asking AI whether a policy fits what a customer wants. You can give that check a home inside your app. It reads the evidence, picks an answer, and shows you why. That's the idea we're borrowing from Jev. You choose the job and the possible answers. Start with ordinary rules and an existing model. Training takes work, so test whether you need it.
 
 **On-screen copy:**
 Give one job a home.
@@ -42,13 +42,13 @@ Task-selection guidance; no universal price or quality claim.
 **Re-hook:**
 
 
-## Astra helped build the system (1:30-2:05)
+## Astra helped build the system (1:20-1:50)
 
 **Picture:**
 Scene `#build` at localhost:8770. Show the exact prepared specification excerpt, then the saved source and model folders. Identify it as a prepared specification, not a captured chat.
 
 **Say:**
-This was the job I wrote down: build a local travel classifier, train it, test it, and connect it to an app. Astra helped me work through that build. There were follow-ups, fixes and multiple experiments. The downloaded models run without Astra answering each holiday question. My work here is the task, the app, the experiments and putting the pieces together. The foundation models and OpenJev came from other people. Their credits stay in the project.
+I asked Astra to help build the travel system, train it and test it. This is the specification. There were follow-ups, fixes and multiple experiments. Once built, the saved models answer these holiday questions without calling Astra. I put the task, app and experiments together. Other people built the foundation models and OpenJev. You'll find their credits in the project.
 
 **On-screen copy:**
 Astra helped build the system.
@@ -62,13 +62,13 @@ production/ASTRA-BUILD-PROMPT.md; saved source/checkpoint manifests; THIRD-PARTY
 **Re-hook:**
 
 
-## Three parts. One decision (2:05-2:40)
+## Three parts. One decision (1:50-2:20)
 
 **Picture:**
 Scene `#map` at localhost:8770. Point to text reader, pretrained photo reader and app rules in order; keep Maya visible when returning to the agency.
 
 **Say:**
-The big picture is three pieces. One model reads the booking terms. Another looks at the actual pictures. Ordinary code checks their answers against Maya's wishes and her budget. I trained the text reader for this travel task. I connected an already trained image model. So when I say multimodal, I mean the system uses words and pictures. There isn't one new foundation model hiding behind these cards. And checking whether a price fits a budget belongs in ordinary code.
+There are three pieces. A model reads the terms. Another looks at the pictures. Code checks those answers against Maya's wishes and budget. I trained the text reader for travel and connected an already trained image reader. Multimodal means we're using words and pictures. Price comparisons stay in ordinary code. You don't need AI to tell you whether twelve hundred is more than a thousand.
 
 **On-screen copy:**
 Three parts. One decision.
@@ -82,13 +82,13 @@ travel_lab/vision.py; catalogue.py; active selection.json.
 **Re-hook:**
 
 
-## Give it three choices (2:40-3:15)
+## Give it three choices (2:20-2:50)
 
 **Picture:**
 Scene `#labels` at localhost:8770. Click Cash back, then Hotel credit. Point to the mapping between the teaching labels and actual output labels.
 
 **Say:**
-This policy says you get hotel credit. Can Maya get a full cash refund? No. We call that violates. A clear cash refund meets her requirement. If the document doesn't tell us, it's insufficient evidence. Those are the three labels the app uses. A classifier picks a label. Having a short list of answers makes the response easier for code to use. It doesn't guarantee the answer is right, or establish that every run will always return the same answer.
+This policy offers hotel credit. Maya wants a cash refund, so it fails her requirement. A clear cash refund passes. If the policy doesn't say, we can't tell. Those are our three labels. A classifier picks a label. That gives our app a short answer it can use. It can still pick the wrong one.
 
 **On-screen copy:**
 Give it three choices.
@@ -102,13 +102,13 @@ Teaching exercise; actual NLI labels in data/train.jsonl. Fixed format is not a 
 **Re-hook:**
 
 
-## An example has three parts (3:15-3:55)
+## An example has three parts (2:50-3:25)
 
 **Picture:**
 Scene `#training` at localhost:8770. Open actual train-00000 excerpt. Download the full record. Point at input, question, answer; show the separate held-out file only as data provenance.
 
 **Say:**
-We start with a reader that's already learned language patterns. The demo uses ModernBERT as its base. Then we give it examples like this actual training record. Here's what it reads. Here's the question. Here's the answer we've assigned. The policy tells us to contact the booking office, so the refund rule isn't established. These travel examples are made up. For your task, collect cases you understand and check the answers. A wrong label teaches the wrong lesson. The full record is in the download.
+We started with ModernBERT, a model that already understands language patterns. To make it better at this job, we gave it travel examples. Each has three parts. What it reads, what we ask, and the checked answer. This actual record says to contact the booking office. So we can't establish the refund rule. Our examples are made up. For your job, check the labels carefully. Wrong answers teach the wrong lesson.
 
 **On-screen copy:**
 An example has three parts.
@@ -122,13 +122,13 @@ assets/training-example.json exact data/train.jsonl record; synthetic, no human 
 **Re-hook:**
 
 
-## Practice. Check. Adjust (3:55-4:35)
+## Practice. Check. Adjust (3:25-3:55)
 
 **Picture:**
 Scene `#practice` at localhost:8770. Play the two-lane HyperFrame. Hold at the wrong guess, checked label and saved-settings update. Point to unchanged settings in the normal-check lane.
 
 **Say:**
-During training, the model guesses, the training process checks that guess against the label, and it adjusts saved settings. We repeat that over the practice examples. That's fine-tuning. A prompt gives instructions for the current request. Training changes what gets saved. When you click Check in this app, it uses the saved model. It isn't learning a new lesson every time. You can run the travel demo with the weights I've already supplied. You don't need to train it again first.
+The model guesses. Training compares that guess with the label and adjusts its saved settings. Repeat with more examples. That's fine-tuning. A prompt gives instructions for a request. Training changes what's saved. Clicking Check in our app uses that saved model; it doesn't train it again. And I've included the travel weights, which are those saved settings, so you can start by running the example.
 
 **On-screen copy:**
 Practice. Check. Adjust.
@@ -142,13 +142,13 @@ Training code and saved checkpoints. Diagram is conceptual, not a measured indiv
 **Re-hook:**
 
 
-## Keep the exam sealed (4:35-5:15)
+## Keep the exam sealed (3:55-4:25)
 
 **Picture:**
 Scene `#test` at localhost:8770. Show practice and final-test objects. Open the held-out example and explain its split, then return to the diagram.
 
 **Say:**
-Some examples must stay away from training. Otherwise we're testing how well it remembers our practice sheet. Keep related templates and documents together when you split the data. We used synthetic cases and agent review for the later test. That included document repairs and a couple of disputed references resolved with help from the writer. There was no human validation. Then we froze the model before the final comparison. You can inspect that trail. Once we've seen the mistakes, that exam can't become a fresh test again.
+Keep some examples out of training, like an exam the model hasn't practised. Keep related documents together when splitting them. Our later test used made-up cases with agent-reviewed answers, including repairs and disputed answers. There was no human validation. We froze the model before scoring it. Once you inspect those mistakes, you need fresh cases for your next final test.
 
 **On-screen copy:**
 Keep the exam sealed.
@@ -162,13 +162,13 @@ Frozen V2 protocol; 52 document repairs; two writer-assisted adjudications; hash
 **Re-hook:**
 
 
-## Inspect one real mistake (5:15-5:55)
+## Inspect one real mistake (4:25-4:55)
 
 **Picture:**
 Scene `#failure` at localhost:8770. Show case …0036 arrival excerpt and both saved outputs. Open full JSON to show the input is longer than the excerpt.
 
 **Say:**
-Here's one of the mistakes. The document says arrival at one thirty in the morning is available automatically, without contacting anyone first. Our reference says that meets the late-arrival requirement. Jev agreed. My later challenger said it couldn't tell. In this case it creates unnecessary review work. Both models received the same full document; you're seeing an excerpt. This is a saved test result. Looking at an actual mistake tells us more than a green card in a selected demo.
+Here's a real mistake from that test. Arrival at one thirty in the morning is allowed without calling ahead. The reference says yes. Jev says yes. My later model says it can't tell. That sends a clear case to unnecessary review. Both received the same full document. We're looking at an excerpt. This is why I want you to inspect the mistakes too.
 
 **On-screen copy:**
 Inspect one real mistake.
@@ -182,13 +182,13 @@ assets/benchmark-case.json; raw frozen local and Jev rows for round1-deeper-fp16
 **Re-hook:**
 
 
-## The test kept us honest (5:55-6:35)
+## The test kept us honest (4:55-5:25)
 
 **Picture:**
 Scene `#results` at localhost:8770. Show common-axis bars; point to text-only scope and distinguish demo V1 from later V2. Do not animate a V1→V2 improvement arrow.
 
 **Say:**
-Across those same test cases, my later challenger agreed with the references about ninety-five percent of the time. Jev was closer to ninety-nine. I didn't beat Jev. The challenger failed the promotion rule we'd set beforehand, so the app still runs the earlier model. That earlier model scored sixty-six point five on a different test. You can't compare those as an improvement chart. And this chart tests text decisions, not the complete picture-aware system. A working interface and a reliable model are separate things.
+That later model matched our references about ninety-five percent of the time. Jev was closer to ninety-nine. I didn't beat Jev. It failed our promotion rule, so the demo still uses the earlier model. That one scored sixty-six point five on a different test. These aren't comparable improvement scores. And this chart tests text, not picture understanding. We built the workflow. Its reliability still needs work.
 
 **On-screen copy:**
 The test kept us honest.
@@ -202,13 +202,13 @@ FROZEN-V2-RESULTS.md; qualification-decision.json; V1 summary. No model or final
 **Re-hook:**
 
 
-## Give the system eyes (6:35-7:20)
+## Give the system eyes (5:25-6:00)
 
 **Picture:**
 Scene `#vision` at localhost:8770. Play photo→observation→app. Open photo-lab.html, choose a local image, run it and inspect actual answers and image hash. Keep the service running before filming.
 
 **Say:**
-Now give it a picture. This image reader is already trained. It reads the pixels and answers questions about visible features. It isn't creating these pictures; the holiday illustrations were made separately. I connected the reader through OpenJev, and you can try your own PNG or JPEG in this local photo lab. The image goes to the model on this computer. Its filename and an expected answer aren't sent. This shows our local integration. It doesn't establish what the hosted Jev product supports.
+Now give the system eyes. This pretrained reader looks at the actual pixels and answers questions about visible features. I connected it through OpenJev. Pick a PNG or JPEG in the photo lab and run it on this computer. We send the picture, without its filename or an expected answer. This model reads pictures. The holiday illustrations were created separately.
 
 **On-screen copy:**
 Give the system eyes.
@@ -222,13 +222,13 @@ Fresh /api/observe receipt; fixed loopback endpoint; pretrained DiffusionGemma. 
 **Re-hook:**
 
 
-## A picture leaves things out (7:20-8:00)
+## A picture leaves things out (6:00-6:30)
 
 **Picture:**
 Scene `#boundary` at localhost:8770. Show pond, ask the three questions and reveal the conclusion. Refer back to the missing stairs photo.
 
 **Say:**
-There's water in this garden. That doesn't establish a swimming pool. Even a clear pool wouldn't tell you whether guests can use it, whether it's open, or whether it costs extra. The photo shows what's visible. The written terms tell us what's promised. Our forty holiday offers share nine fictional images across three destinations, so this isn't a test of forty real hotels. If the pictures don't settle Maya's access question, a person has to check it. Removing a photo doesn't make the entrance accessible.
+There's water here, but that doesn't establish a swimming pool. Even a pool photo can't tell us whether access costs extra. Pictures show visible features. Terms tell us what's promised. Our forty offers share nine fictional images, so this isn't a test of forty real hotels. And removing Maya's stairs photo never proves the entrance is accessible.
 
 **On-screen copy:**
 A picture leaves things out.
@@ -242,13 +242,13 @@ Generated-image ledger; location-photos.json; image evidence limitations.
 **Re-hook:**
 
 
-## The app makes the call (8:00-8:40)
+## The app makes the call (6:30-7:00)
 
 **Picture:**
 Scene `#rules` at localhost:8770. Play budget/terms/photo gates. In the actual agency open a traveller drawer and show the clause/photo that caused decline or review.
 
 **Say:**
-The app brings the checks together. Budget passes. Terms pass. Entrance stairs fail, so Maya's card declines. If evidence is missing, it goes to review, unless another requirement already fails. Click the person and inspect the reason. A green card means the implemented checks passed according to these models. It isn't a verified booking recommendation. A person still confirms unclear terms or access. The app doesn't book anything. You can use a checked status to suggest a next step in another workflow.
+The app combines the checks. Budget passes. Terms pass. Stairs fail, so Maya gets a decline. Missing evidence goes to review unless another requirement already fails. Open her card and inspect the reason. A green card means these checks passed according to our models. A person still confirms the booking details. The app doesn't book anything.
 
 **On-screen copy:**
 The app makes the call.
@@ -262,13 +262,13 @@ catalogue.verdict; apply_visual_requirements; live reason drawer; companion loca
 **Re-hook:**
 
 
-## Check your computer first (8:40-9:20)
+## Check your computer first (7:00-7:30)
 
 **Picture:**
 Scene `#setup` at localhost:8770. Show tested M5 Max/128 GB host and separate text/image requirements. Open Start here prerequisites briefly.
 
 **Say:**
-Before you download anything, here's the computer I used. An M5 Max with a hundred and twenty-eight gigabytes of memory. That's my tested machine, not a minimum requirement. The photo launcher uses Apple silicon and downloads about sixteen gigabytes of weights. Download size isn't RAM usage. I haven't validated this image setup on Windows, Linux or a smaller-memory machine. The text app and image reader have separate setup steps. Seeing a page on your phone also doesn't mean the model is running on your phone.
+Check your computer before downloading. I used an M5 Max with a hundred and twenty-eight gigabytes of memory. That's the tested machine, not a minimum. The supplied image setup needs Apple silicon and about sixteen gigabytes of model downloads. That's disk space, not a RAM requirement. Smaller machines and Windows or Linux image setups aren't validated here. Text and pictures have separate setup steps.
 
 **On-screen copy:**
 Check your computer first.
@@ -282,13 +282,13 @@ Inspected host, macOS 26.5.2; pinned vision launcher. No unsupported hardware pr
 **Re-hook:**
 
 
-## Run it before changing it (9:20-10:05)
+## Run it before changing it (7:30-8:10)
 
 **Picture:**
 Scene `#first-run` at localhost:8770. Open Start here. Show source and restored files, run first_run.py, start agency in a spare terminal if needed, inspect service status and run a fresh holiday. No fake installation animation.
 
 **Say:**
-Start with the guide in the kit. Get the source, restore the matching model archive, and install the listed tools. The first-run check tells you what's missing. Then start the text service and open the app. Add the separate photo service when you're ready. These commands are copyable in the guide. If the service isn't running, the page tells you; it doesn't slip in an old successful answer. Leave the process running while you use it. After your laptop sleeps, check the services and restart anything that stopped.
+Open Start here. Get the source and matching model archive, then install the listed tools. Run the first-run check to see what's missing. Start the text service, open the app, and add the photo service when ready. The commands are copyable. Check a holiday yourself. Leave the services running; after sleep, check them again. If they're unavailable, the page tells you instead of showing an old answer.
 
 **On-screen copy:**
 Run it before changing it.
@@ -302,13 +302,13 @@ tools/first_run.py, tools/restore_companion.py, docs/SETUP.md and live /api/stat
 **Re-hook:**
 
 
-## Count the whole bill (10:05-10:45)
+## Count the whole bill (8:10-8:40)
 
 **Picture:**
 Scene `#cost` at localhost:8770. Show build/setup and local-running cost columns, then separately labeled historical timings. Point to fresh demo time rather than implying benchmark-equivalent workloads.
 
 **Say:**
-Running the local check doesn't create a model-provider API charge. You still paid for the computer, use electricity, and spend time setting it up. Coding tools and training can have costs too. I haven't measured the total build bill or proved a fixed saving over every language model. The timing examples here are different workloads: a cold text request, a warm text request, and a whole photo scan. Measure the job you care about on your machine. Hosted benchmark calls are separate from running this local demo.
+These local checks don't create a model-provider API bill. You still have hardware, electricity, setup and maintenance. Building and training can cost money too. I haven't measured the whole bill or proved a fixed saving. These timings cover different jobs, so compare the same workload on your computer before deciding whether this approach pays off.
 
 **On-screen copy:**
 Count the whole bill.
@@ -322,13 +322,13 @@ Historical V1 HTTP timing receipts and photo integration scan; no measured total
 **Re-hook:**
 
 
-## Change one example yourself (10:45-11:30)
+## Change one example yourself (8:40-9:15)
 
 **Picture:**
 Scene `#repurpose` at localhost:8770. Edit support request, choose its human label, add it and download JSONL. Run prepare_task.py on the saved sample. Show held-out separation in the adaptation guide.
 
 **Say:**
-Let's make something you can change. Here's a support message about being charged twice. You choose Billing, add the example, and download a real data file. The editor hasn't trained anything or guessed the answer. You're creating checked examples. The companion shows how to map them into the training format. Keep a separate test, including confusing cases. Twenty examples you personally check can reveal obvious problems, but twenty isn't a proven training minimum. A new subject needs its own configuration and tests. Renaming the travel model won't teach it support.
+Say your job is sorting support messages. Here's someone charged twice. Choose Billing, add the example, and download the data file. You've made a checked example. You haven't trained a support model yet. The guide shows how to prepare the data, change the task and keep a separate test. Start with cases you understand, including confusing ones. Changing the labels alone won't teach the travel model a new job.
 
 **On-screen copy:**
 Change one example yourself.
@@ -342,13 +342,13 @@ Real JSONL export; tools/prepare_task.py; docs/ADAPT-YOUR-OWN.md. No completed s
 **Re-hook:**
 
 
-## Start with a working example (11:30-12:10)
+## Start with a working example (9:15-9:45)
 
 **Picture:**
 Scene `#take-it` at localhost:8770. Open Start here and the question index. Show current access/permission status accurately; use only the delivered link once verified. Keep original creator/model credits visible.
 
 **Say:**
-Everything is organized around that path. Run the travel example. Inspect an answer and a mistake. Then change one job you understand well. The companion includes the setup steps, data examples, source credits and the results we kept, including the losses. It also answers the practical questions about hardware, costs, photos and recovery. Use the resource's stated access and reuse terms. Don't assume a private link grants permission to share or sell it. Start with one result you can check yourself, and build from there.
+You can start with the travel demo, inspect an answer, and then adapt the approach to a job you understand. The same repository brings together the code, setup guide, examples, model downloads and results, including the losses. Start with the guide and check the reuse terms for each part. Get one result running on your computer, then change one thing at a time.
 
 **On-screen copy:**
 Start with a working example.
@@ -357,7 +357,7 @@ Start with a working example.
 Let the result finish before speaking its meaning. P pauses diagrams; R resets current scene. Give the final visual time to read. Setup commands and photo results must be real; extended installation waits can be cut with the elapsed time disclosed.
 
 **Source or truth card:**
-Current resource manifest, access check and reuse terms. Until public delivery is authorized, film as private preparation and do not promise public access.
+One repository stays private until the video goes live. Verify signed-out source and model-download access before adding the description link. Original-code reuse terms still need a decision. Retain all upstream credits.
 
 **Re-hook:**
 
