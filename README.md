@@ -28,6 +28,10 @@ flowchart LR
 
 The visual model receives image pixels. It does not receive filenames, destination captions, generated-image prompts or expected answers. Photos can establish visible features. They cannot establish booking terms, free access or a complete step-free route.
 
+## First run
+
+Start with [START-HERE](START-HERE.md): install, restore weights, check prerequisites, and run one real result before changing the task. The 18-scene explainer includes an example exporter, photo upload lab and 24 plain-English answers. See the [audience checklist](docs/AUDIENCE-CLOSURE-CHECKLIST.md) for verified coverage and the remaining public delivery decision.
+
 ## Pick your path
 
 | I want to… | Start here |
@@ -54,7 +58,7 @@ apps/
     scripts/              Training, evaluation, launch and verification
     app/                  Pixel travellers, evidence cards, shortlist
   explainer/              Separate scroll-snap filming website
-    frames/               Four deterministic HyperFrames compositions
+    frames/               Three active HyperFrames diagrams; teaching source retained
     assets/               Local fonts, images and animation runtime
 docs/                     Setup, diagrams, adaptation and filming
 evidence/                 Scores, result summaries and integration receipts

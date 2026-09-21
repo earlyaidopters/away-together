@@ -1,0 +1,24 @@
+{
+  "stairs": {
+    "answers": {
+      "pool": "not_visible",
+      "steps": "visible",
+      "ramp": "not_visible"
+    },
+    "sha256": "669bfd83e8213a742a07179884f1493afc4948524d4e51f619900206e0e355cc",
+    "run_id": "6f69b726852f42e799a84397803ce57e",
+    "elapsed_ms": 1035.3588750003837,
+    "scope": "Fresh local observation. Does not change the saved holiday catalogue or train a model."
+  },
+  "pond": {
+    "answers": {
+      "pool": "not_visible",
+      "steps": "not_visible",
+      "ramp": "not_visible"
+    },
+    "sha256": "7e6bfc169a528e3f1463778f7bfb705b70f807930be2826693f067dfab5b6a3c",
+    "run_id": "57132a09017648b6ae80f32a188c82a3",
+    "elapsed_ms": 1166.2737910082797,
+    "scope": "Fresh local observation. Does not change the saved holiday catalogue or train a model."
+  }
+}

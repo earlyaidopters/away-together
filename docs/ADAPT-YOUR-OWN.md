@@ -29,3 +29,17 @@ Text-only inference and image inference can be used separately. The travel weigh
 ## A useful first test
 
 Take 20 examples you can personally judge. Run the system and inspect every error. This small smoke test helps reveal obvious mistakes; it is not a statistical reliability certificate. Expand evaluation before using results in consequential workflows.
+
+## Work one example through the format
+
+The explainer’s editable support scene downloads `my-support-examples.jsonl`. Each row has `id`, `text`, and your checked `label`. Convert it from the source-kit root:
+
+```bash
+python3 tools/prepare_task.py my-support-examples.jsonl --split train --out support-train.jsonl
+```
+
+This writes candidate-scoring records with `state`, a question, three candidates, labels and the correct label index. It refuses duplicate IDs, empty data, unsupported labels and existing output files. No model is trained by this conversion.
+
+Collect separate development and untouched test files before training. Keep related customer conversations/templates in the same split; do not put copies of a training example in the test file. Use `--split dev` and `--split test` on those separate input files. The script records your chosen split; it cannot detect semantic leakage automatically.
+
+Create a new task configuration for the `route` question and these labels. The travel serving API and calibration rules have fixed travel assumptions; they need an adapter and task-specific evaluation. Preserve the travel experiment. Measure the pretrained baseline before training and compare both on identical held-out inputs. Review every mistake. The support editor and converter are working data-preparation tools, not a trained support integration.

@@ -4,6 +4,14 @@
     "title": "Watch the photo change it."
   },
   {
+    "id": "why",
+    "title": "Give one job a home."
+  },
+  {
+    "id": "build",
+    "title": "Astra helped build the system."
+  },
+  {
     "id": "map",
     "title": "Three parts. One decision."
   },
@@ -12,12 +20,8 @@
     "title": "Give it three choices."
   },
   {
-    "id": "starting",
-    "title": "Start with a reader."
-  },
-  {
     "id": "training",
-    "title": "Teach it the job."
+    "title": "An example has three parts."
   },
   {
     "id": "practice",
@@ -26,6 +30,10 @@
   {
     "id": "test",
     "title": "Keep the exam sealed."
+  },
+  {
+    "id": "failure",
+    "title": "Inspect one real mistake."
   },
   {
     "id": "results",
@@ -44,15 +52,23 @@
     "title": "The app makes the call."
   },
   {
+    "id": "setup",
+    "title": "Check your computer first."
+  },
+  {
+    "id": "first-run",
+    "title": "Run it before changing it."
+  },
+  {
     "id": "cost",
-    "title": "Local has a different bill."
+    "title": "Count the whole bill."
   },
   {
     "id": "repurpose",
-    "title": "Now change the job."
+    "title": "Change one example yourself."
   },
   {
     "id": "take-it",
-    "title": "Start from my work."
+    "title": "Start with a working example."
   }
 ]

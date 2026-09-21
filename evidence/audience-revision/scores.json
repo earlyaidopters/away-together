@@ -1,0 +1,417 @@
+{
+  "date": "2026-09-21",
+  "rubric": [
+    "answer",
+    "story placement",
+    "resource or visual",
+    "truthful evidence",
+    "verified outcome"
+  ],
+  "rows": [
+    {
+      "id": "Q01",
+      "question": "Why use this instead of ChatGPT or Jev?",
+      "scene": "why",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Baseline-first guidance; no universal superiority promise."
+    },
+    {
+      "id": "Q02",
+      "question": "What did Mark build, and what came from elsewhere?",
+      "scene": "build",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Prepared specification downloadable; THIRD-PARTY-NOTICES retained; provenance stated in spoken guide."
+    },
+    {
+      "id": "Q03",
+      "question": "Why use AI for a price check?",
+      "scene": "rules",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Budget stays arithmetic; actual API example returned model policy reason separately."
+    },
+    {
+      "id": "Q04",
+      "question": "Are fixed answers always correct or deterministic?",
+      "scene": "labels",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Three-choice interaction; uncalibrated probability and no determinism guarantee disclosed."
+    },
+    {
+      "id": "Q05",
+      "question": "Is fine-tuning the same as writing a prompt?",
+      "scene": "practice",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Training vs normal request diagram; runtime/layout/contrast checks at 0, 9, 18 seconds passed."
+    },
+    {
+      "id": "Q06",
+      "question": "Do I have to train before trying the demo?",
+      "scene": "first-run",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Fresh uv sync --frozen; prerequisite checker passed; existing saved weights selected."
+    },
+    {
+      "id": "Q07",
+      "question": "Where did the examples come from?",
+      "scene": "test",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Actual training and held-out record downloads with source hashes; synthetic/reference repair limits spoken."
+    },
+    {
+      "id": "Q08",
+      "question": "How many examples should I use?",
+      "scene": "repurpose",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "20-case smoke test explicitly not a training minimum; split leakage guidance in adaptation doc."
+    },
+    {
+      "id": "Q09",
+      "question": "How do I adapt the support example?",
+      "scene": "repurpose",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Editor add/reset verified; converter maps labels to candidate index; invalid/duplicate data tests passed."
+    },
+    {
+      "id": "Q10",
+      "question": "What did the benchmark compare?",
+      "scene": "results",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Frozen 360-case/1440-decision comparison; V2 95.28 vs Jev 98.61; loss and text-only scope shown."
+    },
+    {
+      "id": "Q11",
+      "question": "Why does the live app use V1?",
+      "scene": "results",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Active V1 and later V2 separated; historical different-corpus 66.5 is not a same-test gain."
+    },
+    {
+      "id": "Q12",
+      "question": "How do I know a test was fair?",
+      "scene": "failure",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Actual failed 01:30 case with full-input downloadable receipt."
+    },
+    {
+      "id": "Q13",
+      "question": "Does this make pictures or read them?",
+      "scene": "vision",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Local photo endpoint runs on supplied pixels; stairs and pond fresh receipts; nine fictional shared images disclosed."
+    },
+    {
+      "id": "Q14",
+      "question": "Can hosted Jev recognize images?",
+      "scene": "vision",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Explicit distinction: local demonstration does not establish current hosted Jev image support."
+    },
+    {
+      "id": "Q15",
+      "question": "Do my photo files leave my computer?",
+      "scene": "vision",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Fixed loopback endpoint and no filename upload verified by regression test; browser native file-picker verified."
+    },
+    {
+      "id": "Q16",
+      "question": "What can I conclude from a photograph?",
+      "scene": "boundary",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Pond boundary reveal and access/price/safety limits in guide."
+    },
+    {
+      "id": "Q17",
+      "question": "What does a green card mean?",
+      "scene": "rules",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Rules diagram and decline/review distinction; no booking or autonomous approval."
+    },
+    {
+      "id": "Q18",
+      "question": "Does it replace a general assistant?",
+      "scene": "why",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Narrow task scope and unsupported phone/always-on/helpdesk promises removed."
+    },
+    {
+      "id": "Q19",
+      "question": "Does it work on Windows, Linux or my phone?",
+      "scene": "setup",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Tested host clearly separated from minimum requirements; Windows/Linux and small-memory unvalidated."
+    },
+    {
+      "id": "Q20",
+      "question": "What does it cost?",
+      "scene": "cost",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Build and run costs separated; total build bill and universal price ratio not measured."
+    },
+    {
+      "id": "Q21",
+      "question": "How fast is it?",
+      "scene": "cost",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Cold request, warm HTTP and forty-offer photo run visibly separated by workload."
+    },
+    {
+      "id": "Q22",
+      "question": "What happens after sleep or a failure?",
+      "scene": "first-run",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Live status checker verified; restart instructions and no fake answer on outage regression test."
+    },
+    {
+      "id": "Q23",
+      "question": "Can I download, modify or sell this?",
+      "scene": "take-it",
+      "dimensions": [
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "score": 6,
+      "satisfied": false,
+      "evidence": "Private source kit and release prepared. Public access and original-code license need Mark\u2019s decision."
+    },
+    {
+      "id": "Q24",
+      "question": "How do I connect the decision to another app?",
+      "scene": "rules",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Actual API example executed successfully: match plus budget/policy reasons. Support adapter limits explicit."
+    },
+    {
+      "id": "Q25",
+      "question": "Keep the explanation concrete and conversational",
+      "scene": "all",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Published-transcript voice fingerprint; no-ai-slop pass; 1,512 spoken words with concrete travel nouns and short conclusions."
+    },
+    {
+      "id": "Q26",
+      "question": "Preserve persona look and readable filming surfaces",
+      "scene": "demo",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "Pixel Maya, sage/forest palette and rounded cards retained. All 18 scenes captured at 1440\u00d7900, 1920\u00d71080, 1366\u00d7768 and 390\u00d7844; no horizontal overflow."
+    },
+    {
+      "id": "Q27",
+      "question": "Keep guide, diagrams and narration synchronized",
+      "scene": "all",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10,
+      "satisfied": true,
+      "evidence": "20-page PDF rendered and visually inspected. 18 scenes / 1,512 words / 12:10. Production check: 16 pass, 0 warning, 0 error."
+    }
+  ]
+}

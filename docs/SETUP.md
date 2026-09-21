@@ -56,3 +56,9 @@ npm --prefix app test
 ```
 
 Some full experiment commands require large downloads or paid Jev calls. Read their protocol before rerunning. The preserved evidence can be inspected without credentials or fresh paid inference. The old text-only diffusion experiment was mocked/unexecuted; the newer image integration is separately verified.
+
+## Tested machine and recovery
+
+Tested host: Apple M5 Max, 128 GB RAM, macOS 26.5.2. This is not a minimum specification. The vision model download is approximately 16 GB; RAM needs on smaller hosts have not been established. Windows/Linux vision and mobile inference have not been validated.
+
+Run `python3 tools/first_run.py` from the source-kit root to inspect local prerequisites, or `--probe` to check a running agency. A selected model is not proof of successful inference: run a holiday and inspect the fresh receipt. After sleep or a terminated service, restart it and recheck. Keep the app bound to loopback. Do not infer public hosting or unattended operation.
