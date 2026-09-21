@@ -1,12 +1,13 @@
 """Read-only repository source checks; no model loading or network calls."""
 from pathlib import Path
-import json,re,hashlib
+import json,re,hashlib,subprocess
 root=Path(__file__).resolve().parents[1]
 assert len(json.loads((root/'apps/explainer/scenes.json').read_text()))==14
 pins=root/'apps/agency/experiments/openjev-vision'
 for path,expected in json.loads((pins/'vendor-source-manifest.json').read_text()).items():
     assert hashlib.sha256((pins/'vendor'/path).read_bytes()).hexdigest()==expected,path
-for path in root.rglob('*'):
+for name in subprocess.check_output(['git','ls-files'],cwd=root,text=True).splitlines():
+    path=root/name
     if not path.is_file() or any(p in ['.git','node_modules','.venv','runtime'] for p in path.parts):continue
     assert path.stat().st_size<100_000_000,f'Large artifact belongs in release: {path}'
     if path.suffix in ['.py','.json','.md','.js','.ts','.tsx','.html','.command','.toml']:
