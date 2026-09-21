@@ -1,0 +1,11 @@
+{
+  "source_archive": "Away-Together-Source-Audience-Revision.zip",
+  "source_sha256": "afb869c16df0ed25b768377dbce062a42f7ef33c907a5cceea2ee2dc9bd99bc7",
+  "bundle_sha256": "4d5a43156f47f03aa8298e8495a8e899939589fe4c3e506761a6298b6951cb52",
+  "restored_files": 908,
+  "source_overwrites": 0,
+  "selected_model": "travel-nli",
+  "weight_sha256": "570136bd194dd2fa51aa29dca2d86bde0151db0c791e21aad71f7d6f612ed152",
+  "weight_matches_selection": true,
+  "public_access_verified": false
+}
