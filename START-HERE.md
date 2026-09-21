@@ -9,4 +9,4 @@
 
 The explainer includes **Start here**, **Questions & answers**, and **Try your own photo**. Use its data editor to export labeled examples, then follow [adaptation](docs/ADAPT-YOUR-OWN.md) and the [API example](docs/API-EXAMPLE.md).
 
-This preparation repository is private. Access does not grant a blanket license. Public delivery and original-code reuse terms remain pending until explicitly set. Upstream licenses and notices stay with their components.
+This is the single project repository: private during preparation, public when the video goes live. Access does not grant a blanket license; reuse follows the supplied component terms. Upstream licenses and notices stay with their components.

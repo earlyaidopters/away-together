@@ -112,7 +112,7 @@
   {
     "id": "Q23",
     "question": "Can I download, modify or sell this?",
-    "answer": "The current repository and release are private. A public viewer companion and permission for original code are pending the delivery decision. No commercial permission should be inferred from being able to view a file. Upstream code, models, datasets and fonts retain their respective terms."
+    "answer": "The repository and release are private during preparation. This same repository will become public when the video goes live. Reuse follows the license supplied with each component. No commercial permission should be inferred from being able to view a file. Upstream code, models, datasets and fonts retain their respective terms."
   },
   {
     "id": "Q24",
