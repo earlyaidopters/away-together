@@ -30,13 +30,23 @@ The visual model receives image pixels. It does not receive filenames, destinati
 
 ## First run
 
-Start with [START-HERE](START-HERE.md): install, restore weights, check prerequisites, and run one real result before changing the task. The 18-scene explainer includes an example exporter, photo upload lab and 24 plain-English answers. See the [audience checklist](docs/AUDIENCE-CLOSURE-CHECKLIST.md) for verified coverage and the remaining public delivery decision.
+Start with [START-HERE](START-HERE.md): install, restore weights, check prerequisites, and run one real result before changing the task. The 18-scene explainer includes an example exporter, photo upload lab and 24 plain-English answers. See the [audience checklist](docs/AUDIENCE-CLOSURE-CHECKLIST.md) for verified coverage and the launch-stage public access check.
+
+## Choose a reading path
+
+- **New to machine learning:** read the everyday explanation, use the glossary, then explore the site without loading a model.
+- **Want a working app:** follow START-HERE and setup, run one saved model result, then try the API example.
+- **Want your own task:** run travel first, then follow adaptation and keep a separate test.
+- **Want to audit the claims:** start with reproducibility, benchmarks and provenance.
 
 ## Pick your path
 
 | I want to… | Start here |
 |---|---|
-| Understand it without ML knowledge | [Plain-English walkthrough](docs/HOW-IT-WORKS.md) |
+| Understand it without ML knowledge | [Plain-English walkthrough](docs/HOW-IT-WORKS.md) and [glossary](docs/GLOSSARY.md) |
+| Follow the request through the code | [Architecture and decision rules](docs/ARCHITECTURE.md) |
+| Fix a failed first run | [Troubleshooting](docs/TROUBLESHOOTING.md) |
+| Verify or reproduce the work | [Reproducibility guide](docs/REPRODUCIBILITY.md) |
 | Run the web explainer | `python3 apps/explainer/serve.py`, then localhost:8770 |
 | Run the actual local models | [Setup guide](docs/SETUP.md) |
 | Adapt it to my own task | [Repurposing guide](docs/ADAPT-YOUR-OWN.md) |
@@ -96,4 +106,19 @@ No model-provider API fee is incurred by local inference. Hardware, electricity,
 
 Mark designed the travel task and product experience, directed the model experiments, assembled the application, integrated image evidence, and created the reusable explanation and resource. Development used AI coding tools. The underlying pretrained models and libraries have their own authors and terms. OpenJev is an upstream integration, not an original model invented here. See [contributions](docs/CONTRIBUTIONS.md) and [third-party notices](THIRD-PARTY-NOTICES.md).
 
-This repository is private. Sharing the URL does not grant viewer access. No general open-source license is granted for original project code at this stage; upstream components retain their own licenses.
+One repository: private during preparation, public when the video goes live. Until launch, sharing the URL does not grant viewer access. No general open-source license is granted for original project code at this stage; upstream components retain their own licenses.
+
+
+## What is ready, and what is still experimental?
+
+| Area | Status |
+|---|---|
+| Local travel app and persona UI | Working demonstration with real inference; reliability limits remain |
+| 18-scene teaching site, Q&A and guide | Implemented and checked at four viewport sizes |
+| Photo upload lab | Working local observation; does not modify the saved catalogue |
+| Support example editor/converter | Working data preparation; not a trained support model |
+| Windows/Linux image backend and minimum RAM | Not validated |
+| Public download | Scheduled for video go-live using this same repository |
+| Original-code reuse license | Not yet granted; component terms remain in force |
+
+The [verification receipts](evidence/audience-revision/AUDIENCE-REVISION-VERIFICATION.md) distinguish source checks, application tests, visual inspection and model observations. A passed interface test is not proof of model accuracy.

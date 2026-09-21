@@ -2,7 +2,11 @@
 from pathlib import Path
 import json,re,hashlib,subprocess
 root=Path(__file__).resolve().parents[1]
-assert len(json.loads((root/'apps/explainer/scenes.json').read_text()))==14
+scenes=json.loads((root/'apps/explainer/scenes.json').read_text())
+ids=[scene['id'] for scene in scenes]
+assert len(ids)==18 and len(ids)==len(set(ids)), 'Expected 18 distinct filming scenes'
+site=(root/'apps/explainer/index.html').read_text()
+assert all(f'id="{id}"' in site for id in ids), 'Scene metadata must match the live page'
 pins=root/'apps/agency/experiments/openjev-vision'
 for path,expected in json.loads((pins/'vendor-source-manifest.json').read_text()).items():
     assert hashlib.sha256((pins/'vendor'/path).read_bytes()).hexdigest()==expected,path

@@ -1,24 +1,24 @@
-# Accessible explainer production revision
+# Accessible explainer: current audience-gap revision
 
-Research and story lock: 21 September 2026. User explicitly requests demo-first, grade-five explanation and a reusable private repository. Existing exact title-thumbnail pair remains Can Astra Build Its Own Jev? / BUILD YOUR OWN. This is a story revision, not a new thumbnail batch. Preserve the approved persona design. Read the original Jev site and session learnings; prior concept-first advice was specific to introducing Jev, while this follow-up follows the user's demo-first direction.
+Authority: FILMING-GUIDE.md. Eighteen scenes, 1,512 words, 12:10 including demonstration holds. Approved personas and palette retained.
 
-Opening: “Watch Maya. The hotel terms work for her. But she doesn't want entrance stairs. I give the system this photo, and she turns red. Take that photo away and it asks us to check. This runs on my computer. I built a Jev-like decision system that uses words and pictures. By the end, you'll understand the pieces and have my code to adapt to your own job. You don't need to know machine learning to follow this. Let's get into it.”
+1. Watch the photo change it (0:00–0:50): Scene `#demo` at localhost:8770. Run Maya with the stairs photo. Remove it and run again. Open the full agency’s persona grid briefly.
+2. Give one job a home (0:50–1:30): Scene `#why` at localhost:8770. Follow holiday input → a small decision → a person checking the reason. Point at the review branch.
+3. Astra helped build the system (1:30–2:05): Scene `#build` at localhost:8770. Show the exact prepared specification excerpt, then the saved source and model folders. Identify it as a prepared specification, not a captured chat.
+4. Three parts. One decision (2:05–2:40): Scene `#map` at localhost:8770. Point to text reader, pretrained photo reader and app rules in order; keep Maya visible when returning to the agency.
+5. Give it three choices (2:40–3:15): Scene `#labels` at localhost:8770. Click Cash back, then Hotel credit. Point to the mapping between the teaching labels and actual output labels.
+6. An example has three parts (3:15–3:55): Scene `#training` at localhost:8770. Open actual train-00000 excerpt. Download the full record. Point at input, question, answer; show the separate held-out file only as data provenance.
+7. Practice. Check. Adjust (3:55–4:35): Scene `#practice` at localhost:8770. Play the two-lane HyperFrame. Hold at the wrong guess, checked label and saved-settings update. Point to unchanged settings in the normal-check lane.
+8. Keep the exam sealed (4:35–5:15): Scene `#test` at localhost:8770. Show practice and final-test objects. Open the held-out example and explain its split, then return to the diagram.
+9. Inspect one real mistake (5:15–5:55): Scene `#failure` at localhost:8770. Show case …0036 arrival excerpt and both saved outputs. Open full JSON to show the input is longer than the excerpt.
+10. The test kept us honest (5:55–6:35): Scene `#results` at localhost:8770. Show common-axis bars; point to text-only scope and distinguish demo V1 from later V2. Do not animate a V1→V2 improvement arrow.
+11. Give the system eyes (6:35–7:20): Scene `#vision` at localhost:8770. Play photo→observation→app. Open photo-lab.html, choose a local image, run it and inspect actual answers and image hash. Keep the service running before filming.
+12. A picture leaves things out (7:20–8:00): Scene `#boundary` at localhost:8770. Show pond, ask the three questions and reveal the conclusion. Refer back to the missing stairs photo.
+13. The app makes the call (8:00–8:40): Scene `#rules` at localhost:8770. Play budget/terms/photo gates. In the actual agency open a traveller drawer and show the clause/photo that caused decline or review.
+14. Check your computer first (8:40–9:20): Scene `#setup` at localhost:8770. Show tested M5 Max/128 GB host and separate text/image requirements. Open Start here prerequisites briefly.
+15. Run it before changing it (9:20–10:05): Scene `#first-run` at localhost:8770. Open Start here. Show source and restored files, run first_run.py, start agency in a spare terminal if needed, inspect service status and run a fresh holiday. No fake installation animation.
+16. Count the whole bill (10:05–10:45): Scene `#cost` at localhost:8770. Show build/setup and local-running cost columns, then separately labeled historical timings. Point to fresh demo time rather than implying benchmark-equivalent workloads.
+17. Change one example yourself (10:45–11:30): Scene `#repurpose` at localhost:8770. Edit support request, choose its human label, add it and download JSONL. Run prepare_task.py on the saved sample. Show held-out separation in the adaptation guide.
+18. Start with a working example (11:30–12:10): Scene `#take-it` at localhost:8770. Open Start here and the question index. Show current access/permission status accurately; use only the delivered link once verified. Keep original creator/model credits visible.
 
-1. Live demo: same terms, actual fresh inference, photo changes final decision. Preserve persona cards.
-2. Map: trained text reader + pretrained photo reader + app rules. Name the three responsibilities early.
-3. Classifier: choose cash, credit or can't tell from a plain policy. A click teaches the meaning of a label.
-4. Starting point: a model that already learned patterns in language. Name ModernBERT only after explaining the job.
-5. Training examples: words paired with correct labels. Fine-tuning is extra practice on one task.
-6. Feedback: guess, compare with label, adjust saved settings. Avoid the PhD analogy implying dependable expertise.
-7. Evaluation: practice set and sealed unseen exam. No tuning after opening final results.
-8. Honest result: V2 95.28% versus Jev98.61%, same synthetic final test. V1 remains app engine; its separate older score66.5%. No invented victory or cross-corpus improvement chart.
-9. Multimodal: photo pixels to observations to app. Pretrained OpenJev/DiffusionGemma, integrated not trained here.
-10. Limits: Kyoto pond doesn't establish swimming pool, access or price.
-11. Fusion: terms/budget plus photo wishes; failures decline, unknown review, all pass match.
-12. Cost: local API fee is zero but hardware/power/setup remain. No fraction-of-LLM claim without measured matched-cost evidence.
-13. Repurpose: one question, labeled examples, allowed answers, app action. Other domains illustrative until trained/tested.
-14. Resource: private repo, setup, raw evidence, source pins. Credit Mark for system design, training experiments, application integration and teaching; retain upstream licenses and truthful model provenance.
-
-Each scene has a distinct teaching object: live persona, system map, sorting exercise, reader/book, labeled-example sequence, feedback loop, sealed exam, score bars, pixels pipeline, pond photo, rule gates, cost columns, task switcher, repository tree. No new generated bitmap needed for these mechanisms. Four minimal silent HyperFrames compositions; stable end holds. P/R global controls. Target 10-12min including live interactions. PDF and narration regenerate from the revised canonical guide before handoff.
-
-Prior-video evidence: projects/jev-research/production/SESSION-LEARNINGS-2026-09-19.md records32,375views,7.3%CTR,70%30sec retention on19September. This does not prove any individual teaching/design choice caused performance.
+See AUDIENCE-CLOSURE-CHECKLIST.md for each question, acceptance evidence and remaining viewer access requirement.

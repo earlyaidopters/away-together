@@ -29,4 +29,7 @@ Removing a photo of stairs does not remove the stairs. A photo with a pool does 
 | Gallery and evidence UI | app/src/PhotoEvidence.tsx |
 | Photo sets | config/location-photos.json |
 
-The four silent compositions in apps/explainer/frames teach examples, feedback, image observations and rule combination. They are explanatory animations, not recordings of model internals.
+The three active silent diagrams in apps/explainer/frames teach training versus use, image observations and rule combination. An older teaching composition is retained as source. They are explanatory animations, not recordings of model internals.
+
+
+Continue with the [glossary](GLOSSARY.md), [architecture](ARCHITECTURE.md), [setup](SETUP.md) or [troubleshooting](TROUBLESHOOTING.md).
