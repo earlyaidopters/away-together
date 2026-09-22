@@ -33,3 +33,6 @@ apps/agency/experiments/v2/freezes/
 apps/agency/experiments/v2/models/
 apps/agency/explainer/
 apps/agency/models/travel-nli/
+
+# Local tutorial runs contain weights and private examples.
+workshops/

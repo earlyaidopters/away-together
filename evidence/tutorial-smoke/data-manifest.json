@@ -1,0 +1,17 @@
+{
+  "train": {
+    "sha256": "db0eeeff7a1374956a0c1d5c5b5cd2eb6ce1a78b6b60247dac93811a8dbd31c6",
+    "scenarios": 1200,
+    "decisions": 4800
+  },
+  "dev": {
+    "sha256": "bf4a416c84f7f59f3c239af6b41603dda061fb92482612c894edb0325a92b2d5",
+    "scenarios": 200,
+    "decisions": 800
+  },
+  "test": {
+    "sha256": "01299b3af2f4c9697e3d058fac431953a14582b5d9bc842086d7f09b1e194022",
+    "scenarios": 300,
+    "decisions": 1200
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "scope": "smoke check only",
+  "decisions": 8,
+  "model_sha256": "c6af8d27e36e498a74ccb39e915ed814fb7786e72752ab1441bbffcd81fbe2ae",
+  "data_sha256": "01299b3af2f4c9697e3d058fac431953a14582b5d9bc842086d7f09b1e194022",
+  "models": {
+    "base": {
+      "metrics": {
+        "macro_f1": 0.1818181818181818,
+        "accuracy": 0.375
+      },
+      "rows": [
+        {
+          "scenario": "test-00000",
+          "question": "refund",
+          "gold": 1,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00000",
+          "question": "arrival",
+          "gold": 0,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00000",
+          "question": "facility",
+          "gold": 1,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00000",
+          "question": "activity",
+          "gold": 1,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00001",
+          "question": "refund",
+          "gold": 2,
+          "predicted": 2,
+          "correct": true
+        },
+        {
+          "scenario": "test-00001",
+          "question": "arrival",
+          "gold": 0,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00001",
+          "question": "facility",
+          "gold": 2,
+          "predicted": 2,
+          "correct": true
+        },
+        {
+          "scenario": "test-00001",
+          "question": "activity",
+          "gold": 2,
+          "predicted": 2,
+          "correct": true
+        }
+      ]
+    },
+    "trained": {
+      "metrics": {
+        "macro_f1": 0.1818181818181818,
+        "accuracy": 0.375
+      },
+      "rows": [
+        {
+          "scenario": "test-00000",
+          "question": "refund",
+          "gold": 1,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00000",
+          "question": "arrival",
+          "gold": 0,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00000",
+          "question": "facility",
+          "gold": 1,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00000",
+          "question": "activity",
+          "gold": 1,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00001",
+          "question": "refund",
+          "gold": 2,
+          "predicted": 2,
+          "correct": true
+        },
+        {
+          "scenario": "test-00001",
+          "question": "arrival",
+          "gold": 0,
+          "predicted": 2,
+          "correct": false
+        },
+        {
+          "scenario": "test-00001",
+          "question": "facility",
+          "gold": 2,
+          "predicted": 2,
+          "correct": true
+        },
+        {
+          "scenario": "test-00001",
+          "question": "activity",
+          "gold": 2,
+          "predicted": 2,
+          "correct": true
+        }
+      ]
+    }
+  }
+}

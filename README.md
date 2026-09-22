@@ -28,9 +28,13 @@ flowchart LR
 
 The visual model receives image pixels. It does not receive filenames, destination captions, generated-image prompts or expected answers. Photos can establish visible features. They cannot establish booking terms, free access or a complete step-free route.
 
+## Follow the complete build
+
+Use the [A–Z tutorial](docs/STEP-BY-STEP.md) to choose and download the starting classifier, copy the [complete Codex prompt](prompts/TRAIN-MY-SPECIALIST.md), measure a baseline, train in a separate workspace, test both models, and run a new prediction. The tutorial tool preserves the supplied app. Its smoke run verifies the commands; it does not establish model quality.
+
 ## First run
 
-Start with [START-HERE](START-HERE.md): install, restore weights, check prerequisites, and run one real result before changing the task. The 18-scene explainer includes an example exporter, photo upload lab and 24 plain-English answers. See the [audience checklist](docs/AUDIENCE-CLOSURE-CHECKLIST.md) for verified coverage and the launch-stage public access check.
+Start with [START-HERE](START-HERE.md): install, restore weights, check prerequisites, and run one real result before changing the task. The 29-scene explainer includes an example exporter, photo upload lab and 24 plain-English answers. See the [audience checklist](docs/AUDIENCE-CLOSURE-CHECKLIST.md) for verified coverage and the launch-stage public access check.
 
 ## Choose a reading path
 
@@ -114,7 +118,7 @@ One repository: private during preparation, public when the video goes live. Unt
 | Area | Status |
 |---|---|
 | Local travel app and persona UI | Working demonstration with real inference; reliability limits remain |
-| 18-scene teaching site, Q&A and guide | Implemented and checked at four viewport sizes |
+| 29-scene teaching site, Q&A and guide | Implemented and checked at four viewport sizes |
 | Photo upload lab | Working local observation; does not modify the saved catalogue |
 | Support example editor/converter | Working data preparation; not a trained support model |
 | Windows/Linux image backend and minimum RAM | Not validated |

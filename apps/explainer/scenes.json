@@ -5,15 +5,35 @@
   },
   {
     "id": "why",
-    "title": "Pick a job you keep repeating."
+    "title": "Follow the build from start to finish."
+  },
+  {
+    "id": "choose-model",
+    "title": "Start with an existing classifier."
+  },
+  {
+    "id": "baseline",
+    "title": "Measure it before you train it."
+  },
+  {
+    "id": "setup",
+    "title": "Check your computer first."
+  },
+  {
+    "id": "download",
+    "title": "Download the model to your computer."
   },
   {
     "id": "build",
-    "title": "Ask AI to help you build it."
+    "title": "Tell Codex exactly what you want."
   },
   {
-    "id": "map",
-    "title": "Connect the models with code."
+    "id": "travel-brief",
+    "title": "Write the rules for your travel job."
+  },
+  {
+    "id": "prompt",
+    "title": "Give Codex the complete brief."
   },
   {
     "id": "labels",
@@ -24,12 +44,28 @@
     "title": "Pair each example with an answer."
   },
   {
+    "id": "data-split",
+    "title": "Keep three separate sets of examples."
+  },
+  {
+    "id": "workspace",
+    "title": "Train in a separate working folder."
+  },
+  {
     "id": "practice",
     "title": "Train it using checked examples."
   },
   {
+    "id": "train-run",
+    "title": "Run the baseline, then start training."
+  },
+  {
     "id": "test",
     "title": "Test it on examples it hasn't seen."
+  },
+  {
+    "id": "test-run",
+    "title": "Compare both models on the same test."
   },
   {
     "id": "failure",
@@ -38,6 +74,14 @@
   {
     "id": "results",
     "title": "Compare its answers with Jev's."
+  },
+  {
+    "id": "predict",
+    "title": "Try your saved model on new text."
+  },
+  {
+    "id": "map",
+    "title": "Connect the models with code."
   },
   {
     "id": "vision",
@@ -52,10 +96,6 @@
     "title": "Check each person's requirements."
   },
   {
-    "id": "setup",
-    "title": "Check your computer first."
-  },
-  {
     "id": "first-run",
     "title": "Run it before changing it."
   },
@@ -66,6 +106,10 @@
   {
     "id": "repurpose",
     "title": "Change one example yourself."
+  },
+  {
+    "id": "handover",
+    "title": "Keep the files that let you run it again."
   },
   {
     "id": "take-it",
