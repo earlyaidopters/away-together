@@ -1,5 +1,5 @@
 const scenes=[...document.querySelectorAll('.scene')],select=document.querySelector('#chapters');let active=scenes[0],paused=matchMedia('(prefers-reduced-motion: reduce)').matches,includePhoto=true,generation=0;
-function command(scene,command,time){scene.querySelectorAll('iframe').forEach(f=>f.contentWindow.postMessage({command,time},location.origin))}
+function command(scene,command,time){scene.querySelectorAll('iframe').forEach(f=>f.contentWindow.postMessage({command,time,rate:Number(document.querySelector("#speed").value)},location.origin))}
 function displayPause(){document.querySelector('#pause').textContent=paused?'P · Play':'P · Pause';document.querySelector('#pause').setAttribute('aria-label',paused?'Play animations':'Pause animations')}
 function setActive(scene){if(scene===active)return;command(active,'pause');active=scene;select.value=scene.id;document.querySelector('#seek-label').hidden=!scene.querySelector('iframe');document.querySelector('#scene-count').textContent=String(scenes.indexOf(scene)+1).padStart(2,'0')+' / '+scenes.length;command(active,paused?'pause':'play')}
 let scrollQueued=false;window.addEventListener('scroll',()=>{if(scrollQueued)return;scrollQueued=true;requestAnimationFrame(()=>{scrollQueued=false;const target=scenes.reduce((best,s)=>Math.abs(s.getBoundingClientRect().top-64)<Math.abs(best.getBoundingClientRect().top-64)?s:best,scenes[0]);setActive(target)})},{passive:true});
@@ -16,3 +16,5 @@ document.querySelector('#reveal-boundary').onclick=()=>document.querySelector('#
 displayPause();
 
 document.querySelector("#seek").addEventListener("input",e=>{paused=true;command(active,"seek",Number(e.target.value));displayPause()});
+
+document.querySelector("#speed").addEventListener("change",()=>command(active,"speed"));

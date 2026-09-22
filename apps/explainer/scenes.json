@@ -5,31 +5,27 @@
   },
   {
     "id": "why",
-    "title": "Follow the build from start to finish."
+    "title": "Build it one step at a time."
   },
   {
     "id": "choose-model",
-    "title": "Start with an existing classifier."
+    "title": "Start with a model that can classify text."
   },
   {
     "id": "baseline",
     "title": "Measure it before you train it."
   },
   {
-    "id": "setup",
-    "title": "Check your computer first."
-  },
-  {
     "id": "download",
-    "title": "Download the model to your computer."
+    "title": "Ask AI to download the model."
   },
   {
     "id": "build",
-    "title": "Tell Codex exactly what you want."
+    "title": "Tell it the job you want done."
   },
   {
     "id": "travel-brief",
-    "title": "Write the rules for your travel job."
+    "title": "Show it what \u201ca good match\u201d means."
   },
   {
     "id": "prompt",
@@ -45,27 +41,15 @@
   },
   {
     "id": "data-split",
-    "title": "Keep three separate sets of examples."
-  },
-  {
-    "id": "workspace",
-    "title": "Train in a separate working folder."
+    "title": "Keep some examples for the final test."
   },
   {
     "id": "practice",
     "title": "Train it using checked examples."
   },
   {
-    "id": "train-run",
-    "title": "Run the baseline, then start training."
-  },
-  {
     "id": "test",
-    "title": "Test it on examples it hasn't seen."
-  },
-  {
-    "id": "test-run",
-    "title": "Compare both models on the same test."
+    "title": "Test it on examples it hasn\u2019t seen."
   },
   {
     "id": "failure",
@@ -77,7 +61,7 @@
   },
   {
     "id": "predict",
-    "title": "Try your saved model on new text."
+    "title": "Ask it to try a new policy."
   },
   {
     "id": "map",
@@ -85,7 +69,7 @@
   },
   {
     "id": "vision",
-    "title": "Add a model that reads images."
+    "title": "Show how a picture becomes evidence."
   },
   {
     "id": "boundary",
@@ -97,22 +81,18 @@
   },
   {
     "id": "first-run",
-    "title": "Run it before changing it."
+    "title": "Ask AI to get the demo running."
   },
   {
     "id": "cost",
-    "title": "Work out what it costs to run."
+    "title": "See where the costs come from."
   },
   {
     "id": "repurpose",
     "title": "Change one example yourself."
   },
   {
-    "id": "handover",
-    "title": "Keep the files that let you run it again."
-  },
-  {
     "id": "take-it",
-    "title": "Start with a working example."
+    "title": "Point AI at the repo and start building."
   }
 ]

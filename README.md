@@ -34,7 +34,7 @@ Use the [A–Z tutorial](docs/STEP-BY-STEP.md) to choose and download the starti
 
 ## First run
 
-Start with [START-HERE](START-HERE.md): install, restore weights, check prerequisites, and run one real result before changing the task. The 29-scene explainer includes an example exporter, photo upload lab and 24 plain-English answers. See the [audience checklist](docs/AUDIENCE-CLOSURE-CHECKLIST.md) for verified coverage and the launch-stage public access check.
+Start with [the AI-assisted guide](docs/AI-ASSISTED-GUIDE.md): give Claude or Codex a prompt and the repository link. It can help check your machine, download the model and run one real result. [START-HERE](START-HERE.md) keeps the detailed setup reference. The 24-scene explainer includes an example exporter, photo upload lab and 24 plain-English answers. See the [audience checklist](docs/AUDIENCE-CLOSURE-CHECKLIST.md) for verified coverage and the launch-stage public access check.
 
 ## Choose a reading path
 
@@ -118,7 +118,7 @@ One repository: private during preparation, public when the video goes live. Unt
 | Area | Status |
 |---|---|
 | Local travel app and persona UI | Working demonstration with real inference; reliability limits remain |
-| 29-scene teaching site, Q&A and guide | Implemented and checked at four viewport sizes |
+| 24-scene teaching site, Q&A and guide | Implemented and checked at four viewport sizes |
 | Photo upload lab | Working local observation; does not modify the saved catalogue |
 | Support example editor/converter | Working data preparation; not a trained support model |
 | Windows/Linux image backend and minimum RAM | Not validated |
