@@ -1,6 +1,6 @@
 # Build your own decision system
 
-Step-by-step A–Z revision. Twenty-four visual filming surfaces. Exact Say blocks; companion holds deeper setup and troubleshooting. No TTS requested.
+Step-by-step A–Z revision. Twenty-two visual filming surfaces. Exact Say blocks; companion holds deeper setup and troubleshooting. No TTS requested.
 
 ## See how a photo changes the answer (0:00-0:55)
 
@@ -82,33 +82,33 @@ models/selection.json baseline_dev and dev; runs/nli-baseline-dev.json; historic
 **Re-hook:**
 
 
-## Ask AI to download the model (3:00-3:40)
+## Ask AI to get it running (3:00-3:45)
 
 **Picture:**
-Scene `#download` at localhost:8770. Copy the prompt and model link. Paste them into Claude Code or Codex with local tool access. Show a real first example if executing; the animation only explains the download.
+Scene `#download` at localhost:8770. Copy the setup prompt and repository link into Claude Code or Codex. Explain the file-to-computer animation, then open the actual agency after setup. The starting model link is available beside the prompt.
 
 **Say:**
-You don't need to type a download command. Give Claude or Codex this model link and say: download it to my computer, check what my machine needs, and run one example. The AI handles the setup. The model files move onto your computer, and now you've got something you can test. It should tell you which version it downloaded and show you the result. If your computer can't run it, ask it to explain what's missing before you go further.
+Give Claude or Codex the repo and ask it to get the travel demo running on your computer. It can check your machine, download the required files, and open the app. Start with the supplied model, so you don't have to train anything to try it. Ask it to add the image service if your machine supports it. Have it show the model version and run one real holiday check. If your computer can't run the setup, ask what's missing before going further. Now you've got a working example to learn from.
 
 **On-screen copy:**
-Ask AI to download the model.
+Ask AI to get it running.
 
 **Editing note:**
 Let the result finish before speaking its meaning. P pauses diagrams; R resets current scene. Give the final visual time to read. Copy prompts into a coding assistant with local tools. When showing execution, keep actual results and disclose cut waiting time. Use the 1×, 1.5× or 2× controls for explanatory diagrams.
 
 **Source or truth card:**
-tools/tutorial.py download; live pinned snapshot_download receipt; docs/STEP-BY-STEP.md.
+tools/tutorial.py download; live pinned snapshot_download receipt; docs/STEP-BY-STEP.md. tools/first_run.py; docs/SETUP.md; supplied model versus new tutorial checkpoint.
 
 **Re-hook:**
 
 
-## Tell it the job you want done (3:40-4:15)
+## Tell it the job you want done (3:45-4:30)
 
 **Picture:**
-Scene `#build` at localhost:8770. Show the holiday photo, booking terms and Maya beside the copyable brief.
+Scene `#build` at localhost:8770. Show the holiday, booking terms and Maya beside the brief. Walk through its four concrete requirements.
 
 **Say:**
-Tell it the job you want done. Here, I want a travel specialist that reads booking terms and checks each customer's requirements. Maya needs her money back if she cancels and an entrance without stairs. That's much more useful than saying make me a travel AI. Ask it to show a few examples first. You check those before it makes a whole training set. Let me show you the exact rules for ours.
+Tell it exactly what a good match means. Our travel specialist checks four things: a full cash refund, arrival after midnight without calling ahead, included pool access, and an included guided hike. Hotel credit doesn't satisfy the cash-refund rule. A pool in a picture doesn't establish free access. Each question gets meets, violates, or can't tell. Maya also avoids stairs, which we check separately with the image model. Ask the AI to show a few examples before it makes the training set. You decide whether those examples actually follow your rules.
 
 **On-screen copy:**
 Tell it the job you want done.
@@ -117,32 +117,12 @@ Tell it the job you want done.
 Let the result finish before speaking its meaning. P pauses diagrams; R resets current scene. Give the final visual time to read. Copy prompts into a coding assistant with local tools. When showing execution, keep actual results and disclose cut waiting time. Use the 1×, 1.5× or 2× controls for explanatory diagrams.
 
 **Source or truth card:**
-prompts/TRAIN-MY-SPECIALIST.md; supplied travel hypotheses and task data.
+prompts/TRAIN-MY-SPECIALIST.md; supplied travel hypotheses and task data. travel_lab/nli.py HYPOTHESES; separate visual requirements.
 
 **Re-hook:**
 
 
-## Show it what “a good match” means (4:15-5:00)
-
-**Picture:**
-Scene `#travel-brief` at localhost:8770. Underline the label contract and four definitions one by one while explaining. These are real travel requirements from the current model.
-
-**Say:**
-For our travel job, we ask four separate questions. Is there a full cash refund before the deadline? Can the guest arrive after midnight without arranging it first? Is pool access included? Is a guided hike included? Each question gets one of the same three answers. Notice how specific the definitions are. Hotel credit doesn't satisfy the cash-refund rule. A pool in a picture doesn't establish free access. And a missing clause doesn't become a yes. Your own brief needs these kinds of boundaries, because those are the answers your training examples will teach.
-
-**On-screen copy:**
-Show it what “a good match” means.
-
-**Editing note:**
-Let the result finish before speaking its meaning. P pauses diagrams; R resets current scene. Give the final visual time to read. Copy prompts into a coding assistant with local tools. When showing execution, keep actual results and disclose cut waiting time. Use the 1×, 1.5× or 2× controls for explanatory diagrams.
-
-**Source or truth card:**
-travel_lab/nli.py HYPOTHESES; traveller requirements; text/image separation.
-
-**Re-hook:**
-
-
-## Give Codex the complete brief (5:00-5:55)
+## Give Codex the complete brief (4:30-5:25)
 
 **Picture:**
 Scene `#prompt` at localhost:8770. Click Job, Data, Training and Final test tabs. Open the complete prompt page and show that the download has all eight sections. Underlines identify editable task fields.
@@ -162,7 +142,7 @@ Exact downloadable eight-part prompt; prepared specification, not historical cha
 **Re-hook:**
 
 
-## Give it three choices (5:55-6:25)
+## Give it three choices (5:25-5:55)
 
 **Picture:**
 Scene `#labels` at localhost:8770. Click Cash back, then Hotel credit. Point to the mapping between the teaching labels and actual output labels.
@@ -182,7 +162,7 @@ Teaching exercise; actual NLI labels in data/train.jsonl. Fixed format is not a 
 **Re-hook:**
 
 
-## Pair each example with an answer (6:25-7:00)
+## Pair each example with an answer (5:55-6:30)
 
 **Picture:**
 Scene `#training` at localhost:8770. Open actual train-00000 excerpt. Download the full record. Point at input, question, answer; show the separate held-out file only as data provenance.
@@ -202,7 +182,7 @@ assets/training-example.json exact data/train.jsonl record; synthetic, no human 
 **Re-hook:**
 
 
-## Keep some examples for the final test (7:00-7:35)
+## Keep some examples for the final test (6:30-7:05)
 
 **Picture:**
 Scene `#data-split` at localhost:8770. Play the practice, settings and sealed-test folders appearing in order.
@@ -222,7 +202,7 @@ Tutorial prepare validation; travel data provenance and split design.
 **Re-hook:**
 
 
-## Train it using checked examples (7:35-8:10)
+## Train it using checked examples (7:05-7:40)
 
 **Picture:**
 Scene `#practice` at localhost:8770. Play the existing training animation. Copy the training prompt below it when moving to execution.
@@ -242,7 +222,7 @@ Training code and saved checkpoints. Diagram is conceptual, not a measured indiv
 **Re-hook:**
 
 
-## Test it on examples it hasn’t seen (8:10-8:45)
+## Test it on examples it hasn’t seen (7:40-8:15)
 
 **Picture:**
 Scene `#test` at localhost:8770. Play identical unseen examples flowing to both models. Copy the test prompt.
@@ -262,7 +242,7 @@ Frozen V2 protocol; 52 document repairs; two writer-assisted adjudications; hash
 **Re-hook:**
 
 
-## Look at an answer it got wrong (8:45-9:15)
+## Look at an answer it got wrong (8:15-8:45)
 
 **Picture:**
 Scene `#failure` at localhost:8770. Show case …0036 arrival excerpt and both saved outputs. Open full JSON to show the input is longer than the excerpt.
@@ -282,7 +262,7 @@ assets/benchmark-case.json; raw frozen local and Jev rows for round1-deeper-fp16
 **Re-hook:**
 
 
-## Compare its answers with Jev's (9:15-9:45)
+## Compare its answers with Jev's (8:45-9:15)
 
 **Picture:**
 Scene `#results` at localhost:8770. Show common-axis bars; point to text-only scope and distinguish demo V1 from later V2. Do not animate a V1→V2 improvement arrow.
@@ -302,7 +282,7 @@ FROZEN-V2-RESULTS.md; qualification-decision.json; V1 summary. No model or final
 **Re-hook:**
 
 
-## Ask it to try a new policy (9:45-10:25)
+## Ask it to try a new policy (9:15-9:55)
 
 **Picture:**
 Scene `#predict` at localhost:8770. Show the cancellation letter and prompt. Paste into a coding assistant for actual saved-model inference; do not substitute the assistant's own answer.
@@ -322,7 +302,7 @@ tools/tutorial.py predict; downloadable JSON; actual smoke prediction receipt.
 **Re-hook:**
 
 
-## Connect the models with code (10:25-10:55)
+## Connect the models with code (9:55-10:25)
 
 **Picture:**
 Scene `#map` at localhost:8770. Point to text reader, pretrained photo reader and app rules in order; keep Maya visible when returning to the agency.
@@ -342,7 +322,7 @@ travel_lab/vision.py; catalogue.py; active selection.json.
 **Re-hook:**
 
 
-## Show how a picture becomes evidence (10:55-11:35)
+## Show how a picture becomes evidence (10:25-11:05)
 
 **Picture:**
 Scene `#vision` at localhost:8770. Play photo, pixel grid, feature answers and Maya's requirement in order. The grid illustrates pixel input, not an exact architecture trace. Open photo lab for fresh inference.
@@ -362,7 +342,7 @@ Fresh /api/observe receipt; fixed loopback endpoint; pretrained DiffusionGemma. 
 **Re-hook:**
 
 
-## Check what the photo can tell you (11:35-12:05)
+## Check what the photo can tell you (11:05-11:35)
 
 **Picture:**
 Scene `#boundary` at localhost:8770. Show pond, ask the three questions and reveal the conclusion. Refer back to the missing stairs photo.
@@ -382,7 +362,7 @@ Generated-image ledger; location-photos.json; image evidence limitations.
 **Re-hook:**
 
 
-## Check each person's requirements (12:05-12:35)
+## Check each person's requirements (11:35-12:05)
 
 **Picture:**
 Scene `#rules` at localhost:8770. Play budget/terms/photo gates. In the actual agency open a traveller drawer and show the clause/photo that caused decline or review.
@@ -402,27 +382,7 @@ catalogue.verdict; apply_visual_requirements; live reason drawer; companion loca
 **Re-hook:**
 
 
-## Ask AI to get the demo running (12:35-13:15)
-
-**Picture:**
-Scene `#first-run` at localhost:8770. Show the Kyoto demo illustration and copy repo plus setup prompt. Open the real agency after the assistant starts it.
-
-**Say:**
-To try my version, point Claude or Codex at the repo and ask it to get the demo running on your computer. Start with the supplied model. You don't have to retrain anything to see it work. Ask it to add image understanding if your machine supports the setup, open the website, and help you check one holiday. Then you can change one thing at a time and see what happens.
-
-**On-screen copy:**
-Ask AI to get the demo running.
-
-**Editing note:**
-Let the result finish before speaking its meaning. P pauses diagrams; R resets current scene. Give the final visual time to read. Copy prompts into a coding assistant with local tools. When showing execution, keep actual results and disclose cut waiting time. Use the 1×, 1.5× or 2× controls for explanatory diagrams.
-
-**Source or truth card:**
-tools/first_run.py, tools/restore_companion.py, docs/SETUP.md and live /api/status. Public access separately gated.
-
-**Re-hook:**
-
-
-## See where the costs come from (13:15-13:50)
+## See where the costs come from (12:05-12:40)
 
 **Picture:**
 Scene `#cost` at localhost:8770. Animate the build receipt, local computer and per-check model API fee. No fabricated total or savings percentage.
@@ -442,7 +402,7 @@ Historical V1 HTTP timing receipts and photo integration scan; no measured total
 **Re-hook:**
 
 
-## Change one example yourself (13:50-14:25)
+## Change one example yourself (12:40-13:15)
 
 **Picture:**
 Scene `#repurpose` at localhost:8770. Edit support request, choose its human label, add it and download JSONL. Run prepare_task.py on the saved sample. Show held-out separation in the adaptation guide.
@@ -462,16 +422,16 @@ Real JSONL export; tools/prepare_task.py; docs/ADAPT-YOUR-OWN.md. No completed s
 **Re-hook:**
 
 
-## Point AI at the repo and start building (14:25-15:00)
+## Take the project and make it yours (13:15-13:35)
 
 **Picture:**
-Scene `#take-it` at localhost:8770. Show the source kit and editable task prompt. Copy prompt plus the single repository URL.
+Scene `#take-it` at localhost:8770. Show the source kit and repository link. End without repeating setup or training steps.
 
 **Say:**
-Point your coding assistant at the repo and tell it the task you want to solve. Ask it to walk you through the model, the labels, the examples, training and a proper test, one step at a time. I've included the working travel example, the model setup and all the prompts. You can use AI to handle the code. Your job is to choose a useful question and check whether the answers make sense.
+The travel demo, prompts and guide are all in the repo. Take them and adapt them to a job you understand. Let AI handle the code. You check whether the answers make sense.
 
 **On-screen copy:**
-Point AI at the repo and start building.
+Take the project and make it yours.
 
 **Editing note:**
 Let the result finish before speaking its meaning. P pauses diagrams; R resets current scene. Give the final visual time to read. Copy prompts into a coding assistant with local tools. When showing execution, keep actual results and disclose cut waiting time. Use the 1×, 1.5× or 2× controls for explanatory diagrams.

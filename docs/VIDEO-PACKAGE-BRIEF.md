@@ -2,7 +2,7 @@
 
 Stage: production locked
 Research lock: 21 September 2026. Owner: Mark Kashef.
-Target runtime: a comprehensive A–Z walkthrough, superseding the earlier 5–10 minute summary. Current plan: 15:00; 1,807 spoken words, 11.7 minutes at 155 WPM plus visual/demo holds. No TTS requested. Image-understanding integration verified; not recorded or published.
+Target runtime: a comprehensive A–Z walkthrough, superseding the earlier 5–10 minute summary. Current plan: 13:35; 1,631 spoken words, 10.5 minutes at 155 WPM plus visual/demo holds. No TTS requested. Image-understanding integration verified; not recorded or published.
 
 ## Demand case
 Demand class: breakout candidate as an editorial hypothesis, not a performance prediction. Supports: current open Jev-like repositories supplied by Mark, established channel adjacency through the prior Jev video, and a familiar desire to satisfy different holiday requirements. Qualified viewer: practical AI builders and founders. Familiar category anchor: Jev. Premise: build a local Jev-like travel decision system with image understanding, show how its pieces work, and give viewers a working starting point they can adapt with new examples and tests.
@@ -47,7 +47,7 @@ Preserve the existing pixel-art travellers, personality captions, compact requir
 
 ## Current production authority: step-by-step rebuild
 
-The user rejected the prior conceptual summary as insufficient. Follow the 24-scene FILMING-GUIDE and EXPLAINER-STORY. Teach the exact starting classifier, show a sourced baseline before travel-specific training, download its pinned weights, explain the job contract, show the travel example, provide the full eight-part Codex prompt with underlined editable fields, inspect data, prepare a safe workspace, give Claude or Codex prompts to run baseline/training/testing, inspect errors, predict from the saved checkpoint, and connect app/image rules.
+The user rejected the prior conceptual summary as insufficient. Follow the 22-scene FILMING-GUIDE and EXPLAINER-STORY. Teach the exact starting classifier, show a sourced baseline before travel-specific training, download its pinned weights, explain the job contract, show the travel example, provide the full eight-part Codex prompt with underlined editable fields, inspect data, prepare a safe workspace, give Claude or Codex prompts to run baseline/training/testing, inspect errors, predict from the saved checkpoint, and connect app/image rules.
 
 A new tutorial tool supports prepare/download/baseline/train/test/predict. It preserves the supplied demo and records hashes. Its eight-decision real training verification proves execution only. The tutorial recipe is not identical to the historical training recipe and must not inherit the old score. Historical chart: 74.75% before and 93.63% after on the same 800 development decisions; not a final quality claim. The original V1 final result and later V2 loss remain disclosed.
 
@@ -55,8 +55,8 @@ The first scene carries the current approved hook, including image understanding
 
 ## Audience evidence and launch boundary
 
-The 405 retrieved comments and three published caption tracks inform the companion and delivery style; 35 replies were not recovered. They do not prove audience satisfaction. The 24-scene guide replaces the earlier 18-scene summary. Public repository access, final recorded-transcript reconciliation and reuse terms remain launch-stage checks; the source stays private until explicitly authorized go-live. The earlier tutorial audit is historical. Current visual revision is recorded in VISUAL-REVISION.md.
+The 405 retrieved comments and three published caption tracks inform the companion and delivery style; 35 replies were not recovered. They do not prove audience satisfaction. The 22-scene guide replaces the earlier 18-scene summary. Public repository access, final recorded-transcript reconciliation and reuse terms remain launch-stage checks; the source stays private until explicitly authorized go-live. The earlier tutorial audit is historical. Current visual revision is recorded in VISUAL-REVISION.md.
 
 ## Visual revision, 22 September 2026
 
-Latest user direction: teach through pictures and causal animations, with copyable prompts and links for Claude or Codex. Terminal commands live in the optional technical reference. Remove duplicate image/scene headings and incidental fine print; keep truth boundaries in the guide and source cards, with essential benchmark scope beside the numbers. Preserve pixel personas and the approved requirements scene. The 24-scene flow uses eight HyperFrames with 1×, 1.5× and 2× speed, pause and replay.
+Latest user direction: teach through pictures and causal animations, with copyable prompts and links for Claude or Codex. Terminal commands live in the optional technical reference. Remove duplicate image/scene headings and incidental fine print; keep truth boundaries in the guide and source cards, with essential benchmark scope beside the numbers. Preserve pixel personas and the approved requirements scene. The 22-scene flow uses eight HyperFrames with 1×, 1.5× and 2× speed, pause and replay.

@@ -17,3 +17,7 @@ Eight HyperFrames checked at 0, 9 and 17 seconds: all commands exit successfully
 Production check: 16 passed. Audience regression tests: 11 passed. Agency tests: 4 passed; frontend build passed. PDF: 26 pages visually inspected. Source checker passed. Clipboard automation could not access the browser virtual clipboard, so end-to-end system paste is not claimed; copy handlers include prompt text and its link.
 
 Local screenshot receipts: output/qa/visual-rebuild/. No inference code, model weights or repository visibility changed.
+
+## Duplicate cleanup
+
+Merged the job brief and its four travel definitions. Combined model download and supplied-demo setup into one prompt-based scene. Shortened the closing scene to a resource handoff. The stairs-photo repeat is an intentional demo callback. Current authority: 22 scenes, 1,631 spoken words, 13:35. The earlier 24-scene counts and 96 captures above describe the prior revision.

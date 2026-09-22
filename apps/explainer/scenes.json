@@ -17,15 +17,11 @@
   },
   {
     "id": "download",
-    "title": "Ask AI to download the model."
+    "title": "Ask AI to get it running."
   },
   {
     "id": "build",
     "title": "Tell it the job you want done."
-  },
-  {
-    "id": "travel-brief",
-    "title": "Show it what \u201ca good match\u201d means."
   },
   {
     "id": "prompt",
@@ -80,10 +76,6 @@
     "title": "Check each person's requirements."
   },
   {
-    "id": "first-run",
-    "title": "Ask AI to get the demo running."
-  },
-  {
     "id": "cost",
     "title": "See where the costs come from."
   },
@@ -93,6 +85,6 @@
   },
   {
     "id": "take-it",
-    "title": "Point AI at the repo and start building."
+    "title": "Take the project and make it yours."
   }
 ]
