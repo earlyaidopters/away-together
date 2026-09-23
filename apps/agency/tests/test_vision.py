@@ -70,3 +70,29 @@ def test_vision_outage_returns_review_not_silent_text_success(monkeypatch,tmp_pa
     r=TestClient(service.app).post('/api/decide',json=body)
     assert r.status_code==200 and r.json()['vision']['status']=='unavailable'
     assert r.json()['profiles']['p0']['status']=='review'
+
+def test_scan_reuses_one_live_photo_read_only_for_the_same_photos(monkeypatch,tmp_path):
+    monkeypatch.chdir(tmp_path);monkeypatch.setattr(service,'engine',TextEngine());monkeypatch.setattr(service,'vision_runs',{})
+    calls=[]
+    def inspect(photos):
+        calls.append([p['id'] for p in photos]);return {'status':'completed','elapsed_ms':1,**photo_result()}
+    monkeypatch.setattr(service,'inspect_photos',inspect)
+    client=TestClient(service.app)
+    read=client.post('/api/vision',json={'offer_id':'o0','photo_ids':['madeira-path']}).json()
+    assert read['status']=='completed' and calls==[['madeira-path']]
+    body={'offer_id':'o0','profiles':[{'id':'p0','budget':1600,'requirements':['refund'],'visual_requirements':['avoid_steps']}],'include_photos':True,'photo_ids':['madeira-path'],'vision_run_id':read['run_id']}
+    r=client.post('/api/decide',json=body)
+    assert r.status_code==200 and len(calls)==1
+    assert r.json()['vision']['reused_from_run']==read['run_id']
+    assert r.json()['profiles']['p0']['status']=='decline'
+    body['photo_ids']=['madeira-overview','madeira-path']
+    assert client.post('/api/decide',json=body).status_code==422
+    body['vision_run_id']='expired'
+    assert client.post('/api/decide',json=body).status_code==409
+
+def test_photo_read_outage_is_reported_not_raised(monkeypatch,tmp_path):
+    monkeypatch.chdir(tmp_path)
+    def unavailable(photos):raise httpx.ConnectError('offline')
+    monkeypatch.setattr(service,'inspect_photos',unavailable)
+    r=TestClient(service.app).post('/api/vision',json={'offer_id':'o0'})
+    assert r.status_code==200 and r.json()['status']=='unavailable' and 'run_id' not in r.json()

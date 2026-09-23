@@ -1,0 +1,242 @@
+{
+ "h-pool-waterpark": {
+  "pool": "visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-pool-lap-garden": {
+  "pool": "visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-pool-neg-hottub": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-pool-neg-plaza": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-pool-neg-paddy": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "unclear",
+  "garden": "not_visible",
+  "steps": "unclear",
+  "ramp": "not_visible"
+ },
+ "h-ocean-bay": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "unclear",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-ocean-surf": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-ocean-neg-canal": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-ocean-neg-reservoir": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "unclear",
+  "ramp": "not_visible"
+ },
+ "h-ocean-neg-salt": {
+  "pool": "not_visible",
+  "ocean": "unclear",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-mtn-volcano": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "unclear",
+  "steps": "unclear",
+  "ramp": "not_visible"
+ },
+ "h-mtn-fjordwall": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-mtn-neg-downs": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-mtn-neg-mesa": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-mtn-neg-quarry": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-garden-cactus": {
+  "pool": "visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-garden-kitchen": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-garden-neg-meadow": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-garden-neg-parking": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "unclear",
+  "garden": "not_visible",
+  "steps": "visible",
+  "ramp": "not_visible"
+ },
+ "h-garden-neg-vines": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-steps-deck": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "visible",
+  "ramp": "not_visible"
+ },
+ "h-steps-subway": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "visible",
+  "ramp": "not_visible"
+ },
+ "h-steps-neg-lift": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-steps-neg-bleachers": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-steps-neg-shelves": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "h-ramp-metal": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "visible"
+ },
+ "h-ramp-long": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "unclear",
+  "steps": "unclear",
+  "ramp": "visible"
+ },
+ "h-ramp-neg-loading": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "unclear",
+  "ramp": "not_visible"
+ },
+ "h-ramp-neg-escalator": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "unclear",
+  "ramp": "not_visible"
+ },
+ "h-ramp-neg-gangway": {
+  "pool": "not_visible",
+  "ocean": "unclear",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "unclear"
+ }
+}

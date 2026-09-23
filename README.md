@@ -8,7 +8,7 @@
 
 The familiar persona interface remains the core demo. Each card can expose the written clause or photo behind its result.
 
-> **The honest result:** our later text challenger scored 95.28% against synthetic travel reference answers; Jev scored 98.61% on the same test. The challenger was not promoted. The live demo still uses the earlier V1 reader, which scored 66.5% on its separate older test. This is an experimental learning project, not a booking service.
+> **The honest result:** our later text challenger scored 95.28% against synthetic travel reference answers; Jev scored 98.61% on the same test. It did not beat Jev, but on the same test the earlier V1 reader scored 60.28%, so the live demo now runs V2. This is an experimental learning project, not a booking service.
 
 ## Start with the idea
 

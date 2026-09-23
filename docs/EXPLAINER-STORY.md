@@ -32,7 +32,7 @@ Authority: FILMING-GUIDE.md. 22 scenes, 1,631 spoken words, planned 13:35 includ
 
 13. Look at an answer it got wrong (8:15–8:45): Scene `#failure` at localhost:8770. Show case …0036 arrival excerpt and both saved outputs. Open full JSON to show the input is longer than the excerpt.
 
-14. Compare its answers with Jev's (8:45–9:15): Scene `#results` at localhost:8770. Show common-axis bars; point to text-only scope and distinguish demo V1 from later V2. Do not animate a V1→V2 improvement arrow.
+14. Compare its answers with Jev's (8:45–9:15): Scene `#results` at localhost:8770. Show three common-axis bars from the same 360 fresh scenarios: first model 60.28%, V2 95.28%, Jev 98.61%. Point to text-only scope. The app now runs V2.
 
 15. Ask it to try a new policy (9:15–9:55): Scene `#predict` at localhost:8770. Show the cancellation letter and prompt. Paste into a coding assistant for actual saved-model inference; do not substitute the assistant's own answer.
 

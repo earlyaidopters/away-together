@@ -1,0 +1,16 @@
+{
+ "corpus": "experiments/v2/final/round1-deeper-fp16/test.jsonl",
+ "corpus_sha256": "c1e833db6c3168195966779705684ad3bfbba0d795acd46229d67a015b7a8167",
+ "scenarios": 360,
+ "v1_failed": 0,
+ "v1_accuracy": 0.6027777777777777,
+ "v2_accuracy": 0.9527777777777777,
+ "v2_minus_v1": 0.35,
+ "v2_minus_v1_ci95_scenario_bootstrap": [
+  0.325,
+  0.375
+ ],
+ "v1_median_ms": 144.23854200867936,
+ "v2_median_ms": 98.80708299897378,
+ "utc": "2026-09-22T22:44:02Z"
+}

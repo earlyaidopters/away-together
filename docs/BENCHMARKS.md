@@ -13,9 +13,11 @@ Both saw the same 360 synthetic travel scenarios. The paired difference was −3
 
 Reference answers were synthetic and agent-reviewed, not human-validated hotel facts. Full repairs, original drafts and two non-unanimous writer-assisted adjudications are retained in the companion artifact.
 
-## Active earlier model
+## The model the live agency runs
 
-The live agency uses V1. It scored 66.5% on its own older travel test and failed its reliability targets. Different corpora prevent treating V1→V2 scores as a controlled improvement curve.
+Since 22 September 2026 the live agency runs V2 under a separate app rule: it passed the fresh-round quality and coverage gates and clearly beats the earlier V1 on the same round. On the same 360 scenarios, with both models frozen before the corpus existed and nothing tuned: V1 60.28%, V2 95.28%, Jev 98.61%. V2 minus V1 is +35.0 points (95% scenario bootstrap 32.5 to 37.5). Median model time per scenario: V1 144 ms, V2 99 ms. This is not a Jev win.
+
+V1 separately scored 66.5% on its own older travel test, shown below as history.
 
 ![Historical V1 travel result](images/travel-test.png)
 

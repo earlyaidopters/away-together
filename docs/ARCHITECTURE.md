@@ -7,7 +7,7 @@ sequenceDiagram
     participant Viewer
     participant UI as Persona interface / explainer
     participant Agency as Agency :8765
-    participant Text as Active V1 text reader
+    participant Text as V2 text reader
     participant Vision as Local image service :8081
     Viewer->>UI: Choose holiday, wishes and photos
     UI->>Agency: POST /api/decide

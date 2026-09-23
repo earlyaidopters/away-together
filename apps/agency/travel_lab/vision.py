@@ -9,13 +9,14 @@ from pathlib import Path
 import httpx
 
 ROOT = Path(__file__).resolve().parents[1]
+# Look-alikes named explicitly (22 Sep 2026): false "visible" 25 -> 9 on the 48-photo development set, experiments/v3/vision.
 TRAITS = {
-    'pool': 'A swimming pool intended for people to swim in is clearly visible. An ornamental pond is not a swimming pool.',
-    'ocean': 'The sea or ocean is clearly visible in the photograph.',
-    'mountains': 'Mountains are clearly visible in the photograph.',
-    'garden': 'A planted garden or landscaped courtyard is clearly visible.',
-    'steps': 'A flight of stairs or steps on the pictured property access route is clearly visible.',
-    'ramp': 'A constructed access ramp leading to a building entrance is clearly visible.',
+    'pool': 'A swimming pool intended for people to swim in is clearly visible. An ornamental pond, fountain, reflecting pool, lake, sea or blue paving is not a swimming pool.',
+    'ocean': 'The open sea or ocean is clearly visible in the photograph. A lake, river, pond, swimming pool or sea of clouds is not the ocean.',
+    'mountains': 'Tall mountains or a mountain range rising far above the surrounding land are clearly visible. Rolling hills, low wooded hills, flat land, sand dunes, coastal cliffs, rocks and buildings are not mountains.',
+    'garden': 'A deliberately planted garden or landscaped courtyard with cultivated beds, lawns, shrubs or trimmed plants is clearly visible. Wild forest, moss, natural wilderness, coastal vegetation, window boxes, a few potted plants and artificial turf are not a garden.',
+    'steps': 'A flight of stairs or steps on the pictured property access route is clearly visible. A single raised step at a doorway counts. Stepping stones set in level ground, terraced fields and sloped paths are not steps.',
+    'ramp': 'A constructed access ramp leading to a building entrance is clearly visible. A vehicle driveway, boat slipway, skateboard ramp or stairs with a handrail are not an access ramp.',
 }
 VISUAL_REQUIREMENTS = {
     'pool': 'See a swimming pool',

@@ -5,7 +5,7 @@ from urllib.request import Request,urlopen
 from urllib.error import HTTPError
 import base64,hashlib,json,time,uuid
 ROOT=Path(__file__).resolve().parent
-TRAITS={'pool':'A swimming pool intended for swimming is clearly visible. An ornamental pond is not a swimming pool.','steps':'A flight of steps on the pictured property access route is clearly visible.','ramp':'A constructed entrance ramp is clearly visible.'}
+TRAITS={'pool': 'A swimming pool intended for people to swim in is clearly visible. An ornamental pond, fountain, reflecting pool, lake, sea or blue paving is not a swimming pool.', 'steps': 'A flight of stairs or steps on the pictured property access route is clearly visible. A single raised step at a doorway counts. Stepping stones set in level ground, terraced fields and sloped paths are not steps.', 'ramp': 'A constructed access ramp leading to a building entrance is clearly visible. A vehicle driveway, boat slipway, skateboard ramp or stairs with a handrail are not an access ramp.'}
 def observe(image):
     if not isinstance(image,str) or ',' not in image:raise ValueError('Choose a PNG or JPEG image.')
     prefix,encoded=image.split(',',1)

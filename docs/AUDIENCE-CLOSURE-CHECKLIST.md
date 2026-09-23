@@ -1,5 +1,7 @@
 # Audience-gap closure checklist
 
+Current A–Z rewrite: prior per-question scores below are historical acceptance evidence. Revalidate story placement against the 29-scene tutorial before treating them as current. Public access remains a launch-stage check. See STEP-BY-STEP-GOAL-AUDIT.md for this revision.
+
 Status: 26 of 27 checks meet the defined 10/10 acceptance rubric. Q23 remains 6/10. Public delivery remains a launch-stage check.
 
 A 10 means the scoped question is clearly answered in the correct scene, supported by an appropriate visual/resource, accurate to the evidence, and verified. Each dimension scores 0–2. It does not mean perfect model accuracy, guaranteed audience understanding, or every feature requested in unrelated videos has been built. Answering “not tested” can close a compatibility question; it does not establish compatibility.

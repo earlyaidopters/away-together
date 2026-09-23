@@ -1,0 +1,391 @@
+{
+ "_meta": {
+  "labelled_by": "Claude (agent visual review of contact sheets), 2026-09-22, before any OpenJev read of these images",
+  "human_verified": false,
+  "rule": "unclear labels are excluded from accuracy; labels are never edited after reads exist"
+ },
+ "pool-rooftop": {
+  "pool": "visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "pool-indoor": {
+  "pool": "visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "pool-plunge": {
+  "pool": "visible",
+  "ocean": "visible",
+  "mountains": "unclear",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "pool-night": {
+  "pool": "visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "pool-neg-koi": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "pool-neg-reflecting": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "pool-neg-lake": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "pool-neg-dry-terrace": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "unclear",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "ocean-beach": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "ocean-harbour": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "unclear",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "ocean-cliff-dusk": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "ocean-cafe": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "unclear",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "ocean-neg-lake": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "unclear",
+  "ramp": "not_visible"
+ },
+ "ocean-neg-river": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "ocean-neg-cloudsea": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "ocean-neg-dunes": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "unclear",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "mountains-chalet": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "unclear",
+  "ramp": "not_visible"
+ },
+ "mountains-road": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "mountains-mist": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "visible",
+  "steps": "unclear",
+  "ramp": "not_visible"
+ },
+ "mountains-desert": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "mountains-neg-hills": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "mountains-neg-dunes": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "mountains-neg-skyline": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "mountains-neg-boulders": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "not_visible",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "garden-cottage": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "garden-tropical": {
+  "pool": "unclear",
+  "ocean": "visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "garden-rooftop": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "garden-zen": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "garden-neg-forest": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "garden-neg-lava": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "garden-neg-lobby": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "garden-neg-turf": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "steps-porch": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "visible",
+  "ramp": "not_visible"
+ },
+ "steps-grand": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "visible",
+  "ramp": "not_visible"
+ },
+ "steps-single": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "visible",
+  "ramp": "not_visible"
+ },
+ "steps-spiral": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "unclear",
+  "garden": "unclear",
+  "steps": "visible",
+  "ramp": "not_visible"
+ },
+ "steps-neg-level": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "steps-neg-stones": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "steps-neg-terraces": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "steps-neg-slope": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "not_visible",
+  "ramp": "visible"
+ },
+ "ramp-concrete": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "visible"
+ },
+ "ramp-wooden": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "visible"
+ },
+ "ramp-beside-steps": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "visible",
+  "steps": "visible",
+  "ramp": "visible"
+ },
+ "ramp-zigzag": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "visible"
+ },
+ "ramp-neg-driveway": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "not_visible",
+  "garden": "unclear",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "ramp-neg-slipway": {
+  "pool": "not_visible",
+  "ocean": "visible",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "not_visible",
+  "ramp": "not_visible"
+ },
+ "ramp-neg-rail-stairs": {
+  "pool": "not_visible",
+  "ocean": "not_visible",
+  "mountains": "unclear",
+  "garden": "unclear",
+  "steps": "visible",
+  "ramp": "not_visible"
+ },
+ "ramp-neg-skate": {
+  "pool": "not_visible",
+  "ocean": "unclear",
+  "mountains": "not_visible",
+  "garden": "not_visible",
+  "steps": "unclear",
+  "ramp": "not_visible"
+ }
+}

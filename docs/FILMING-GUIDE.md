@@ -1,14 +1,14 @@
 # Build your own decision system
 
-Step-by-step A–Z revision. Twenty-two visual filming surfaces. Exact Say blocks; companion holds deeper setup and troubleshooting. No TTS requested.
+Step-by-step A–Z revision. Twenty-two visual filming surfaces. Exact Say blocks; companion holds deeper setup and troubleshooting. A separate audio guide reads only the Say blocks.
 
-## See how a photo changes the answer (0:00-0:55)
+## See how a photo changes the answer (0:00-1:00)
 
 **Picture:**
-Scene `#demo` at localhost:8770. Start with the live persona demo already visible. Deliver the Jev/local/images claim over the app. Run Maya with the stairs photo by 0:10; remove it and run again. Point at review by 0:25. Briefly show the full agency grid. If either request stalls, preserve real elapsed time and cut the wait transparently.
+Scene `#demo` at localhost:8770. Start with the live persona demo already visible. In the full agency, select The flexible escape · 2 (offer 10 of 40); the #demo scene already uses it. Deliver the Jev/local/images claim over the app. Run Maya with the stairs photo by 0:10; remove it and run again. Point at review by 0:25. Briefly show the full agency grid. If either request stalls, preserve real elapsed time and cut the wait transparently.
 
 **Say:**
-I took the idea behind Jev and built a version for this travel job that runs entirely on my computer. And I even added the ability to understand images, which is something Jev's current model doesn't support. Now imagine you run a travel agency. You've got twelve customers, all with different budgets and wish lists. One needs a pool. Another arrives after midnight. Maya wants a cash refund if she cancels, and an entrance without stairs. Your job is to match each person with a holiday that fits, checking the fine print and the photos. Watch what happens when we check this one.
+I took the idea behind Jev and built a version for this travel job that runs entirely on my computer. It even understands images, which Jev's current model doesn't support. Then I handed it to Claude Opus 5.5, and it made it faster and more accurate. Now imagine you run a travel agency. You've got twelve customers, all with different budgets and wish lists. One needs a pool. Another arrives after midnight. Maya wants a cash refund if she cancels, and an entrance without stairs. Your job is to match each person with a holiday that fits, checking the fine print and the photos. Watch what happens when we check this one.
 
 **On-screen copy:**
 See how a photo changes the answer.
@@ -17,12 +17,12 @@ See how a photo changes the answer.
 Let the result finish before speaking its meaning. P pauses diagrams; R resets current scene. Give the final visual time to read. Copy prompts into a coding assistant with local tools. When showing execution, keep actual results and disclose cut waiting time. Use the 1×, 1.5× or 2× controls for explanatory diagrams.
 
 **Source or truth card:**
-Fresh /api/decide receipts; active V1 plus pretrained vision. Fictional travellers and photos. TypeSafe model documentation checked 21 September 2026: current Jev text-only input; our image support is a separate pretrained integration.
+Fresh /api/decide receipts; active V2 text model (models/active-model.json, app rule) plus pretrained vision. Fictional travellers and photos. TypeSafe model documentation checked 21 September 2026: current Jev text-only input; our image support is a separate pretrained integration. Opus 5.5 line (22 Sep 2026 session only): same-test accuracy 60.28% to 95.28% (experiments/v3/runs/v1-vs-v2-round1.json); first check after restart 8.5 s to about 0.12 s via startup warm-up; photo false alarms 10 to 4 on a held-out set (experiments/v3/vision/holdout). The original build was done with Codex; do not say Opus built it.
 
 **Re-hook:**
 
 
-## Build it one step at a time (0:55-1:30)
+## Build it one step at a time (1:00-1:35)
 
 **Picture:**
 Scene `#why` at localhost:8770. Point to the four-stage visual path.
@@ -42,13 +42,13 @@ docs/STEP-BY-STEP.md; exact tutorial commands and retained app.
 **Re-hook:**
 
 
-## Start with a model that can classify text (1:30-2:15)
+## Start with a model that can classify text (1:35-2:20)
 
 **Picture:**
 Scene `#choose-model` at localhost:8770. Open the actual model card. Point to owner, task, weights and pinned revision; use the card as a navigation surface, not a fabricated screenshot.
 
 **Say:**
-First, find a model that can already do the kind of job you need. Hugging Face hosts model weights and instructions. This is the one behind our travel demo: Moritz Laurer's ModernBERT zero-shot classifier. Someone has already trained it to compare text with possible answers. We aren't starting from a blank model. On the model page, check what it does, whether you can download it, its terms, and its results. Save the exact version. Codex can help you read the page, but a popular model still needs testing on your job.
+First, find a model that can already do the kind of job you need. Hugging Face hosts model weights and instructions. This is the one I started with: Moritz Laurer's ModernBERT zero-shot classifier. Someone has already trained it to compare text with possible answers. We aren't starting from a blank model. On the model page, check what it does, whether you can download it, its terms, and its results. Save the exact version. Codex can help you read the page, but a popular model still needs testing on your job.
 
 **On-screen copy:**
 Start with a model that can classify text.
@@ -62,7 +62,7 @@ Pinned Hugging Face author model card; travel_lab/nli.py NLI_ID and NLI_REV.
 **Re-hook:**
 
 
-## Measure it before you train it (2:15-3:00)
+## Measure it before you train it (2:20-3:05)
 
 **Picture:**
 Scene `#baseline` at localhost:8770. Point at the before bar first, then after. Keep development and separate final-test caveat visible. Open the JSON receipt.
@@ -82,7 +82,7 @@ models/selection.json baseline_dev and dev; runs/nli-baseline-dev.json; historic
 **Re-hook:**
 
 
-## Ask AI to get it running (3:00-3:45)
+## Ask AI to get it running (3:05-3:50)
 
 **Picture:**
 Scene `#download` at localhost:8770. Copy the setup prompt and repository link into Claude Code or Codex. Explain the file-to-computer animation, then open the actual agency after setup. The starting model link is available beside the prompt.
@@ -102,7 +102,7 @@ tools/tutorial.py download; live pinned snapshot_download receipt; docs/STEP-BY-
 **Re-hook:**
 
 
-## Tell it the job you want done (3:45-4:30)
+## Tell it the job you want done (3:50-4:35)
 
 **Picture:**
 Scene `#build` at localhost:8770. Show the holiday, booking terms and Maya beside the brief. Walk through its four concrete requirements.
@@ -122,7 +122,7 @@ prompts/TRAIN-MY-SPECIALIST.md; supplied travel hypotheses and task data. travel
 **Re-hook:**
 
 
-## Give Codex the complete brief (4:30-5:25)
+## Give Codex the complete brief (4:35-5:30)
 
 **Picture:**
 Scene `#prompt` at localhost:8770. Click Job, Data, Training and Final test tabs. Open the complete prompt page and show that the download has all eight sections. Underlines identify editable task fields.
@@ -142,7 +142,7 @@ Exact downloadable eight-part prompt; prepared specification, not historical cha
 **Re-hook:**
 
 
-## Give it three choices (5:25-5:55)
+## Give it three choices (5:30-6:00)
 
 **Picture:**
 Scene `#labels` at localhost:8770. Click Cash back, then Hotel credit. Point to the mapping between the teaching labels and actual output labels.
@@ -162,7 +162,7 @@ Teaching exercise; actual NLI labels in data/train.jsonl. Fixed format is not a 
 **Re-hook:**
 
 
-## Pair each example with an answer (5:55-6:30)
+## Pair each example with an answer (6:00-6:35)
 
 **Picture:**
 Scene `#training` at localhost:8770. Open actual train-00000 excerpt. Download the full record. Point at input, question, answer; show the separate held-out file only as data provenance.
@@ -182,7 +182,7 @@ assets/training-example.json exact data/train.jsonl record; synthetic, no human 
 **Re-hook:**
 
 
-## Keep some examples for the final test (6:30-7:05)
+## Keep some examples for the final test (6:35-7:10)
 
 **Picture:**
 Scene `#data-split` at localhost:8770. Play the practice, settings and sealed-test folders appearing in order.
@@ -202,7 +202,7 @@ Tutorial prepare validation; travel data provenance and split design.
 **Re-hook:**
 
 
-## Train it using checked examples (7:05-7:40)
+## Train it using checked examples (7:10-7:45)
 
 **Picture:**
 Scene `#practice` at localhost:8770. Play the existing training animation. Copy the training prompt below it when moving to execution.
@@ -222,7 +222,7 @@ Training code and saved checkpoints. Diagram is conceptual, not a measured indiv
 **Re-hook:**
 
 
-## Test it on examples it hasn’t seen (7:40-8:15)
+## Test it on examples it hasn’t seen (7:45-8:20)
 
 **Picture:**
 Scene `#test` at localhost:8770. Play identical unseen examples flowing to both models. Copy the test prompt.
@@ -242,7 +242,7 @@ Frozen V2 protocol; 52 document repairs; two writer-assisted adjudications; hash
 **Re-hook:**
 
 
-## Look at an answer it got wrong (8:15-8:45)
+## Look at an answer it got wrong (8:20-8:50)
 
 **Picture:**
 Scene `#failure` at localhost:8770. Show case …0036 arrival excerpt and both saved outputs. Open full JSON to show the input is longer than the excerpt.
@@ -262,13 +262,13 @@ assets/benchmark-case.json; raw frozen local and Jev rows for round1-deeper-fp16
 **Re-hook:**
 
 
-## Compare its answers with Jev's (8:45-9:15)
+## Compare its answers with Jev's (8:50-9:20)
 
 **Picture:**
-Scene `#results` at localhost:8770. Show common-axis bars; point to text-only scope and distinguish demo V1 from later V2. Do not animate a V1→V2 improvement arrow.
+Scene `#results` at localhost:8770. Show three common-axis bars from the same 360 fresh scenarios: first model 60.28%, V2 95.28%, Jev 98.61%. Point to text-only scope. The first-model bar is a same-test comparison; its separate 66.5% test stays out of this chart.
 
 **Say:**
-That later model matched our references about ninety-five percent of the time. Jev was closer to ninety-nine. I didn't beat Jev. It failed our promotion rule, so the demo still uses the earlier model. That one scored sixty-six point five on a different test. These aren't comparable improvement scores. And this chart tests text, not picture understanding. We built the workflow. Its reliability still needs work.
+That later model matched our references about ninety-five percent of the time. Jev was closer to ninety-nine. I didn't beat Jev. On that same test, my first model only got about sixty percent. So the demo you saw runs the later model, right here on this computer. And this chart tests text, not picture understanding. We built the workflow. Its reliability still needs work.
 
 **On-screen copy:**
 Compare its answers with Jev's.
@@ -277,12 +277,12 @@ Compare its answers with Jev's.
 Let the result finish before speaking its meaning. P pauses diagrams; R resets current scene. Give the final visual time to read. Copy prompts into a coding assistant with local tools. When showing execution, keep actual results and disclose cut waiting time. Use the 1×, 1.5× or 2× controls for explanatory diagrams.
 
 **Source or truth card:**
-FROZEN-V2-RESULTS.md; qualification-decision.json; V1 summary. No model or final-test changes.
+FROZEN-V2-RESULTS.md; qualification-decision.json; experiments/v3/runs/v1-vs-v2-round1.json (both models frozen before the corpus, no tuning); models/active-model.json basis app-quality-gates.
 
 **Re-hook:**
 
 
-## Ask it to try a new policy (9:15-9:55)
+## Ask it to try a new policy (9:20-10:00)
 
 **Picture:**
 Scene `#predict` at localhost:8770. Show the cancellation letter and prompt. Paste into a coding assistant for actual saved-model inference; do not substitute the assistant's own answer.
@@ -302,7 +302,7 @@ tools/tutorial.py predict; downloadable JSON; actual smoke prediction receipt.
 **Re-hook:**
 
 
-## Connect the models with code (9:55-10:25)
+## Connect the models with code (10:00-10:30)
 
 **Picture:**
 Scene `#map` at localhost:8770. Point to text reader, pretrained photo reader and app rules in order; keep Maya visible when returning to the agency.
@@ -322,7 +322,7 @@ travel_lab/vision.py; catalogue.py; active selection.json.
 **Re-hook:**
 
 
-## Show how a picture becomes evidence (10:25-11:05)
+## Show how a picture becomes evidence (10:30-11:10)
 
 **Picture:**
 Scene `#vision` at localhost:8770. Play photo, pixel grid, feature answers and Maya's requirement in order. The grid illustrates pixel input, not an exact architecture trace. Open photo lab for fresh inference.
@@ -342,7 +342,7 @@ Fresh /api/observe receipt; fixed loopback endpoint; pretrained DiffusionGemma. 
 **Re-hook:**
 
 
-## Check what the photo can tell you (11:05-11:35)
+## Check what the photo can tell you (11:10-11:40)
 
 **Picture:**
 Scene `#boundary` at localhost:8770. Show pond, ask the three questions and reveal the conclusion. Refer back to the missing stairs photo.
@@ -362,7 +362,7 @@ Generated-image ledger; location-photos.json; image evidence limitations.
 **Re-hook:**
 
 
-## Check each person's requirements (11:35-12:05)
+## Check each person's requirements (11:40-12:10)
 
 **Picture:**
 Scene `#rules` at localhost:8770. Play budget/terms/photo gates. In the actual agency open a traveller drawer and show the clause/photo that caused decline or review.
@@ -382,7 +382,7 @@ catalogue.verdict; apply_visual_requirements; live reason drawer; companion loca
 **Re-hook:**
 
 
-## See where the costs come from (12:05-12:40)
+## See where the costs come from (12:10-12:45)
 
 **Picture:**
 Scene `#cost` at localhost:8770. Animate the build receipt, local computer and per-check model API fee. No fabricated total or savings percentage.
@@ -397,12 +397,12 @@ See where the costs come from.
 Let the result finish before speaking its meaning. P pauses diagrams; R resets current scene. Give the final visual time to read. Copy prompts into a coding assistant with local tools. When showing execution, keep actual results and disclose cut waiting time. Use the 1×, 1.5× or 2× controls for explanatory diagrams.
 
 **Source or truth card:**
-Historical V1 HTTP timing receipts and photo integration scan; no measured total-cost ratio.
+V2 app timing receipts (experiments/v3/runs/v1-vs-v2-round1.json) and photo integration scan; no measured total-cost ratio.
 
 **Re-hook:**
 
 
-## Change one example yourself (12:40-13:15)
+## Change one example yourself (12:45-13:20)
 
 **Picture:**
 Scene `#repurpose` at localhost:8770. Edit support request, choose its human label, add it and download JSONL. Run prepare_task.py on the saved sample. Show held-out separation in the adaptation guide.
@@ -422,7 +422,7 @@ Real JSONL export; tools/prepare_task.py; docs/ADAPT-YOUR-OWN.md. No completed s
 **Re-hook:**
 
 
-## Take the project and make it yours (13:15-13:35)
+## Take the project and make it yours (13:20-13:40)
 
 **Picture:**
 Scene `#take-it` at localhost:8770. Show the source kit and repository link. End without repeating setup or training steps.

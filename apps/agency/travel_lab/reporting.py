@@ -21,8 +21,11 @@ def promoted_evidence():
     if not path.exists():
         return None
     pointer = read_json(path)
-    if pointer['kind'] != 'deberta-travel-v2' or len(pointer['evidence']) < 2:
+    app_basis = pointer.get('basis') == 'app-quality-gates'
+    if pointer['kind'] != 'deberta-travel-v2' or len(pointer['evidence']) < (1 if app_basis else 2):
         raise ValueError('Active model has no replicated promotion evidence')
+    if app_basis and digest(pointer['v1_comparison']['file']) != pointer['v1_comparison']['sha256']:
+        raise ValueError('V1 comparison receipt changed')
     if digest(pointer['freeze_file']) != pointer['freeze_sha256']:
         raise ValueError('Promotion freeze changed')
     if read_json(pointer['freeze_file'])['model_sha256'] != pointer['model_sha256']:
@@ -34,14 +37,17 @@ def promoted_evidence():
                               ('jev-travel-fresh.jsonl', 'jev_raw_sha256')]:
             if digest(folder / filename) != evidence[key]:
                 raise ValueError('Promoted evaluation receipt changed: ' + str(folder / filename))
-        if not evidence['recomputed_report']['round_qualifies']:
+        if app_basis:
+            if not all(evidence['recomputed_report']['gates'][g] for g in pointer['quality_gates_passed']):
+                raise ValueError('Active round fails its quality gates')
+        elif not evidence['recomputed_report']['round_qualifies']:
             raise ValueError('Promoted round does not qualify')
     return pointer
 
 
 def active_report():
     pointer = promoted_evidence()
-    if pointer is None:
+    if pointer is None or pointer.get('basis') == 'app-quality-gates':
         old = Path('output/benchmarks/summary.json')
         result = read_json(old) if old.exists() else {'status': 'Evaluation has not completed. No result is implied.'}
         challenger = Path('output/benchmarks/frozen-v2-summary.json')
@@ -51,6 +57,8 @@ def active_report():
                 if digest(source) != expected:
                     raise ValueError('Frozen challenger report source changed: ' + source)
             result['challenger'] = evidence
+        if pointer is not None:
+            result['active'] = {'basis': pointer['basis'], 'claim_scope': pointer['claim_scope'], 'v1_comparison': pointer['v1_comparison']}
         return result
     lanes = {}
     rounds = []

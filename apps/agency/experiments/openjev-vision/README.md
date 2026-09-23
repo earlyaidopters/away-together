@@ -29,7 +29,9 @@ The backend sends actual PNG bytes and six fixed feature questions, separately f
 
 The text branch still reads all four terms. Budgets and final combination are application logic. Photos never override a paid-pool clause, refund policy, arrival hours or activity price. Seeing no stairs does not prove a complete step-free route. A visible ramp is only a visible ramp, not accessibility certification. If vision is offline, malformed or no selected image establishes a requested feature, that preference requires review.
 
-OpenJev uses diffusion structured reads with one sample and one denoise step. It may reuse image/prompt prefills, but every live request executes decision inference; there is no saved-result substitution. Saved replay is explicitly labelled in the app. Timings include HTTP and photo processing and must stay separate from old text-only benchmarks.
+OpenJev uses diffusion structured reads with one sample and one denoise step. It may reuse image/prompt prefills, but every photo read executes decision inference; there is no saved-result substitution from disk. Saved replay is explicitly labelled in the app.
+
+Since 22 September 2026 a check first calls `POST /api/vision` for one live read of the selected photos, then `POST /api/decide` with that read's `vision_run_id`. During Scan all 40, offers that share the exact same destination photo selection reuse that one in-memory read from the same server process, so the scan performs three photo reads instead of forty. The server refuses a mismatched photo selection (422) or an unknown/expired read (409). Every decision receipt records `reused_from_run`. Decision `elapsed_ms` is then text inference only; the photo read's own `elapsed_ms` stays in `vision`. Timings must stay separate from old text-only benchmarks.
 
 ## Evidence
 

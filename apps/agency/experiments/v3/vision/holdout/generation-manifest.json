@@ -1,0 +1,182 @@
+{
+ "h-pool-waterpark": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a resort swimming pool with a curved water slide and palm trees. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "88b8ca634fa37fdd32766471ce4e0c211506970318304c10999d1f3058ecbef7",
+  "utc": "2026-09-22T22:52:40Z"
+ },
+ "h-pool-lap-garden": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a narrow outdoor lap swimming pool beside a stone farmhouse. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "906e7149d5763990080863194ed5800eda468e07c8eec9f78c187c9d31c8f020",
+  "utc": "2026-09-22T22:52:50Z"
+ },
+ "h-pool-neg-hottub": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a small round wooden hot tub on a cabin deck in the snow; no swimming pool. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "fe212bea2c5211020b259d34c346a806e07059ac21e91db31a4695d6af3d9cbe",
+  "utc": "2026-09-22T22:52:57Z"
+ },
+ "h-pool-neg-plaza": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a town square with a large ornate stone fountain in front of a hotel; no swimming pool. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "eb7cd88a88e9f1e7ccf87f6e33f2b5ada31c2b4378844301f783c48ad63cb9a4",
+  "utc": "2026-09-22T22:53:06Z"
+ },
+ "h-pool-neg-paddy": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a guesthouse beside flooded rice paddies reflecting the sky; no swimming pool. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "293f9ae5ab107e1c390fd8966e47288e4066c8a31314f6cb62dd76f8ba8706ea",
+  "utc": "2026-09-22T22:53:14Z"
+ },
+ "h-ocean-bay": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a hotel balcony above a turquoise sea bay with sailboats. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "abfb902e93e05af90fb7202bf7c3ff54dd3f539f1650bf91cb1cda7fdb93279e",
+  "utc": "2026-09-22T22:53:22Z"
+ },
+ "h-ocean-surf": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a surf lodge on dunes above big ocean waves. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "66992beb1321623ec919bede31c6fc50e3798c51068cb06c3abf62e4d1c64b3e",
+  "utc": "2026-09-22T22:53:31Z"
+ },
+ "h-ocean-neg-canal": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a canal-side boutique hotel with narrow boats on a city canal; no sea. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "34c8e5d859bde4a4cc54a096ad288ee4e3fd3da438c6fe309d3c3a65a5162b89",
+  "utc": "2026-09-22T22:53:40Z"
+ },
+ "h-ocean-neg-reservoir": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a lodge overlooking a dammed reservoir in a forested valley; no sea. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "5e05f69956bef70204805196b5d2786147fe727e91bbf8feec3074f4fbee6769",
+  "utc": "2026-09-22T22:53:48Z"
+ },
+ "h-ocean-neg-salt": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a desert hotel beside a vast white salt flat stretching to the horizon; no water. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "34cdab2914135d9da4244d169df36a9e0927f7f003658d0aa7faf0044068b441",
+  "utc": "2026-09-22T22:53:57Z"
+ },
+ "h-mtn-volcano": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a guesthouse with a large snow-capped volcano behind it. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "c27f13f669803844a826a0f3325783ca7c26c3de75d70fc68391970a0b1ae2a4",
+  "utc": "2026-09-22T22:54:05Z"
+ },
+ "h-mtn-fjordwall": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a village inn beneath steep towering granite peaks. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "1c2719838bb31d7db6442fe486d136695ca6b7b25f4e51688bac0353ee686d18",
+  "utc": "2026-09-22T22:54:14Z"
+ },
+ "h-mtn-neg-downs": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a country pub on flat chalk grassland with low gentle downs; no mountains. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "c075852ec60acf43e5c15f6012aebf26982452fde71507dec314eccdfbf23e57",
+  "utc": "2026-09-22T22:54:23Z"
+ },
+ "h-mtn-neg-mesa": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a motel in flat prairie farmland with grain silos; no mountains. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "df9f7aa165b4aea6abe261d88c5776a700da9e364d17185ea94bde53273dd885",
+  "utc": "2026-09-22T22:54:31Z"
+ },
+ "h-mtn-neg-quarry": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a hotel next to a small heap of gravel and a construction site on flat ground; no mountains. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "33f1b0929087eacff1598909b15834aeb9f97c56e55d9a98a687f013fc41349f",
+  "utc": "2026-09-22T22:54:39Z"
+ },
+ "h-garden-cactus": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a desert villa with a landscaped cactus and succulent garden with gravel paths. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "26a025b32edfb3880a717295449b0126d3e140efb44c3e5c2b041d38327d98f9",
+  "utc": "2026-09-22T22:54:47Z"
+ },
+ "h-garden-kitchen": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a farm stay with a neat vegetable garden in raised wooden beds. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "81cd288129fabb705c586957be13364eda0d693544fb1d2ae82806aeb4bfce44",
+  "utc": "2026-09-22T22:54:56Z"
+ },
+ "h-garden-neg-meadow": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a cabin in an uncultivated wild alpine meadow; no planted garden. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "3b4321460d4e72a13309b64dceaebf777d28d364f9fe57a8c404a3460874dbb4",
+  "utc": "2026-09-22T22:55:05Z"
+ },
+ "h-garden-neg-parking": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a roadside hotel with an asphalt parking lot and one small tree; no garden. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "cfb611fb67523d7ea49cc3f773d4557ffe77615ceef2928fe9477cc72179bdb4",
+  "utc": "2026-09-22T22:55:13Z"
+ },
+ "h-garden-neg-vines": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a hotel lobby wall covered in artificial plastic plants indoors; no real garden. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "b8928120a002458de2496e4f826019eb9634b1e526905a36b0dc48b508b2edaa",
+  "utc": "2026-09-22T22:55:22Z"
+ },
+ "h-steps-deck": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a beach house with wooden stairs up to the front door. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "62d66b0926ebd9eb960959ad5e258eca94491ae805eac8f39633fc7135139b65",
+  "utc": "2026-09-22T22:55:30Z"
+ },
+ "h-steps-subway": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a small city hotel whose entrance is down a short flight of concrete steps below street level. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "6592836ce4377789c5880eceb6d29fdbf3acb2b2b3f9cc62c07eea7af2617417",
+  "utc": "2026-09-22T22:55:40Z"
+ },
+ "h-steps-neg-lift": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a hotel entrance with a level threshold and a revolving door on flat pavement; no steps. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "4e2dfd85b7a534462f93271b3573c98f219faa89c5d437a0efbd527f48fcee60",
+  "utc": "2026-09-22T22:55:49Z"
+ },
+ "h-steps-neg-bleachers": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a sports hotel beside a stadium with tiered seating; the hotel door is at level ground with no steps. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "6b6d1d43e6c5204d48939db838e789b5956132f6a31a4254dc7141be5d7a0701",
+  "utc": "2026-09-22T22:55:57Z"
+ },
+ "h-steps-neg-shelves": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a flat garden path to a door with stacked wooden crates of flowers beside it; no steps. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "6b6c483919e90a00306ba04c67c954a0cc111858f09358ade88462cb469a00c9",
+  "utc": "2026-09-22T22:56:06Z"
+ },
+ "h-ramp-metal": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a guesthouse with a temporary metal wheelchair ramp over the entrance step. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "ed5dd2dc06574a292cca433b63406293499405fdd506cc53029f73ab7de51ef0",
+  "utc": "2026-09-22T22:56:15Z"
+ },
+ "h-ramp-long": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a lakeside lodge with a long gently sloped concrete access ramp with handrails to the entrance. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "0ee2344b14c07c7760ddb29bd3f998023c429458340d4f72471367960c817cb8",
+  "utc": "2026-09-22T22:56:23Z"
+ },
+ "h-ramp-neg-loading": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a hotel service loading dock with a truck; no pedestrian access ramp. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "12dda2aa493c720c170adee10abcbd013b9a5d79dcfda8e6f74c027c85708df6",
+  "utc": "2026-09-22T22:56:31Z"
+ },
+ "h-ramp-neg-escalator": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a hotel atrium with an escalator; no access ramp. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "ae34aefb263d84776e4e538ed80b96264aac6f5c4f0ff47d950893f754fe1070",
+  "utc": "2026-09-22T22:56:40Z"
+ },
+ "h-ramp-neg-gangway": {
+  "model": "gemini-3.1-flash-image",
+  "prompt": "Photorealistic travel listing photograph of a FICTIONAL property: a floating hotel boat reached by a narrow gangplank from a pier; no building entrance ramp. Wide landscape composition, natural light, documentary property photography. No people, no text, no logos, no watermark, no collage.",
+  "sha256": "96aa2a34d4700fb78b048bacea0aaa670c32c079213d3784caf341a234fa1aa3",
+  "utc": "2026-09-22T22:56:46Z"
+ }
+}

@@ -11,7 +11,7 @@
 | Inference | Using the saved model to answer a new request | Checking a holiday; this does not retrain it |
 | NLI | Checking whether text supports, contradicts or leaves a statement unresolved | Does this policy support a full cash refund? |
 | Train / development / test | Practice examples / examples for choosing settings / the final exam | Keep related documents together so near-copies do not cross splits |
-| Checkpoint | A saved version of a model | Active V1 and frozen V2 are different checkpoints |
+| Checkpoint | A saved version of a model | The earlier V1 and the frozen V2 the agency now runs are different checkpoints |
 | Freeze | Stop changing the contestant before testing it | Model, settings and inputs have recorded hashes |
 | Multimodal | Using more than one kind of input | The app combines text judgments with photo observations |
 | API | A way for one program to request something from another | POST /api/decide returns a structured decision |
