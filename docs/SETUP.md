@@ -12,7 +12,7 @@ Open http://localhost:8770. The visual lessons work immediately. The opening liv
 
 ## 2. Restore the complete agency artifact
 
-The public `companion-v2` release contains the complete agency bundle, including the active V2 text checkpoint, its immutable freeze record, and the supporting runtime evidence. The release is public. Download it in a browser or use the command below.
+The member-access `companion-v2` release contains the complete agency bundle, including the active V2 text checkpoint, its immutable freeze record, and the supporting runtime evidence. Sign in with a GitHub account authorized for this private repository. Download it in a browser or use the command below.
 
 ```bash
 gh release download companion-v2 --repo earlyaidopters/away-together \

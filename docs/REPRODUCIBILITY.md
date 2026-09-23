@@ -32,7 +32,7 @@ For a new domain, follow [ADAPT-YOUR-OWN](ADAPT-YOUR-OWN.md). Use a new director
 
 - Broad image accuracy or safe real-world booking decisions.
 - Superiority over Jev: the later text challenger lost its frozen comparison.
-- A controlled V1-to-V2 improvement: their tests differ.
+- Generalization beyond the reported domains. The later V1-to-V2 comparison used the same 360 synthetic travel scenarios; earlier V1 reports use different tests and must not be mixed with it.
 - Human-validated reference answers: the travel test is synthetic and agent-reviewed.
 - Universal speed, savings, minimum hardware or cross-platform vision support.
 - A one-prompt build or an original foundation model.

@@ -1,78 +1,81 @@
-> **Complete community edition.** This repository contains the full local app, training experiments and saved-model release. The [free public starter](https://github.com/earlyaidopters/away-together-starter) remains available to everyone. Existing MIT permissions on previously published code remain unchanged.
-
 <div align="center">
 
-# Your own specialist. Running on your computer.
+# Away Together
 
-**Away Together** · A working example from **Early AI Adopters**
+**The complete local AI build · Early AI Adopters community edition**
 
-Train a small model for one job. See its mistakes. Put its answers to work.
+From a booking clause to a decision you can inspect.
 
-[Explore the visual guide](https://build-your-own-jev.markkashef.chatgpt.site) · [Try the sample agency](https://build-your-own-jev.markkashef.chatgpt.site/demo/) · [Build your own](prompts/TRAIN-MY-SPECIALIST.md)
-
-![Away Together: one holiday, twelve travellers, different requirements](docs/images/agency-personas.png)
+[Run the local app](#run-the-local-app) · [Inspect the results](#what-the-experiment-actually-showed) · [Train for your task](#make-your-own-specialist) · [Public starter](https://github.com/earlyaidopters/away-together-starter)
 
 </div>
 
-A hotel promises a “flexible booking.” Does that mean cash back, hotel credit, or nothing you can safely conclude?
+![Away Together’s local agency with pixel-art travellers, holiday details and individual decisions](docs/images/agency-personas.png)
 
-This project turns that question into a complete learning loop: define the labels, measure a starting model, train a specialist, test it on unseen examples, and connect the result to an application. The example is a fictional travel agency. The method is yours to adapt.
+A holiday looks perfect. The refund is hotel credit, the pool costs extra, and the entrance has stairs. Different travellers care about different details.
 
-**The AI reads the holiday. It does not classify the people.** One model reads the written terms, a separate model reads the photos, and ordinary code compares those observations with each traveller’s wish list and budget.
+**Away Together reads the holiday’s terms and photos, then checks them against each traveller’s requirements.** The AI produces narrow observations. Application code handles budgets and combines the evidence into **match**, **decline**, or **needs review**.
 
-## Try it before installing anything
+This is the complete project behind Mark’s video: the working local app, text training code, separate image integration, frozen V2 checkpoint, and measurements you can inspect. The fictional travel task is the example; the build-and-test process is the part to reuse.
 
-Open the **[sample agency](https://build-your-own-jev.markkashef.chatgpt.site/demo/)**. Choose a holiday, change a budget, toggle a requirement, or remove a photo. Inspect the reason behind each match, decline and review.
+> **Member access:** this repository and its releases require an authorized GitHub account. The [public starter](https://github.com/earlyaidopters/away-together-starter), [visual guide](https://build-your-own-jev.markkashef.chatgpt.site) and [recorded sample](https://build-your-own-jev.markkashef.chatgpt.site/demo/) remain available to everyone. Skool membership does not automatically sign you into GitHub.
 
-The public sample contains **recorded outputs from the real local models** for 40 fictional offers and nine photos. Application rules run in your browser. It does not run a model, analyze new text, or upload your images. The [local app](docs/SETUP.md) performs fresh inference.
+## Pick your first session
 
-For the clearest example, choose **The flexible escape · 2**. Maya wants a cash refund and to avoid entrance stairs. Including the stairs photo produces a decline. Removing it produces **needs review**, because an unseen staircase is not proof of an accessible route.
+| Your goal | Follow this path | Finish with… |
+|---|---|---|
+| Run the system from the video | [Local setup](#run-the-local-app) | One fresh V2 prediction and an inspectable receipt |
+| Understand a decision | [Follow one request](#follow-one-request-through-the-code) | The clause, model answer and rule behind a result |
+| Audit the experiment | [Results](#what-the-experiment-actually-showed) → [reproducibility](docs/REPRODUCIBILITY.md) | The test scope, saved evidence and known failures |
+| Build for your own domain | [Complete prompt](prompts/TRAIN-MY-SPECIALIST.md) → [adaptation guide](docs/ADAPT-YOUR-OWN.md) | A separate experiment with a held-out test |
 
-## What actually improved?
+You do not need to rerun training to use the supplied model. Start with inference; explore the historical experiments afterward.
 
-| Text reader | Agreement with reference answers |
-|---|---:|
-| Our earlier V1 | 60.28% |
-| **Our local V2, active in the app** | **95.28%** |
-| Jev | 98.61% |
+## What is in this edition?
 
-Same 360 synthetic travel scenarios, 1,440 decisions per model. These are reference-agreement scores, not human-verified booking accuracy. **V2 improved by 35 percentage points over V1 and did not beat Jev.** Its travel specialization does not establish general-purpose parity.
-
-V2 runs because it passed the app’s quality and coverage gates. The stricter Jev-superiority gate was not passed. The image branch is separate and is not included in this text score. [Inspect the evidence and limitations →](docs/BENCHMARKS.md)
-
-## Three ways in
-
-| Your goal | Your next step |
+| Component | What you receive |
 |---|---|
-| Understand the idea | [Visual walkthrough](https://build-your-own-jev.markkashef.chatgpt.site) and [plain-English guide](docs/COMMUNITY-GUIDE.md) |
-| Run the same local system | [Setup](docs/SETUP.md), current `companion-v2` assets, then one fresh check |
-| Train for your own job | [Copy the complete prompt](prompts/TRAIN-MY-SPECIALIST.md), edit the bracketed fields, and follow the [A–Z tutorial](docs/STEP-BY-STEP.md) |
+| **Local agency** | React persona interface, Python API, 40 fictional offers and 12 travellers |
+| **Text specialist** | Active DeBERTa V2 checkpoint, immutable freeze and selection evidence in `companion-v2` |
+| **Photo reader** | Pinned OpenJev integration; vision weights downloaded separately |
+| **Training and evaluation** | Historical experiments, protocols, comparison code and inspectable receipts |
+| **Teaching material** | Visual walkthrough, full build prompt, setup and adaptation guides |
+| **Browser sample** | A no-model version using saved observations and browser rules |
 
-### Ask your coding assistant to help
+The browser sample is recorded. The local agency runs fresh inference. The educational ModernBERT tutorial is a separate recipe from the historical V2 experiment.
 
-```text
-Set up https://github.com/earlyaidopters/away-together on my computer.
-Read the README and docs/SETUP.md first. Check my hardware and prerequisites.
-Use the current companion-v2 release and verify its manifest.
-Launch the text app and run one real holiday check. Show the model output.
-Then explain whether my machine can support the optional image backend.
-Do not retrain, replace checkpoints, or make paid API calls during setup.
-```
+## Run the local app
 
-Use Claude, Codex, or another coding assistant with local filesystem and terminal access. A chat-only answer is not proof that a model ran.
+### 1. Check access and prerequisites
 
-## Run locally
-
-**Tested:** macOS 26.5.2 on an Apple M5 Max with 128 GB RAM. That is the tested host, not a minimum requirement. Start with the text path. The optional image path currently targets Apple silicon and downloads roughly 16 GB; Windows/Linux vision and lower-memory hosts are unvalidated.
-
-Prerequisites: Python 3.12, `uv`, Node 22+, npm, Git, and GitHub CLI for the download command. You can also download the ZIP from [Releases](https://github.com/earlyaidopters/away-together/releases).
+Use **Python 3.12, uv, Node 22+, npm, Git and GitHub CLI**. Sign in with the GitHub account that has community repository access:
 
 ```bash
-git clone https://github.com/earlyaidopters/away-together.git
+gh auth status
+gh repo view earlyaidopters/away-together
+```
+
+If the repository is not visible to that account, resolve access before installing dependencies. Get help through the [community](https://www.skool.com/earlyaidopters/about).
+
+**Tested host:** Apple M5 Max, 128 GB RAM, macOS 26.5.2. This is the machine used, not a minimum specification. The current text ZIP is approximately **1.15 GB**; allow additional space for extraction and dependencies. The optional image model adds approximately **16 GB** of downloads and uses Apple silicon. Lower-memory hosts and Windows/Linux vision have not been validated.
+
+### 2. Clone and restore the V2 runtime
+
+```bash
+gh repo clone earlyaidopters/away-together
 cd away-together
 gh release download companion-v2 --repo earlyaidopters/away-together \
   --pattern Away-Together-Complete.zip --dir downloads
 python3 tools/restore_companion.py downloads/Away-Together-Complete.zip
+```
+
+The restore tool validates every archive path and manifest hash before writing. It preserves existing files and refuses conflicting copies. Use a clean clone if an older installation conflicts.
+
+**Expected:** the checkpoint appears at `apps/agency/experiments/v2/models/deberta-travel-deeper-fp16/`, and `apps/agency/models/active-model.json` selects it. Use `companion-v2`; the earlier companion supplied V1.
+
+### 3. Start the text app
+
+```bash
 cd apps/agency
 uv sync --frozen
 npm --prefix app ci
@@ -80,77 +83,141 @@ npm --prefix app run build
 uv run uvicorn travel_lab.serve:app --host 127.0.0.1 --port 8765
 ```
 
-Open **http://localhost:8765**. Check a holiday and inspect its receipt. The first request loads the model. Keep the service on loopback; this local development server is not a public deployment.
+Open **http://localhost:8765** and leave that terminal running. Switch to **Terms only**, then click **Check this holiday**. The first request loads the model; later requests are warmer.
 
-To add the separate photo model, open another terminal in `apps/agency`:
+**Your first success:** a fresh run produces traveller decisions, clicking a traveller reveals the supporting reasons, and a receipt appears in `apps/agency/runs/demo/`. Photo preferences can still require review when photos are disabled. A loaded page alone does not prove inference ran.
+
+### 4. Add the photo model when you are ready
+
+In a **second terminal**, from the cloned repository root:
 
 ```bash
+cd apps/agency
 uv run python scripts/start_vision.py --setup --background
 ```
 
-To run the no-model sample yourself:
+The launcher creates a separate vision environment and downloads the pinned pretrained model. It does not train a vision model. Review the [upstream terms](THIRD-PARTY-NOTICES.md).
+
+In the app, select **The flexible escape · 2** and enable **Terms + photos**. Include all three photos and check Maya: the entrance stairs cause a decline. Remove the **Approach** photo and check again: the result becomes **needs review**. Missing evidence cannot establish a step-free route.
+
+For the local visual walkthrough and own-photo lab, open another terminal at the repository root:
 
 ```bash
-cd apps/public-demo
-npm ci
-npm run dev
+python3 apps/explainer/serve.py
 ```
 
-[Setup details](docs/SETUP.md) · [Troubleshooting](docs/TROUBLESHOOTING.md) · [Architecture](docs/ARCHITECTURE.md)
+Open **http://localhost:8770**. Keep these development services bound to loopback. [Detailed setup and recovery →](docs/SETUP.md)
 
-## How the pieces fit
+<details>
+<summary><strong>Have Claude or your coding assistant handle setup</strong></summary>
+
+```text
+Set up the complete community repository:
+https://github.com/earlyaidopters/away-together
+
+Read README.md and docs/SETUP.md. Check GitHub access, hardware and prerequisites.
+Restore companion-v2 and verify the manifest. Preserve existing work.
+Launch the text app and run one real holiday check; show the saved receipt.
+Then explain whether my machine supports the optional image backend.
+Do not retrain, replace checkpoints, expose local services publicly,
+or make paid API calls during setup.
+```
+
+Use an assistant with terminal and local-file access. Ask it to show what actually ran.
+
+</details>
+
+## Follow one request through the code
 
 ```mermaid
 flowchart LR
-  T[Written booking terms] --> N[Fine-tuned DeBERTa V2]
-  P[Selected photo pixels] --> V[Pretrained OpenJev]
-  N --> R[Application rules]
-  V --> R
-  W[Wish lists and budgets] --> R
-  R --> M[Match / Decline / Review]
+  Terms[Booking terms] --> Text[DeBERTa V2]
+  Photos[Selected photo pixels] --> Vision[Pretrained OpenJev]
+  Text --> Rules[Application rules]
+  Vision --> Rules
+  Wishes[Budget and wish list] --> Rules
+  Rules --> Match[Match]
+  Rules --> Decline[Decline]
+  Rules --> Review[Needs review]
 ```
 
-The photo model can report visible stairs or a pool. It cannot establish included access, refund rights, or a complete step-free route. Missing evidence remains a review. Budgets are arithmetic, not model guesses.
+| Step | Open this file | Look for… |
+|---|---|---|
+| Select an offer and requirements | [`app/src/main.tsx`](apps/agency/app/src/main.tsx) | The request sent to `/api/decide` |
+| Load the correct checkpoint | [`active_model.py`](apps/agency/travel_lab/active_model.py) | Active pointer and frozen-model verification |
+| Read the terms | [`engine.py`](apps/agency/experiments/v2/engine.py) | Candidate scoring and probabilities |
+| Apply budget and terms rules | [`catalogue.py`](apps/agency/travel_lab/catalogue.py) | `verdict`, including the review branch |
+| Read photos and apply visual requirements | [`vision.py`](apps/agency/travel_lab/vision.py) | Visible features, thresholds and missing evidence |
+| Return and save the receipt | [`serve.py`](apps/agency/travel_lab/serve.py) | Selected photos, answers, timings and per-person reasons |
 
-## Make it useful for your own job
+The AI reads the **holiday**, not the travellers. A picture may show stairs or a swimming pool; it cannot establish refund rights, included access, or a complete accessible route. Budgets use arithmetic. [Architecture details →](docs/ARCHITECTURE.md)
 
-1. **Choose a narrow decision.** Define what goes in and the exact answers allowed out. Include “can’t tell.”
-2. **Write the label rules.** Check ambiguous examples yourself before creating thousands more.
-3. **Separate practice from the exam.** Keep related documents and templates in one split. Reserve a final test.
-4. **Measure before training.** Compare the starting model and simple rules. Fine-tuning may not be necessary.
-5. **Run a small experiment.** Save the configuration, data version and model hash. Use development results to choose a checkpoint.
-6. **Freeze, then test.** Keep every mistake. Do not keep tuning against the same “unseen” exam.
-7. **Connect it carefully.** Keep application rules inspectable and route uncertain cases for review.
+## What the experiment actually showed
 
-The [complete prompt](prompts/TRAIN-MY-SPECIALIST.md) walks your assistant through this process. The tutorial creates a separate workspace and preserves the supplied travel model. Its smoke test validates the pipeline, not model quality.
+| Text reader | Reference agreement on the same travel test |
+|---|---:|
+| Earlier local V1 | 60.28% |
+| **Active local V2** | **95.28%** |
+| Jev | 98.61% |
 
-## Find your way around
+**360 synthetic scenarios. 1,440 decisions per model.** V2 improved by **35 percentage points** over V1 and did **not** beat Jev. These are agreement scores against synthetic references, not human-verified booking accuracy or general-purpose model performance.
 
-```text
-apps/agency/       Python inference, React travellers, training and evaluation
-apps/explainer/    Original local visual walkthrough and image upload lab
-apps/public-demo/ Browser sample using recorded model observations
-prompts/           Copy-ready brief for your own specialist
-docs/             Setup, adaptation, explanation and benchmark boundaries
-evidence/         Historical measurements and verification receipts
-tools/            Manifest-checked restore, first-run checks, training tutorial
-```
+![Frozen V2 travel comparison with Jev](docs/images/frozen-v2-travel.png)
 
-Large model weights and runtime receipts live in the versioned companion release. The source repository excludes credentials, environments and caches. OpenJev model weights are downloaded separately under their upstream terms.
+V2 runs because it passed the app’s quality and coverage gates. The stricter Jev-superiority gate was not passed. Photo inference is a separate branch and is not included in this text score. The V3 ensemble is parked and is not the active app model.
 
-## What this project is honest about
+**Inspect before rerunning:** [benchmark guide](docs/BENCHMARKS.md) · [frozen V2 report](evidence/FROZEN-V2-RESULTS.md) · [reproducibility guide](docs/REPRODUCIBILITY.md).
 
-- This is a learning project using fictional offers and synthetic labels, not a booking service.
-- The benchmark supports a narrow travel result. It does not support “we beat Jev.”
-- Text fine-tuning and pretrained image inference are separate systems joined by code.
-- Local inference avoids per-request model-provider charges; hardware, energy, storage and development still cost money.
-- The original build used Codex. Claude Opus helped with later upgrades. Neither tool replaces your judgment about the examples.
-- The public sample is a replayable demonstration. Run locally for fresh inference.
+## Make your own specialist
 
-## Build with us
+Use a **new workspace**, keeping the supplied checkpoint intact.
 
-Created by **Mark Kashef**, shared through **[Early AI Adopters](https://www.skool.com/earlyaidopters/about)**. Bring your own task, compare results, and share what failed as well as what worked.
+1. **Define the decision.** Write the input, allowed answers and rules for ambiguity.
+2. **Check examples.** Keep synthetic labels identified. Review realistic cases yourself.
+3. **Separate the exam.** Keep related documents together across train, development and final-test splits.
+4. **Measure the starting point.** Compare the unchanged model and simple rules before fine-tuning.
+5. **Train, select and freeze.** Select on development results; record data and model hashes.
+6. **Open the final test.** Preserve predictions and mistakes. If you tune on them, use a new test afterward.
+7. **Connect the result.** Validate the question schema, answer ordering and calibration before changing an application.
 
-[Contributing](CONTRIBUTING.md) · [Report a bug](https://github.com/earlyaidopters/away-together/issues) · [Credits](THIRD-PARTY-NOTICES.md)
+Start with the [complete prompt](prompts/TRAIN-MY-SPECIALIST.md) and [A–Z tutorial](docs/STEP-BY-STEP.md). The tutorial’s ModernBERT smoke run checks the pipeline; it is not a reproduction of the 95.28% V2 result. For the historical V2 process, read its [protocol](apps/agency/experiments/v2/PROTOCOL.md) before exploring [training code](apps/agency/experiments/v2/train_deberta.py).
 
-**License:** original project code is [MIT](LICENSE). Upstream code, models, datasets and fonts retain their own licenses. This project is independent and is not affiliated with or endorsed by TypeSafe, Jev, Anthropic, OpenAI, or the upstream model authors.
+**Do not run every experiment file in filename order.** The folder preserves separate investigations and historical runners. Some commands download large models or make paid Jev calls. [Adaptation guide →](docs/ADAPT-YOUR-OWN.md)
+
+## Know where your work lives
+
+| Location | Purpose |
+|---|---|
+| [`apps/agency/`](apps/agency) | Working local app, training and evaluation code |
+| [`apps/explainer/`](apps/explainer) | Local walkthrough and photo upload lab |
+| [`apps/public-demo/`](apps/public-demo) | Recorded-output browser sample |
+| [`prompts/`](prompts) and [`docs/`](docs) | Build briefs, setup, explanations and adaptation |
+| [`evidence/`](evidence) | Inspectable measurements and verification receipts |
+| [`tools/`](tools) | Safe restoration, prerequisite checks and tutorial stages |
+| `workshops/` | Your new experiments; generated locally and ignored by Git |
+| [`companion-v2`](https://github.com/earlyaidopters/away-together/releases/tag/companion-v2) | Current checkpoint and runtime evidence, outside Git |
+
+## When a first run gets stuck
+
+| Symptom | What to check |
+|---|---|
+| Repository or release appears missing | `gh auth status`; confirm the signed-in account has community GitHub access. |
+| No trained model is available | Restore `companion-v2`, then check the active pointer and checkpoint paths above. |
+| Restore reports conflicting files | Preserve your changes and restore into a clean clone. |
+| Text works but photos do not | Complete the separate Apple-silicon vision setup and start port 8081. |
+| First result is slow | Model loading is separate from warm inference. Check available memory and other model processes. |
+| Results look wrong | Inspect the clause, selected photos and saved receipt; keep the failing example. |
+
+[Full troubleshooting](docs/TROUBLESHOOTING.md) · [API example](docs/API-EXAMPLE.md) · [Contribution guide](CONTRIBUTING.md)
+
+## Verified, with a clear scope
+
+The community release was restored into a clean source copy, its frozen V2 model loaded, and a fresh prediction, report and error examples were read successfully. The app checks passed **42 Python tests and 4 frontend tests**. The public sample’s stairs, missing-photo and budget cases were checked separately. These checks establish the tested paths, not universal hardware support or model accuracy.
+
+Local inference has no per-request model-provider fee. Hardware, electricity, storage, setup, coding-assistant use and optional hosted benchmarks still have costs. This is an experimental learning project, not an autonomous booking system.
+
+---
+
+**Built by Mark Kashef for [Early AI Adopters](https://www.skool.com/earlyaidopters/about).** Share your task, a reproducible example and what you tried when asking for help. Keep customer data and credentials out of issues.
+
+The original build used Codex; Claude Opus helped with later upgrades. OpenJev and the base models are upstream contributions. [Credits](THIRD-PARTY-NOTICES.md) · [Original-code MIT license](LICENSE). Earlier publicly distributed MIT versions retain their permissions. This project is independent of TypeSafe, Jev and the model vendors.
