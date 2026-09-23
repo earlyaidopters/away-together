@@ -1,3 +1,5 @@
+> **Complete community edition.** This repository contains the full local app, training experiments and saved-model release. The [free public starter](https://github.com/earlyaidopters/away-together-starter) remains available to everyone. Existing MIT permissions on previously published code remain unchanged.
+
 <div align="center">
 
 # Your own specialist. Running on your computer.
