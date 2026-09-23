@@ -33,4 +33,4 @@ V2 warm local tokenization/inference median 98.6 ms; Jev remote request median 1
 
 Nine actual image inferences and a causal photo-toggle check establish that pixels enter the decision path. They do not establish broad image accuracy. Images are generated and shared by destination. The 0.8 visual threshold is a heuristic, not calibrated confidence.
 
-Raw summaries and integration receipts are in ../evidence. The private companion release retains raw evaluation rows, failures, hashes and both text checkpoints.
+Raw summaries and integration receipts are in ../evidence. The versioned companion release retains raw evaluation rows, failures, hashes and both text checkpoints.

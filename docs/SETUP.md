@@ -12,10 +12,10 @@ Open http://localhost:8770. The visual lessons work immediately. The opening liv
 
 ## 2. Restore the complete agency artifact
 
-The private `companion-v1` release contains the complete agency bundle, including active V1 and frozen V2 text checkpoints, raw experiment rows and audits. GitHub authentication with repository access is required.
+The public `companion-v2` release contains the complete agency bundle, including the active V2 text checkpoint, its immutable freeze record, and the supporting runtime evidence. The release is public. Download it in a browser or use the command below.
 
 ```bash
-gh release download companion-v1 --repo promptadvisers/away-together \
+gh release download companion-v2 --repo earlyaidopters/away-together \
   --pattern Away-Together-Complete.zip --dir downloads
 python3 tools/restore_companion.py downloads/Away-Together-Complete.zip
 ```

@@ -1,6 +1,6 @@
-# Ask Codex to build your specialist
+# Ask Claude to build your specialist
 
-This is a reusable example prompt, not a transcript of Mark's original build. Open the repository folder in Codex, change the bracketed fields, and paste everything below. Start with the travel values if following the video. Codex handles implementation; you must judge whether the examples and answers match your real job.
+This is a reusable example prompt, not a transcript of Mark's original build. Open the repository folder in Claude, change the bracketed fields, and paste everything below. Start with the travel values if following the video. Claude handles implementation; you must judge whether the examples and answers match your real job.
 
 ---
 
@@ -8,7 +8,7 @@ Help me build and understand a small local classifier for **[checking holiday bo
 
 ## 1. Define the job before writing training code
 
-My input is **[a holiday offer's complete written booking terms]**. My questions are **[full cash refund before the deadline; check-in after midnight without arranging it; included pool access; included guided hike]**. For each question choose exactly one of **[meets, violates, insufficient_evidence]**.
+My input is **[a holiday offer's complete written booking terms]**. My questions are **[full cash refund before the deadline; check-in after midnight without arranging it; included pool access; included guided hike]**. For each question choose exactly one of **[yes, no, can’t tell] (mapped internally to meets, violates, insufficient_evidence)**.
 
 Make the meanings precise. Hotel credit does not count as a cash refund. A missing clause means insufficient evidence, not a pass. Read the full relevant document. Use ordinary code for numeric budgets. Show me five examples, including an ambiguous case, so I can check that you understood my rules before you scale data preparation.
 
@@ -54,6 +54,6 @@ If I need images, connect the existing separately pretrained OpenJev image servi
 
 ## 8. Deliver a project I can run again
 
-Give me one README with prerequisites, exact commands, expected files, troubleshooting and a first-result check. Include the base model pin, data provenance, code, checkpoint manifest, measurements, failures and upstream credits. Keep local inference, model downloads and Codex's build-time costs separate. List what still needs my judgment.
+Give me one README with prerequisites, exact commands, expected files, troubleshooting and a first-result check. Include the base model pin, data provenance, code, checkpoint manifest, measurements, failures and upstream credits. Keep local inference, model downloads and Claude's build-time costs separate. List what still needs my judgment.
 
 My completion test is: I can run one result from the saved model; inspect why it was labelled that way; reproduce the test report; and identify which files to change for my next task. Work through the steps with visible receipts instead of giving me only an overview.

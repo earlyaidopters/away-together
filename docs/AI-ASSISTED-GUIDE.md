@@ -27,7 +27,7 @@ What you should get: The exact model version and one real example.
 ```text
 Help me define [my task]. My input is [what it reads]. My possible answers are [the labels]. Show me five examples, including one you cannot answer.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: A task definition you can check.
@@ -37,7 +37,7 @@ What you should get: A task definition you can check.
 ```text
 Use the full specialist prompt below. Replace the bracketed task fields and walk me through every checkpoint.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: The full job, data, training and testing plan.
@@ -47,7 +47,7 @@ What you should get: The full job, data, training and testing plan.
 ```text
 Show the text, question and checked answer for each example. Flag unclear labels and keep synthetic examples identified.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: Examples whose answers you understand.
@@ -57,7 +57,7 @@ What you should get: Examples whose answers you understand.
 ```text
 Split the examples into practice, development and final test. Keep related documents together and keep the final test closed.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: Three separate groups with no exact overlap.
@@ -67,7 +67,7 @@ What you should get: Three separate groups with no exact overlap.
 ```text
 Test the original classifier first. Use my checked examples to run a small training check, then train in a separate folder and save the best version. Keep final-test examples out of training, and show me the results and files.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: A saved model and its development results.
@@ -77,7 +77,7 @@ What you should get: A saved model and its development results.
 ```text
 Compare my trained model and the original on the same untouched examples. Show both sets of answers, the scores and every mistake. Keep the report even if the specialist loses.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: Both models’ predictions and all mistakes.
@@ -87,7 +87,7 @@ What you should get: Both models’ predictions and all mistakes.
 ```text
 Load my saved model and run a new example. Show its selected answer. Change the example and run the model again; do not answer it yourself.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: A real result from your saved model.
@@ -97,7 +97,7 @@ What you should get: A real result from your saved model.
 ```text
 Set up this repo locally with the supplied weights, launch the travel app and help me check one holiday.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: The live agency in your browser.
@@ -107,7 +107,7 @@ What you should get: The live agency in your browser.
 ```text
 Connect the included pretrained image service if my machine supports it. Show the picture, the visual questions, its answers and how the app uses them.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: Photo observations connected to traveller requirements.
@@ -117,7 +117,7 @@ What you should get: Photo observations connected to traveller requirements.
 ```text
 Help me adapt this to [my task]. Keep the model version, examples, training settings, saved model and test results together. Write a guide so I can run it again.
 
-https://github.com/promptadvisers/away-together
+https://github.com/earlyaidopters/away-together
 ```
 
 What you should get: An understandable project and its limitations.

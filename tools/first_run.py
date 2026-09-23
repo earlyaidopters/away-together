@@ -5,9 +5,11 @@ ROOT=Path(__file__).resolve().parents[1];AGENCY=ROOT/'apps/agency'
 def check():
     checks={}
     for name in ['uv','node','npm']:checks[name]=shutil.which(name) is not None
-    checks['text_weights']=(AGENCY/'models/selection.json').exists()
-    if checks['text_weights']:
-        selection=json.loads((AGENCY/'models/selection.json').read_text());selected=selection.get('selected','');checks['text_weights']=bool(selected) and (AGENCY/'models'/selected/'model.safetensors').is_file()
+    pointer=AGENCY/'models/active-model.json'
+    checks['text_weights']=False
+    if pointer.exists():
+        selection=json.loads(pointer.read_text())
+        checks['text_weights']=(AGENCY/selection['checkpoint']/'model.safetensors').is_file()
     if checks['node']:
         checks['node_22_plus']=int(subprocess.check_output(['node','--version'],text=True).strip().lstrip('v').split('.')[0])>=22
     checks['built_frontend']=(AGENCY/'app/dist/index.html').exists()

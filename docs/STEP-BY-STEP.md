@@ -13,7 +13,7 @@ In our saved travel development run, this classifier achieved **74.75% accuracy 
 The repository stays private until video go-live. Follow [SETUP](SETUP.md) to get access and install Python 3.12, uv, Node 22+ and the matching source/model bundle. Public access must be verified at launch. Clone the one repository, then install the locked project environment. While private, GitHub must be authenticated with access; at go-live, use the same repository after public access is verified.
 
 ```bash
-gh repo clone promptadvisers/away-together
+gh repo clone earlyaidopters/away-together
 cd away-together
 cd apps/agency
 uv sync --frozen
