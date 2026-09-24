@@ -1,6 +1,8 @@
 # Can Astra Build Its Own Jev?
 
-Stage: production locked
+- Stage: recorded
+Final timestamped transcript: `production/FINAL-TIMESTAMPED-TRANSCRIPT.txt`, user supplied 23 September 2026. Machine transcript timing is authoritative for upload chapters; earlier planned timings and package are historical. Current title-test recommendation: `output/youtube/AB-TEST-PLAN.md`.
+
 Research lock: 21 September 2026. Owner: Mark Kashef.
 Target runtime: a comprehensive A–Z walkthrough, superseding the earlier 5–10 minute summary. Current plan: 13:35; 1,631 spoken words, 10.5 minutes at 155 WPM plus visual/demo holds. A Gemini audio guide of the exact Say blocks exists; regenerate it after any spoken change. Image-understanding integration verified; not recorded or published.
 

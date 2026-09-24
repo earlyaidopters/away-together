@@ -22,6 +22,10 @@ def observe(image):
     return {'answers':{k:v['choice'] for k,v in answers.items()},'sha256':hashlib.sha256(raw).hexdigest(),'run_id':uuid.uuid4().hex,'elapsed_ms':(time.perf_counter()-start)*1000,'scope':'Fresh local observation. Does not change the saved holiday catalogue or train a model.'}
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self,*a,**kw):super().__init__(*a,directory=str(ROOT),**kw)
+    def end_headers(self):
+        # Filming pages must never show a stale cached scene mid-take.
+        if not any(h.lower().startswith(b'cache-control') for h in getattr(self,'_headers_buffer',[])):self.send_header('Cache-Control','no-store')
+        super().end_headers()
     def reply(self,status,payload):
         self.send_response(status);self.send_header('Content-Type','application/json');self.send_header('Cache-Control','no-store');self.end_headers();self.wfile.write(json.dumps(payload).encode())
     def do_GET(self):

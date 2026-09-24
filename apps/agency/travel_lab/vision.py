@@ -98,7 +98,7 @@ def apply_visual_requirements(decision, requirements, vision):
             message = 'Entrance stairs were detected in the selected photos.' if requirement == 'avoid_steps' else f"The selected photos show: {VISUAL_REQUIREMENTS[requirement].removeprefix('See ').lower()}."
         else:
             status = 'review'
-            message = 'Photos cannot establish a step-free route.' if requirement == 'avoid_steps' else 'The selected photos do not clearly establish this preference.'
+            message = 'Photos cannot prove a step-free route.' if requirement == 'avoid_steps' else 'The selected photos do not clearly show this.'
         result['reasons'].append({'task': 'visual_' + requirement, 'status': status, 'text': message,
             'source': 'live image model observation; not booking policy', 'photo_ids': [p['photo_id'] for p in seen],
             'photo_urls': [p['url'] for p in seen]})
